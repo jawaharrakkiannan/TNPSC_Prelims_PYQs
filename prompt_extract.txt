@@ -1,0 +1,135 @@
+You are extracting questions from a TNPSC (Tamil Nadu Public Service Commission) exam question paper image.
+
+PAPER INFO: {PAPER_INFO}
+LANGUAGE MODE: {LANGUAGE_MODE}
+
+LANGUAGE MODE RULES:
+- bilingual: Each question has English text followed immediately by Tamil translation. Extract BOTH into "en" and "ta" blocks.
+- en_only: All questions are in English only. Populate "en" block. Set "ta" to null.
+- ta_only: All questions are in Tamil only. Populate "ta" block. Set "en" to null.
+
+QUESTION TYPES (classify each question as exactly one):
+1. simple_mcq — single stem + options
+2. statement_mcq — stem + numbered statements (roman/arabic/alpha) + options
+3. match_the_following — stem + two columns or inline pairs + options
+4. assertion_reason — Assertion [A] block + Reason [R] block + options
+5. chronological_order — stem + items to order + options
+6. other — does not fit any of the above; use raw_content (see below)
+
+OUTPUT FORMAT:
+Return a JSON array. Each element is one question object.
+No markdown, no code fences, no explanation — raw JSON only.
+
+QUESTION OBJECT SCHEMA:
+{
+  "question_no": <integer>,
+  "question_type": "<one of the 6 types>",
+  "unit_id": <integer 1-8>,
+  "unit": "<exact unit name from syllabus>",
+  "theme": "<exact theme name from syllabus>",
+  "topic": "<exact topic_name from syllabus>",
+  "disputed": <boolean — true if red expert-committee annotation visible>,
+  "stem_has_blank": <boolean — true if stem has a fill-in-blank dash or underline>,
+  "has_math": <boolean — true if stem or any option contains a formula or equation>,
+  "math_format": <"plain_text" | "latex" | "unicode" | null>,
+  "options_layout": <"single_column" | "two_column">,
+  "media": <null | array of media blocks>,
+  "en": <language block or null>,
+  "ta": <language block or null>,
+  "answer_key": <"A"|"B"|"C"|"D"|"E"|"X"|null>,
+  "meta": {"extraction_status": "extracted", "ocr_confidence": <0.0-1.0 or null>, "notes": ""}
+}
+
+LANGUAGE BLOCK — simple_mcq:
+{
+  "stem": "<question text>",
+  "question_keywords": ["<exact term from text>", ...],
+  "options": [{"key": "A", "text": "..."}, ...]
+}
+
+LANGUAGE BLOCK — statement_mcq:
+{
+  "stem": "<question text>",
+  "question_keywords": ["<exact term>", ...],
+  "item_numbering_style": "roman|arabic|alpha",
+  "statements": [{"no": "i", "text": "..."}, ...],
+  "options": [{"key": "A", "text": "..."}, ...]
+}
+
+LANGUAGE BLOCK — match_the_following (tabular — left a/b/c/d, right 1/2/3/4/5, matrix options):
+{
+  "stem": "<question text>",
+  "question_keywords": ["<exact term>", ...],
+  "match_style": "tabular",
+  "left_column": [{"key": "a", "text": "..."}, ...],
+  "right_column": [{"no": 1, "text": "..."}, ...],
+  "options": [
+    {"key": "A", "mapping": {"a": 5, "b": 4, "c": 1, "d": 3}},
+    {"key": "B", "mapping": {"a": 2, "b": 4, "c": 3, "d": 1}},
+    {"key": "C", "mapping": {"a": 5, "b": 4, "c": 1, "d": 3}},
+    {"key": "D", "mapping": {"a": 2, "b": 4, "c": 1, "d": 3}},
+    {"key": "E", "text": "Answer not known"}
+  ]
+}
+
+LANGUAGE BLOCK — match_the_following (inline — each item contains its own pair):
+{
+  "stem": "<question text>",
+  "question_keywords": ["<exact term>", ...],
+  "match_style": "inline",
+  "items": [{"no": "1", "text": "<full pair text>"}, ...],
+  "options": [{"key": "A", "text": "..."}, ...]
+}
+
+LANGUAGE BLOCK — assertion_reason:
+{
+  "assertion": "<assertion text>",
+  "reason": "<reason text>",
+  "question_keywords": ["<exact term>", ...],
+  "options": [{"key": "A", "text": "<verbatim option text>"}, ...]
+}
+
+LANGUAGE BLOCK — chronological_order:
+{
+  "stem": "<question text>",
+  "question_keywords": ["<exact term>", ...],
+  "item_numbering_style": "roman|arabic",
+  "items": [{"no": "1", "text": "..."}, ...],
+  "options": [{"key": "A", "text": "..."}, ...]
+}
+
+LANGUAGE BLOCK — other (catch-all):
+{
+  "raw_content": "<complete verbatim text of entire question, every word>"
+}
+
+MEDIA BLOCK (when image/diagram present in question):
+{"id": "img_qN_desc", "type": "image|diagram|formula|table", "placement": "shared_stem|en_stem|ta_stem|en_options|ta_options", "path": "media/qN_desc.png", "alt_text": "<description>"}
+
+ANSWER KEY DETECTION:
+- Find the option with a tick (✓), circle (●○), or any visible mark.
+- Set answer_key to that option key letter (A/B/C/D/E).
+- If the question is marked omitted, deleted, under review, or referred to expert committee: set answer_key to "X".
+- If no mark is visible or legible: set answer_key to null.
+
+QUESTION KEYWORDS RULE:
+- Extract 2–6 key terms exactly as they appear in the text (same language as the block).
+- Include: proper nouns, technical terms, scheme names, article/section numbers, named acts, named persons, named events.
+- Do NOT paraphrase, generalise, or translate.
+
+SYLLABUS TAGGING:
+Use the following syllabus to assign unit_id, unit, theme, topic.
+If no exact topic match, use the nearest unit and set topic to "Miscellaneous".
+Use exact unit names and theme names from this list only:
+
+{SYLLABUS_COMPACT}
+
+COMPLETENESS RULE — NON-NEGOTIABLE:
+- Capture EVERY word, number, symbol, punctuation mark, and letter exactly as printed.
+- Do NOT summarise, shorten, paraphrase, or rephrase any text.
+- Do NOT skip any part of the stem, statements, items, or options.
+- If a word or character is unclear or smudged, write [UNCLEAR] at that position. Do NOT omit it.
+- If a question does not match any of the 5 known types, classify it as "other" and capture all its text verbatim in raw_content.
+- Missing even one word is an extraction failure.
+
+Return ONLY the JSON array. No other text.

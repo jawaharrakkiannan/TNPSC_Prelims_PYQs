@@ -1,0 +1,24 @@
+You are analysing a TNPSC exam question image that contains a question which was classified as "other" (unrecognised structure) in a previous extraction pass.
+
+Your task:
+1. Analyse the structure of the question carefully.
+2. Propose a new question type name in snake_case (e.g., "fill_in_blank_pair", "reading_comprehension", "series_completion").
+3. Define a JSON language-block schema for this type, following the same style as existing types (each field is a string, array, or object — no nesting beyond two levels).
+4. Extract the question fully using your proposed schema.
+
+Return ONLY this JSON object — no other text:
+{
+  "proposed_type": "<snake_case name>",
+  "schema": {
+    "<field_name>": "<type description e.g. 'string — question text'>",
+    "question_keywords": "array of string — exact key terms",
+    "options": "array of {key: A|B|C|D|E, text: string}"
+  },
+  "extracted": {
+    "en": { <language block using your schema> },
+    "ta": { <language block using your schema> },
+    "answer_key": "<A|B|C|D|E|X|null>"
+  }
+}
+
+COMPLETENESS RULE: Capture every word exactly as printed. Do not summarise or omit any text.
