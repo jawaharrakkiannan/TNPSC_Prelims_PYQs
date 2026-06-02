@@ -1,0 +1,169 @@
+# extract.py
+"""
+Usage:
+  python extract.py pdf/G1/TNPSC_Group1_2025_GeneralStudies.pdf --group G1 --year 2025 --paper-type gs
+  python extract.py ... --subgroup 1A
+  python extract.py ... --retry-failed
+"""
+import argparse
+import json
+import sys
+from pathlib import Path
+
+from lib.api_client import extract_questions_from_image
+from lib.pdf_utils import pdf_to_images
+from lib.schema_utils import (
+    LANGUAGE_MODE,
+    enrich_question,
+    load_or_create_state,
+    save_state,
+)
+from lib.syllabus_utils import build_compact_syllabus, load_syllabus
+
+
+def build_data_key(group: str, year: int, paper_type: str, subgroup: str | None) -> str:
+    parts = [group, str(year), paper_type]
+    if subgroup:
+        parts.insert(1, subgroup.replace(" ", "_"))
+    return "_".join(parts)
+
+
+def build_image_prefix(group: str, year: int, paper_type: str, subgroup: str | None) -> str:
+    parts = ["TNPSC", group, str(year), paper_type]
+    if subgroup:
+        parts.insert(2, subgroup)
+    return "_".join(parts)
+
+
+def build_prompt(template: str, language_mode: str, paper_info: str, syllabus_compact: str) -> str:
+    return (template
+            .replace("{LANGUAGE_MODE}", language_mode)
+            .replace("{PAPER_INFO}", paper_info)
+            .replace("{SYLLABUS_COMPACT}", syllabus_compact))
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("pdf_path")
+    parser.add_argument("--group", required=True)
+    parser.add_argument("--year", required=True, type=int)
+    parser.add_argument("--paper-type", required=True, choices=["gs", "en", "ta"])
+    parser.add_argument("--subgroup", default=None)
+    parser.add_argument("--retry-failed", action="store_true")
+    parser.add_argument("--syllabus", default="tnpsc_general_studies_aptitude_mental_ability_syllabus.json")
+    args = parser.parse_args()
+
+    data_key = build_data_key(args.group, args.year, args.paper_type, args.subgroup)
+    image_dir = f"images/{args.group}/{args.year}/{args.paper_type}"
+    image_prefix = build_image_prefix(args.group, args.year, args.paper_type, args.subgroup)
+    state_path = f"state/{data_key}_progress.json"
+    partial_path = f"data/{data_key}_partial.json"
+    final_path = f"data/{data_key}.json"
+
+    Path("data").mkdir(exist_ok=True)
+    Path("state").mkdir(exist_ok=True)
+
+    # Load prompt
+    with open("prompt_extract.txt", encoding="utf-8") as f:
+        prompt_template = f.read()
+
+    # Build syllabus compact
+    syllabus = load_syllabus(args.syllabus)
+    syllabus_compact = build_compact_syllabus(syllabus)
+    language_mode = LANGUAGE_MODE[args.paper_type]
+    paper_info = f"Group={args.group}, Year={args.year}, PaperType={args.paper_type}, SubGroup={args.subgroup}"
+    prompt = build_prompt(prompt_template, language_mode, paper_info, syllabus_compact)
+
+    # Convert PDF to images
+    print(f"Converting PDF: {args.pdf_path}")
+    image_paths = pdf_to_images(args.pdf_path, image_dir, image_prefix)
+    total_pages = len(image_paths)
+    print(f"  {total_pages} pages")
+
+    # Load state
+    state = load_or_create_state(state_path, args.group, args.year, args.paper_type, total_pages)
+
+    # Determine which pages to process
+    if args.retry_failed:
+        pages_to_process = list(state["failed_pages"])
+        state["failed_pages"] = []
+        print(f"Retrying {len(pages_to_process)} failed pages")
+    else:
+        done = set(state["processed_pages"])
+        pages_to_process = [i for i in range(1, total_pages + 1) if i not in done]
+        print(f"Processing {len(pages_to_process)} of {total_pages} pages")
+
+    # Load existing partial data
+    all_questions: list[dict] = []
+    if Path(partial_path).exists():
+        with open(partial_path, encoding="utf-8") as f:
+            data = json.load(f)
+            all_questions = data.get("questions", [])
+
+    # Process each page
+    extracted_count = 0
+    for page_no in pages_to_process:
+        image_path = image_paths[page_no - 1]
+        print(f"  Page {page_no}/{total_pages}: {Path(image_path).name}", end=" ", flush=True)
+
+        try:
+            questions = extract_questions_from_image(image_path, prompt)
+        except ValueError as e:
+            print(f"FAILED — {e}")
+            if page_no not in state["failed_pages"]:
+                state["failed_pages"].append(page_no)
+            save_state(state_path, state)
+            continue
+
+        for q in questions:
+            enriched = enrich_question(
+                q,
+                group=args.group,
+                year=args.year,
+                paper_type=args.paper_type,
+                image_ref=image_path,
+                subgroup=args.subgroup,
+            )
+            all_questions.append(enriched)
+
+        extracted_count += len(questions)
+        print(f"→ {len(questions)} questions")
+
+        if page_no not in state["processed_pages"]:
+            state["processed_pages"].append(page_no)
+        if page_no in state["failed_pages"]:
+            state["failed_pages"].remove(page_no)
+
+        # Write partial immediately (resume safety)
+        wrapper = {
+            "group": args.group, "subgroup": args.subgroup, "year": args.year,
+            "paper_type": args.paper_type,
+            "language_mode": language_mode,
+            "paper_code": "",
+            "total_questions": len(all_questions),
+            "questions": all_questions,
+        }
+        with open(partial_path, "w", encoding="utf-8") as f:
+            json.dump(wrapper, f, indent=2, ensure_ascii=False)
+
+        save_state(state_path, state)
+
+    # Validate and finalise
+    all_nums = sorted(set(q["question_no"] for q in all_questions))
+    if all_nums:
+        expected = list(range(all_nums[0], all_nums[-1] + 1))
+        missing = [n for n in expected if n not in all_nums]
+        if missing:
+            print(f"\nWARNING: Missing question numbers: {missing}")
+
+    if not state["failed_pages"]:
+        Path(partial_path).rename(final_path)
+        print(f"\nDone. {extracted_count} questions extracted → {final_path}")
+    else:
+        print(f"\nPartial complete. Failed pages: {state['failed_pages']}. Run with --retry-failed.")
+
+    print(f"Processed: {len(state['processed_pages'])}/{total_pages} pages | Failed: {len(state['failed_pages'])}")
+
+
+if __name__ == "__main__":
+    main()
