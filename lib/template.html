@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TNPSC PYQs</title>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+<style>
+:root {
+  --accent: #e05a00;
+  --accent-light: #fff3ed;
+  --correct: #16a34a;
+  --wrong: #dc2626;
+  --disputed: #dc2626;
+  --unclassified: #ca8a04;
+  --card-bg: #fff;
+  --border: #e5e7eb;
+  --muted: #6b7280;
+  --body-bg: #f9fafb;
+  font-family: system-ui, sans-serif;
+}
+body { background: var(--body-bg); margin: 0; padding: 0; }
+header {
+  background: #fff; border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1.25rem; display: flex; align-items: center;
+  gap: 1rem; position: sticky; top: 0; z-index: 100;
+}
+header h1 { margin: 0; font-size: 1.1rem; color: var(--accent); flex: 1; }
+.lang-toggle { display: flex; gap: 0.25rem; }
+.lang-btn {
+  border: 1px solid var(--border); background: #fff; cursor: pointer;
+  padding: 0.3rem 0.7rem; border-radius: 4px; font-size: 0.82rem;
+}
+.lang-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+main { display: flex; gap: 1rem; padding: 1rem 1.25rem; max-width: 1400px; margin: 0 auto; }
+.sidebar { width: 280px; min-width: 240px; flex-shrink: 0; display: flex; flex-direction: column; gap: 0.75rem; }
+.browse-area { flex: 1; min-width: 0; }
+.filter-card {
+  background: #fff; border: 1px solid var(--border); border-radius: 8px;
+  padding: 0.75rem; display: flex; flex-direction: column; gap: 0.5rem;
+}
+.filter-card h3 { margin: 0; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.toggle-btn {
+  border: 1px solid var(--border); background: #fff; cursor: pointer;
+  padding: 0.25rem 0.6rem; border-radius: 4px; font-size: 0.82rem;
+  transition: background 0.1s;
+}
+.toggle-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+.toggle-group { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.single-select .toggle-btn.active { background: var(--accent); color: #fff; }
+.subject-select { width: 100%; padding: 0.35rem 0.5rem; border: 1px solid var(--border); border-radius: 4px; font-size: 0.85rem; }
+input[type=text] {
+  width: 100%; box-sizing: border-box; padding: 0.35rem 0.5rem;
+  border: 1px solid var(--border); border-radius: 4px; font-size: 0.85rem;
+}
+.quiz-count { font-size: 2rem; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
+.quiz-label { font-size: 0.78rem; color: var(--muted); }
+.start-btn {
+  background: var(--accent); color: #fff; border: none; border-radius: 6px;
+  padding: 0.5rem 1rem; font-size: 0.9rem; cursor: pointer; width: 100%;
+}
+.start-btn:disabled { background: #d1d5db; cursor: not-allowed; }
+.result-count { font-size: 0.82rem; color: var(--muted); margin-bottom: 0.5rem; }
+.questions-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 0.75rem; }
+.question-card {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px;
+  padding: 1rem; border-left: 3px solid transparent; transition: border-left-color 0.15s;
+}
+.question-card:hover { border-left-color: var(--accent); }
+.q-meta { display: flex; gap: 0.4rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap; }
+.q-num { font-family: monospace; font-size: 0.72rem; font-weight: 600; background: var(--accent-light); color: var(--accent); padding: 0.1rem 0.4rem; border-radius: 3px; }
+.q-year { font-family: monospace; font-size: 0.68rem; color: var(--muted); }
+.badge-disputed { background: #fee2e2; color: var(--disputed); font-size: 0.65rem; font-weight: 700; padding: 0.1rem 0.4rem; border-radius: 3px; }
+.badge-other { background: #fef9c3; color: var(--unclassified); font-size: 0.65rem; font-weight: 700; padding: 0.1rem 0.4rem; border-radius: 3px; }
+.lang-block { margin-bottom: 0.5rem; }
+.lang-label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.25rem; }
+.q-stem { font-size: 0.88rem; margin: 0 0 0.4rem 0; line-height: 1.5; }
+.statements { padding-left: 0; list-style: none; margin: 0 0 0.4rem 0; }
+.statements li { font-size: 0.85rem; padding: 0.2rem 0 0.2rem 0.75rem; border-left: 2px solid var(--border); margin-bottom: 0.2rem; line-height: 1.5; }
+.q-tail { font-size: 0.85rem; font-style: italic; border-left: 2px solid var(--accent-light); padding-left: 0.5rem; margin: 0.3rem 0 0.5rem; color: #374151; }
+.ar-block { background: #f9fafb; border-radius: 4px; padding: 0.5rem 0.7rem; margin-bottom: 0.4rem; }
+.ar-label { font-size: 0.7rem; font-weight: 700; color: var(--muted); margin-bottom: 0.2rem; }
+.ar-text { font-size: 0.85rem; }
+.match-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-bottom: 0.4rem; }
+.match-table td { padding: 0.2rem 0.5rem; border: 1px solid var(--border); vertical-align: top; }
+.match-items { list-style: none; padding-left: 0; margin: 0 0 0.4rem 0; }
+.match-items li { font-size: 0.82rem; margin-bottom: 0.2rem; line-height: 1.4; padding-left: 0.75rem; border-left: 2px solid var(--border); }
+.raw-content { font-family: monospace; font-size: 0.78rem; background: #f9fafb; padding: 0.5rem; border-radius: 4px; white-space: pre-wrap; word-break: break-word; }
+.options-grid { display: grid; gap: 0.3rem; }
+.options-2col { grid-template-columns: 1fr 1fr; }
+.options-1col { grid-template-columns: 1fr; }
+.option {
+  display: flex; align-items: flex-start; gap: 0.4rem;
+  border: 1px solid var(--border); border-radius: 5px;
+  padding: 0.3rem 0.5rem; cursor: pointer; transition: background 0.1s;
+}
+.option:hover { background: var(--accent-light); }
+.option.selected { border-color: var(--accent); background: var(--accent-light); }
+.option.correct { border-color: var(--correct); background: #f0fdf4; }
+.option.wrong { border-color: var(--wrong); background: #fef2f2; }
+.opt-key {
+  font-family: monospace; font-size: 0.72rem; font-weight: 700;
+  min-width: 1.2rem; height: 1.2rem; display: flex; align-items: center;
+  justify-content: center; border-radius: 3px; background: #f3f4f6; flex-shrink: 0;
+}
+.option.correct .opt-key { background: var(--correct); color: #fff; }
+.option.wrong .opt-key { background: var(--wrong); color: #fff; }
+.opt-text { font-size: 0.83rem; line-height: 1.45; }
+.answer-row { font-size: 0.78rem; margin-top: 0.4rem; color: var(--muted); }
+.answer-row .correct-ans { color: var(--correct); font-weight: 600; }
+.answer-row .omitted { color: var(--muted); }
+body.hide-answers .option.correct { border-color: var(--border) !important; background: #fff !important; }
+body.hide-answers .option.correct .opt-key { background: #f3f4f6 !important; color: inherit !important; }
+body.hide-answers .answer-row { display: none; }
+/* Quiz */
+#quiz-area { display: none; }
+.quiz-header {
+  display: flex; align-items: center; gap: 1rem;
+  background: #fff; border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1.25rem; position: sticky; top: 56px; z-index: 90;
+}
+.quiz-score { font-family: monospace; font-size: 0.9rem; color: var(--accent); }
+.quiz-nav-btn { background: var(--accent); color: #fff; border: none; border-radius: 6px; padding: 0.4rem 1rem; cursor: pointer; }
+.score-banner { background: var(--accent-light); border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem; font-size: 1.1rem; font-weight: 600; color: var(--accent); text-align: center; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>TNPSC PYQs</h1>
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('en')">English</button>
+    <button class="lang-btn" onclick="setLang('ta')">Tamil</button>
+    <button class="lang-btn" onclick="setLang('both')">Both</button>
+  </div>
+</header>
+
+<div id="browse-container">
+<main>
+  <aside class="sidebar">
+
+    <!-- Group filter -->
+    <div class="filter-card">
+      <h3>Group</h3>
+      <div class="toggle-group" id="group-btns"></div>
+    </div>
+
+    <!-- Paper Type filter (single-select) -->
+    <div class="filter-card">
+      <h3>Paper Type</h3>
+      <div class="toggle-group single-select" id="papertype-btns">
+        <button class="toggle-btn active" data-pt="gs" onclick="setPaperType('gs')">General Studies</button>
+        <button class="toggle-btn" data-pt="en" onclick="setPaperType('en')">General English</button>
+        <button class="toggle-btn" data-pt="ta" onclick="setPaperType('ta')">General Tamil</button>
+      </div>
+    </div>
+
+    <!-- Year filter -->
+    <div class="filter-card">
+      <h3>Year</h3>
+      <div class="toggle-group" id="year-btns"></div>
+    </div>
+
+    <!-- Subject (Unit) filter — single-select -->
+    <div class="filter-card">
+      <h3>Subject</h3>
+      <select class="subject-select" id="unit-select" onchange="setUnit(this.value)">
+        <option value="">All Subjects</option>
+      </select>
+    </div>
+
+    <!-- Keyword -->
+    <div class="filter-card">
+      <h3>Keyword</h3>
+      <input type="text" id="keyword-input" placeholder="Search keywords…" oninput="renderBrowse()">
+    </div>
+
+    <!-- Quiz card -->
+    <div class="filter-card">
+      <h3>Quiz</h3>
+      <div class="quiz-count" id="quiz-count">0</div>
+      <div class="quiz-label">questions</div>
+      <button class="start-btn" id="start-quiz-btn" onclick="startQuiz()" disabled>Start Quiz</button>
+    </div>
+
+  </aside>
+
+  <div class="browse-area">
+    <div class="result-count" id="result-count"></div>
+    <div class="questions-grid" id="questions-grid"></div>
+  </div>
+</main>
+</div>
+
+<!-- Quiz area -->
+<div id="quiz-area">
+  <div class="quiz-header">
+    <div class="quiz-score" id="quiz-score-label"></div>
+    <div style="flex:1"></div>
+    <button class="quiz-nav-btn" id="quiz-next-btn" onclick="quizNext()" style="display:none">Next →</button>
+    <button class="quiz-nav-btn" id="quiz-submit-btn" onclick="submitExam()" style="display:none">Submit</button>
+    <button class="quiz-nav-btn" style="background:#6b7280" onclick="exitQuiz()">Exit</button>
+  </div>
+  <div style="padding:1rem 1.25rem; max-width:900px; margin:0 auto">
+    <div id="quiz-content"></div>
+  </div>
+</div>
+
+<script>
+const QUESTIONS = __QUESTIONS_DATA__;
+const SYLLABUS  = __SYLLABUS_DATA__;
+
+// --- State ---
+let _lang    = 'en';
+let _groups  = new Set();
+let _pt      = 'gs';
+let _years   = new Set();
+let _unit    = null;
+let _keyword = '';
+
+// Quiz state
+let _qMode  = null;  // 'one' | 'exam'
+let _qs     = [];
+let _idx    = 0;
+let _score  = 0;
+let _ans    = {};    // question index → chosen key (exam mode)
+
+// --- Init ---
+function init() {
+  const groups = [...new Set(QUESTIONS.map(q => q.group))].sort();
+  const years  = [...new Set(QUESTIONS.map(q => q.year))].sort((a,b) => b - a);
+
+  // Group buttons (multi-select, default G1)
+  const gb = document.getElementById('group-btns');
+  groups.forEach(g => {
+    const btn = document.createElement('button');
+    btn.className = 'toggle-btn' + (g === 'G1' ? ' active' : '');
+    btn.textContent = g;
+    btn.onclick = () => { _groups.has(g) ? _groups.delete(g) : _groups.add(g); btn.classList.toggle('active'); renderBrowse(); };
+    gb.appendChild(btn);
+    if (g === 'G1') _groups.add(g);
+  });
+
+  // Year buttons (multi-select, default latest)
+  const yb = document.getElementById('year-btns');
+  const latestYear = years[0];
+  years.forEach(y => {
+    const btn = document.createElement('button');
+    btn.className = 'toggle-btn' + (y === latestYear ? ' active' : '');
+    btn.textContent = y;
+    btn.onclick = () => { _years.has(y) ? _years.delete(y) : _years.add(y); btn.classList.toggle('active'); renderBrowse(); };
+    yb.appendChild(btn);
+    if (y === latestYear) _years.add(y);
+  });
+
+  // Unit select
+  const us = document.getElementById('unit-select');
+  SYLLABUS.units.forEach(u => {
+    const opt = document.createElement('option');
+    opt.value = u.unit;
+    opt.textContent = `${u.unit}. ${u.name}`;
+    us.appendChild(opt);
+  });
+
+  renderBrowse();
+}
+
+// --- Filters ---
+function setLang(l) {
+  _lang = l;
+  document.querySelectorAll('.lang-btn').forEach((b, i) => b.classList.toggle('active', ['en','ta','both'][i] === l));
+  renderBrowse();
+}
+
+function setPaperType(pt) {
+  _pt = pt;
+  document.querySelectorAll('#papertype-btns .toggle-btn').forEach(b => b.classList.toggle('active', b.dataset.pt === pt));
+  renderBrowse();
+}
+
+function setUnit(val) {
+  _unit = val ? parseInt(val) : null;
+  renderBrowse();
+}
+
+function getFiltered() {
+  return QUESTIONS.filter(q => {
+    if (!_groups.has(q.group)) return false;
+    if (q.paper_type !== _pt) return false;
+    if (!_years.has(q.year)) return false;
+    if (_unit !== null && q.unit_id !== _unit) return false;
+    if (_keyword) {
+      const kws = _lang === 'ta'
+        ? (q.ta?.question_keywords || [])
+        : (q.en?.question_keywords || []);
+      if (!kws.some(k => k.toLowerCase().includes(_keyword.toLowerCase()))) return false;
+    }
+    return true;
+  });
+}
+
+// --- Rendering helpers ---
+function optionsLayout(options) {
+  return options.every(o => (o.text || '').length <= 45) ? 'options-2col' : 'options-1col';
+}
+
+function renderOptions(options, answer, hideAnswer) {
+  const layout = optionsLayout(options);
+  const rows = options.map(o => {
+    let cls = 'option';
+    const isCorrect = o.key === answer;
+    if (!hideAnswer && answer && answer !== 'X') {
+      if (isCorrect) cls += ' correct';
+    }
+    const keyEl = `<span class="opt-key">${o.key}</span>`;
+    const txt = o.mapping
+      ? Object.entries(o.mapping).map(([k,v]) => `${k}→${v}`).join(', ')
+      : (o.text || '');
+    return `<div class="${cls}">${keyEl}<span class="opt-text">${esc(txt)}</span></div>`;
+  }).join('');
+  return `<div class="options-grid ${layout}">${rows}</div>`;
+}
+
+function renderAnswerRow(answer) {
+  if (!answer) return '';
+  if (answer === 'X') return `<div class="answer-row"><span class="omitted">⊘ Omitted / Disputed</span></div>`;
+  return `<div class="answer-row">Answer: <span class="correct-ans">${answer}</span></div>`;
+}
+
+function esc(s) {
+  return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function renderLangBlock(block, type, hideAnswer) {
+  if (!block) return '';
+  if (type === 'other') {
+    return `<div class="raw-content">${esc(block.raw_content || '')}</div>`;
+  }
+  let html = '';
+  const opts = block.options || [];
+
+  if (type === 'simple_mcq') {
+    html += `<p class="q-stem">${esc(block.stem || '')}</p>`;
+  } else if (type === 'statement_mcq') {
+    html += `<p class="q-stem">${esc(block.stem || '')}</p>`;
+    const items = (block.statements || []).map(s => `<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('');
+    html += `<ul class="statements">${items}</ul>`;
+  } else if (type === 'match_the_following') {
+    html += `<p class="q-stem">${esc(block.stem || '')}</p>`;
+    if (block.match_style === 'tabular') {
+      const leftRows = (block.left_column || []).map(r => `<tr><td>${esc(r.key)}</td><td>${esc(r.text)}</td></tr>`).join('');
+      const rightRows = (block.right_column || []).map(r => `<tr><td>${esc(r.no)}</td><td>${esc(r.text)}</td></tr>`).join('');
+      html += `<table class="match-table"><thead><tr><th>List I</th><th></th><th>List II</th><th></th></tr></thead><tbody>`;
+      const maxRows = Math.max(block.left_column?.length || 0, block.right_column?.length || 0);
+      for (let i = 0; i < maxRows; i++) {
+        const l = block.left_column?.[i];
+        const r = block.right_column?.[i];
+        html += `<tr><td>${l ? esc(l.key) : ''}</td><td>${l ? esc(l.text) : ''}</td><td>${r ? esc(r.no) : ''}</td><td>${r ? esc(r.text) : ''}</td></tr>`;
+      }
+      html += `</tbody></table>`;
+    } else {
+      const items = (block.items || []).map(s => `<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('');
+      html += `<ul class="match-items">${items}</ul>`;
+    }
+  } else if (type === 'assertion_reason') {
+    html += `<div class="ar-block"><div class="ar-label">Assertion [A]</div><div class="ar-text">${esc(block.assertion || '')}</div></div>`;
+    html += `<div class="ar-block"><div class="ar-label">Reason [R]</div><div class="ar-text">${esc(block.reason || '')}</div></div>`;
+  } else if (type === 'chronological_order') {
+    html += `<p class="q-stem">${esc(block.stem || '')}</p>`;
+    const items = (block.items || []).map(s => `<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('');
+    html += `<ul class="statements">${items}</ul>`;
+  }
+
+  if (type !== 'other') {
+    html += renderOptions(opts, null, true);  // browse: options never auto-reveal in lang block
+  }
+  return html;
+}
+
+function renderCard(q, forQuiz) {
+  const hideAns = forQuiz || document.body.classList.contains('hide-answers');
+  let meta = `<span class="q-num">Q ${q.question_no}</span><span class="q-year">${q.year} · ${q.group}</span>`;
+  if (q.disputed) meta += `<span class="badge-disputed">DISPUTED</span>`;
+  if (q.question_type === 'other') meta += `<span class="badge-other">⚠ UNCLASSIFIED</span>`;
+
+  let body = '';
+  const showEn = (_lang === 'en' || _lang === 'both') && q.en;
+  const showTa = (_lang === 'ta' || _lang === 'both') && q.ta;
+
+  if (_lang === 'both' && showEn) body += `<div class="lang-block"><div class="lang-label">English</div>${renderLangBlock(q.en, q.question_type, hideAns)}</div>`;
+  else if (showEn) body += renderLangBlock(q.en, q.question_type, hideAns);
+
+  if (_lang === 'both' && showTa) body += `<div class="lang-block"><div class="lang-label">Tamil</div>${renderLangBlock(q.ta, q.question_type, hideAns)}</div>`;
+  else if (showTa) body += renderLangBlock(q.ta, q.question_type, hideAns);
+
+  // Show answer in browse mode (or "Omitted" for X)
+  if (!forQuiz) {
+    const activeBlock = q.en || q.ta;
+    const opts = activeBlock?.options || [];
+    const answerHtml = (!hideAns && q.answer_key) ? renderAnswerRow(q.answer_key) : '';
+    body += answerHtml;
+  }
+
+  return `<div class="question-card"><div class="q-meta">${meta}</div>${body}</div>`;
+}
+
+// --- Browse ---
+function renderBrowse() {
+  _keyword = document.getElementById('keyword-input').value.trim();
+  const filtered = getFiltered();
+  document.getElementById('result-count').textContent = `Showing ${filtered.length} question${filtered.length !== 1 ? 's' : ''}`;
+  document.getElementById('quiz-count').textContent = filtered.length;
+
+  const hasAnswers = filtered.some(q => q.answer_key && q.answer_key !== 'X');
+  const startBtn = document.getElementById('start-quiz-btn');
+  startBtn.disabled = !hasAnswers || filtered.length === 0;
+
+  document.getElementById('questions-grid').innerHTML = filtered.map(q => renderCard(q, false)).join('');
+
+  if (window.MathJax) MathJax.typesetPromise?.();
+}
+
+// --- Quiz ---
+function startQuiz() {
+  const filtered = getFiltered().filter(q => q.answer_key && q.answer_key !== 'X');
+  if (!filtered.length) return;
+
+  const mode = confirm('One at a time?\n\nOK = One at a time\nCancel = Exam mode') ? 'one' : 'exam';
+  _qMode = mode;
+  _qs    = filtered;
+  _idx   = 0;
+  _score = 0;
+  _ans   = {};
+
+  document.getElementById('browse-container').style.display = 'none';
+  document.getElementById('quiz-area').style.display = 'block';
+
+  if (mode === 'one') showOne();
+  else showExam();
+}
+
+function showOne() {
+  const q = _qs[_idx];
+  document.getElementById('quiz-score-label').textContent = `Q ${_idx + 1} / ${_qs.length}  ·  Score: ${_score}`;
+  document.getElementById('quiz-next-btn').style.display = 'none';
+  document.getElementById('quiz-submit-btn').style.display = 'none';
+
+  const activeBlock = q.en || q.ta;
+  const opts = (activeBlock?.options || []).map(o => {
+    return `<div class="option" data-key="${o.key}" onclick="pickOne('${q.question_no}','${o.key}','${q.answer_key}',this)">
+      <span class="opt-key">${o.key}</span>
+      <span class="opt-text">${esc(o.mapping ? Object.entries(o.mapping).map(([k,v])=>`${k}→${v}`).join(', ') : (o.text || ''))}</span>
+    </div>`;
+  }).join('');
+  const layout = optionsLayout(activeBlock?.options || []);
+
+  let body = `<div class="q-meta"><span class="q-num">Q ${q.question_no}</span><span class="q-year">${q.year} · ${q.group}</span></div>`;
+  if ((_lang === 'en' || _lang === 'both') && q.en) body += renderLangBlock({...q.en, options: []}, q.question_type, true);
+  if ((_lang === 'ta' || _lang === 'both') && q.ta) body += renderLangBlock({...q.ta, options: []}, q.question_type, true);
+  body += `<div class="options-grid ${layout}" id="one-opts">${opts}</div>`;
+  body += `<div id="one-feedback"></div>`;
+
+  document.getElementById('quiz-content').innerHTML = `<div class="question-card" style="max-width:700px">${body}</div>`;
+}
+
+function pickOne(qno, chosen, correct, el) {
+  if (document.getElementById('one-opts').dataset.locked) return;
+  document.getElementById('one-opts').dataset.locked = '1';
+  const isRight = chosen === correct;
+  if (isRight) _score++;
+  document.querySelectorAll('#one-opts .option').forEach(o => {
+    if (o.dataset.key === correct) o.classList.add('correct');
+    else if (o.dataset.key === chosen && !isRight) o.classList.add('wrong');
+    o.style.cursor = 'default';
+  });
+  document.getElementById('one-feedback').innerHTML = isRight
+    ? `<p style="color:var(--correct);font-weight:600;margin-top:0.5rem">✓ Correct</p>`
+    : `<p style="color:var(--wrong);font-weight:600;margin-top:0.5rem">✗ Incorrect — Answer: ${correct}</p>`;
+  document.getElementById('quiz-score-label').textContent = `Q ${_idx + 1} / ${_qs.length}  ·  Score: ${_score}`;
+
+  const nextBtn = document.getElementById('quiz-next-btn');
+  nextBtn.style.display = 'inline-block';
+  nextBtn.textContent = _idx < _qs.length - 1 ? 'Next →' : 'Finish';
+}
+
+function quizNext() {
+  _idx++;
+  if (_idx < _qs.length) { showOne(); return; }
+  document.getElementById('quiz-content').innerHTML = `
+    <div class="score-banner">Final Score: ${_score} / ${_qs.length} (${Math.round(_score/_qs.length*100)}%)</div>
+    <button class="start-btn" onclick="exitQuiz()">Back to Browse</button>`;
+  document.getElementById('quiz-next-btn').style.display = 'none';
+  document.getElementById('quiz-score-label').textContent = '';
+}
+
+function showExam() {
+  document.getElementById('quiz-submit-btn').style.display = 'inline-block';
+  document.getElementById('quiz-score-label').textContent = `Exam mode — ${_qs.length} questions`;
+  const cards = _qs.map((q, i) => {
+    const activeBlock = q.en || q.ta;
+    const opts = (activeBlock?.options || []).map(o => {
+      return `<div class="option" data-key="${o.key}" data-qi="${i}" onclick="pickExam(${i},'${o.key}',this)">
+        <span class="opt-key">${o.key}</span>
+        <span class="opt-text">${esc(o.mapping ? Object.entries(o.mapping).map(([k,v])=>`${k}→${v}`).join(', ') : (o.text || ''))}</span>
+      </div>`;
+    }).join('');
+    const layout = optionsLayout(activeBlock?.options || []);
+    let body = `<div class="q-meta"><span class="q-num">Q ${q.question_no}</span><span class="q-year">${q.year} · ${q.group}</span></div>`;
+    if ((_lang === 'en' || _lang === 'both') && q.en) body += renderLangBlock({...q.en, options:[]}, q.question_type, true);
+    if ((_lang === 'ta' || _lang === 'both') && q.ta) body += renderLangBlock({...q.ta, options:[]}, q.question_type, true);
+    body += `<div class="options-grid ${layout}" id="exam-opts-${i}">${opts}</div>`;
+    return `<div class="question-card">${body}</div>`;
+  }).join('');
+  document.getElementById('quiz-content').innerHTML = cards;
+}
+
+function pickExam(qi, key, el) {
+  if (document.getElementById(`exam-opts-${qi}`).dataset.locked) return;
+  document.querySelectorAll(`#exam-opts-${qi} .option`).forEach(o => o.classList.remove('selected'));
+  el.classList.add('selected');
+  _ans[qi] = key;
+}
+
+function submitExam() {
+  let correct = 0;
+  _qs.forEach((q, i) => {
+    const chosen = _ans[i];
+    const rightKey = q.answer_key;
+    document.querySelectorAll(`#exam-opts-${i} .option`).forEach(o => {
+      if (o.dataset.key === rightKey) o.classList.add('correct');
+      else if (o.dataset.key === chosen && chosen !== rightKey) o.classList.add('wrong');
+      o.style.cursor = 'default';
+    });
+    document.getElementById(`exam-opts-${i}`).dataset.locked = '1';
+    if (chosen === rightKey) correct++;
+  });
+  _score = correct;
+  document.getElementById('quiz-submit-btn').style.display = 'none';
+  document.getElementById('quiz-score-label').textContent = `Score: ${correct} / ${_qs.length} (${Math.round(correct/_qs.length*100)}%)`;
+  const banner = `<div class="score-banner">Score: ${correct} / ${_qs.length} (${Math.round(correct/_qs.length*100)}%)</div>`;
+  document.getElementById('quiz-content').insertAdjacentHTML('afterbegin', banner);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function exitQuiz() {
+  document.getElementById('quiz-area').style.display = 'none';
+  document.getElementById('browse-container').style.display = 'block';
+  _qMode = null; _qs = []; _idx = 0; _score = 0; _ans = {};
+  document.getElementById('quiz-next-btn').style.display = 'none';
+  document.getElementById('quiz-submit-btn').style.display = 'none';
+}
+
+init();
+</script>
+</body>
+</html>
