@@ -1,0 +1,2334 @@
+{
+  "units": [
+    {
+      "unit": 1,
+      "name": "General Science",
+      "themes": [
+        {
+          "theme": "Nature of Science",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Scientific Knowledge and Scientific Temper",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Scientific knowledge and scientific temper",
+                "Power of reasoning",
+                "Rote learning vs conceptual learning",
+                "Science as a tool to understand the past, present, and future"
+              ]
+            },
+            {
+              "topic_name": "Scientific Temper – Applications and Inventions",
+              "syllabus_mapped": false,
+              "keywords": [
+                "Latest inventions in science and technology",
+                "Current affairs"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Physics",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Universe and Space",
+              "syllabus_mapped": false,
+              "keywords": [
+                "Nature of universe",
+                "General scientific laws"
+              ]
+            },
+            {
+              "topic_name": "Measurement",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Force, Motion and Energy",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Mechanics",
+                "Properties of matter",
+                "Force",
+                "Motion",
+                "Energy",
+                "Everyday application of basic principles of mechanics"
+              ]
+            },
+            {
+              "topic_name": "Electricity",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Electricity"
+              ]
+            },
+            {
+              "topic_name": "Magnetism",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Magnetism"
+              ]
+            },
+            {
+              "topic_name": "Light",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Light"
+              ]
+            },
+            {
+              "topic_name": "Sound",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Sound"
+              ]
+            },
+            {
+              "topic_name": "Heat",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Heat"
+              ]
+            },
+            {
+              "topic_name": "Nuclear Physics",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Nuclear physics",
+                "Laser",
+                "Electronics",
+                "Communications"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Chemistry",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Elements and Compounds",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Elements and compounds"
+              ]
+            },
+            {
+              "topic_name": "Acids and Bases",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Acids",
+                "Bases"
+              ]
+            },
+            {
+              "topic_name": "Salts",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Salts"
+              ]
+            },
+            {
+              "topic_name": "Fertilizers and Pesticides",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Fertilizers",
+                "Pesticides"
+              ]
+            },
+            {
+              "topic_name": "Petroleum Products",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Petroleum products"
+              ]
+            },
+            {
+              "topic_name": "Pollution",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Biology and Life Science",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Classification of Living Organisms",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Main concepts of life science",
+                "Classification of living organisms"
+              ]
+            },
+            {
+              "topic_name": "Evolution",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Evolution"
+              ]
+            },
+            {
+              "topic_name": "Genetics",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Genetics"
+              ]
+            },
+            {
+              "topic_name": "Physiology",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Physiology"
+              ]
+            },
+            {
+              "topic_name": "Plant Physiology",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Nutrition, Health and Hygiene",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Nutrition",
+                "Health and hygiene"
+              ]
+            },
+            {
+              "topic_name": "Human Diseases",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Human diseases"
+              ]
+            },
+            {
+              "topic_name": "Environment and Ecology",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Environment and ecology"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "name": "Geography of India",
+      "themes": [
+        {
+          "theme": "Physical Geography",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Location and Physical Features",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Location",
+                "Physical features"
+              ]
+            },
+            {
+              "topic_name": "Climate and Monsoon",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Monsoon",
+                "Rainfall",
+                "Weather and climate"
+              ]
+            },
+            {
+              "topic_name": "Water Resources and Rivers",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Water resources",
+                "Rivers in India"
+              ]
+            },
+            {
+              "topic_name": "Soil, Minerals and Natural Resources",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Soil",
+                "Minerals and natural resources"
+              ]
+            },
+            {
+              "topic_name": "Forest and Wildlife",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Forest and wildlife"
+              ]
+            },
+            {
+              "topic_name": "Geographical Landmarks",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Geographical landmarks"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Economic and Agricultural Geography",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Agricultural Pattern",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Agricultural pattern"
+              ]
+            },
+            {
+              "topic_name": "Transport and Communication",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Transport",
+                "Communication"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Social Geography",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Population Density and Distribution",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Social geography",
+                "Population density and distribution"
+              ]
+            },
+            {
+              "topic_name": "Racial and Linguistic Groups",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Racial groups",
+                "Linguistic groups"
+              ]
+            },
+            {
+              "topic_name": "Major Tribes",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Major tribes"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Environment and Disaster Management",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Natural Calamity and Disaster Management",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Natural calamity",
+                "Disaster management"
+              ]
+            },
+            {
+              "topic_name": "Environmental Pollution",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Environmental pollution",
+                "Reasons and preventive measures for pollution"
+              ]
+            },
+            {
+              "topic_name": "Climate Change and Green Energy",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Climate change",
+                "Green energy"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "name": "History, Culture of India, and Indian National Movement",
+      "themes": [
+        {
+          "theme": "Ancient and Medieval India",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Indus Valley Civilization",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Indus Valley Civilization"
+              ]
+            },
+            {
+              "topic_name": "Guptas",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Guptas"
+              ]
+            },
+            {
+              "topic_name": "Delhi Sultans",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Delhi Sultans"
+              ]
+            },
+            {
+              "topic_name": "Mughals",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Mughals"
+              ]
+            },
+            {
+              "topic_name": "Marathas",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Marathas"
+              ]
+            },
+            {
+              "topic_name": "Vijayanagar Empire",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Age of Vijayanagaram Kingdom"
+              ]
+            },
+            {
+              "topic_name": "Bhamini Kingdoms",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Bahmani Kingdom"
+              ]
+            },
+            {
+              "topic_name": "South Indian History – Pallavas",
+              "syllabus_mapped": false,
+              "keywords": [
+                "South Indian History"
+              ]
+            },
+            {
+              "topic_name": "South Indian History – Cholas",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "South Indian History – Pandyas",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "South Indian History – Rashtrakutas",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "South Indian History – Chalukyas",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "South Indian History – Nayaks",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Change and Continuity in Socio-Cultural History of India",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Change and continuity in socio-cultural history of India"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Social and Religious Reform Movements",
+          "syllabus_mapped": false,
+          "topics": [
+            {
+              "topic_name": "Brahmo Samaj and Rajaram Mohan Roy",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Arya Samaj and Swami Dayananda Saraswati",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Jyotirao Phule",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Syed Ahmad Khan",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Theosophical Society",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Iswarchandra Vidyasagar",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Swami Vivekananda",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "British Rule in India",
+          "syllabus_mapped": false,
+          "topics": [
+            {
+              "topic_name": "European Arrival",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "British Conquest and Administration",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Land Revenue Policy",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Education under British Rule",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Early Uprisings against British Rule",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Early Uprising – General",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Early uprising against British rule"
+              ]
+            },
+            {
+              "topic_name": "Santhals Rebellion",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Munda Rebellion",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Indigo Revolt",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Kol Mutiny",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Revolt of 1857",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Indian National Congress",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "National Renaissance",
+              "syllabus_mapped": true,
+              "keywords": [
+                "National Renaissance"
+              ]
+            },
+            {
+              "topic_name": "Pre-Congress Associations",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "INC – Formation",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Indian National Congress"
+              ]
+            },
+            {
+              "topic_name": "INC – Moderate Phase (1885–1905)",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "INC – Extremist Phase",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Freedom Struggle Leaders",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Mahatma Gandhi – Early Life",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Mahatma Gandhi"
+              ]
+            },
+            {
+              "topic_name": "Mahatma Gandhi – 1915 to 1920",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Mahatma Gandhi – Non Cooperation Movement",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Growth of Satyagraha"
+              ]
+            },
+            {
+              "topic_name": "Mahatma Gandhi – Civil Disobedience Movement",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Mahatma Gandhi – Quit India Movement",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Jawaharlal Nehru",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Jawaharlal Nehru"
+              ]
+            },
+            {
+              "topic_name": "B.R. Ambedkar",
+              "syllabus_mapped": true,
+              "keywords": [
+                "B.R. Ambedkar"
+              ]
+            },
+            {
+              "topic_name": "Bhagat Singh",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Bhagat Singh"
+              ]
+            },
+            {
+              "topic_name": "Maulana Abul Kalam Azad",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Maulana Abul Kalam Azad"
+              ]
+            },
+            {
+              "topic_name": "Netaji Subash Chandra Bose",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Subash Chandra Bose"
+              ]
+            },
+            {
+              "topic_name": "Rabindranath Tagore",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Rabindranath Tagore"
+              ]
+            },
+            {
+              "topic_name": "Bharathiar",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Bharathiar"
+              ]
+            },
+            {
+              "topic_name": "V.O. Chidambaranar",
+              "syllabus_mapped": true,
+              "keywords": [
+                "V.O. Chidambaranar"
+              ]
+            },
+            {
+              "topic_name": "Kamarajar",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Kamarajar"
+              ]
+            },
+            {
+              "topic_name": "Thanthai Periyar",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Thanthai Periyar"
+              ]
+            },
+            {
+              "topic_name": "Rajaji",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Rajaji"
+              ]
+            },
+            {
+              "topic_name": "Sardar Patel",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Sarojini Naidu",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Khan Abdul Ghaffer Khan",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Acharya Vinoba Bhave",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Other Freedom Struggle Leaders",
+          "syllabus_mapped": false,
+          "topics": [
+            {
+              "topic_name": "Dadabhai Naoroji",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Surendranath Banerjee",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "MG Ranade",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Aurobindo Gosh",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "BG Tilak",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "GK Gokhale",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "CR Dass",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Lala Lajpat Rai",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Modes of Agitation and Final Phase",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Militant Movements",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Militant Movements"
+              ]
+            },
+            {
+              "topic_name": "Last Phase of Independence",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Communalism and Partition",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Communalism and Partition"
+              ]
+            },
+            {
+              "topic_name": "Newspapers and Journals",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Indian Culture and Society",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Characteristics of Indian Culture",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Characteristics of Indian Culture"
+              ]
+            },
+            {
+              "topic_name": "Unity in Diversity",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Unity in Diversity",
+                "Race",
+                "Language",
+                "Custom"
+              ]
+            },
+            {
+              "topic_name": "India as a Secular State and Social Harmony",
+              "syllabus_mapped": true,
+              "keywords": [
+                "India as a Secular State",
+                "Social Harmony"
+              ]
+            },
+            {
+              "topic_name": "Literature",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Prominent personalities in Literature"
+              ]
+            },
+            {
+              "topic_name": "Architecture",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Prominent personalities in Arts"
+              ]
+            },
+            {
+              "topic_name": "Dances",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Music",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Festivals",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Inscriptions",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Paintings",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Hinduism",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Buddhism",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Ajivika",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Christianity",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Islam",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Sikhism",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Prominent Personalities and Current Affairs",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Prominent Personalities in Science and Philosophy",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Prominent personalities in Science",
+                "Prominent personalities in Philosophy"
+              ]
+            },
+            {
+              "topic_name": "National Symbols",
+              "syllabus_mapped": true,
+              "keywords": [
+                "National symbols"
+              ]
+            },
+            {
+              "topic_name": "Eminent Personalities, Places, Sports and Books in News",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Eminent personalities in news",
+                "Places in news",
+                "Sports",
+                "Books and Authors",
+                "Current affairs"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "name": "Indian Polity",
+      "themes": [
+        {
+          "theme": "Constitutional History and Framework",
+          "syllabus_mapped": false,
+          "topics": [
+            {
+              "topic_name": "Historical Background of Indian Constitution",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Making of Indian Constitution",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Schedules",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Constitution of India",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Preamble",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Preamble to the Constitution"
+              ]
+            },
+            {
+              "topic_name": "Salient Features of the Constitution",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Constitution of India",
+                "Salient features of the Constitution"
+              ]
+            },
+            {
+              "topic_name": "Union, State and Union Territory",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Union",
+                "State",
+                "Union Territory"
+              ]
+            },
+            {
+              "topic_name": "Citizenship",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Citizenship"
+              ]
+            },
+            {
+              "topic_name": "Emergency Provisions",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Amendments",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Rights, Duties and Directive Principles",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Fundamental Rights",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Fundamental Rights"
+              ]
+            },
+            {
+              "topic_name": "Fundamental Duties",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Fundamental Duties"
+              ]
+            },
+            {
+              "topic_name": "Directive Principles of State Policy",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Directive Principles of State Policy"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Government Structure",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "President of India",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Union Executive"
+              ]
+            },
+            {
+              "topic_name": "Prime Minister and Council of Ministers",
+              "syllabus_mapped": true,
+              "keywords": []
+            },
+            {
+              "topic_name": "Parliament",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Union Legislature"
+              ]
+            },
+            {
+              "topic_name": "Attorney General of India",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Governor",
+              "syllabus_mapped": true,
+              "keywords": [
+                "State Executive"
+              ]
+            },
+            {
+              "topic_name": "Chief Minister and Council of Ministers",
+              "syllabus_mapped": true,
+              "keywords": []
+            },
+            {
+              "topic_name": "State Legislature",
+              "syllabus_mapped": true,
+              "keywords": [
+                "State Legislature"
+              ]
+            },
+            {
+              "topic_name": "Local Bodies and Panchayat Raj",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Local Governments",
+                "Panchayat Raj"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Federalism and Elections",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Centre-State Relations",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Spirit of federalism",
+                "Centre-State relationships"
+              ]
+            },
+            {
+              "topic_name": "Election Commission of India",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Election"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Judiciary and Rule of Law",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Judiciary",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Judiciary in India"
+              ]
+            },
+            {
+              "topic_name": "Rule of Law",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Rule of Law"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Governance, Transparency and Rights",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Prevention of Corruption",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Corruption in public life",
+                "Anti-corruption measures"
+              ]
+            },
+            {
+              "topic_name": "Lokpal and Lokayuktas",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Lokpal",
+                "Lok Ayukta"
+              ]
+            },
+            {
+              "topic_name": "Right to Information",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Right to Information"
+              ]
+            },
+            {
+              "topic_name": "Human Rights",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Human Rights Charter"
+              ]
+            },
+            {
+              "topic_name": "Consumer Protection Forums",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Consumer Protection Forums"
+              ]
+            },
+            {
+              "topic_name": "Women Empowerment",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Empowerment of Women"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Political System and Current Affairs",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Political Parties and Political System in India",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Political parties and political system in India"
+              ]
+            },
+            {
+              "topic_name": "Current Affairs",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Current affairs"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "name": "Indian Economy and Development Administration in Tamil Nadu",
+      "themes": [
+        {
+          "theme": "Indian Economic Planning",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Nature and Structure of Indian Economy",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Nature of Indian Economy",
+                "Structure of Indian economy"
+              ]
+            },
+            {
+              "topic_name": "National Income",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Planning Commission",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Planning Commission"
+              ]
+            },
+            {
+              "topic_name": "Five Year Plans",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Five-year plan models",
+                "Assessment of five-year plans"
+              ]
+            },
+            {
+              "topic_name": "Niti Aayog",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Niti Aayog"
+              ]
+            },
+            {
+              "topic_name": "Niti Aayog Report",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "National Development Council",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Fiscal and Monetary System",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Sources of Revenue",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Sources of revenue"
+              ]
+            },
+            {
+              "topic_name": "Fiscal Policy",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Fiscal Policy"
+              ]
+            },
+            {
+              "topic_name": "Reserve Bank of India",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Reserve Bank of India"
+              ]
+            },
+            {
+              "topic_name": "Monetary Policy",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Monetary Policy"
+              ]
+            },
+            {
+              "topic_name": "NABARD",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Banking",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Finance Commission",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Finance Commission"
+              ]
+            },
+            {
+              "topic_name": "Resource Sharing between Union and State Governments",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Resource sharing between Union and State Governments"
+              ]
+            },
+            {
+              "topic_name": "Goods and Services Tax",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Goods and Services Tax (GST)"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Economy, Agriculture and Industry",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Land Reforms",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Land Reforms and Agriculture"
+              ]
+            },
+            {
+              "topic_name": "Agriculture",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Application of Science and Technology in Agriculture"
+              ]
+            },
+            {
+              "topic_name": "Green Revolution",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Schemes for Agriculture",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Food Security",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Industrial Growth",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Industrial growth"
+              ]
+            },
+            {
+              "topic_name": "Industrial Policies",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "MSME",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Make in India",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Special Economic Zone (SEZ)",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Employment Generation",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Employment generation"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Social Problems and Development",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Population",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Population"
+              ]
+            },
+            {
+              "topic_name": "Education",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Education"
+              ]
+            },
+            {
+              "topic_name": "Health",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Health"
+              ]
+            },
+            {
+              "topic_name": "Unemployment",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Employment"
+              ]
+            },
+            {
+              "topic_name": "Poverty",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Poverty"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Rural Welfare Oriented Programmes",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Rural Welfare Oriented Programmes – General",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Rural welfare oriented programmes"
+              ]
+            },
+            {
+              "topic_name": "Provision of Urban Amenities in Rural Areas (PURA)",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "National Rural Health Mission",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "MGNREGA",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Schemes for Women and Children",
+          "syllabus_mapped": false,
+          "topics": [
+            {
+              "topic_name": "Schemes for Women and Children – General",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Self Help Groups",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Mission Vatsalya",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Beti Bachao Beti Padhao",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Welfare Programmes",
+          "syllabus_mapped": false,
+          "topics": [
+            {
+              "topic_name": "Health Welfare Schemes",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Ayushman Bharat",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Poverty Alleviation Schemes",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Schemes for SC and ST",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Welfare Programmes – General",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Tamil Nadu – Development and Society",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Human Development Indicators in Tamil Nadu",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Human Development Indicators in Tamil Nadu",
+                "Comparative assessment of Human Development across India"
+              ]
+            },
+            {
+              "topic_name": "Impact of Social Reform Movements in Tamil Nadu",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Impact of social reform movements in Tamil Nadu"
+              ]
+            },
+            {
+              "topic_name": "Rationale behind Reservation Policy",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Rationale behind reservation policy",
+                "Access to social resources"
+              ]
+            },
+            {
+              "topic_name": "Social Justice",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Social justice",
+                "Social harmony as cornerstones of socio-economic development"
+              ]
+            },
+            {
+              "topic_name": "Economic Trends in Tamil Nadu",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Economic trends in Tamil Nadu"
+              ]
+            },
+            {
+              "topic_name": "Political Parties and Welfare Schemes",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Political parties and welfare schemes for various sections"
+              ]
+            },
+            {
+              "topic_name": "Role and Impact of Social Welfare Schemes in Tamil Nadu",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Role and impact of social welfare schemes in Tamil Nadu"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Tamil Nadu – Administration and Governance",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Education System in Tamil Nadu",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Education system in Tamil Nadu"
+              ]
+            },
+            {
+              "topic_name": "Health System in Tamil Nadu",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Health system in Tamil Nadu"
+              ]
+            },
+            {
+              "topic_name": "e-Governance in Tamil Nadu",
+              "syllabus_mapped": true,
+              "keywords": [
+                "e-Governance in Tamil Nadu"
+              ]
+            },
+            {
+              "topic_name": "Achievements of Tamil Nadu",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Achievements of Tamil Nadu in various fields"
+              ]
+            },
+            {
+              "topic_name": "Public Awareness and General Administration",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Public awareness and general administration",
+                "Welfare oriented government schemes and their utility",
+                "Problems in public delivery systems"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Geography of Tamil Nadu",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Physical Geography of Tamil Nadu",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Geography of Tamil Nadu and its impact on economic growth"
+              ]
+            },
+            {
+              "topic_name": "Climate",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Rivers",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Waterfalls",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Reservoirs",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Agriculture in Tamil Nadu",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Mineral Resources",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Industrial Clusters",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Energy",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "GI Tags",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Census Data",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Tribes",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Forests and Wildlife Sanctuary",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Transportation",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Disasters",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Iconic Projects of Tamil Nadu",
+          "syllabus_mapped": false,
+          "topics": [
+            {
+              "topic_name": "Kaalai Unavu Thittam",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Naan Mudhalvan Thittam",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Pudhumai Penn Thittam",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Tamil Nadu Welfare Schemes",
+          "syllabus_mapped": false,
+          "topics": [
+            {
+              "topic_name": "Tamil Nadu Social Welfare Board",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Schemes for Women and Children – Tamil Nadu",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Marriage Assistance Scheme",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Chief Minister's Girl Child Protection Scheme",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Differently Abled Welfare",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Parents and Senior Citizens Welfare",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Transgender Welfare",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Police Department",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Urban Development Programmes",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Social Welfare Schemes – General",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Agriculture Related Programmes",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Industries Development Programmes",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Rural Development Programmes",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Education Related Schemes – Tamil Nadu",
+              "syllabus_mapped": false,
+              "keywords": []
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Current Affairs",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Current Socio-Economic Issues",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Current socio-economic issues",
+                "Current affairs"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "name": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "themes": [
+        {
+          "theme": "Tamil History and Archaeology",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "History of Tamil Society",
+              "syllabus_mapped": true,
+              "keywords": [
+                "History of Tamil Society",
+                "Archaeological discoveries related to Tamil Society"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Tamil Literature",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Sangam Literature",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Tamil literature from Sangam age"
+              ]
+            },
+            {
+              "topic_name": "Tamil Literature – Medieval to Contemporary",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Tamil literature till contemporary times"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Thirukkural",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Thirukkural – Significance and Secular Nature",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Thirukkural",
+                "Significance of Thirukkural as secular literature",
+                "Relevance of Thirukkural to everyday life"
+              ]
+            },
+            {
+              "topic_name": "Thirukkural – Universal Values and Philosophy",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Impact of Thirukkural on humanity",
+                "Thirukkural and universal values",
+                "Philosophical content in Thirukkural"
+              ]
+            },
+            {
+              "topic_name": "Thirukkural – Socio-Politico-Economic Relevance",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Relevance of Thirukkural to socio-politico-economic affairs"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Tamil Nadu in Freedom Struggle",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Role of Tamil Nadu in Freedom Struggle",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Role of Tamil Nadu in freedom struggle",
+                "Early agitations against British Rule"
+              ]
+            },
+            {
+              "topic_name": "Role of Women in Freedom Struggle",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Role of women in freedom struggle"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Socio-Political Movements",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "19th and 20th Century Socio-Political Movements – Overview",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Evolution of 19th century socio-political movements in Tamil Nadu",
+                "Evolution of 20th century socio-political movements in Tamil Nadu"
+              ]
+            },
+            {
+              "topic_name": "Justice Party",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Justice Party"
+              ]
+            },
+            {
+              "topic_name": "Growth of Rationalism",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Growth of Rationalism"
+              ]
+            },
+            {
+              "topic_name": "Self Respect Movement",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Self Respect Movement",
+                "Principles underlying Self Respect and Dravidian Movements"
+              ]
+            },
+            {
+              "topic_name": "Dravidian Movement",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Dravidian Movement"
+              ]
+            },
+            {
+              "topic_name": "Contributions of Thanthai Periyar",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Contributions of Thanthai Periyar"
+              ]
+            },
+            {
+              "topic_name": "Contributions of Perarignar Anna",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Contributions of Perarignar Anna"
+              ]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "name": "Aptitude",
+      "themes": [
+        {
+          "theme": "Number and Arithmetic",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Simplification",
+              "syllabus_mapped": true,
+              "keywords": ["Simplification"]
+            },
+            {
+              "topic_name": "Percentage",
+              "syllabus_mapped": true,
+              "keywords": ["Percentage"]
+            },
+            {
+              "topic_name": "HCF and LCM",
+              "syllabus_mapped": true,
+              "keywords": [
+                "Highest Common Factor (HCF)",
+                "Lowest Common Multiple (LCM)"
+              ]
+            },
+            {
+              "topic_name": "Ratio and Proportion",
+              "syllabus_mapped": true,
+              "keywords": ["Ratio and Proportion"]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Financial Mathematics",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Simple Interest",
+              "syllabus_mapped": true,
+              "keywords": ["Simple interest"]
+            },
+            {
+              "topic_name": "Compound Interest",
+              "syllabus_mapped": true,
+              "keywords": ["Compound interest"]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Mensuration and Work",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Area",
+              "syllabus_mapped": true,
+              "keywords": ["Area"]
+            },
+            {
+              "topic_name": "Volume",
+              "syllabus_mapped": true,
+              "keywords": ["Volume"]
+            },
+            {
+              "topic_name": "Time and Work",
+              "syllabus_mapped": true,
+              "keywords": ["Time and Work"]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "name": "Reasoning",
+      "themes": [
+        {
+          "theme": "Logical and Analytical Reasoning",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Logical Reasoning",
+              "syllabus_mapped": true,
+              "keywords": ["Logical reasoning"]
+            },
+            {
+              "topic_name": "Puzzles",
+              "syllabus_mapped": true,
+              "keywords": ["Puzzles"]
+            },
+            {
+              "topic_name": "Dice",
+              "syllabus_mapped": true,
+              "keywords": ["Dice"]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "theme": "Visual and Pattern Reasoning",
+          "syllabus_mapped": true,
+          "topics": [
+            {
+              "topic_name": "Visual Reasoning",
+              "syllabus_mapped": true,
+              "keywords": ["Visual reasoning"]
+            },
+            {
+              "topic_name": "Alpha Numeric Reasoning",
+              "syllabus_mapped": true,
+              "keywords": ["Alpha numeric reasoning"]
+            },
+            {
+              "topic_name": "Number Series",
+              "syllabus_mapped": true,
+              "keywords": ["Number series"]
+            },
+            {
+              "topic_name": "Miscellaneous",
+              "syllabus_mapped": false,
+              "keywords": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tnpsc_question_schema_v2",
+  "title": "TNPSC Group 1 Prelims — Universal Question Schema v2",
+  "description": "Full-paper scan of 200 questions across 160 pages. All structural variants captured.",
+
+  "changelog_from_v1": [
+    "Added disputed flag (questions referred to expert committee — seen in red annotation)",
+    "Added stem_has_blank flag (fill-in-blank stems with dash or underline)",
+    "Added item_numbering_style to statement_mcq and chronological_order (roman/arabic/alpha)",
+    "Added match_style to match_the_following (tabular vs inline)",
+    "Added has_math flag and math_format field for algebraic/formula questions",
+    "Added options_layout field (single_column vs two_column)",
+    "Clarified AR options are always free text — no enum; text varies per question",
+    "Media block already present in v1; confirmed needed for Q200 (cube diagrams)"
+  ],
+
+  "question_types_enum": [
+    "simple_mcq",
+    "statement_mcq",
+    "match_the_following",
+    "assertion_reason",
+    "chronological_order"
+  ],
+
+  "top_level_fields": {
+    "question_no":        "integer — serial number 1..200",
+    "question_type":      "enum — one of question_types_enum",
+    "subject":            "string — LLM-assigned subject tag",
+    "topic":              "string — LLM-assigned finer topic",
+    "paper_code":         "string — booklet code e.g. CCSEI-IAP25",
+    "page_no":            "integer — PDF page where question starts",
+
+    "disputed":           "boolean — true if red 'expert committee' annotation present on question",
+    "stem_has_blank":     "boolean — true if stem contains a fill-in-the-blank gap (—— or _____)",
+    "has_math":           "boolean — true if stem or any option contains mathematical notation",
+    "math_format":        "enum|null — 'plain_text' | 'latex' | 'unicode' — how math is encoded after OCR",
+    "options_layout":     "enum — 'single_column' (A B C D E stacked) | 'two_column' (A+B on row1, C+D on row2)",
+
+    "media":              "array|null — see media_block_schema; null if no diagram/image",
+    "en":                 "object — English language block",
+    "ta":                 "object — Tamil language block (identical structure to en)",
+    "answer_key":         "string|null — correct option key A/B/C/D/E; null until populated",
+    "meta":               "object — pipeline metadata"
+  },
+
+  "language_block_fields_by_type": {
+
+    "simple_mcq": {
+      "stem":    "string — question text",
+      "options": "array of {key: A|B|C|D|E, text: string}"
+    },
+
+    "statement_mcq": {
+      "stem":                 "string — question text",
+      "item_numbering_style": "enum — 'roman' (i/ii/iii/iv) | 'arabic' (1/2/3/4) | 'alpha' (a/b/c/d)",
+      "statements":           "array of {no: string, text: string}",
+      "options":              "array of {key: A|B|C|D|E, text: string}"
+    },
+
+    "match_the_following": {
+      "stem":        "string — question text",
+      "match_style": "enum — 'tabular' | 'inline'",
+
+      "_tabular_note": "Used when left+right are separate columns with a matrix answer table. left_column uses a/b/c/d keys. right_column uses integer nos. Options store mapping objects.",
+      "left_column":  "array of {key: string (a|b|c|d), text: string}",
+      "right_column": "array of {no: integer, text: string}",
+      "options": [
+        "For keys A-D: {key: string, mapping: {a: int, b: int, c: int, d: int}}",
+        "For key E: {key: 'E', text: 'Answer not known'}"
+      ],
+
+      "_inline_note": "Used when each numbered item already contains its own paired right-side value (dash-separated or colon). No matrix. Options refer to item numbers as text pairs.",
+      "items":   "array of {no: string, text: string} — full pair text including the right side",
+      "options": "array of {key: A|B|C|D|E, text: string} — e.g. '(1) and (3) are correct'"
+    },
+
+    "assertion_reason": {
+      "assertion": "string — Assertion [A] text",
+      "reason":    "string — Reason [R] text",
+      "options":   "array of {key: A|B|C|D|E, text: string} — stored verbatim; text varies per question"
+    },
+
+    "chronological_order": {
+      "stem":                 "string — question text",
+      "item_numbering_style": "enum — 'roman' | 'arabic'",
+      "items":                "array of {no: string, text: string}",
+      "options":              "array of {key: A|B|C|D|E, text: string}"
+    }
+  },
+
+  "media_block_schema": {
+    "id":        "string — unique ID e.g. img_q200_cube",
+    "type":      "enum — 'image' | 'diagram' | 'formula' | 'table'",
+    "placement": "enum — 'shared_stem' | 'en_stem' | 'ta_stem' | 'en_options' | 'ta_options'",
+    "path":      "string — relative path to extracted file e.g. media/q200_cube.png",
+    "alt_text":  "string — plain-text description for accessibility"
+  },
+
+  "meta_block_schema": {
+    "extraction_status": "enum — 'pending' | 'extracted' | 'verified'",
+    "ocr_confidence":    "float|null — 0.0 to 1.0; set by OCR pipeline",
+    "notes":             "string — free-form notes e.g. handwritten marks, smudges"
+  },
+
+  "complete_examples": {
+
+    "simple_mcq__basic": {
+      "question_no": 4,
+      "question_type": "simple_mcq",
+      "subject": "Science",
+      "topic": "Biotechnology",
+      "paper_code": "CCSEI-IAP25",
+      "page_no": 5,
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The Nobel Prize in Medicine was awarded to Victor Ambros and Gary Ruvkun for their discovery of",
+        "options": [
+          { "key": "A", "text": "Expression Sequence Tags" },
+          { "key": "B", "text": "Micro RNA" },
+          { "key": "C", "text": "DNA micro array" },
+          { "key": "D", "text": "SNP's" },
+          { "key": "E", "text": "Answer not known" }
+        ]
+      },
+      "ta": {
+        "stem": "விக்டர் அம்ரோஸ் மற்றும் கிரே ரவ்குன் ஆகியோரின் எந்த கண்டுபிடிப்புக்காக மருத்துவத்தில் நோபல் விருது வழங்கப்பட்டது?",
+        "options": [
+          { "key": "A", "text": "வெளிப்பாடு வரிசை மரபு குறிச்சொற்கள்" },
+          { "key": "B", "text": "நுண் ஆர்.என்.ஏ. (micro RNA)" },
+          { "key": "C", "text": "டி.என்.ஏ. நுண் அணி" },
+          { "key": "D", "text": "எஸ்.என்.பி. (SNP's)" },
+          { "key": "E", "text": "விடை தெரியவில்லை" }
+        ]
+      },
+      "answer_key": "B",
+      "meta": { "extraction_status": "pending", "ocr_confidence": null, "notes": "" }
+    },
+
+    "simple_mcq__fill_in_blank": {
+      "question_no": 7,
+      "question_type": "simple_mcq",
+      "subject": "Science",
+      "topic": "Biology — Ecology",
+      "paper_code": "CCSEI-IAP25",
+      "page_no": 7,
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "The biological oxygen demand is the amount of dissolved oxygen required by —————— in water.",
+        "options": [
+          { "key": "A", "text": "Microbes" },
+          { "key": "B", "text": "Plants" },
+          { "key": "C", "text": "Animals" },
+          { "key": "D", "text": "Seaweeds" },
+          { "key": "E", "text": "Answer not known" }
+        ]
+      },
+      "ta": {
+        "stem": "உயிர்வேதியியலில் ஆக்சிஜன் தேவை என்பது, நீரில் —————— பயன்பாட்டின் போது நுகரப்படும் ஆக்சிஜன் அளவு ஆகும்.",
+        "options": [
+          { "key": "A", "text": "நுண்ணுயிர்" },
+          { "key": "B", "text": "செடிகள்" },
+          { "key": "C", "text": "விலங்குகள்" },
+          { "key": "D", "text": "கடற்பாசிகள்" },
+          { "key": "E", "text": "விடை தெரியவில்லை" }
+        ]
+      },
+      "answer_key": "A",
+      "meta": { "extraction_status": "pending", "ocr_confidence": null, "notes": "" }
+    },
+
+    "simple_mcq__math": {
+      "question_no": 97,
+      "question_type": "simple_mcq",
+      "subject": "Aptitude",
+      "topic": "Ratio and Proportion",
+      "paper_code": "CCSEI-IAP25",
+      "page_no": 75,
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": true,
+      "math_format": "plain_text",
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "If x : 7.5 = 8 : y = 7 : 17.5 find x : y",
+        "options": [
+          { "key": "A", "text": "3 : 22" },
+          { "key": "B", "text": "1 : 7" },
+          { "key": "C", "text": "3 : 20" },
+          { "key": "D", "text": "3 : 23" },
+          { "key": "E", "text": "Answer not known" }
+        ]
+      },
+      "ta": {
+        "stem": "x : 7.5 = 8 : y = 7 : 17.5 எனில் x : y ஐ காண்க.",
+        "options": [
+          { "key": "A", "text": "3 : 22" },
+          { "key": "B", "text": "1 : 7" },
+          { "key": "C", "text": "3 : 20" },
+          { "key": "D", "text": "3 : 23" },
+          { "key": "E", "text": "விடை தெரியவில்லை" }
+        ]
+      },
+      "answer_key": "C",
+      "meta": { "extraction_status": "pending", "ocr_confidence": null, "notes": "" }
+    },
+
+    "statement_mcq__roman": {
+      "question_no": 1,
+      "question_type": "statement_mcq",
+      "subject": "Science",
+      "topic": "Organic Chemistry",
+      "paper_code": "CCSEI-IAP25",
+      "page_no": 3,
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of statements are True?",
+        "item_numbering_style": "roman",
+        "statements": [
+          { "no": "i",   "text": "Octane number increases with chain length." },
+          { "no": "ii",  "text": "Cycloalkanes have higher Octane number than straight chain alkanes." },
+          { "no": "iii", "text": "Alkenes and aromatic hydrocarbon have higher Octane number than straight chain alkanes." },
+          { "no": "iv",  "text": "Branched chain alkanes have lower octane number than straight chain alkanes." }
+        ],
+        "options": [
+          { "key": "A", "text": "(i) and (iv)" },
+          { "key": "B", "text": "(i) and (ii)" },
+          { "key": "C", "text": "(ii) and (iii)" },
+          { "key": "D", "text": "(i), (ii), (iii) and (iv)" },
+          { "key": "E", "text": "Answer not known" }
+        ]
+      },
+      "ta": {
+        "stem": "கீழ்கண்டவற்றில் எது சரியான கூற்று?",
+        "item_numbering_style": "roman",
+        "statements": [
+          { "no": "i",   "text": "சங்கிலி தொடர் கூடும் போது ஆக்டேன் எண் உயர்கிறது." },
+          { "no": "ii",  "text": "நேரான அல்கேன்களைக் காட்டிலும் வளைய அல்கேன்களுக்கு உயர்ந்த ஆக்டேன் எண் உண்டு." },
+          { "no": "iii", "text": "நேரான அல்கேன்களைக் காட்டிலும் அல்கீன்களும் அரோமாட்டிக் ஹைட்ரோ கார்பன்களும் அதிக ஆக்டேன் எண் கொண்டது." },
+          { "no": "iv",  "text": "நேரான அல்கேன்களைக் காட்டிலும் கிளைகள் உடைய சங்கிலித் தொடர் அல்கேன்கள் குறைவான ஆக்டேன் எண் கொண்டது." }
+        ],
+        "options": [
+          { "key": "A", "text": "(i) மற்றும் (iv)" },
+          { "key": "B", "text": "(i) மற்றும் (ii)" },
+          { "key": "C", "text": "(ii) மற்றும் (iii)" },
+          { "key": "D", "text": "(i), (ii), (iii) மற்றும் (iv)" },
+          { "key": "E", "text": "விடை தெரியவில்லை" }
+        ]
+      },
+      "answer_key": "C",
+      "meta": { "extraction_status": "pending", "ocr_confidence": null, "notes": "" }
+    },
+
+    "statement_mcq__alpha_numbering": {
+      "question_no": 57,
+      "question_type": "statement_mcq",
+      "subject": "Tamil Affairs",
+      "topic": "TN Government Schemes",
+      "paper_code": "CCSEI-IAP25",
+      "page_no": 43,
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The following statements are about the Tamil Nadu Government's initiatives: Find the correct statements.",
+        "item_numbering_style": "alpha",
+        "statements": [
+          { "no": "a", "text": "Allocation of 5 crores to translate all the works of Annal Ambedkar into Tamil through Tamil Development Department" },
+          { "no": "b", "text": "10 crores for establishment of Tamil Parapurai Kazhagam" },
+          { "no": "c", "text": "Allocation of 5 crore for creation of separate department of Tamil Literature in JNU, Delhi" },
+          { "no": "d", "text": "30 lakhs financial support for Theera Kaadhal Thirukural Project" }
+        ],
+        "options": [
+          { "key": "A", "text": "(a) and (b) only" },
+          { "key": "B", "text": "(a) and (c) only" },
+          { "key": "C", "text": "(a) and (d) only" },
+          { "key": "D", "text": "(c) and (d) only" },
+          { "key": "E", "text": "Answer not known" }
+        ]
+      },
+      "ta": {
+        "stem": "தமிழ்நாடு அரசின் முன்முயற்சிகள் பற்றிய பின்வரும் அறிக்கைகளில் எவை சரியானவை?",
+        "item_numbering_style": "alpha",
+        "statements": [
+          { "no": "a", "text": "அண்ணல் அம்பேத்கரின் அனைத்து படைப்புகளையும் தமிழ் வளர்ச்சித் துறை மூலம் தமிழில் மொழிபெயர்க்க 5 கோடி ஒதுக்கீடு" },
+          { "no": "b", "text": "தமிழ் பரப்புரைக் கழகம் அமைக்க 10 கோடி ஒதுக்கீடு" },
+          { "no": "c", "text": "டெல்லி ஜவஹர்லால் நேரு பல்கலைக்கழகத்தில் தமிழ் இலக்கியத் தனித் துறையை உருவாக்க 5 கோடி ஒதுக்கீடு" },
+          { "no": "d", "text": "தீரா காதல் திருக்குறள் திட்டத்திற்கு 30 லட்சம் நிதியுதவி" }
+        ],
+        "options": [
+          { "key": "A", "text": "(a) மற்றும் (b) மட்டும்" },
+          { "key": "B", "text": "(a) மற்றும் (c) மட்டும்" },
+          { "key": "C", "text": "(a) மற்றும் (d) மட்டும்" },
+          { "key": "D", "text": "(c) மற்றும் (d) மட்டும்" },
+          { "key": "E", "text": "விடை தெரியவில்லை" }
+        ]
+      },
+      "answer_key": "B",
+      "meta": { "extraction_status": "pending", "ocr_confidence": null, "notes": "" }
+    },
+
+    "match_the_following__tabular": {
+      "question_no": 2,
+      "question_type": "match_the_following",
+      "subject": "Science",
+      "topic": "Biology — Endocrinology",
+      "paper_code": "CCSEI-IAP25",
+      "page_no": 4,
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following hormone with the disorder caused:",
+        "match_style": "tabular",
+        "left_column": [
+          { "key": "a", "text": "Insulin" },
+          { "key": "b", "text": "Thyroxine" },
+          { "key": "c", "text": "Glucocorticoids" },
+          { "key": "d", "text": "Growth hormone" }
+        ],
+        "right_column": [
+          { "no": 1, "text": "Cushing's syndrome" },
+          { "no": 2, "text": "Diabetes insipidus" },
+          { "no": 3, "text": "Acromegaly" },
+          { "no": 4, "text": "Goitre" },
+          { "no": 5, "text": "Diabetes Mellitus" }
+        ],
+        "options": [
+          { "key": "A", "mapping": { "a": 5, "b": 1, "c": 2, "d": 3 } },
+          { "key": "B", "mapping": { "a": 2, "b": 4, "c": 3, "d": 1 } },
+          { "key": "C", "mapping": { "a": 5, "b": 4, "c": 1, "d": 3 } },
+          { "key": "D", "mapping": { "a": 2, "b": 4, "c": 1, "d": 3 } },
+          { "key": "E", "text": "Answer not known" }
+        ]
+      },
+      "ta": {
+        "stem": "ஹார்மோன்களை அவை உண்டாக்கும் நோய்களோடு பொருத்துக:",
+        "match_style": "tabular",
+        "left_column": [
+          { "key": "a", "text": "இன்சுலின்" },
+          { "key": "b", "text": "தைராக்சின்" },
+          { "key": "c", "text": "குளுக்கோகார்டிகாய்ட்" },
+          { "key": "d", "text": "வளர்ச்சி ஹார்மோன்" }
+        ],
+        "right_column": [
+          { "no": 1, "text": "குஷ்சிங் சின்ட்ரோம்" },
+          { "no": 2, "text": "டையாபிட்டஸ் இன்சிபீடஸ்" },
+          { "no": 3, "text": "அக்ரோமிகாலி" },
+          { "no": 4, "text": "கழலை" },
+          { "no": 5, "text": "நீரிழிவு நோய்" }
+        ],
+        "options": [
+          { "key": "A", "mapping": { "a": 5, "b": 1, "c": 2, "d": 3 } },
+          { "key": "B", "mapping": { "a": 2, "b": 4, "c": 3, "d": 1 } },
+          { "key": "C", "mapping": { "a": 5, "b": 4, "c": 1, "d": 3 } },
+          { "key": "D", "mapping": { "a": 2, "b": 4, "c": 1, "d": 3 } },
+          { "key": "E", "text": "விடை தெரியவில்லை" }
+        ]
+      },
+      "answer_key": "C",
+      "meta": { "extraction_status": "pending", "ocr_confidence": null, "notes": "" }
+    },
+
+    "match_the_following__inline": {
+      "question_no": 186,
+      "question_type": "match_the_following",
+      "subject": "Tamil History & Culture",
+      "topic": "Sangam Literature",
+      "paper_code": "CCSEI-IAP25",
+      "page_no": 150,
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the right matches among type:",
+        "match_style": "inline",
+        "items": [
+          { "no": "1", "text": "In the ancient day, it was Tamil culture to conduct marriages on a spread of sand – Akananuru" },
+          { "no": "2", "text": "The Groom fastened a thali upon the Bride – Tholkappiyam" },
+          { "no": "3", "text": "There was a practice among the people of the bride to give dowry to the groom's family – Nannul" },
+          { "no": "4", "text": "There was the practice of conducting the marriage infront of fire – Silappadikaram" }
+        ],
+        "options": [
+          { "key": "A", "text": "1 and 4 are correct" },
+          { "key": "B", "text": "1 and 3 are correct" },
+          { "key": "C", "text": "2 and 3 are correct" },
+          { "key": "D", "text": "3 and 4 are correct" },
+          { "key": "E", "text": "Answer not known" }
+        ]
+      },
+      "ta": {
+        "stem": "பின்வருவனவற்றில் பொருத்தமானவற்றைத் தேர்ந்தெடுக.",
+        "match_style": "inline",
+        "items": [
+          { "no": "1", "text": "பழங்காலத்தில் தமிழர்கள் திருமணத்தில் மணல் பரப்பி விழா எடுத்தனர் – அகநானூறு" },
+          { "no": "2", "text": "மணமகளுக்கு மணமகன் தாலி அணிவித்தல் வழக்கமாகும் – தொல்காப்பியம்" },
+          { "no": "3", "text": "மணமகள் வீட்டினர் மணமகன் வீட்டாருக்கு வரதட்சணை கொடுக்கும் வழக்கமிருந்தது – நன்னூல்" },
+          { "no": "4", "text": "தீ நெறிப்பட்ட வேள்வித் திருமணம் – சிலப்பதிகாரம்" }
+        ],
+        "options": [
+          { "key": "A", "text": "1 மற்றும் 4 சரி" },
+          { "key": "B", "text": "1 மற்றும் 3 சரி" },
+          { "key": "C", "text": "2 மற்றும் 3 சரி" },
+          { "key": "D", "text": "3 மற்றும் 4 சரி" },
+          { "key": "E", "text": "விடை தெரியவில்லை" }
+        ]
+      },
+      "answer_key": "A",
+      "meta": { "extraction_status": "pending", "ocr_confidence": null, "notes": "" }
+    },
+
+    "assertion_reason": {
+      "question_no": 26,
+      "question_type": "assertion_reason",
+      "subject": "Polity",
+      "topic": "Union Territories — Zonal Councils",
+      "paper_code": "CCSEI-IAP25",
+      "page_no": 20,
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "assertion": "The zonal councils owe their origin to the constitution.",
+        "reason": "The zonal councils are the logical outcome of the reorganisation of states on a linguistic basis.",
+        "options": [
+          { "key": "A", "text": "[A] and [R] are correct; and [R] is the correct explanation for [A]" },
+          { "key": "B", "text": "[A] and [R] are correct; and [R] is not the correct explanation for [A]" },
+          { "key": "C", "text": "[A] is correct; [R] is wrong" },
+          { "key": "D", "text": "[A] is wrong; [R] is correct" },
+          { "key": "E", "text": "Answer not known" }
+        ]
+      },
+      "ta": {
+        "assertion": "மண்டல மன்றங்கள் அவற்றின் தோற்றத்திற்கு அரசியலமைப்பிற்கே கடமைப்பட்டுள்ளது.",
+        "reason": "மண்டல மன்றங்கள் மொழி அடிப்படையில் மாநிலங்களை மறுசீரமைப்பதன் தர்க்க ரீதியான விளைவாகும்.",
+        "options": [
+          { "key": "A", "text": "[A] மற்றும் [R] சரி, மற்றும் [A] க்கு [R] சரியான விளக்கம்" },
+          { "key": "B", "text": "[A] மற்றும் [R] சரி, மற்றும் [A] க்கு [R] சரியான விளக்கமல்ல" },
+          { "key": "C", "text": "[A] சரி; ஆனால் [R] தவறு" },
+          { "key": "D", "text": "[A] தவறு; ஆனால் [R] சரி" },
+          { "key": "E", "text": "விடை தெரியவில்லை" }
+        ]
+      },
+      "answer_key": "D",
+      "meta": { "extraction_status": "pending", "ocr_confidence": null, "notes": "" }
+    },
+
+    "chronological_order__arabic": {
+      "question_no": 28,
+      "question_type": "chronological_order",
+      "subject": "Polity",
+      "topic": "Supreme Court Landmark Cases",
+      "paper_code": "CCSEI-IAP25",
+      "page_no": 21,
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Arrange the following events in chronological order.",
+        "item_numbering_style": "arabic",
+        "items": [
+          { "no": "1", "text": "Golaknath v/s State of Punjab" },
+          { "no": "2", "text": "Keshvananda Bharati v/s State of Kerala" },
+          { "no": "3", "text": "Minerva Mills Ltd. v/s State of India" },
+          { "no": "4", "text": "A.K. Gopalan v/s State of Madras" }
+        ],
+        "options": [
+          { "key": "A", "text": "1, 2, 3, 4" },
+          { "key": "B", "text": "3, 4, 1, 2" },
+          { "key": "C", "text": "4, 1, 2, 3" },
+          { "key": "D", "text": "1, 3, 2, 4" },
+          { "key": "E", "text": "Answer not known" }
+        ]
+      },
+      "ta": {
+        "stem": "கீழ்கண்டவற்றை காலமுறைப்படி வரிசைப்படுத்துக.",
+        "item_numbering_style": "arabic",
+        "items": [
+          { "no": "1", "text": "கோலக்நாத் v/s பஞ்சாப் மாநிலம்" },
+          { "no": "2", "text": "கேசவானந்த பாரதி v/s கேரளா மாநிலம்" },
+          { "no": "3", "text": "மினர்வா மில்ஸ் லிமிட் v/s இந்திய அரசு" },
+          { "no": "4", "text": "A.K. கோபாலன் v/s மதராஸ் அரசு" }
+        ],
+        "options": [
+          { "key": "A", "text": "1, 2, 3, 4" },
+          { "key": "B", "text": "3, 4, 1, 2" },
+          { "key": "C", "text": "4, 1, 2, 3" },
+          { "key": "D", "text": "1, 3, 2, 4" },
+          { "key": "E", "text": "விடை தெரியவில்லை" }
+        ]
+      },
+      "answer_key": "C",
+      "meta": { "extraction_status": "pending", "ocr_confidence": null, "notes": "" }
+    },
+
+    "simple_mcq__with_diagram": {
+      "question_no": 200,
+      "question_type": "simple_mcq",
+      "subject": "Aptitude",
+      "topic": "Spatial Reasoning — Cube",
+      "paper_code": "CCSEI-IAP25",
+      "page_no": 155,
+      "disputed": true,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": [
+        {
+          "id": "img_q200_cube",
+          "type": "diagram",
+          "placement": "shared_stem",
+          "path": "media/q200_cube_diagrams.png",
+          "alt_text": "Four cube diagrams (I, II, III, IV) showing different face number arrangements"
+        }
+      ],
+      "en": {
+        "stem": "Given below are 4 pictures of a cube. Which number is on the face opposite to 3?",
+        "options": [
+          { "key": "A", "text": "1" },
+          { "key": "B", "text": "2" },
+          { "key": "C", "text": "4" },
+          { "key": "D", "text": "5" },
+          { "key": "E", "text": "Answer not known" }
+        ]
+      },
+      "ta": {
+        "stem": "கீழே நான்கு கனசதுரங்கள் கொடுக்கப்பட்டுள்ளன. 3 என்ற எண்ணிற்கு எதிரே உள்ள பக்கத்தில் வரும் எண்",
+        "options": [
+          { "key": "A", "text": "1" },
+          { "key": "B", "text": "2" },
+          { "key": "C", "text": "4" },
+          { "key": "D", "text": "5" },
+          { "key": "E", "text": "விடை தெரியவில்லை" }
+        ]
+      },
+      "answer_key": "C",
+      "meta": { "extraction_status": "pending", "ocr_confidence": null, "notes": "Disputed — expert committee annotation present" }
+    }
+  },
+
+  "rendering_notes": {
+    "simple_mcq":                    "Render stem; if stem_has_blank=true render blank as input/underline; then options per options_layout",
+    "statement_mcq":                 "Render stem; render numbered statements per item_numbering_style; then options",
+    "match_the_following__tabular":  "Render stem; two-column table (left_column | right_column); matrix option rows A-D; E as text",
+    "match_the_following__inline":   "Render stem; numbered list of full pair texts; options as text list A-E",
+    "assertion_reason":              "Render 'Assertion [A]:' block; 'Reason [R]:' block; options A-E verbatim",
+    "chronological_order":           "Render stem; numbered list per item_numbering_style; options A-E",
+    "has_math=true":                 "Pass text through MathJax/KaTeX renderer; math_format tells which parser to use",
+    "media block":                   "Inject image at placement point before rendering surrounding text"
+  }
+}
