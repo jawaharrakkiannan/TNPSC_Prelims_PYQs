@@ -2,439 +2,429 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TNPSC PYQs — Syllabus View</title>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>TNPSC Prelims · Syllabus View</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-:root {
-  --accent: #e05a00;
-  --accent-light: #fff3ed;
-  --correct: #16a34a;
-  --wrong: #dc2626;
-  --border: #e5e7eb;
-  --muted: #6b7280;
-  --body-bg: #f9fafb;
-  --card-bg: #fff;
-  font-family: system-ui, sans-serif;
+:root{
+  --bg:#fff7ed;--bg2:#ffedd5;--surface:#ffffff;--surface2:#fff7ed;
+  --border:#e2e8f0;--border2:#cbd5e1;
+  --text:#111827;--text2:#374151;--text3:#6b7280;
+  --accent:#ea580c;--accent2:rgba(234,88,12,.11);--accent3:rgba(234,88,12,.05);
+  --green:#276248;--green-bg:rgba(39,98,72,.1);
+  --red:#b03030;--red-bg:rgba(176,48,48,.08);
+  --radius:2px;
+  --font-display:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --font-body:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --font-mono:'IBM Plex Mono',monospace;
 }
-* { box-sizing: border-box; }
-body { background: var(--body-bg); margin: 0; padding: 0; }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+button,select{font-family:inherit;font-size:inherit}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{
+  font-family:var(--font-body);
+  background-color:var(--bg);
+  background-image:repeating-linear-gradient(transparent 0,transparent 1.65rem,rgba(180,120,60,.06) 1.65rem,rgba(180,120,60,.06) calc(1.65rem + 1px));
+  color:var(--text);line-height:1.65;min-height:100vh;
+}
+body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.038;
+  background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='256' height='256'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='4' stitchTiles='stitch'/></filter><rect width='256' height='256' filter='url(%23n)'/></svg>");}
 
-/* ── Header ── */
-.app-header {
-  background: #fff; border-bottom: 1px solid var(--border);
-  padding: 0.7rem 1.5rem; display: flex; align-items: center;
-  gap: 0.75rem; position: sticky; top: 0; z-index: 100;
-}
-.app-header h1 { margin: 0; font-size: 1.05rem; color: var(--accent); flex: 1; }
-.back-btn {
-  background: none; border: 1px solid var(--border); border-radius: 4px;
-  padding: 0.28rem 0.65rem; cursor: pointer; font-size: 0.83rem; color: #374151;
-}
-.back-btn:hover { background: var(--accent-light); border-color: var(--accent); color: var(--accent); }
-.lang-toggle { display: flex; gap: 0.2rem; }
-.lang-btn {
-  border: 1px solid var(--border); background: #fff; cursor: pointer;
-  padding: 0.28rem 0.65rem; border-radius: 4px; font-size: 0.8rem;
-}
-.lang-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+/* Top bar */
+.top-bar{background:var(--bg2);border-bottom:1px solid var(--border);padding:.35rem 1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.4rem;font-family:var(--font-mono);font-size:.6rem;letter-spacing:.08em;color:var(--text3)}
+.top-bar a{color:var(--accent);text-decoration:none}
+.top-bar a:hover{text-decoration:underline}
 
-/* ── Landing ── */
-#page-landing { max-width: 700px; margin: 2.5rem auto; padding: 0 1rem; }
-.page-heading { font-size: 1.3rem; font-weight: 700; color: #111; margin: 0 0 1.25rem; }
+/* Sticky nav bar */
+.nav-bar{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:1px solid var(--border);padding:.55rem 1.5rem;display:flex;align-items:center;gap:.65rem;flex-wrap:wrap}
+.nav-back{font-family:var(--font-mono);font-size:.62rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;padding:4px 12px;border:1px solid var(--border2);border-radius:var(--radius);background:transparent;color:var(--text3);cursor:pointer;transition:border-color .15s,color .15s}
+.nav-back:hover{border-color:var(--accent);color:var(--accent)}
+.nav-title{font-family:var(--font-mono);font-size:.65rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--text2);flex:1}
+.lang-btn{font-family:var(--font-mono);font-size:.6rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border:1px solid var(--border2);border-radius:var(--radius);background:transparent;color:var(--text3);cursor:pointer;transition:border-color .15s,color .15s,background .15s}
+.lang-btn:hover{border-color:var(--accent);color:var(--accent)}
+.lang-btn.active{border-color:var(--accent);color:var(--accent);background:var(--accent3)}
 
-.unit-table {
-  width: 100%; border-collapse: collapse; background: #fff;
-  border-radius: 8px; overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-}
-.unit-table thead tr { background: var(--accent); }
-.unit-table th {
-  padding: 0.7rem 1.1rem; text-align: left; font-size: 0.82rem;
-  font-weight: 600; color: #fff; letter-spacing: 0.03em;
-}
-.unit-table td { padding: 0.7rem 1.1rem; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
-.unit-table tbody tr:last-child td { border-bottom: none; }
-.unit-table tbody tr:hover td { background: var(--accent-light); }
-.unit-no {
-  font-family: 'Georgia', serif; font-weight: 700; color: var(--accent);
-  white-space: nowrap; width: 110px; vertical-align: middle;
-}
-.unit-name-link {
-  color: #111; text-decoration: none; font-weight: 500; cursor: pointer;
-}
-.unit-name-link:hover { color: var(--accent); text-decoration: underline; }
-.unit-q-count { font-size: 0.75rem; color: var(--muted); margin-left: 0.5rem; }
+/* Page shell */
+.page-shell{max-width:1100px;margin:0 auto;padding:0 1.5rem 4rem}
 
-/* ── Unit detail ── */
-#page-unit { display: none; max-width: 1150px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
-.unit-view-title { font-size: 1.2rem; font-weight: 700; color: #111; margin: 0 0 1.1rem; }
+/* Landing header */
+.landing-header{text-align:center;padding:0 1rem;margin-bottom:1.5rem;animation:fadeUp .7s ease both}
+.masthead-rule{border:none;border-top:3px solid var(--text);border-bottom:1px solid var(--text);height:5px;margin:2rem 0 1.25rem;background:transparent}
+.masthead-rule.bottom{margin:1.25rem 0 0}
+.header-eyebrow{font-family:var(--font-mono);font-size:.65rem;letter-spacing:.22em;color:var(--accent);text-transform:uppercase;margin-bottom:.9rem}
+.landing-header h1{font-family:var(--font-display);font-size:clamp(1.8rem,4vw,3rem);font-weight:700;color:var(--text);line-height:1.1;margin-bottom:.7rem}
+.landing-header h1 em{font-style:italic;font-weight:400;color:var(--accent)}
+.header-sub{font-family:var(--font-mono);font-size:.68rem;color:var(--text2);letter-spacing:.14em;text-transform:uppercase;margin-bottom:1.25rem}
 
-.theme-table {
-  width: 100%; border-collapse: collapse; background: #fff;
-  border-radius: 8px; overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-}
-.theme-table thead tr { background: var(--accent); }
-.theme-table th {
-  padding: 0.65rem 1rem; text-align: left; font-size: 0.8rem;
-  font-weight: 600; color: #fff; letter-spacing: 0.03em;
-}
-.theme-table th:first-child { width: 46px; text-align: center; }
-.theme-table th:nth-child(2) { width: 26%; }
+/* Unit table (landing) */
+.unit-table-wrap{max-width:700px;margin:0 auto;animation:fadeUp .7s .15s ease both}
+.unit-table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--border);border-top:3px solid var(--accent)}
+.unit-table thead tr{background:var(--accent)}
+.unit-table th{padding:.55rem .9rem;text-align:left;font-family:var(--font-mono);font-size:.62rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#fff}
+.unit-table td{padding:.6rem .9rem;border-bottom:1px solid var(--border);font-size:.9rem;vertical-align:middle}
+.unit-table tbody tr:last-child td{border-bottom:none}
+.unit-table tbody tr:hover td{background:var(--surface2)}
+.unit-no{font-family:var(--font-mono);font-weight:700;color:var(--accent);white-space:nowrap;width:90px;font-size:.78rem;letter-spacing:.04em}
+.unit-link{color:var(--text);text-decoration:none;font-weight:500;cursor:pointer;transition:color .12s}
+.unit-link:hover{color:var(--accent)}
+.unit-qcount{font-family:var(--font-mono);font-size:.65rem;color:var(--text3);margin-left:.4rem}
 
-/* theme row */
-.theme-row { cursor: pointer; }
-.theme-row td {
-  padding: 0.65rem 1rem; border-bottom: 1px solid var(--border);
-  font-size: 0.87rem; vertical-align: top;
-}
-.theme-row:hover td { background: var(--accent-light); }
-.theme-row.open td { background: var(--accent-light); border-bottom-color: var(--accent); }
-.theme-sn { text-align: center; font-weight: 600; color: var(--muted); font-size: 0.82rem; }
-.theme-icon { display: inline-block; margin-right: 0.35rem; font-size: 0.7rem; color: var(--accent); transition: transform 0.18s; }
-.theme-row.open .theme-icon { transform: rotate(90deg); }
-.theme-label { font-weight: 600; color: #111; }
-.theme-q-count { font-size: 0.7rem; color: var(--muted); margin-left: 0.3rem; font-weight: 400; }
-.topics-cell ol { margin: 0; padding-left: 1.1rem; }
-.topics-cell li { font-size: 0.8rem; color: #374151; margin-bottom: 0.12rem; line-height: 1.4; }
+/* Unit detail header */
+.unit-detail-hdr{max-width:960px;margin:2rem auto 1.5rem;padding-bottom:1rem;border-bottom:2px solid var(--border);animation:fadeUp .5s ease both}
+.unit-detail-eyebrow{font-family:var(--font-mono);font-size:.62rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:.4rem}
+.unit-detail-title{font-family:var(--font-display);font-size:1.5rem;font-weight:700;color:var(--text)}
 
-/* accordion row */
-.theme-acc-row { display: none; }
-.theme-acc-row > td {
-  padding: 0.85rem 1rem 1.1rem; background: #f6f7f9;
-  border-bottom: 2px solid var(--accent);
-}
+/* Theme table */
+.theme-table-wrap{max-width:960px;margin:0 auto}
+.theme-table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--border);border-top:3px solid var(--accent)}
+.theme-table thead tr{background:var(--accent)}
+.theme-table th{padding:.55rem .9rem;text-align:left;font-family:var(--font-mono);font-size:.62rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#fff}
+.theme-table th:first-child{width:46px;text-align:center}
+.theme-table th:nth-child(2){width:28%}
+/* theme header row */
+.theme-row{cursor:pointer;transition:background .1s}
+.theme-row td{padding:.6rem .9rem;border-bottom:1px solid var(--border);font-size:.87rem;vertical-align:top;transition:background .1s}
+.theme-row:hover td{background:var(--surface2)}
+.theme-row.open td{background:var(--accent3);border-bottom-color:var(--accent)}
+.theme-sn{text-align:center;font-family:var(--font-mono);font-size:.72rem;font-weight:600;color:var(--text3)}
+.theme-icon{display:inline-block;margin-right:.35rem;font-size:.7rem;color:var(--accent);transition:transform .18s}
+.theme-row.open .theme-icon{transform:rotate(90deg)}
+.theme-name{font-weight:600;color:var(--text)}
+.theme-qcount{font-family:var(--font-mono);font-size:.65rem;color:var(--text3);margin-left:.3rem;font-weight:400}
+.topics-cell ol{margin:0;padding-left:1.1rem}
+.topics-cell li{font-size:.78rem;color:var(--text2);margin-bottom:.1rem;line-height:1.45}
+/* accordion */
+.acc-row{display:none}
+.acc-row>td{padding:.9rem;background:#f8f4ef;border-bottom:2px solid var(--accent)}
+.qs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:.85rem}
+.no-qs{font-family:var(--font-mono);font-size:.74rem;color:var(--text3);font-style:italic;margin:.25rem 0}
 
-.qs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(430px, 1fr)); gap: 0.7rem; }
-.no-qs { color: var(--muted); font-size: 0.84rem; font-style: italic; margin: 0.2rem 0; }
-
-/* ── Question card ── */
-.q-card {
-  background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px;
-  padding: 0.85rem; border-left: 3px solid var(--accent);
+/* Question card */
+.question-card{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:var(--radius);padding:1rem 1.15rem .9rem;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.q-meta{display:flex;align-items:center;justify-content:space-between;gap:.4rem;margin-bottom:.55rem;flex-wrap:wrap}
+.q-meta-left{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap}
+.q-number{font-family:var(--font-mono);font-size:.63rem;font-weight:500;color:#fff;letter-spacing:.08em;background:var(--accent);border-radius:2px;padding:2px 7px}
+.q-year{font-family:var(--font-mono);font-size:.6rem;color:var(--text3);letter-spacing:.06em}
+.badge-disputed{background:#fee2e2;color:#b03030;font-family:var(--font-mono);font-size:.55rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:2px 7px;border-radius:var(--radius)}
+.badge-other{background:#fef9c3;color:#92400e;font-family:var(--font-mono);font-size:.55rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:2px 7px;border-radius:var(--radius)}
+.up-btn{font-family:var(--font-mono);font-size:.58rem;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border:1px solid var(--border2);border-radius:var(--radius);background:transparent;color:var(--text3);cursor:pointer;white-space:nowrap;transition:border-color .12s,color .12s}
+.up-btn:hover{border-color:var(--accent);color:var(--accent)}
+/* Language blocks */
+.lang-block{margin-bottom:.45rem;padding-bottom:.4rem;border-bottom:1px dashed var(--border)}
+.lang-block:last-of-type{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.lang-label{font-family:var(--font-mono);font-size:.55rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:var(--text3);margin-bottom:.2rem}
+/* Content */
+.q-stem{font-size:.88rem;color:var(--text);line-height:1.62;margin-bottom:.4rem}
+.statements{list-style:none;margin:.3rem 0 .6rem;display:flex;flex-direction:column;gap:.28rem}
+.statements li{font-size:.85rem;color:var(--text2);line-height:1.52;border-left:2px solid var(--border2);padding:.28rem .7rem .28rem .75rem;background:rgba(0,0,0,.018);border-radius:0 2px 2px 0}
+.ar-block{background:var(--accent3);border:1px solid rgba(234,88,12,.14);border-radius:var(--radius);padding:.5rem .75rem;margin:.3rem 0 .5rem}
+.ar-label{font-family:var(--font-mono);font-size:.55rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);margin-bottom:.18rem}
+.ar-text{font-size:.85rem;color:var(--text2);line-height:1.52}
+.match-tbl{width:100%;border-collapse:collapse;font-size:.78rem;margin:.35rem 0 .5rem;border:1px solid var(--border)}
+.match-tbl th{background:var(--bg2);color:var(--text2);padding:.28rem .5rem;font-size:.68rem;font-weight:600;border-bottom:1px solid var(--border2);font-family:var(--font-mono);text-align:left}
+.match-tbl td{padding:.28rem .5rem;border-bottom:1px solid var(--border);color:var(--text2)}
+.match-tbl tr:last-child td{border-bottom:none}
+.match-items{list-style:none;margin:.3rem 0 .5rem;display:flex;flex-direction:column;gap:.22rem}
+.match-items li{font-size:.85rem;color:var(--text2);line-height:1.45;border-left:2px solid var(--border2);padding:.22rem .65rem}
+.raw-content{font-family:var(--font-mono);font-size:.72rem;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:.55rem .75rem;white-space:pre-wrap;word-break:break-word;margin:.25rem 0}
+/* Options */
+.options{display:grid;grid-template-columns:1fr 1fr;gap:.28rem .6rem;margin-top:.6rem}
+.options.single-col{grid-template-columns:1fr}
+.option{display:flex;align-items:flex-start;gap:.4rem;font-size:.84rem;padding:.32rem .55rem;border-radius:var(--radius);border:1px solid var(--border);background:transparent;cursor:pointer;color:var(--text2);transition:border-color .12s,background .12s}
+.option:hover{border-color:var(--accent);background:var(--accent3)}
+.option.correct{border-color:var(--green);background:var(--green-bg)}
+.option.wrong{border-color:var(--red);background:var(--red-bg)}
+.opt-key{display:inline-flex;align-items:center;justify-content:center;width:1.15rem;height:1.15rem;min-width:1.15rem;border-radius:50%;font-family:var(--font-mono);font-size:.6rem;font-weight:500;margin-top:.08rem;flex-shrink:0;border:1.5px solid var(--border2);color:var(--text3);background:transparent;transition:border-color .12s,color .12s,background .12s}
+.option:hover .opt-key{border-color:var(--accent);color:var(--accent)}
+.option.correct .opt-key{border-color:var(--green);color:#fff;background:var(--green)}
+.option.wrong .opt-key{border-color:var(--red);color:#fff;background:var(--red)}
+.opt-text{line-height:1.4;color:inherit}
+.option.correct .opt-text{color:#14532d;font-weight:500}
+.option.wrong .opt-text{color:#8c2020;font-weight:500}
+.ans-row{font-size:.73rem;margin-top:.35rem;color:var(--text3);font-family:var(--font-mono)}
+.ans-row .ans-key{color:var(--green);font-weight:600}
+.ans-row .omitted{color:var(--text3)}
+.card-answered .option.correct{border-color:var(--green)!important;background:var(--green-bg)!important}
+.card-answered .option.correct .opt-key{border-color:var(--green)!important;color:#fff!important;background:var(--green)!important}
+.card-answered .option.correct .opt-text{color:#14532d!important;font-weight:500!important}
+/* Footer */
+.site-footer{max-width:960px;margin:3rem auto 0;padding:1rem 0;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;font-family:var(--font-mono);font-size:.6rem;letter-spacing:.08em;color:var(--text3)}
+.site-footer a{color:var(--accent);text-decoration:none}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:720px){
+  .qs-grid{grid-template-columns:1fr}
+  .options{grid-template-columns:1fr}
+  .landing-header h1{font-size:1.7rem}
 }
-.q-card-head {
-  display: flex; align-items: flex-start; justify-content: space-between;
-  gap: 0.5rem; margin-bottom: 0.55rem;
-}
-.q-card-left { display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap; }
-.q-num {
-  font-family: monospace; font-size: 0.7rem; font-weight: 700;
-  background: var(--accent-light); color: var(--accent); padding: 0.1rem 0.4rem; border-radius: 3px;
-}
-.badge-disputed { background: #fee2e2; color: #dc2626; font-size: 0.63rem; font-weight: 700; padding: 0.1rem 0.4rem; border-radius: 3px; }
-.badge-other    { background: #fef9c3; color: #ca8a04;  font-size: 0.63rem; font-weight: 700; padding: 0.1rem 0.4rem; border-radius: 3px; }
-.q-card-right { display: flex; align-items: center; gap: 0.35rem; flex-shrink: 0; }
-.year-badge { font-size: 0.7rem; color: var(--muted); font-family: monospace; white-space: nowrap; }
-.up-btn {
-  font-size: 0.66rem; border: 1px solid var(--border); background: #fff;
-  border-radius: 3px; padding: 0.13rem 0.38rem; cursor: pointer;
-  color: var(--accent); white-space: nowrap;
-}
-.up-btn:hover { background: var(--accent-light); border-color: var(--accent); }
-
-/* question body */
-.lang-block  { margin-bottom: 0.45rem; }
-.lang-label  { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 0.18rem; font-weight: 700; }
-.q-stem      { font-size: 0.85rem; margin: 0 0 0.38rem; line-height: 1.52; color: #111; }
-.stmts       { list-style: none; padding: 0; margin: 0 0 0.38rem; }
-.stmts li    { font-size: 0.82rem; padding: 0.16rem 0 0.16rem 0.65rem; border-left: 2px solid var(--border); margin-bottom: 0.16rem; line-height: 1.45; }
-.ar-block    { background: #f3f4f6; border-radius: 4px; padding: 0.42rem 0.62rem; margin-bottom: 0.32rem; }
-.ar-lbl      { font-size: 0.66rem; font-weight: 700; color: var(--muted); margin-bottom: 0.12rem; }
-.ar-txt      { font-size: 0.82rem; }
-.match-tbl   { width: 100%; border-collapse: collapse; font-size: 0.79rem; margin-bottom: 0.38rem; }
-.match-tbl td, .match-tbl th { padding: 0.16rem 0.42rem; border: 1px solid var(--border); }
-.match-tbl thead td { background: #f3f4f6; font-weight: 600; font-size: 0.73rem; }
-.match-items { list-style: none; padding: 0; margin: 0 0 0.38rem; }
-.match-items li { font-size: 0.8rem; margin-bottom: 0.16rem; padding-left: 0.65rem; border-left: 2px solid var(--border); line-height: 1.4; }
-.raw-content { font-family: monospace; font-size: 0.74rem; background: #f9fafb; padding: 0.42rem; border-radius: 4px; white-space: pre-wrap; word-break: break-word; }
-
-/* options */
-.opts-grid   { display: grid; gap: 0.22rem; margin-top: 0.38rem; }
-.opts-2col   { grid-template-columns: 1fr 1fr; }
-.opts-1col   { grid-template-columns: 1fr; }
-.opt         { display: flex; align-items: flex-start; gap: 0.32rem; border: 1px solid var(--border); border-radius: 4px; padding: 0.22rem 0.42rem; }
-.opt.correct { border-color: var(--correct); background: #f0fdf4; }
-.opt-key     { font-family: monospace; font-size: 0.68rem; font-weight: 700; min-width: 1.05rem; height: 1.05rem; display: flex; align-items: center; justify-content: center; border-radius: 3px; background: #f3f4f6; flex-shrink: 0; }
-.opt.correct .opt-key { background: var(--correct); color: #fff; }
-.opt-txt     { font-size: 0.8rem; line-height: 1.4; }
-.ans-row     { font-size: 0.73rem; margin-top: 0.32rem; color: var(--muted); }
-.ans-row .ans-key { color: var(--correct); font-weight: 700; }
-.ans-row .omitted { color: var(--muted); }
 </style>
 </head>
 <body>
 
-<header class="app-header">
-  <button class="back-btn" id="back-btn" style="display:none" onclick="showLanding()">&#8592; Units</button>
-  <h1 id="hdr-title">TNPSC PYQs</h1>
-  <div class="lang-toggle">
-    <button class="lang-btn active" onclick="setLang('en')">English</button>
-    <button class="lang-btn"        onclick="setLang('ta')">Tamil</button>
-    <button class="lang-btn"        onclick="setLang('both')">Both</button>
-  </div>
-</header>
+<div class="top-bar">
+  <span>Free to use &amp; share &nbsp;&middot;&nbsp; TNPSC Prelims PYQs &nbsp;&middot;&nbsp; Syllabus View</span>
+  <span>Queries &rarr; <a href="mailto:upsc.ai.stack@gmail.com">upsc.ai.stack@gmail.com</a></span>
+</div>
 
-<!-- ── Landing: unit table ── -->
-<div id="page-landing">
-  <div style="max-width:700px;margin:2.5rem auto;padding:0 1rem">
-    <p class="page-heading">Units</p>
-    <table class="unit-table">
-      <thead><tr><th>Unit No.</th><th>Unit Name</th></tr></thead>
-      <tbody id="landing-tbody"></tbody>
-    </table>
+<div class="nav-bar">
+  <button class="nav-back" id="nav-back" style="display:none" onclick="showLanding()">&#8592; Units</button>
+  <span class="nav-title" id="nav-title">TNPSC Prelims &middot; Syllabus View</span>
+  <div style="display:flex;gap:.25rem">
+    <button class="lang-btn active" data-lang="en" onclick="setLang('en')">English</button>
+    <button class="lang-btn" data-lang="ta" onclick="setLang('ta')">Tamil</button>
+    <button class="lang-btn" data-lang="both" onclick="setLang('both')">Both</button>
   </div>
 </div>
 
-<!-- ── Unit detail: theme table + accordions ── -->
-<div id="page-unit">
-  <p class="unit-view-title" id="unit-view-title"></p>
-  <table class="theme-table" id="theme-table">
-    <thead><tr><th>#</th><th>Theme</th><th>Topics</th></tr></thead>
-    <tbody id="theme-tbody"></tbody>
-  </table>
+<!-- Landing -->
+<div id="page-landing">
+  <div class="page-shell">
+    <div class="landing-header">
+      <hr class="masthead-rule">
+      <div class="header-eyebrow">Tamil Nadu Public Service Commission</div>
+      <h1>TNPSC Prelims &middot; <em>Syllabus View</em></h1>
+      <div class="header-sub">Browse questions by syllabus unit &amp; theme</div>
+      <hr class="masthead-rule bottom">
+    </div>
+    <div class="unit-table-wrap">
+      <table class="unit-table">
+        <thead><tr><th>Unit</th><th>Name</th></tr></thead>
+        <tbody id="landing-tbody"></tbody>
+      </table>
+    </div>
+    <footer class="site-footer" style="max-width:700px">
+      <span>Free to use &amp; share &nbsp;&middot;&nbsp; TNPSC Prelims PYQs</span>
+      <span><a href="mailto:upsc.ai.stack@gmail.com">upsc.ai.stack@gmail.com</a></span>
+    </footer>
+  </div>
+</div>
+
+<!-- Unit detail -->
+<div id="page-unit" style="display:none">
+  <div class="page-shell">
+    <div class="unit-detail-hdr">
+      <div class="unit-detail-eyebrow" id="unit-eyebrow"></div>
+      <div class="unit-detail-title" id="unit-title"></div>
+    </div>
+    <div class="theme-table-wrap">
+      <table class="theme-table">
+        <thead><tr><th>#</th><th>Theme</th><th>Topics</th></tr></thead>
+        <tbody id="theme-tbody"></tbody>
+      </table>
+    </div>
+    <footer class="site-footer">
+      <span>Free to use &amp; share &nbsp;&middot;&nbsp; TNPSC Prelims PYQs</span>
+      <span><a href="mailto:upsc.ai.stack@gmail.com">upsc.ai.stack@gmail.com</a></span>
+    </footer>
+  </div>
 </div>
 
 <script>
 const QUESTIONS = __QUESTIONS_DATA__;
 const SYLLABUS  = __SYLLABUS_DATA__;
-
-const ROMAN    = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
-const PT_LABEL = { gs:'GS', en:'EN', ta:'TA' };
+const QUESTION_MAP = new Map(QUESTIONS.map(q=>[q.id,q]));
+const PT_LABELS = {gs:'GS',en:'EN',ta:'TA'};
+const ROMAN = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
 
 let _lang        = 'en';
 let _currentUnit = null;
 let _openThemes  = new Set();
 
-// Index: "unitId||theme" → sorted question array
+// Index: "unitId||theme" → sorted array
 const byUnitTheme = {};
-QUESTIONS.forEach(q => {
-  const k = `${q.unit_id}||${q.theme}`;
-  (byUnitTheme[k] = byUnitTheme[k] || []).push(q);
+QUESTIONS.forEach(q=>{
+  const k=`${q.unit_id}||${q.theme}`;
+  (byUnitTheme[k]=byUnitTheme[k]||[]).push(q);
 });
-Object.values(byUnitTheme).forEach(arr =>
-  arr.sort((a, b) => b.year - a.year || a.group.localeCompare(b.group) || a.question_no - b.question_no)
+Object.values(byUnitTheme).forEach(arr=>
+  arr.sort((a,b)=>b.year-a.year||a.group.localeCompare(b.group)||a.question_no-b.question_no)
 );
 
-// ── Utilities ──
-function esc(s) {
-  return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function esc(s){return String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function setDOM(el,html){while(el.firstChild)el.removeChild(el.firstChild);el.appendChild(document.createRange().createContextualFragment(html));}
+
+function optText(o){
+  if(o.mapping) return Object.entries(o.mapping).map(([k,v])=>`${k}→${v}`).join(', ');
+  return esc(o.text||'');
 }
-function optsLayout(opts) {
-  return opts.every(o => (o.mapping ? Object.values(o.mapping).join('').length : (o.text||'').length) <= 42)
-    ? 'opts-2col' : 'opts-1col';
+function optLayout(opts){
+  const allShort=opts.every(o=>o.mapping?Object.entries(o.mapping).map(([k,v])=>`${k}=${v}`).join(', ').length<=50:(o.text||'').length<=45);
+  return allShort?'':'single-col';
 }
-function renderAnswerRow(ak) {
-  if (!ak) return '';
-  if (ak === 'X') return `<div class="ans-row"><span class="omitted">&#8856; Omitted / Disputed</span></div>`;
-  return `<div class="ans-row">Answer: <span class="ans-key">${ak}</span></div>`;
+function renderOpts(opts,ak){
+  const layout=optLayout(opts);
+  return `<div class="options ${layout}">`+opts.map(o=>{
+    const correct=ak&&ak!=='X'&&o.key===ak;
+    return `<div class="option${correct?' correct':''}" data-key="${esc(o.key)}"><span class="opt-key">${esc(o.key)}</span><span class="opt-text">${optText(o)}</span></div>`;
+  }).join('')+'</div>';
 }
-
-// ── Render one language block ──
-function renderBlock(block, type, ak) {
-  if (!block) return '';
-  if (type === 'other') return `<div class="raw-content">${esc(block.raw_content||'')}</div>`;
-
-  let h = '';
-  const opts = block.options || [];
-
-  if (type === 'simple_mcq') {
-    h += `<p class="q-stem">${esc(block.stem||'')}</p>`;
-
-  } else if (type === 'statement_mcq') {
-    h += `<p class="q-stem">${esc(block.stem||'')}</p>`;
-    h += `<ul class="stmts">${(block.statements||[]).map(s=>`<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('')}</ul>`;
-
-  } else if (type === 'match_the_following') {
-    h += `<p class="q-stem">${esc(block.stem||'')}</p>`;
-    if (block.match_style === 'tabular') {
-      const lc = block.left_column  || [];
-      const rc = block.right_column || [];
-      const rows = Array.from({length: Math.max(lc.length, rc.length)}, (_,i) => {
-        const l = lc[i], r = rc[i];
-        return `<tr><td>${l?esc(l.key):''}</td><td>${l?esc(l.text):''}</td><td>${r?esc(r.no):''}</td><td>${r?esc(r.text):''}</td></tr>`;
-      }).join('');
-      h += `<table class="match-tbl"><thead><tr><td colspan="2">List I</td><td colspan="2">List II</td></tr></thead><tbody>${rows}</tbody></table>`;
+function renderAnsRow(ak){
+  if(!ak) return '';
+  if(ak==='X') return `<div class="ans-row"><span class="omitted">⊘ Omitted / Disputed</span></div>`;
+  return `<div class="ans-row">Answer: <span class="ans-key">${esc(ak)}</span></div>`;
+}
+function renderBlock(block,type,ak){
+  if(!block) return '';
+  if(type==='other') return `<div class="raw-content">${esc(block.raw_content||'')}</div>`;
+  let h='';
+  const opts=block.options||[];
+  if(type==='simple_mcq'){
+    h+=`<p class="q-stem">${esc(block.stem||'')}</p>`;
+  } else if(type==='statement_mcq'){
+    h+=`<p class="q-stem">${esc(block.stem||'')}</p>`;
+    h+=`<ul class="statements">${(block.statements||[]).map(s=>`<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('')}</ul>`;
+  } else if(type==='match_the_following'){
+    h+=`<p class="q-stem">${esc(block.stem||'')}</p>`;
+    if(block.match_style==='tabular'){
+      const lc=block.left_column||[],rc=block.right_column||[];
+      let rows='';
+      for(let i=0;i<Math.max(lc.length,rc.length);i++){
+        const l=lc[i],r=rc[i];
+        rows+=`<tr><td>${l?esc(l.key):''}</td><td>${l?esc(l.text):''}</td><td>${r?esc(r.no):''}</td><td>${r?esc(r.text):''}</td></tr>`;
+      }
+      h+=`<table class="match-tbl"><thead><tr><th colspan="2">List I</th><th colspan="2">List II</th></tr></thead><tbody>${rows}</tbody></table>`;
     } else {
-      h += `<ul class="match-items">${(block.items||[]).map(s=>`<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('')}</ul>`;
+      h+=`<ul class="match-items">${(block.items||[]).map(s=>`<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('')}</ul>`;
     }
-
-  } else if (type === 'assertion_reason') {
-    h += `<div class="ar-block"><div class="ar-lbl">Assertion [A]</div><div class="ar-txt">${esc(block.assertion||'')}</div></div>`;
-    h += `<div class="ar-block"><div class="ar-lbl">Reason [R]</div><div class="ar-txt">${esc(block.reason||'')}</div></div>`;
-
-  } else if (type === 'chronological_order') {
-    h += `<p class="q-stem">${esc(block.stem||'')}</p>`;
-    h += `<ul class="stmts">${(block.items||[]).map(s=>`<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('')}</ul>`;
+  } else if(type==='assertion_reason'){
+    h+=`<div class="ar-block"><div class="ar-label">Assertion [A]</div><div class="ar-text">${esc(block.assertion||'')}</div></div>`;
+    h+=`<div class="ar-block"><div class="ar-label">Reason [R]</div><div class="ar-text">${esc(block.reason||'')}</div></div>`;
+  } else if(type==='chronological_order'){
+    h+=`<p class="q-stem">${esc(block.stem||'')}</p>`;
+    h+=`<ul class="statements">${(block.items||[]).map(s=>`<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('')}</ul>`;
   }
-
-  if (opts.length) {
-    const layout = optsLayout(opts);
-    const optHtml = opts.map(o => {
-      const correct = ak && ak !== 'X' && o.key === ak;
-      const txt = o.mapping
-        ? Object.entries(o.mapping).map(([k,v])=>`${k}&#8594;${v}`).join(', ')
-        : esc(o.text||'');
-      return `<div class="opt${correct?' correct':''}"><span class="opt-key">${o.key}</span><span class="opt-txt">${txt}</span></div>`;
-    }).join('');
-    h += `<div class="opts-grid ${layout}">${optHtml}</div>`;
-  }
+  if(opts.length) h+=renderOpts(opts,ak);
   return h;
 }
 
-// ── Render question card ──
-function renderCard(q, themeIdx) {
-  let lm = `<span class="q-num">Q&nbsp;${q.question_no}</span>`;
-  if (q.disputed) lm += `<span class="badge-disputed">DISPUTED</span>`;
-  if (q.question_type === 'other') lm += `<span class="badge-other">&#9888; UNCLASSIFIED</span>`;
-
-  const right = `
-    <span class="year-badge">${q.year}&nbsp;&middot;&nbsp;${q.group}&nbsp;&middot;&nbsp;${PT_LABEL[q.paper_type]||q.paper_type}</span>
-    <button class="up-btn" onclick="backToTable(${themeIdx})">&#8593;&nbsp;Table</button>
-  `;
-
-  let body = '';
-  if (_lang === 'both') {
-    if (q.en) body += `<div class="lang-block"><div class="lang-label">English</div>${renderBlock(q.en, q.question_type, q.answer_key)}</div>`;
-    if (q.ta) body += `<div class="lang-block"><div class="lang-label">Tamil</div>${renderBlock(q.ta, q.question_type, q.answer_key)}</div>`;
-  } else if (_lang === 'ta') {
-    body += renderBlock(q.ta || q.en, q.question_type, q.answer_key);
+function renderCard(q,themeIdx){
+  const type=q.question_type,ak=q.answer_key;
+  let left=`<span class="q-number">Q&nbsp;${q.question_no}</span>`;
+  if(q.disputed) left+=`<span class="badge-disputed">Disputed</span>`;
+  if(type==='other') left+=`<span class="badge-other">&#9888; Unclassified</span>`;
+  const right=`<span class="q-year">${q.year}&nbsp;&middot;&nbsp;${q.group}&nbsp;&middot;&nbsp;${PT_LABELS[q.paper_type]||q.paper_type}</span>
+    <button class="up-btn" onclick="backToTable(${themeIdx})">&#8593;&nbsp;Table</button>`;
+  let body='';
+  if(_lang==='both'){
+    if(q.en) body+=`<div class="lang-block"><div class="lang-label">English</div>${renderBlock(q.en,type,ak)}</div>`;
+    if(q.ta) body+=`<div class="lang-block"><div class="lang-label">Tamil</div>${renderBlock(q.ta,type,ak)}</div>`;
+    if(!q.en&&!q.ta) body+=renderBlock(null,type,ak);
+  } else if(_lang==='ta'){
+    body+=renderBlock(q.ta||q.en,type,ak);
   } else {
-    body += renderBlock(q.en || q.ta, q.question_type, q.answer_key);
+    body+=renderBlock(q.en||q.ta,type,ak);
   }
-  body += renderAnswerRow(q.answer_key);
-
-  return `
-    <div class="q-card">
-      <div class="q-card-head">
-        <div class="q-card-left">${lm}</div>
-        <div class="q-card-right">${right}</div>
-      </div>
-      ${body}
-    </div>`;
+  body+=renderAnsRow(ak);
+  return `<div class="question-card" data-id="${esc(q.id)}">
+    <div class="q-meta"><div class="q-meta-left">${left}</div><div style="display:flex;align-items:center;gap:.3rem">${right}</div></div>
+    ${body}</div>`;
 }
 
-// ── Render landing unit table ──
-function renderLanding() {
-  const tbody = document.getElementById('landing-tbody');
-  tbody.innerHTML = '';
-  SYLLABUS.units.forEach(u => {
-    const count = QUESTIONS.filter(q => q.unit_id === u.unit).length;
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td class="unit-no">Unit&nbsp;${ROMAN[u.unit - 1]}</td>
-      <td>
-        <a class="unit-name-link" onclick="showUnit(${u.unit})">${esc(u.name)}</a>
-        ${count ? `<span class="unit-q-count">(${count} questions)</span>` : ''}
-      </td>`;
+function attachCardHandlers(container){
+  container.querySelectorAll('.question-card').forEach(card=>{
+    const q=QUESTION_MAP.get(card.dataset.id);
+    if(!q||!q.answer_key||q.answer_key==='X') return;
+    card.querySelectorAll('.option').forEach(el=>{
+      el.addEventListener('click',()=>{
+        if(card.classList.contains('card-answered')) return;
+        card.classList.add('card-answered');
+        const key=el.dataset.key;
+        card.querySelectorAll('.option').forEach(opt=>{
+          const k=opt.dataset.key,ok=opt.querySelector('.opt-key');
+          if(k===q.answer_key){opt.classList.add('correct');ok.textContent='✓';}
+          if(k===key&&k!==q.answer_key){opt.classList.add('wrong');ok.textContent='✗';}
+        });
+      });
+    });
+  });
+}
+
+function renderLanding(){
+  const tbody=document.getElementById('landing-tbody');
+  tbody.textContent='';
+  SYLLABUS.units.forEach(u=>{
+    const count=QUESTIONS.filter(q=>q.unit_id===u.unit).length;
+    const tr=document.createElement('tr');
+    tr.innerHTML=`<td class="unit-no">Unit&nbsp;${ROMAN[u.unit-1]||u.unit}</td>
+      <td><a class="unit-link" onclick="showUnit(${u.unit})">${esc(u.name)}</a>${count?`<span class="unit-qcount">(${count})</span>`:''}</td>`;
     tbody.appendChild(tr);
   });
 }
 
-// ── Render unit detail view ──
-function renderUnit(unitNo) {
-  const unit = SYLLABUS.units.find(u => u.unit === unitNo);
-  document.getElementById('unit-view-title').textContent =
-    `Unit ${ROMAN[unitNo - 1]} — ${unit.name}`;
-
-  const tbody = document.getElementById('theme-tbody');
-  tbody.innerHTML = '';
-
-  unit.themes.forEach((theme, idx) => {
-    const ti     = idx + 1;
-    const key    = `${unitNo}||${theme.theme}`;
-    const qs     = byUnitTheme[key] || [];
-    const isOpen = _openThemes.has(ti);
-
-    const topicsHtml = theme.topics.map((t,i) => `<li>${esc(t.topic_name)}</li>`).join('');
-
-    // Theme header row
-    const tr = document.createElement('tr');
-    tr.className = 'theme-row' + (isOpen ? ' open' : '');
-    tr.id = `theme-row-${ti}`;
-    tr.innerHTML = `
-      <td class="theme-sn">${ti}</td>
-      <td>
-        <span class="theme-icon">&#9654;</span>
-        <span class="theme-label">${esc(theme.theme)}</span>
-        ${qs.length ? `<span class="theme-q-count">(${qs.length})</span>` : ''}
-      </td>
+function renderUnit(unitNo){
+  const unit=SYLLABUS.units.find(u=>u.unit===unitNo);
+  if(!unit) return;
+  document.getElementById('unit-eyebrow').textContent=`Unit ${ROMAN[unitNo-1]||unitNo}`;
+  document.getElementById('unit-title').textContent=unit.name;
+  const tbody=document.getElementById('theme-tbody');
+  tbody.textContent='';
+  unit.themes.forEach((theme,idx)=>{
+    const ti=idx+1;
+    const key=`${unitNo}||${theme.theme}`;
+    const qs=byUnitTheme[key]||[];
+    const isOpen=_openThemes.has(ti);
+    const topicsHtml=(theme.topics||[]).map(t=>`<li>${esc(t.topic_name)}</li>`).join('');
+    const tr=document.createElement('tr');
+    tr.className='theme-row'+(isOpen?' open':'');
+    tr.id=`theme-row-${ti}`;
+    tr.innerHTML=`<td class="theme-sn">${ti}</td>
+      <td><span class="theme-icon">&#9654;</span><span class="theme-name">${esc(theme.theme)}</span>${qs.length?`<span class="theme-qcount">(${qs.length})</span>`:''}</td>
       <td class="topics-cell"><ol>${topicsHtml}</ol></td>`;
-    tr.onclick = () => toggleTheme(ti);
+    tr.onclick=()=>toggleTheme(ti);
     tbody.appendChild(tr);
-
-    // Accordion row
-    const atr = document.createElement('tr');
-    atr.className = 'theme-acc-row';
-    atr.id = `theme-acc-${ti}`;
-    atr.style.display = isOpen ? '' : 'none';
-
-    const cardsHtml = qs.length
-      ? `<div class="qs-grid">${qs.map(q => renderCard(q, ti)).join('')}</div>`
-      : `<p class="no-qs">No questions available for this theme yet.</p>`;
-
-    atr.innerHTML = `<td colspan="3">${cardsHtml}</td>`;
+    const atr=document.createElement('tr');
+    atr.className='acc-row';atr.id=`acc-${ti}`;
+    atr.style.display=isOpen?'':'none';
+    const cardsHtml=qs.length
+      ?`<div class="qs-grid">${qs.map(q=>renderCard(q,ti)).join('')}</div>`
+      :`<p class="no-qs">No questions available for this theme yet.</p>`;
+    atr.innerHTML=`<td colspan="3">${cardsHtml}</td>`;
     tbody.appendChild(atr);
+    if(isOpen){
+      const cell=atr.querySelector('td');
+      if(cell) attachCardHandlers(cell);
+    }
   });
-
-  if (window.MathJax) MathJax.typesetPromise?.();
 }
 
-// ── Navigation ──
-function showUnit(unitNo) {
-  _currentUnit = unitNo;
+function showUnit(unitNo){
+  _currentUnit=unitNo;
   _openThemes.clear();
   renderUnit(unitNo);
-  document.getElementById('page-landing').style.display = 'none';
-  document.getElementById('page-unit').style.display   = '';
-  document.getElementById('back-btn').style.display    = '';
-  document.getElementById('hdr-title').textContent     = 'TNPSC PYQs';
-  window.scrollTo(0, 0);
+  document.getElementById('page-landing').style.display='none';
+  document.getElementById('page-unit').style.display='';
+  document.getElementById('nav-back').style.display='';
+  document.getElementById('nav-title').textContent='TNPSC Prelims · Syllabus View';
+  window.scrollTo(0,0);
 }
-
-function showLanding() {
-  _currentUnit = null;
-  _openThemes.clear();
-  document.getElementById('page-landing').style.display = '';
-  document.getElementById('page-unit').style.display    = 'none';
-  document.getElementById('back-btn').style.display     = 'none';
+function showLanding(){
+  _currentUnit=null;_openThemes.clear();
+  document.getElementById('page-landing').style.display='';
+  document.getElementById('page-unit').style.display='none';
+  document.getElementById('nav-back').style.display='none';
 }
-
-// ── Accordion toggle ──
-function toggleTheme(ti) {
-  const accRow   = document.getElementById(`theme-acc-${ti}`);
-  const themeRow = document.getElementById(`theme-row-${ti}`);
-  if (_openThemes.has(ti)) {
-    accRow.style.display = 'none';
-    themeRow.classList.remove('open');
-    _openThemes.delete(ti);
+function toggleTheme(ti){
+  const accRow=document.getElementById(`acc-${ti}`);
+  const themeRow=document.getElementById(`theme-row-${ti}`);
+  if(_openThemes.has(ti)){
+    accRow.style.display='none';themeRow.classList.remove('open');_openThemes.delete(ti);
   } else {
-    accRow.style.display = '';
-    themeRow.classList.add('open');
-    _openThemes.add(ti);
-    if (window.MathJax) MathJax.typesetPromise?.([accRow]);
+    accRow.style.display='';themeRow.classList.add('open');_openThemes.add(ti);
+    const cell=accRow.querySelector('td');
+    if(cell) attachCardHandlers(cell);
   }
 }
-
-// ── Back to table ──
-function backToTable(ti) {
-  const row = document.getElementById(`theme-row-${ti}`);
-  if (row) row.scrollIntoView({ behavior: 'smooth', block: 'start' });
+function backToTable(ti){
+  const row=document.getElementById(`theme-row-${ti}`);
+  if(row) row.scrollIntoView({behavior:'smooth',block:'start'});
+}
+function setLang(l){
+  _lang=l;
+  document.querySelectorAll('.lang-btn').forEach(b=>b.classList.toggle('active',b.dataset.lang===l));
+  if(_currentUnit) renderUnit(_currentUnit);
 }
 
-// ── Language toggle ──
-function setLang(l) {
-  _lang = l;
-  document.querySelectorAll('.lang-btn').forEach((b, i) =>
-    b.classList.toggle('active', ['en','ta','both'][i] === l)
-  );
-  if (_currentUnit) {
-    renderUnit(_currentUnit); // _openThemes preserved → accordions stay open
-  }
-}
-
-// ── Boot ──
 renderLanding();
 </script>
 </body>
