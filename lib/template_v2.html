@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TNPSC PYQs — Syllabus View</title>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+<style>
+:root {
+  --accent: #e05a00;
+  --accent-light: #fff3ed;
+  --correct: #16a34a;
+  --wrong: #dc2626;
+  --border: #e5e7eb;
+  --muted: #6b7280;
+  --body-bg: #f9fafb;
+  --card-bg: #fff;
+  font-family: system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+body { background: var(--body-bg); margin: 0; padding: 0; }
+
+/* ── Header ── */
+.app-header {
+  background: #fff; border-bottom: 1px solid var(--border);
+  padding: 0.7rem 1.5rem; display: flex; align-items: center;
+  gap: 0.75rem; position: sticky; top: 0; z-index: 100;
+}
+.app-header h1 { margin: 0; font-size: 1.05rem; color: var(--accent); flex: 1; }
+.back-btn {
+  background: none; border: 1px solid var(--border); border-radius: 4px;
+  padding: 0.28rem 0.65rem; cursor: pointer; font-size: 0.83rem; color: #374151;
+}
+.back-btn:hover { background: var(--accent-light); border-color: var(--accent); color: var(--accent); }
+.lang-toggle { display: flex; gap: 0.2rem; }
+.lang-btn {
+  border: 1px solid var(--border); background: #fff; cursor: pointer;
+  padding: 0.28rem 0.65rem; border-radius: 4px; font-size: 0.8rem;
+}
+.lang-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* ── Landing ── */
+#page-landing { max-width: 700px; margin: 2.5rem auto; padding: 0 1rem; }
+.page-heading { font-size: 1.3rem; font-weight: 700; color: #111; margin: 0 0 1.25rem; }
+
+.unit-table {
+  width: 100%; border-collapse: collapse; background: #fff;
+  border-radius: 8px; overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.unit-table thead tr { background: var(--accent); }
+.unit-table th {
+  padding: 0.7rem 1.1rem; text-align: left; font-size: 0.82rem;
+  font-weight: 600; color: #fff; letter-spacing: 0.03em;
+}
+.unit-table td { padding: 0.7rem 1.1rem; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+.unit-table tbody tr:last-child td { border-bottom: none; }
+.unit-table tbody tr:hover td { background: var(--accent-light); }
+.unit-no {
+  font-family: 'Georgia', serif; font-weight: 700; color: var(--accent);
+  white-space: nowrap; width: 110px; vertical-align: middle;
+}
+.unit-name-link {
+  color: #111; text-decoration: none; font-weight: 500; cursor: pointer;
+}
+.unit-name-link:hover { color: var(--accent); text-decoration: underline; }
+.unit-q-count { font-size: 0.75rem; color: var(--muted); margin-left: 0.5rem; }
+
+/* ── Unit detail ── */
+#page-unit { display: none; max-width: 1150px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+.unit-view-title { font-size: 1.2rem; font-weight: 700; color: #111; margin: 0 0 1.1rem; }
+
+.theme-table {
+  width: 100%; border-collapse: collapse; background: #fff;
+  border-radius: 8px; overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.theme-table thead tr { background: var(--accent); }
+.theme-table th {
+  padding: 0.65rem 1rem; text-align: left; font-size: 0.8rem;
+  font-weight: 600; color: #fff; letter-spacing: 0.03em;
+}
+.theme-table th:first-child { width: 46px; text-align: center; }
+.theme-table th:nth-child(2) { width: 26%; }
+
+/* theme row */
+.theme-row { cursor: pointer; }
+.theme-row td {
+  padding: 0.65rem 1rem; border-bottom: 1px solid var(--border);
+  font-size: 0.87rem; vertical-align: top;
+}
+.theme-row:hover td { background: var(--accent-light); }
+.theme-row.open td { background: var(--accent-light); border-bottom-color: var(--accent); }
+.theme-sn { text-align: center; font-weight: 600; color: var(--muted); font-size: 0.82rem; }
+.theme-icon { display: inline-block; margin-right: 0.35rem; font-size: 0.7rem; color: var(--accent); transition: transform 0.18s; }
+.theme-row.open .theme-icon { transform: rotate(90deg); }
+.theme-label { font-weight: 600; color: #111; }
+.theme-q-count { font-size: 0.7rem; color: var(--muted); margin-left: 0.3rem; font-weight: 400; }
+.topics-cell ol { margin: 0; padding-left: 1.1rem; }
+.topics-cell li { font-size: 0.8rem; color: #374151; margin-bottom: 0.12rem; line-height: 1.4; }
+
+/* accordion row */
+.theme-acc-row { display: none; }
+.theme-acc-row > td {
+  padding: 0.85rem 1rem 1.1rem; background: #f6f7f9;
+  border-bottom: 2px solid var(--accent);
+}
+
+.qs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(430px, 1fr)); gap: 0.7rem; }
+.no-qs { color: var(--muted); font-size: 0.84rem; font-style: italic; margin: 0.2rem 0; }
+
+/* ── Question card ── */
+.q-card {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px;
+  padding: 0.85rem; border-left: 3px solid var(--accent);
+}
+.q-card-head {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 0.5rem; margin-bottom: 0.55rem;
+}
+.q-card-left { display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap; }
+.q-num {
+  font-family: monospace; font-size: 0.7rem; font-weight: 700;
+  background: var(--accent-light); color: var(--accent); padding: 0.1rem 0.4rem; border-radius: 3px;
+}
+.badge-disputed { background: #fee2e2; color: #dc2626; font-size: 0.63rem; font-weight: 700; padding: 0.1rem 0.4rem; border-radius: 3px; }
+.badge-other    { background: #fef9c3; color: #ca8a04;  font-size: 0.63rem; font-weight: 700; padding: 0.1rem 0.4rem; border-radius: 3px; }
+.q-card-right { display: flex; align-items: center; gap: 0.35rem; flex-shrink: 0; }
+.year-badge { font-size: 0.7rem; color: var(--muted); font-family: monospace; white-space: nowrap; }
+.up-btn {
+  font-size: 0.66rem; border: 1px solid var(--border); background: #fff;
+  border-radius: 3px; padding: 0.13rem 0.38rem; cursor: pointer;
+  color: var(--accent); white-space: nowrap;
+}
+.up-btn:hover { background: var(--accent-light); border-color: var(--accent); }
+
+/* question body */
+.lang-block  { margin-bottom: 0.45rem; }
+.lang-label  { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 0.18rem; font-weight: 700; }
+.q-stem      { font-size: 0.85rem; margin: 0 0 0.38rem; line-height: 1.52; color: #111; }
+.stmts       { list-style: none; padding: 0; margin: 0 0 0.38rem; }
+.stmts li    { font-size: 0.82rem; padding: 0.16rem 0 0.16rem 0.65rem; border-left: 2px solid var(--border); margin-bottom: 0.16rem; line-height: 1.45; }
+.ar-block    { background: #f3f4f6; border-radius: 4px; padding: 0.42rem 0.62rem; margin-bottom: 0.32rem; }
+.ar-lbl      { font-size: 0.66rem; font-weight: 700; color: var(--muted); margin-bottom: 0.12rem; }
+.ar-txt      { font-size: 0.82rem; }
+.match-tbl   { width: 100%; border-collapse: collapse; font-size: 0.79rem; margin-bottom: 0.38rem; }
+.match-tbl td, .match-tbl th { padding: 0.16rem 0.42rem; border: 1px solid var(--border); }
+.match-tbl thead td { background: #f3f4f6; font-weight: 600; font-size: 0.73rem; }
+.match-items { list-style: none; padding: 0; margin: 0 0 0.38rem; }
+.match-items li { font-size: 0.8rem; margin-bottom: 0.16rem; padding-left: 0.65rem; border-left: 2px solid var(--border); line-height: 1.4; }
+.raw-content { font-family: monospace; font-size: 0.74rem; background: #f9fafb; padding: 0.42rem; border-radius: 4px; white-space: pre-wrap; word-break: break-word; }
+
+/* options */
+.opts-grid   { display: grid; gap: 0.22rem; margin-top: 0.38rem; }
+.opts-2col   { grid-template-columns: 1fr 1fr; }
+.opts-1col   { grid-template-columns: 1fr; }
+.opt         { display: flex; align-items: flex-start; gap: 0.32rem; border: 1px solid var(--border); border-radius: 4px; padding: 0.22rem 0.42rem; }
+.opt.correct { border-color: var(--correct); background: #f0fdf4; }
+.opt-key     { font-family: monospace; font-size: 0.68rem; font-weight: 700; min-width: 1.05rem; height: 1.05rem; display: flex; align-items: center; justify-content: center; border-radius: 3px; background: #f3f4f6; flex-shrink: 0; }
+.opt.correct .opt-key { background: var(--correct); color: #fff; }
+.opt-txt     { font-size: 0.8rem; line-height: 1.4; }
+.ans-row     { font-size: 0.73rem; margin-top: 0.32rem; color: var(--muted); }
+.ans-row .ans-key { color: var(--correct); font-weight: 700; }
+.ans-row .omitted { color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <button class="back-btn" id="back-btn" style="display:none" onclick="showLanding()">&#8592; Units</button>
+  <h1 id="hdr-title">TNPSC PYQs</h1>
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('en')">English</button>
+    <button class="lang-btn"        onclick="setLang('ta')">Tamil</button>
+    <button class="lang-btn"        onclick="setLang('both')">Both</button>
+  </div>
+</header>
+
+<!-- ── Landing: unit table ── -->
+<div id="page-landing">
+  <div style="max-width:700px;margin:2.5rem auto;padding:0 1rem">
+    <p class="page-heading">Units</p>
+    <table class="unit-table">
+      <thead><tr><th>Unit No.</th><th>Unit Name</th></tr></thead>
+      <tbody id="landing-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ── Unit detail: theme table + accordions ── -->
+<div id="page-unit">
+  <p class="unit-view-title" id="unit-view-title"></p>
+  <table class="theme-table" id="theme-table">
+    <thead><tr><th>#</th><th>Theme</th><th>Topics</th></tr></thead>
+    <tbody id="theme-tbody"></tbody>
+  </table>
+</div>
+
+<script>
+const QUESTIONS = __QUESTIONS_DATA__;
+const SYLLABUS  = __SYLLABUS_DATA__;
+
+const ROMAN    = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
+const PT_LABEL = { gs:'GS', en:'EN', ta:'TA' };
+
+let _lang        = 'en';
+let _currentUnit = null;
+let _openThemes  = new Set();
+
+// Index: "unitId||theme" → sorted question array
+const byUnitTheme = {};
+QUESTIONS.forEach(q => {
+  const k = `${q.unit_id}||${q.theme}`;
+  (byUnitTheme[k] = byUnitTheme[k] || []).push(q);
+});
+Object.values(byUnitTheme).forEach(arr =>
+  arr.sort((a, b) => b.year - a.year || a.group.localeCompare(b.group) || a.question_no - b.question_no)
+);
+
+// ── Utilities ──
+function esc(s) {
+  return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function optsLayout(opts) {
+  return opts.every(o => (o.mapping ? Object.values(o.mapping).join('').length : (o.text||'').length) <= 42)
+    ? 'opts-2col' : 'opts-1col';
+}
+function renderAnswerRow(ak) {
+  if (!ak) return '';
+  if (ak === 'X') return `<div class="ans-row"><span class="omitted">&#8856; Omitted / Disputed</span></div>`;
+  return `<div class="ans-row">Answer: <span class="ans-key">${ak}</span></div>`;
+}
+
+// ── Render one language block ──
+function renderBlock(block, type, ak) {
+  if (!block) return '';
+  if (type === 'other') return `<div class="raw-content">${esc(block.raw_content||'')}</div>`;
+
+  let h = '';
+  const opts = block.options || [];
+
+  if (type === 'simple_mcq') {
+    h += `<p class="q-stem">${esc(block.stem||'')}</p>`;
+
+  } else if (type === 'statement_mcq') {
+    h += `<p class="q-stem">${esc(block.stem||'')}</p>`;
+    h += `<ul class="stmts">${(block.statements||[]).map(s=>`<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('')}</ul>`;
+
+  } else if (type === 'match_the_following') {
+    h += `<p class="q-stem">${esc(block.stem||'')}</p>`;
+    if (block.match_style === 'tabular') {
+      const lc = block.left_column  || [];
+      const rc = block.right_column || [];
+      const rows = Array.from({length: Math.max(lc.length, rc.length)}, (_,i) => {
+        const l = lc[i], r = rc[i];
+        return `<tr><td>${l?esc(l.key):''}</td><td>${l?esc(l.text):''}</td><td>${r?esc(r.no):''}</td><td>${r?esc(r.text):''}</td></tr>`;
+      }).join('');
+      h += `<table class="match-tbl"><thead><tr><td colspan="2">List I</td><td colspan="2">List II</td></tr></thead><tbody>${rows}</tbody></table>`;
+    } else {
+      h += `<ul class="match-items">${(block.items||[]).map(s=>`<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('')}</ul>`;
+    }
+
+  } else if (type === 'assertion_reason') {
+    h += `<div class="ar-block"><div class="ar-lbl">Assertion [A]</div><div class="ar-txt">${esc(block.assertion||'')}</div></div>`;
+    h += `<div class="ar-block"><div class="ar-lbl">Reason [R]</div><div class="ar-txt">${esc(block.reason||'')}</div></div>`;
+
+  } else if (type === 'chronological_order') {
+    h += `<p class="q-stem">${esc(block.stem||'')}</p>`;
+    h += `<ul class="stmts">${(block.items||[]).map(s=>`<li><b>${esc(s.no)}.</b> ${esc(s.text)}</li>`).join('')}</ul>`;
+  }
+
+  if (opts.length) {
+    const layout = optsLayout(opts);
+    const optHtml = opts.map(o => {
+      const correct = ak && ak !== 'X' && o.key === ak;
+      const txt = o.mapping
+        ? Object.entries(o.mapping).map(([k,v])=>`${k}&#8594;${v}`).join(', ')
+        : esc(o.text||'');
+      return `<div class="opt${correct?' correct':''}"><span class="opt-key">${o.key}</span><span class="opt-txt">${txt}</span></div>`;
+    }).join('');
+    h += `<div class="opts-grid ${layout}">${optHtml}</div>`;
+  }
+  return h;
+}
+
+// ── Render question card ──
+function renderCard(q, themeIdx) {
+  let lm = `<span class="q-num">Q&nbsp;${q.question_no}</span>`;
+  if (q.disputed) lm += `<span class="badge-disputed">DISPUTED</span>`;
+  if (q.question_type === 'other') lm += `<span class="badge-other">&#9888; UNCLASSIFIED</span>`;
+
+  const right = `
+    <span class="year-badge">${q.year}&nbsp;&middot;&nbsp;${q.group}&nbsp;&middot;&nbsp;${PT_LABEL[q.paper_type]||q.paper_type}</span>
+    <button class="up-btn" onclick="backToTable(${themeIdx})">&#8593;&nbsp;Table</button>
+  `;
+
+  let body = '';
+  if (_lang === 'both') {
+    if (q.en) body += `<div class="lang-block"><div class="lang-label">English</div>${renderBlock(q.en, q.question_type, q.answer_key)}</div>`;
+    if (q.ta) body += `<div class="lang-block"><div class="lang-label">Tamil</div>${renderBlock(q.ta, q.question_type, q.answer_key)}</div>`;
+  } else if (_lang === 'ta') {
+    body += renderBlock(q.ta || q.en, q.question_type, q.answer_key);
+  } else {
+    body += renderBlock(q.en || q.ta, q.question_type, q.answer_key);
+  }
+  body += renderAnswerRow(q.answer_key);
+
+  return `
+    <div class="q-card">
+      <div class="q-card-head">
+        <div class="q-card-left">${lm}</div>
+        <div class="q-card-right">${right}</div>
+      </div>
+      ${body}
+    </div>`;
+}
+
+// ── Render landing unit table ──
+function renderLanding() {
+  const tbody = document.getElementById('landing-tbody');
+  tbody.innerHTML = '';
+  SYLLABUS.units.forEach(u => {
+    const count = QUESTIONS.filter(q => q.unit_id === u.unit).length;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="unit-no">Unit&nbsp;${ROMAN[u.unit - 1]}</td>
+      <td>
+        <a class="unit-name-link" onclick="showUnit(${u.unit})">${esc(u.name)}</a>
+        ${count ? `<span class="unit-q-count">(${count} questions)</span>` : ''}
+      </td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+// ── Render unit detail view ──
+function renderUnit(unitNo) {
+  const unit = SYLLABUS.units.find(u => u.unit === unitNo);
+  document.getElementById('unit-view-title').textContent =
+    `Unit ${ROMAN[unitNo - 1]} — ${unit.name}`;
+
+  const tbody = document.getElementById('theme-tbody');
+  tbody.innerHTML = '';
+
+  unit.themes.forEach((theme, idx) => {
+    const ti     = idx + 1;
+    const key    = `${unitNo}||${theme.theme}`;
+    const qs     = byUnitTheme[key] || [];
+    const isOpen = _openThemes.has(ti);
+
+    const topicsHtml = theme.topics.map((t,i) => `<li>${esc(t.topic_name)}</li>`).join('');
+
+    // Theme header row
+    const tr = document.createElement('tr');
+    tr.className = 'theme-row' + (isOpen ? ' open' : '');
+    tr.id = `theme-row-${ti}`;
+    tr.innerHTML = `
+      <td class="theme-sn">${ti}</td>
+      <td>
+        <span class="theme-icon">&#9654;</span>
+        <span class="theme-label">${esc(theme.theme)}</span>
+        ${qs.length ? `<span class="theme-q-count">(${qs.length})</span>` : ''}
+      </td>
+      <td class="topics-cell"><ol>${topicsHtml}</ol></td>`;
+    tr.onclick = () => toggleTheme(ti);
+    tbody.appendChild(tr);
+
+    // Accordion row
+    const atr = document.createElement('tr');
+    atr.className = 'theme-acc-row';
+    atr.id = `theme-acc-${ti}`;
+    atr.style.display = isOpen ? '' : 'none';
+
+    const cardsHtml = qs.length
+      ? `<div class="qs-grid">${qs.map(q => renderCard(q, ti)).join('')}</div>`
+      : `<p class="no-qs">No questions available for this theme yet.</p>`;
+
+    atr.innerHTML = `<td colspan="3">${cardsHtml}</td>`;
+    tbody.appendChild(atr);
+  });
+
+  if (window.MathJax) MathJax.typesetPromise?.();
+}
+
+// ── Navigation ──
+function showUnit(unitNo) {
+  _currentUnit = unitNo;
+  _openThemes.clear();
+  renderUnit(unitNo);
+  document.getElementById('page-landing').style.display = 'none';
+  document.getElementById('page-unit').style.display   = '';
+  document.getElementById('back-btn').style.display    = '';
+  document.getElementById('hdr-title').textContent     = 'TNPSC PYQs';
+  window.scrollTo(0, 0);
+}
+
+function showLanding() {
+  _currentUnit = null;
+  _openThemes.clear();
+  document.getElementById('page-landing').style.display = '';
+  document.getElementById('page-unit').style.display    = 'none';
+  document.getElementById('back-btn').style.display     = 'none';
+}
+
+// ── Accordion toggle ──
+function toggleTheme(ti) {
+  const accRow   = document.getElementById(`theme-acc-${ti}`);
+  const themeRow = document.getElementById(`theme-row-${ti}`);
+  if (_openThemes.has(ti)) {
+    accRow.style.display = 'none';
+    themeRow.classList.remove('open');
+    _openThemes.delete(ti);
+  } else {
+    accRow.style.display = '';
+    themeRow.classList.add('open');
+    _openThemes.add(ti);
+    if (window.MathJax) MathJax.typesetPromise?.([accRow]);
+  }
+}
+
+// ── Back to table ──
+function backToTable(ti) {
+  const row = document.getElementById(`theme-row-${ti}`);
+  if (row) row.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// ── Language toggle ──
+function setLang(l) {
+  _lang = l;
+  document.querySelectorAll('.lang-btn').forEach((b, i) =>
+    b.classList.toggle('active', ['en','ta','both'][i] === l)
+  );
+  if (_currentUnit) {
+    renderUnit(_currentUnit); // _openThemes preserved → accordions stay open
+  }
+}
+
+// ── Boot ──
+renderLanding();
+</script>
+</body>
+</html>

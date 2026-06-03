@@ -37,7 +37,7 @@ def merge_to_master(data_dir: str, output_path: str) -> None:
     }
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(master, f, indent=2, ensure_ascii=False)
-    print(f"master.json: {len(questions)} questions → {output_path}")
+    print(f"master.json: {len(questions)} questions -> {output_path}")
 
 
 if __name__ == "__main__":

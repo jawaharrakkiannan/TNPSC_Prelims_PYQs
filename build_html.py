@@ -27,8 +27,10 @@ def build_html(
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)
 
-    print(f"Built {output_path} — {master['total_questions']} questions")
+    print(f"Built {output_path} -- {master['total_questions']} questions")
 
 
 if __name__ == "__main__":
     build_html()
+    if Path("lib/template_v2.html").exists():
+        build_html(template_path="lib/template_v2.html", output_path="tnpsc_pyqs_v2.html")
