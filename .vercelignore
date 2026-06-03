@@ -1,0 +1,17 @@
+*.py
+requirements.txt
+prompt_extract.txt
+prompt_reextract.txt
+data/
+images/
+state/
+pdf/
+tests/
+__pycache__/
+lib/__pycache__/
+lib/*.py
+lib/api_client.py
+lib/pdf_utils.py
+lib/schema_utils.py
+lib/syllabus_utils.py
+.env

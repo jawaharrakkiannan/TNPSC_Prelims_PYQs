@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    { "src": "/", "dest": "/tnpsc_pyqs.html" },
+    { "src": "/v2", "dest": "/tnpsc_pyqs_v2.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}

@@ -95,8 +95,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
 .theme-qcount{font-family:var(--font-mono);font-size:.65rem;color:var(--text3);margin-left:.3rem;font-weight:400}
 .topics-cell ol{margin:0;padding-left:1.1rem}
 .topics-cell li{font-size:.78rem;color:var(--text2);margin-bottom:.1rem;line-height:1.45}
-/* accordion */
-.acc-row{display:none}
+/* accordion — display managed entirely via inline style in JS */
 .acc-row>td{padding:.9rem;background:#f8f4ef;border-bottom:2px solid var(--accent)}
 .qs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:.85rem}
 .no-qs{font-family:var(--font-mono);font-size:.74rem;color:var(--text3);font-style:italic;margin:.25rem 0}
@@ -375,7 +374,7 @@ function renderUnit(unitNo){
     tbody.appendChild(tr);
     const atr=document.createElement('tr');
     atr.className='acc-row';atr.id=`acc-${ti}`;
-    atr.style.display=isOpen?'':'none';
+    atr.style.display=isOpen?'table-row':'none';
     const cardsHtml=qs.length
       ?`<div class="qs-grid">${qs.map(q=>renderCard(q,ti)).join('')}</div>`
       :`<p class="no-qs">No questions available for this theme yet.</p>`;
@@ -410,7 +409,7 @@ function toggleTheme(ti){
   if(_openThemes.has(ti)){
     accRow.style.display='none';themeRow.classList.remove('open');_openThemes.delete(ti);
   } else {
-    accRow.style.display='';themeRow.classList.add('open');_openThemes.add(ti);
+    accRow.style.display='table-row';themeRow.classList.add('open');_openThemes.add(ti);
     const cell=accRow.querySelector('td');
     if(cell) attachCardHandlers(cell);
   }
