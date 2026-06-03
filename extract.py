@@ -55,7 +55,7 @@ def main():
     parser.add_argument("--paper-type", required=True, choices=["gs", "en", "ta"])
     parser.add_argument("--subgroup", default=None)
     parser.add_argument("--retry-failed", action="store_true")
-    parser.add_argument("--batch-size", type=int, default=1, help="Pages per API call (default 1; try 5 for faster runs)")
+    parser.add_argument("--batch-size", type=int, default=8, help="Pages per API call (default 8)")
     parser.add_argument("--syllabus", default="tnpsc_general_studies_aptitude_mental_ability_syllabus.json")
     args = parser.parse_args()
 
