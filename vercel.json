@@ -2,8 +2,5 @@
   "framework": null,
   "buildCommand": "",
   "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
-    { "source": "/v2", "destination": "/tnpsc_pyqs_v2.html" }
-  ]
+  "trailingSlash": false
 }
