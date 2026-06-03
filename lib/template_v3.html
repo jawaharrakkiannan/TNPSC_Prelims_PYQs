@@ -85,6 +85,8 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
 .theme-name{font-weight:600;color:var(--text)}
 .theme-nav-icon{float:right;font-size:.7rem;color:var(--accent);margin-left:.5rem;opacity:.7}
 .topics-preview{margin:.18rem 0 0;font-size:.75rem;color:var(--text3);font-style:italic;line-height:1.4}
+.topics-cell ol{margin:0;padding-left:1.1rem}
+.topics-cell li{font-size:.78rem;color:var(--text2);margin-bottom:.1rem;line-height:1.45}
 
 /* Topic page */
 .topic-hdr{max-width:960px;margin:2rem auto 1.5rem;padding-bottom:1rem;border-bottom:2px solid var(--border);animation:fadeUp .5s ease both}
@@ -416,15 +418,12 @@ function showUnit(unitNo){
     const ti=idx+1;
     const key=`${unitNo}||${theme.theme}`;
     const qs=byUnitTheme[key]||[];
-    const topicsPreview=(theme.topics||[]).slice(0,4).map(t=>t.topic_name).join(' · ')
-      +((theme.topics||[]).length>4?' · …':'');
+    const topicsHtml=(theme.topics||[]).map(t=>`<li>${esc(t.topic_name)}</li>`).join('');
     const tr=document.createElement('tr');
     tr.className='clickable';
     tr.innerHTML=`<td class="theme-sn">${ti}</td>
-      <td>
-        <span class="theme-name">&#9654;&nbsp;${esc(theme.theme)}</span>
-        ${topicsPreview?`<div class="topics-preview">${esc(topicsPreview)}</div>`:''}
-      </td>
+      <td><span class="theme-name">&#9654;&nbsp;${esc(theme.theme)}</span></td>
+      <td class="topics-cell"><ol>${topicsHtml}</ol></td>
       <td class="tbl-qcount">${qs.length||'&mdash;'}</td>`;
     tr.onclick=()=>showTheme(unitNo,ti);
     tbody.appendChild(tr);
