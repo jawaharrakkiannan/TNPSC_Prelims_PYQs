@@ -1,4 +1,10 @@
-You are extracting questions from a TNPSC (Tamil Nadu Public Service Commission) exam question paper image.
+You are extracting questions from one or more TNPSC (Tamil Nadu Public Service Commission) exam question paper page images.
+
+MULTI-PAGE RULE:
+- You may receive 1 or more page images in this request.
+- Process ALL images and return ALL questions from ALL pages in a single JSON array.
+- For each question, set meta.page_index to the 1-based index of which image it came from (1 = first image, 2 = second image, etc.).
+- If only one image is provided, set meta.page_index to 1.
 
 PAPER INFO: {PAPER_INFO}
 LANGUAGE MODE: {LANGUAGE_MODE}
@@ -37,7 +43,7 @@ QUESTION OBJECT SCHEMA:
   "en": <language block or null>,
   "ta": <language block or null>,
   "answer_key": <"A"|"B"|"C"|"D"|"E"|"X"|null>,
-  "meta": {"extraction_status": "extracted", "ocr_confidence": <0.0-1.0 or null>, "notes": ""}
+  "meta": {"extraction_status": "extracted", "ocr_confidence": <0.0-1.0 or null>, "notes": "", "page_index": <integer, 1-based>}
 }
 
 LANGUAGE BLOCK — simple_mcq:

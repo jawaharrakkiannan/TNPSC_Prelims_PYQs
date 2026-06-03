@@ -32,32 +32,19 @@ def _extract_json(text: str) -> str:
     return text
 
 
-def extract_questions_from_image(image_path: str, prompt: str) -> list[dict]:
-    """Send one page image to Claude. Returns list of question dicts.
-    Retries once on parse failure. Raises ValueError if both attempts fail.
-    """
+def _call_api(content: list, prompt: str) -> list[dict]:
+    """Core API call: sends content blocks + prompt, returns parsed question list."""
     client = anthropic.Anthropic()
-    image_data = _encode_image(image_path)
+    full_content = content + [{"type": "text", "text": prompt}]
 
     for attempt in range(1, MAX_RETRIES + 1):
         message = client.messages.create(
             model=MODEL,
             max_tokens=MAX_TOKENS,
-            messages=[{
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "source": {
-                            "type": "base64",
-                            "media_type": "image/png",
-                            "data": image_data,
-                        },
-                    },
-                    {"type": "text", "text": prompt},
-                ],
-            }],
+            messages=[{"role": "user", "content": full_content}],
         )
+        usage = message.usage
+        print(f"    tokens: in={usage.input_tokens}  out={usage.output_tokens}", flush=True)
         raw = message.content[0].text
         try:
             parsed = json.loads(_extract_json(raw))
@@ -71,3 +58,20 @@ def extract_questions_from_image(image_path: str, prompt: str) -> list[dict]:
                 time.sleep(RETRY_DELAY)
             else:
                 raise ValueError(f"JSON parse failed after {MAX_RETRIES} attempts: {e}\nRaw:\n{raw[:500]}")
+
+
+def extract_questions_from_image(image_path: str, prompt: str) -> list[dict]:
+    """Send one page image to Claude. Returns list of question dicts."""
+    content = [{"type": "image", "source": {"type": "base64", "media_type": "image/png", "data": _encode_image(image_path)}}]
+    return _call_api(content, prompt)
+
+
+def extract_questions_from_images(image_paths: list[str], prompt: str) -> list[dict]:
+    """Send multiple page images in one call. Each question must include meta.page_index (1-based).
+    Returns combined list of question dicts across all pages.
+    """
+    content = [
+        {"type": "image", "source": {"type": "base64", "media_type": "image/png", "data": _encode_image(p)}}
+        for p in image_paths
+    ]
+    return _call_api(content, prompt)

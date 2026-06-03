@@ -15,7 +15,7 @@ from pathlib import Path
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-from lib.api_client import extract_questions_from_image
+from lib.api_client import extract_questions_from_image, extract_questions_from_images
 from lib.pdf_utils import pdf_to_images
 from lib.schema_utils import (
     LANGUAGE_MODE,
@@ -55,6 +55,7 @@ def main():
     parser.add_argument("--paper-type", required=True, choices=["gs", "en", "ta"])
     parser.add_argument("--subgroup", default=None)
     parser.add_argument("--retry-failed", action="store_true")
+    parser.add_argument("--batch-size", type=int, default=1, help="Pages per API call (default 1; try 5 for faster runs)")
     parser.add_argument("--syllabus", default="tnpsc_general_studies_aptitude_mental_ability_syllabus.json")
     args = parser.parse_args()
 
@@ -105,43 +106,62 @@ def main():
             data = json.load(f)
             all_questions = data.get("questions", [])
 
-    # Process each page
+    # Process pages in batches
+    batch_size = args.batch_size
+    batches = [pages_to_process[i:i + batch_size] for i in range(0, len(pages_to_process), batch_size)]
     extracted_count = 0
-    for page_no in pages_to_process:
-        image_path = image_paths[page_no - 1]
-        print(f"  [{page_no}/{total_pages}] Sending {Path(image_path).name} ...", flush=True)
+
+    for batch in batches:
+        batch_images = [image_paths[p - 1] for p in batch]
+        if len(batch) == 1:
+            label = f"[{batch[0]}/{total_pages}]"
+        else:
+            label = f"[{batch[0]}-{batch[-1]}/{total_pages}]"
+        names = ", ".join(Path(p).name for p in batch_images)
+        print(f"  {label} Sending {len(batch)} page(s): {names} ...", flush=True)
 
         try:
-            questions = extract_questions_from_image(image_path, prompt)
+            if len(batch) == 1:
+                questions = extract_questions_from_image(batch_images[0], prompt)
+            else:
+                questions = extract_questions_from_images(batch_images, prompt)
         except ValueError as e:
-            print(f"  [{page_no}/{total_pages}] FAILED -- {e}")
-            if page_no not in state["failed_pages"]:
-                state["failed_pages"].append(page_no)
+            print(f"  {label} FAILED -- {e}")
+            for p in batch:
+                if p not in state["failed_pages"]:
+                    state["failed_pages"].append(p)
             save_state(state_path, state)
             continue
 
         if not questions:
-            print(f"  [{page_no}/{total_pages}] Response received -- 0 questions (non-question page, skipped)")
+            print(f"  {label} Response received -- 0 questions (non-question page, skipped)")
         else:
-            print(f"  [{page_no}/{total_pages}] Response received -- {len(questions)} questions extracted")
+            print(f"  {label} Response received -- {len(questions)} questions extracted")
 
         for q in questions:
+            # Determine which page image this question came from (batch mode uses page_index)
+            raw_meta = q.get("meta") or {}
+            page_idx = int(raw_meta.get("page_index", 1))
+            page_idx = max(1, min(page_idx, len(batch)))
+            image_ref = batch_images[page_idx - 1]
+
             enriched = enrich_question(
                 q,
                 group=args.group,
                 year=args.year,
                 paper_type=args.paper_type,
-                image_ref=image_path,
+                image_ref=image_ref,
                 subgroup=args.subgroup,
             )
             all_questions.append(enriched)
 
         extracted_count += len(questions)
 
-        if page_no not in state["processed_pages"]:
-            state["processed_pages"].append(page_no)
-        if page_no in state["failed_pages"]:
-            state["failed_pages"].remove(page_no)
+        for p in batch:
+            if p not in state["processed_pages"]:
+                state["processed_pages"].append(p)
+            if p in state["failed_pages"]:
+                state["failed_pages"].remove(p)
 
         # Write partial immediately (resume safety)
         wrapper = {
