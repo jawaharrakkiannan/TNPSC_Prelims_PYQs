@@ -37,3 +37,6 @@ if __name__ == "__main__":
     if Path("lib/template_v2.html").exists():
         build_html(template_path="lib/template_v2.html", output_path="tnpsc_pyqs_v2.html")
         build_html(template_path="lib/template_v2.html", output_path="v2.html")
+    if Path("lib/template_v3.html").exists():
+        build_html(template_path="lib/template_v3.html", output_path="tnpsc_pyqs_v3.html")
+        build_html(template_path="lib/template_v3.html", output_path="v3.html")
