@@ -69,7 +69,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
 .unit-no{font-family:var(--font-mono);font-weight:700;color:var(--accent);white-space:nowrap;width:90px;font-size:.78rem;letter-spacing:.04em}
 .unit-link{color:var(--text);text-decoration:none;font-weight:500;cursor:pointer;transition:color .12s}
 .unit-link:hover{color:var(--accent)}
-.unit-qcount{font-family:var(--font-mono);font-size:.65rem;color:var(--text3);margin-left:.4rem}
+.unit-qcount{font-family:var(--font-mono);font-size:.65rem;color:var(--text3);text-align:center;white-space:nowrap;width:60px}
 
 /* Unit detail header */
 .unit-detail-hdr{max-width:960px;margin:2rem auto 1.5rem;padding-bottom:1rem;border-bottom:2px solid var(--border);animation:fadeUp .5s ease both}
@@ -92,7 +92,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
 .theme-icon{display:inline-block;margin-right:.35rem;font-size:.7rem;color:var(--accent);transition:transform .18s}
 .theme-row.open .theme-icon{transform:rotate(90deg)}
 .theme-name{font-weight:600;color:var(--text)}
-.theme-qcount{font-family:var(--font-mono);font-size:.65rem;color:var(--text3);margin-left:.3rem;font-weight:400}
+.theme-qcount{font-family:var(--font-mono);font-size:.65rem;color:var(--text3);text-align:center;white-space:nowrap;width:50px}
 .topics-cell ol{margin:0;padding-left:1.1rem}
 .topics-cell li{font-size:.78rem;color:var(--text2);margin-bottom:.1rem;line-height:1.45}
 /* accordion — display managed entirely via inline style in JS */
@@ -188,7 +188,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
     </div>
     <div class="unit-table-wrap">
       <table class="unit-table">
-        <thead><tr><th>Unit</th><th>Name</th></tr></thead>
+        <thead><tr><th>Unit</th><th>Name</th><th>Qs</th></tr></thead>
         <tbody id="landing-tbody"></tbody>
       </table>
     </div>
@@ -208,7 +208,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
     </div>
     <div class="theme-table-wrap">
       <table class="theme-table">
-        <thead><tr><th>#</th><th>Theme</th><th>Topics</th></tr></thead>
+        <thead><tr><th>#</th><th>Theme</th><th>Topics</th><th>Qs</th></tr></thead>
         <tbody id="theme-tbody"></tbody>
       </table>
     </div>
@@ -346,7 +346,8 @@ function renderLanding(){
     const count=QUESTIONS.filter(q=>q.unit_id===u.unit).length;
     const tr=document.createElement('tr');
     tr.innerHTML=`<td class="unit-no">Unit&nbsp;${ROMAN[u.unit-1]||u.unit}</td>
-      <td><a class="unit-link" onclick="showUnit(${u.unit})">${esc(u.name)}</a>${count?`<span class="unit-qcount">(${count})</span>`:''}</td>`;
+      <td><a class="unit-link" onclick="showUnit(${u.unit})">${esc(u.name)}</a></td>
+      <td class="unit-qcount">${count||'—'}</td>`;
     tbody.appendChild(tr);
   });
 }
@@ -368,8 +369,9 @@ function renderUnit(unitNo){
     tr.className='theme-row'+(isOpen?' open':'');
     tr.id=`theme-row-${ti}`;
     tr.innerHTML=`<td class="theme-sn">${ti}</td>
-      <td><span class="theme-icon">&#9654;</span><span class="theme-name">${esc(theme.theme)}</span>${qs.length?`<span class="theme-qcount">(${qs.length})</span>`:''}</td>
-      <td class="topics-cell"><ol>${topicsHtml}</ol></td>`;
+      <td><span class="theme-icon">&#9654;</span><span class="theme-name">${esc(theme.theme)}</span></td>
+      <td class="topics-cell"><ol>${topicsHtml}</ol></td>
+      <td class="theme-qcount">${qs.length||'—'}</td>`;
     tr.onclick=()=>toggleTheme(ti);
     tbody.appendChild(tr);
     const atr=document.createElement('tr');
@@ -378,7 +380,7 @@ function renderUnit(unitNo){
     const cardsHtml=qs.length
       ?`<div class="qs-grid">${qs.map(q=>renderCard(q,ti)).join('')}</div>`
       :`<p class="no-qs">No questions available for this theme yet.</p>`;
-    atr.innerHTML=`<td colspan="3">${cardsHtml}</td>`;
+    atr.innerHTML=`<td colspan="4">${cardsHtml}</td>`;
     tbody.appendChild(atr);
     if(isOpen){
       const cell=atr.querySelector('td');
