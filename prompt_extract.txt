@@ -132,4 +132,8 @@ COMPLETENESS RULE — NON-NEGOTIABLE:
 - If a question does not match any of the 5 known types, classify it as "other" and capture all its text verbatim in raw_content.
 - Missing even one word is an extraction failure.
 
+NON-QUESTION PAGES:
+If this page contains no exam questions (e.g., cover page, instructions page, blank page, OMR sheet, answer key table, or administrative content), return an empty JSON array: []
+Do NOT add any explanation or text — just return [].
+
 Return ONLY the JSON array. No other text.

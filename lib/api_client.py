@@ -18,12 +18,18 @@ def _encode_image(image_path: str) -> str:
         return base64.standard_b64encode(f.read()).decode("utf-8")
 
 
-def _strip_json(text: str) -> str:
-    """Remove markdown code fences if present."""
+def _extract_json(text: str) -> str:
+    """Extract JSON array or object from response, handling prose preamble and code fences."""
     text = text.strip()
+    # Strip code fences
     text = re.sub(r"^```(?:json)?\s*", "", text)
     text = re.sub(r"\s*```$", "", text)
-    return text.strip()
+    text = text.strip()
+    # Find first JSON array or object start in case Claude added prose before it
+    match = re.search(r"(\[|\{)", text)
+    if match:
+        text = text[match.start():]
+    return text
 
 
 def extract_questions_from_image(image_path: str, prompt: str) -> list[dict]:
@@ -54,7 +60,7 @@ def extract_questions_from_image(image_path: str, prompt: str) -> list[dict]:
         )
         raw = message.content[0].text
         try:
-            parsed = json.loads(_strip_json(raw))
+            parsed = json.loads(_extract_json(raw))
             if isinstance(parsed, list):
                 return parsed
             if isinstance(parsed, dict) and "questions" in parsed:

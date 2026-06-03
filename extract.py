@@ -6,9 +6,14 @@ Usage:
   python extract.py ... --retry-failed
 """
 import argparse
+import io
 import json
 import sys
 from pathlib import Path
+
+# Force UTF-8 output on Windows to avoid cp1252 encoding errors
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 from lib.api_client import extract_questions_from_image
 from lib.pdf_utils import pdf_to_images
@@ -104,16 +109,21 @@ def main():
     extracted_count = 0
     for page_no in pages_to_process:
         image_path = image_paths[page_no - 1]
-        print(f"  Page {page_no}/{total_pages}: {Path(image_path).name}", end=" ", flush=True)
+        print(f"  [{page_no}/{total_pages}] Sending {Path(image_path).name} ...", flush=True)
 
         try:
             questions = extract_questions_from_image(image_path, prompt)
         except ValueError as e:
-            print(f"FAILED — {e}")
+            print(f"  [{page_no}/{total_pages}] FAILED -- {e}")
             if page_no not in state["failed_pages"]:
                 state["failed_pages"].append(page_no)
             save_state(state_path, state)
             continue
+
+        if not questions:
+            print(f"  [{page_no}/{total_pages}] Response received -- 0 questions (non-question page, skipped)")
+        else:
+            print(f"  [{page_no}/{total_pages}] Response received -- {len(questions)} questions extracted")
 
         for q in questions:
             enriched = enrich_question(
@@ -127,7 +137,6 @@ def main():
             all_questions.append(enriched)
 
         extracted_count += len(questions)
-        print(f"→ {len(questions)} questions")
 
         if page_no not in state["processed_pages"]:
             state["processed_pages"].append(page_no)
@@ -158,7 +167,7 @@ def main():
 
     if not state["failed_pages"]:
         Path(partial_path).rename(final_path)
-        print(f"\nDone. {extracted_count} questions extracted → {final_path}")
+        print(f"\nDone. {extracted_count} questions extracted -> {final_path}")
     else:
         print(f"\nPartial complete. Failed pages: {state['failed_pages']}. Run with --retry-failed.")
 
