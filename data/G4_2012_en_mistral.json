@@ -1,0 +1,6930 @@
+{
+  "group": "G4",
+  "subgroup": null,
+  "year": 2012,
+  "paper_type": "en",
+  "language_mode": "en_only",
+  "paper_code": "",
+  "total_questions": 100,
+  "extraction_model": "mistral-ocr-2512 + gpt-4o-mini",
+  "questions": [
+    {
+      "question_no": 101,
+      "question_type": "statement_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the statement which matches with the correct question tag :",
+        "question_keywords": [
+          "correct",
+          "question tag"
+        ],
+        "item_numbering_style": "arabic",
+        "statements": [
+          {
+            "no": "i",
+            "text": "Everybody agreed to our proposal, did they?"
+          },
+          {
+            "no": "ii",
+            "text": "Everybody agreed to our proposal, didn't they?"
+          },
+          {
+            "no": "iii",
+            "text": "Everybody agreed to our proposal, do they?"
+          },
+          {
+            "no": "iv",
+            "text": "Everybody agreed to our proposal, don't they?"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Everybody agreed to our proposal, did they?"
+          },
+          {
+            "key": "B",
+            "text": "Everybody agreed to our proposal, didn't they?"
+          },
+          {
+            "key": "C",
+            "text": "Everybody agreed to our proposal, do they?"
+          },
+          {
+            "key": "D",
+            "text": "Everybody agreed to our proposal, don't they?"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_101",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 102,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence :",
+        "question_keywords": [
+          "identify",
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Simple"
+          },
+          {
+            "key": "B",
+            "text": "Compound"
+          },
+          {
+            "key": "C",
+            "text": "Complex"
+          },
+          {
+            "key": "D",
+            "text": "None of these."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_102",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 103,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pick out the sentence with SVOC pattern :",
+        "question_keywords": [
+          "SVOC",
+          "pattern"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Man hunts animals, mercilessly"
+          },
+          {
+            "key": "B",
+            "text": "We elected Malar, the leader"
+          },
+          {
+            "key": "C",
+            "text": "She boils the milk everyday"
+          },
+          {
+            "key": "D",
+            "text": "They stand under the tree."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_103",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 104,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the statements given in Column A with their question tags in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "statement",
+          "question tag"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "It's raining,"
+          },
+          {
+            "key": "b",
+            "text": "They came by car,"
+          },
+          {
+            "key": "c",
+            "text": "They don't like me,"
+          },
+          {
+            "key": "d",
+            "text": "She can't do the job,"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "didn't they?"
+          },
+          {
+            "no": 2,
+            "text": "can she?"
+          },
+          {
+            "no": 3,
+            "text": "isn't it?"
+          },
+          {
+            "no": 4,
+            "text": "do they?"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_104",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 105,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the correct sequence of preposition:",
+        "question_keywords": [
+          "sequence",
+          "preposition"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "... the eleventh hour Ramu withdrew ... the contest, leaving the field open ... his opponent ... that day."
+          },
+          {
+            "key": "B",
+            "text": "at, from, on, to"
+          },
+          {
+            "key": "C",
+            "text": "at, on, from, to"
+          },
+          {
+            "key": "D",
+            "text": "☑ at, from, to, on."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_105",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 106,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the appropriate active voice for the italicized words:",
+        "question_keywords": [
+          "active voice",
+          "italicized words"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "has bought"
+          },
+          {
+            "key": "B",
+            "text": "have bought"
+          },
+          {
+            "key": "C",
+            "text": "have been bought"
+          },
+          {
+            "key": "D",
+            "text": "will have been bought."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_106",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 107,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following has correct ground form?",
+        "question_keywords": [
+          "correct",
+          "ground form"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "I am tired of waiting"
+          },
+          {
+            "key": "B",
+            "text": "I am tired of having waited"
+          },
+          {
+            "key": "C",
+            "text": "I am tired of being waited"
+          },
+          {
+            "key": "D",
+            "text": "I am tired to wait."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_107",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 108,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following has the correct infinitive?",
+        "question_keywords": [
+          "correct",
+          "infinitive"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "I think Nina meant to break the crystal vase."
+          },
+          {
+            "key": "B",
+            "text": "I think Nina meant to have broken the crystal vase."
+          },
+          {
+            "key": "C",
+            "text": "I think Nina meant having broken the crystal vase."
+          },
+          {
+            "key": "D",
+            "text": "I think Nina meant to be breaking the crystal vase."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_108",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 109,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Give the suitable order of articles in the blanks of the given passage. Write the correct code given below:",
+        "question_keywords": [
+          "order",
+          "articles",
+          "blanks"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "the, a, the, a"
+          },
+          {
+            "key": "B",
+            "text": "the, a, the, an"
+          },
+          {
+            "key": "C",
+            "text": "a, the, the, an"
+          },
+          {
+            "key": "D",
+            "text": "a, a, a, an."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_109",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 110,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the odd one (verb):",
+        "question_keywords": [
+          "odd one",
+          "verb"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Last"
+          },
+          {
+            "key": "B",
+            "text": "Final"
+          },
+          {
+            "key": "C",
+            "text": "Lost"
+          },
+          {
+            "key": "D",
+            "text": "Truthful."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_110",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 111,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct words to fill in the blanks:",
+        "question_keywords": [
+          "correct",
+          "fill",
+          "blanks"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "group, apes, chicken"
+          },
+          {
+            "key": "B",
+            "text": "team, apes, chickens"
+          },
+          {
+            "key": "C",
+            "text": "troop, apses, chicken"
+          },
+          {
+            "key": "D",
+            "text": "troop, apes, chickens."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_111",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 112,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words given in Column A with their meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "words",
+          "meanings"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Mesmerising"
+          },
+          {
+            "key": "b",
+            "text": "Hypnotise"
+          },
+          {
+            "key": "c",
+            "text": "Bedlam"
+          },
+          {
+            "key": "d",
+            "text": "Imposter"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "spellbind"
+          },
+          {
+            "no": 2,
+            "text": "captivating"
+          },
+          {
+            "no": 3,
+            "text": "deceives"
+          },
+          {
+            "no": 4,
+            "text": "confusion."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_112",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 113,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following phrases given in Column A with their meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "phrases",
+          "meanings"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "advance and retreat"
+          },
+          {
+            "key": "b",
+            "text": "keep an account of"
+          },
+          {
+            "key": "c",
+            "text": "arrive in"
+          },
+          {
+            "key": "d",
+            "text": "pour out from"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "to write something as a record"
+          },
+          {
+            "no": 2,
+            "text": "emerge in a large number"
+          },
+          {
+            "no": 3,
+            "text": "move to and fro"
+          },
+          {
+            "no": 4,
+            "text": "reach"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_113",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 114,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following sentences has a participle in it?",
+        "question_keywords": [
+          "participle",
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "He had lost his passport and applied for a new one."
+          },
+          {
+            "key": "B",
+            "text": "Having lost his passport, he applied for a new one."
+          },
+          {
+            "key": "C",
+            "text": "His passport had been lost, and hence he applied for a new one."
+          },
+          {
+            "key": "D",
+            "text": "His passport was lost and he had applied for a new one."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_114",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 115,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the correct option to complete the sentence:",
+        "question_keywords": [
+          "correct",
+          "option"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Gandhiji is the only person who stood for truth and non-violence"
+          },
+          {
+            "key": "B",
+            "text": "Gandhiji is the only person who stood of truth and non-violence"
+          },
+          {
+            "key": "C",
+            "text": "Gandhiji is the only person who stood after truth and non-violence"
+          },
+          {
+            "key": "D",
+            "text": "Gandhiji is the only person who stood away truth and non-violence."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_115",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 116,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence:",
+        "question_keywords": [
+          "identify",
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "None"
+          },
+          {
+            "key": "B",
+            "text": "Compound"
+          },
+          {
+            "key": "C",
+            "text": "Complex"
+          },
+          {
+            "key": "D",
+            "text": "Simple."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_116",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 117,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence with the correct question tag:",
+        "question_keywords": [
+          "question tag"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "They have been to London, have they?"
+          },
+          {
+            "key": "B",
+            "text": "They have been to London, hasn't they?"
+          },
+          {
+            "key": "C",
+            "text": "They had been to London, hadn't they?"
+          },
+          {
+            "key": "D",
+            "text": "They had been to London, haven't they?"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_117",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 118,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words given in Column A with their meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "words",
+          "meanings",
+          "codes"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "ferocious"
+          },
+          {
+            "key": "b",
+            "text": "impediments"
+          },
+          {
+            "key": "c",
+            "text": "haughty"
+          },
+          {
+            "key": "d",
+            "text": "affliction"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "sorrow"
+          },
+          {
+            "no": 2,
+            "text": "arrogant"
+          },
+          {
+            "no": 3,
+            "text": "wild"
+          },
+          {
+            "no": 4,
+            "text": "obstacles."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_118",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 119,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with suitable article: He always offers alms to ... poor.",
+        "question_keywords": [
+          "fill in the blank",
+          "article"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "the"
+          },
+          {
+            "key": "B",
+            "text": "an"
+          },
+          {
+            "key": "C",
+            "text": "a"
+          },
+          {
+            "key": "D",
+            "text": "no article"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_119",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 120,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following articles in Column A with their suitable words in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "articles",
+          "suitable words",
+          "codes"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "a"
+          },
+          {
+            "key": "b",
+            "text": "zero"
+          },
+          {
+            "key": "c",
+            "text": "an"
+          },
+          {
+            "key": "d",
+            "text": "the"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Second Rank"
+          },
+          {
+            "no": 2,
+            "text": "MLA"
+          },
+          {
+            "no": 3,
+            "text": "English Language"
+          },
+          {
+            "no": 4,
+            "text": "Man"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 3,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_120",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 121,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words given in Column A with their parts of speech in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "words",
+          "parts of speech",
+          "codes"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Abroad"
+          },
+          {
+            "key": "b",
+            "text": "Blue"
+          },
+          {
+            "key": "c",
+            "text": "Cartoon"
+          },
+          {
+            "key": "d",
+            "text": "Dare"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Adjective"
+          },
+          {
+            "no": 2,
+            "text": "Noun"
+          },
+          {
+            "no": 3,
+            "text": "Adverb"
+          },
+          {
+            "no": 4,
+            "text": "Verb"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 1,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_121",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 122,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with suitable article: He studies in ... sixth standard.",
+        "question_keywords": [
+          "fill in the blank",
+          "article"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "no article"
+          },
+          {
+            "key": "B",
+            "text": ""
+          },
+          {
+            "key": "C",
+            "text": "☐"
+          },
+          {
+            "key": "D",
+            "text": "the"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_122",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 123,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find the sentence in which the italicized word is used as an Adjective:",
+        "question_keywords": [
+          "find",
+          "sentence",
+          "italicized word",
+          "adjective"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "I did not know his address."
+          },
+          {
+            "key": "B",
+            "text": "Address the gathering."
+          },
+          {
+            "key": "C",
+            "text": "Write your address here."
+          },
+          {
+            "key": "D",
+            "text": "He asked for the address proof."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_123",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 124,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following italicized words of the sentences given in Column A with their parts of speech in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "italicized words",
+          "parts of speech",
+          "codes"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "They have a plan"
+          },
+          {
+            "key": "b",
+            "text": "I live here"
+          },
+          {
+            "key": "c",
+            "text": "She walks fast"
+          },
+          {
+            "key": "d",
+            "text": "I have a gift wrapper"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "adjective"
+          },
+          {
+            "no": 2,
+            "text": "noun"
+          },
+          {
+            "no": 3,
+            "text": "verb"
+          },
+          {
+            "no": 4,
+            "text": "adverb"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_124",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 125,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the part of speech that is not used in the given sentences:\nI. She gave us a present.\nII. We present her a gift every year.\nIII. The present situation is worse.\nIV. The paper presented needs your attention.",
+        "question_keywords": [
+          "find out",
+          "part of speech",
+          "not used",
+          "sentences"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Noun"
+          },
+          {
+            "key": "B",
+            "text": "Adverb"
+          },
+          {
+            "key": "C",
+            "text": "Adjective"
+          },
+          {
+            "key": "D",
+            "text": "Verb"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_125",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 126,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the correct option to complete the sentence: Jane left Bangalore after her studies. She found it difficult to get a job. Jane would have found a new job",
+        "question_keywords": [
+          "select",
+          "correct option",
+          "complete the sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "if she stayed in Bangalore"
+          },
+          {
+            "key": "B",
+            "text": "if she had stayed in Bangalore"
+          },
+          {
+            "key": "C",
+            "text": "if she would stay in Bangalore"
+          },
+          {
+            "key": "D",
+            "text": "if she will stay in Bangalore"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_126",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 127,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the correct sentence from the following:",
+        "question_keywords": [
+          "select",
+          "correct sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "He is the good batsman in our team."
+          },
+          {
+            "key": "B",
+            "text": "He is one of the talkative boys in the class."
+          },
+          {
+            "key": "C",
+            "text": "Lekha is most clever than her sister."
+          },
+          {
+            "key": "D",
+            "text": "Apples are not sweet as mangoes."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_127",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 128,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the correct sentence from the following:",
+        "question_keywords": [
+          "select",
+          "correct sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Do you know which is world's tallest building?"
+          },
+          {
+            "key": "B",
+            "text": "One of these cycles is defective."
+          },
+          {
+            "key": "C",
+            "text": "This is the hardly nut to crack."
+          },
+          {
+            "key": "D",
+            "text": "He is good athlete. He performs well."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_128",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 129,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following is a correct sentence?",
+        "question_keywords": [
+          "correct sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "This is the most long lesson in this book."
+          },
+          {
+            "key": "B",
+            "text": "This is the most longest lesson in this book."
+          },
+          {
+            "key": "C",
+            "text": "This is most longest lesson in this book."
+          },
+          {
+            "key": "D",
+            "text": "This is the longest lesson in this book."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_129",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 130,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following is a correct sentence?",
+        "question_keywords": [
+          "correct sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Ramu is more tall than Somu."
+          },
+          {
+            "key": "B",
+            "text": "Ramu is not more tall than Somu."
+          },
+          {
+            "key": "C",
+            "text": "Ramu is taller than Somu."
+          },
+          {
+            "key": "D",
+            "text": "Ramu is taller to Somu."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_130",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 131,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following has the correct ground form?",
+        "question_keywords": [
+          "correct ground form"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "I remember to read about the earthquake in the papers."
+          },
+          {
+            "key": "B",
+            "text": "I remember having read about the earthquake in the papers."
+          },
+          {
+            "key": "C",
+            "text": "I remember having been read about the earthquake in the papers."
+          },
+          {
+            "key": "D",
+            "text": "I remember reading about the earthquake in the papers."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_131",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 132,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following is a correct sentence?",
+        "question_keywords": [
+          "correct",
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Kindness is noblest of all virtue."
+          },
+          {
+            "key": "B",
+            "text": "Kindness is most noble of all virtues."
+          },
+          {
+            "key": "C",
+            "text": "Kindness is the noblest of all virtues."
+          },
+          {
+            "key": "D",
+            "text": "Kindness is the most noblest of all virtues."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_132",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 133,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with suitable gerund : …………………………… on the grass is forbidden.",
+        "question_keywords": [
+          "gerund",
+          "forbidden"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "To walk"
+          },
+          {
+            "key": "B",
+            "text": "Walking"
+          },
+          {
+            "key": "C",
+            "text": "Having walked"
+          },
+          {
+            "key": "D",
+            "text": "To be walked."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_133",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 134,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with suitable infinitive : I am not afraid ………………… the truth.",
+        "question_keywords": [
+          "infinitive",
+          "truth"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "to have spoken"
+          },
+          {
+            "key": "B",
+            "text": "having spoken"
+          },
+          {
+            "key": "C",
+            "text": "speaking"
+          },
+          {
+            "key": "D",
+            "text": "to speak."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_134",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 135,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the correct Passive Form for the italicized word / words : He will do it.",
+        "question_keywords": [
+          "Passive Form"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "will done"
+          },
+          {
+            "key": "B",
+            "text": "will be doing"
+          },
+          {
+            "key": "C",
+            "text": "will be done"
+          },
+          {
+            "key": "D",
+            "text": "would do."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_135",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 136,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the Active voice from the options :",
+        "question_keywords": [
+          "Active voice"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Let the doors be opened."
+          },
+          {
+            "key": "B",
+            "text": "Let the cars be parked here."
+          },
+          {
+            "key": "C",
+            "text": "Let the children play in the garden."
+          },
+          {
+            "key": "D",
+            "text": "Let the inpatients not be disturbed."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_136",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 137,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the tense form : He has just gone out",
+        "question_keywords": [
+          "tense form"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Simple Present tense"
+          },
+          {
+            "key": "B",
+            "text": "Present Perfect tense"
+          },
+          {
+            "key": "C",
+            "text": "Simple Past tense"
+          },
+          {
+            "key": "D",
+            "text": "Past Perfect tense."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_137",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 138,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Replace the italicized word / words with present progressive tense from the options given below: She expects a lot from her brother.",
+        "question_keywords": [
+          "present progressive tense"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "was expecting"
+          },
+          {
+            "key": "B",
+            "text": "has been expecting"
+          },
+          {
+            "key": "C",
+            "text": "is expecting"
+          },
+          {
+            "key": "D",
+            "text": "would be expecting."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_138",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 139,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "There ... a tear in my coat so I ... a new coat when I ... to market.",
+        "question_keywords": [
+          "tear",
+          "market"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "is, will buy, go"
+          },
+          {
+            "key": "B",
+            "text": "was, will buy, went"
+          },
+          {
+            "key": "C",
+            "text": "is, bought, go"
+          },
+          {
+            "key": "D",
+            "text": "will be, bought, went."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_139",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 140,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Replace the italicized word / words with Past Progressive tense from the options given below: She absented herself from the school frequently.",
+        "question_keywords": [
+          "Past Progressive tense"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "had been absenting"
+          },
+          {
+            "key": "B",
+            "text": "has been absenting"
+          },
+          {
+            "key": "C",
+            "text": "is absenting"
+          },
+          {
+            "key": "D",
+            "text": "was absenting."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_140",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 141,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence: His son, the pride of his old age, is dead.",
+        "question_keywords": [
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Complex"
+          },
+          {
+            "key": "B",
+            "text": "Compound"
+          },
+          {
+            "key": "C",
+            "text": "None"
+          },
+          {
+            "key": "D",
+            "text": "Simple."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_141",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 142,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence: That he is unreliable is well known.",
+        "question_keywords": [
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Simple"
+          },
+          {
+            "key": "B",
+            "text": "Compound"
+          },
+          {
+            "key": "C",
+            "text": "Complex"
+          },
+          {
+            "key": "D",
+            "text": "None of these."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_142",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 143,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the Compound sentence:",
+        "question_keywords": [
+          "Compound sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Unless you do as I do, you will regret it."
+          },
+          {
+            "key": "B",
+            "text": "Can you tell me the time of his arrival?"
+          },
+          {
+            "key": "C",
+            "text": "Favio sat beside him and pulled out his cell phone."
+          },
+          {
+            "key": "D",
+            "text": "This is a machine which is used for sewing."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_143",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 144,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the Simple sentence:",
+        "question_keywords": [
+          "Simple sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The problem is too difficult to solve."
+          },
+          {
+            "key": "B",
+            "text": "The problem is so difficult that I cannot solve it."
+          },
+          {
+            "key": "C",
+            "text": "The problem is very difficult and so I cannot solve it."
+          },
+          {
+            "key": "D",
+            "text": "As the problem is very difficult, I cannot solve it."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_144",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 145,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the Simple sentence:",
+        "question_keywords": [
+          "Simple sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "He went to the place, where his father lived."
+          },
+          {
+            "key": "B",
+            "text": "He went to his father's native place."
+          },
+          {
+            "key": "C",
+            "text": "He went to a place and his father lived there."
+          },
+          {
+            "key": "D",
+            "text": "He went to the native place where his father lived."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_145",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 146,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words given in Column A with their antonyms in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "antonyms"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Trivial"
+          },
+          {
+            "key": "b",
+            "text": "Acceleration"
+          },
+          {
+            "key": "c",
+            "text": "Monstrous"
+          },
+          {
+            "key": "d",
+            "text": "Extinguished"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "dwarf"
+          },
+          {
+            "no": 2,
+            "text": "significant"
+          },
+          {
+            "no": 3,
+            "text": "lit"
+          },
+          {
+            "no": 4,
+            "text": "retardation."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_146",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 147,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words given in Column A with their meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "meanings"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Parched"
+          },
+          {
+            "key": "b",
+            "text": "Taut"
+          },
+          {
+            "key": "c",
+            "text": "Groaned"
+          },
+          {
+            "key": "d",
+            "text": "Freedom"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "slimy"
+          },
+          {
+            "no": 2,
+            "text": "smiled"
+          },
+          {
+            "no": 3,
+            "text": "slavery"
+          },
+          {
+            "no": 4,
+            "text": "wet."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_147",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 148,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Give the suitable order of articles in the blanks of the given passage and choose the correct code given below:",
+        "question_keywords": [
+          "articles",
+          "passage"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "a. the, the, an"
+          },
+          {
+            "key": "B",
+            "text": "the, a, a, the"
+          },
+          {
+            "key": "C",
+            "text": "the, a, a, an"
+          },
+          {
+            "key": "D",
+            "text": "the, a, the, an."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_148",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 149,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "prowess"
+          },
+          {
+            "key": "b",
+            "text": "shroud"
+          },
+          {
+            "key": "c",
+            "text": "prudent"
+          },
+          {
+            "key": "d",
+            "text": "obscure"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "reckless"
+          },
+          {
+            "no": 2,
+            "text": "coward"
+          },
+          {
+            "no": 3,
+            "text": "clear"
+          },
+          {
+            "no": 4,
+            "text": "near"
+          },
+          {
+            "no": 5,
+            "text": "reveal."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 5,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 5,
+              "b": 1,
+              "c": 3,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_149",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 150,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following phrasal verbs given in Column A with their meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "bring out"
+          },
+          {
+            "key": "b",
+            "text": "bring to"
+          },
+          {
+            "key": "c",
+            "text": "bring under"
+          },
+          {
+            "key": "d",
+            "text": "bring up"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "realise"
+          },
+          {
+            "no": 2,
+            "text": "restore"
+          },
+          {
+            "no": 3,
+            "text": "emphasise"
+          },
+          {
+            "no": 4,
+            "text": "subdue"
+          },
+          {
+            "no": 5,
+            "text": "rear"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 5
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 5
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 5,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_150",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 151,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words given in Column A with their antonyms in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Nightmarish"
+          },
+          {
+            "key": "b",
+            "text": "Irate"
+          },
+          {
+            "key": "c",
+            "text": "Unherald"
+          },
+          {
+            "key": "d",
+            "text": "Stench"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "calm"
+          },
+          {
+            "no": 2,
+            "text": "announce"
+          },
+          {
+            "no": 3,
+            "text": "aroma"
+          },
+          {
+            "no": 4,
+            "text": "pleasing"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_151",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 152,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following phrases / idioms given in Column A with their meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Mess around"
+          },
+          {
+            "key": "b",
+            "text": "Mete something out"
+          },
+          {
+            "key": "c",
+            "text": "Mill around"
+          },
+          {
+            "key": "d",
+            "text": "Mind out"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "punish"
+          },
+          {
+            "no": 2,
+            "text": "waste time"
+          },
+          {
+            "no": 3,
+            "text": "beware of danger"
+          },
+          {
+            "no": 4,
+            "text": "people get together very close"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_152",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 153,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following phrases given in Column A with their meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "go up"
+          },
+          {
+            "key": "b",
+            "text": "hold on"
+          },
+          {
+            "key": "c",
+            "text": "just before"
+          },
+          {
+            "key": "d",
+            "text": "let on"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "wait"
+          },
+          {
+            "no": 2,
+            "text": "a little ago"
+          },
+          {
+            "no": 3,
+            "text": "disclose a secret"
+          },
+          {
+            "no": 4,
+            "text": "increase"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_153",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 154,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with correct Homophone: We sat under the shade of the ... tree.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "breach"
+          },
+          {
+            "key": "B",
+            "text": "beach"
+          },
+          {
+            "key": "C",
+            "text": "beech"
+          },
+          {
+            "key": "D",
+            "text": "beich"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_154",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 155,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following phrases / idioms given in Column A with their meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "put on"
+          },
+          {
+            "key": "b",
+            "text": "give in"
+          },
+          {
+            "key": "c",
+            "text": "in abundance"
+          },
+          {
+            "key": "d",
+            "text": "underglass"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "surrender"
+          },
+          {
+            "no": 2,
+            "text": "a greenhouse"
+          },
+          {
+            "no": 3,
+            "text": "wear"
+          },
+          {
+            "no": 4,
+            "text": "a lot of"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_155",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 156,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the incorrect sentence from the following:",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "She is a minor so she needs a guardian."
+          },
+          {
+            "key": "B",
+            "text": "They saw the teacher so they became silent."
+          },
+          {
+            "key": "C",
+            "text": "As it rained so the match was cancelled."
+          },
+          {
+            "key": "D",
+            "text": "The pen is very beautiful but it does not write smoothly."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_156",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 157,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the meaning for the italicized word: He set into a thriving business.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "I. upcoming"
+          },
+          {
+            "key": "B",
+            "text": "II. increasing"
+          },
+          {
+            "key": "C",
+            "text": "III. successful"
+          },
+          {
+            "key": "D",
+            "text": "IV. prosperous"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_157",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 158,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following phrases given in Column A with their meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "due to"
+          },
+          {
+            "key": "b",
+            "text": "get on to"
+          },
+          {
+            "key": "c",
+            "text": "go in to"
+          },
+          {
+            "key": "d",
+            "text": "ground up"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "crushed"
+          },
+          {
+            "no": 2,
+            "text": "move fully"
+          },
+          {
+            "no": 3,
+            "text": "climb"
+          },
+          {
+            "no": 4,
+            "text": "because of"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 3,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_158",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 159,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match Column A with Column B to make meaningful sentences by using prepositions and select the correct answer from the codes given below:",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Ranjith got"
+          },
+          {
+            "key": "b",
+            "text": "Prices have risen"
+          },
+          {
+            "key": "c",
+            "text": "He went"
+          },
+          {
+            "key": "d",
+            "text": "We were talking"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "by 10 per cent"
+          },
+          {
+            "no": 2,
+            "text": "about you"
+          },
+          {
+            "no": 3,
+            "text": "out of the taxi"
+          },
+          {
+            "no": 4,
+            "text": "on horseback to Kedarnath"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 1,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_159",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 160,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with suitable preposition: He cuts the cake ... a knife.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "in"
+          },
+          {
+            "key": "B",
+            "text": "for"
+          },
+          {
+            "key": "C",
+            "text": "over"
+          },
+          {
+            "key": "D",
+            "text": "with"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_160",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 161,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the incorrect prepositional phrase from the given options : David is",
+        "question_keywords": [
+          "incorrect",
+          "prepositional phrase",
+          "David"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "afraid of dark"
+          },
+          {
+            "key": "B",
+            "text": "afraid of dogs"
+          },
+          {
+            "key": "C",
+            "text": "for definitely wrong"
+          },
+          {
+            "key": "D",
+            "text": "frightened of devils"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_161",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 162,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence of requisition.",
+        "question_keywords": [
+          "requisition",
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Just find out the odd one, won't you?"
+          },
+          {
+            "key": "B",
+            "text": "Just find out the key, can't you?"
+          },
+          {
+            "key": "C",
+            "text": "Just open the door, can you?"
+          },
+          {
+            "key": "D",
+            "text": "Just open the door, will you?"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_162",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 163,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pick out the sentence with SVIODO pattern:",
+        "question_keywords": [
+          "SVIODO",
+          "pattern",
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Painters paint pictures."
+          },
+          {
+            "key": "B",
+            "text": "I eat apples everyday."
+          },
+          {
+            "key": "C",
+            "text": "He gave me a book."
+          },
+          {
+            "key": "D",
+            "text": "Raju speaks English fluently."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_163",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 164,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the Passive Voice from the option :",
+        "question_keywords": [
+          "Passive Voice",
+          "find out"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Someone is chasing him."
+          },
+          {
+            "key": "B",
+            "text": "Someone is innocent here."
+          },
+          {
+            "key": "C",
+            "text": "Someone is allowed here by mistake."
+          },
+          {
+            "key": "D",
+            "text": "Someone here is keen on money by nature."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_164",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 165,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following is a correct sentence?",
+        "question_keywords": [
+          "correct",
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Your pencil is more sharp than mine"
+          },
+          {
+            "key": "B",
+            "text": "Your pencil is sharper than mine"
+          },
+          {
+            "key": "C",
+            "text": "Your pencil is the sharper than mine"
+          },
+          {
+            "key": "D",
+            "text": "Your pencil is sharp than mine."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_165",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 166,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following sentences has correct use of article?",
+        "question_keywords": [
+          "correct use",
+          "article",
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The rose is the sweetest of all flowers."
+          },
+          {
+            "key": "B",
+            "text": "Rose is the sweetest of all flowers."
+          },
+          {
+            "key": "C",
+            "text": "A rose is the sweetest of all flowers."
+          },
+          {
+            "key": "D",
+            "text": "An rose is the sweetest of all flowers."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_166",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 167,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with suitable phrase : Prem hates ... in the morning. Luckily he works in the evening.",
+        "question_keywords": [
+          "fill in the blank",
+          "suitable phrase",
+          "Prem hates"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "getting on"
+          },
+          {
+            "key": "B",
+            "text": "getting up"
+          },
+          {
+            "key": "C",
+            "text": "getting in"
+          },
+          {
+            "key": "D",
+            "text": "none of these."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_167",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 168,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match Column A with Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "break down"
+          },
+          {
+            "key": "b",
+            "text": "break in"
+          },
+          {
+            "key": "c",
+            "text": "break off"
+          },
+          {
+            "key": "d",
+            "text": "break up"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "disperse"
+          },
+          {
+            "no": 2,
+            "text": "collapse"
+          },
+          {
+            "no": 3,
+            "text": "detach"
+          },
+          {
+            "no": 4,
+            "text": "enter by force"
+          },
+          {
+            "no": 5,
+            "text": "disintegration."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 5
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 5,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 3,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_168",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 169,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match Column A with Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "give away"
+          },
+          {
+            "key": "b",
+            "text": "give over"
+          },
+          {
+            "key": "c",
+            "text": "give up"
+          },
+          {
+            "key": "d",
+            "text": "give off"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "resign"
+          },
+          {
+            "no": 2,
+            "text": "transfer"
+          },
+          {
+            "no": 3,
+            "text": "pronounce"
+          },
+          {
+            "no": 4,
+            "text": "abandon"
+          },
+          {
+            "no": 5,
+            "text": "emit"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 5,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 5
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 5,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_169",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 170,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match Column A with Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "improvise"
+          },
+          {
+            "key": "b",
+            "text": "impound"
+          },
+          {
+            "key": "c",
+            "text": "improbable"
+          },
+          {
+            "key": "d",
+            "text": "imprecise"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "dubious, far-fetched"
+          },
+          {
+            "no": 2,
+            "text": "ambiguous, approximate"
+          },
+          {
+            "no": 3,
+            "text": "invent and perform"
+          },
+          {
+            "no": 4,
+            "text": "seize legally"
+          },
+          {
+            "no": 5,
+            "text": "not original, copying."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 5,
+              "b": 4,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 5
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_170",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 171,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks with suitable words: A ... of ... attached the village.",
+        "question_keywords": [
+          "fill in the blanks",
+          "suitable words"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "gangs, thieves"
+          },
+          {
+            "key": "B",
+            "text": "gang, thieves"
+          },
+          {
+            "key": "C",
+            "text": "gang, thieves"
+          },
+          {
+            "key": "D",
+            "text": "gangs, thief."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_171",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 172,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks suitably: He ... the bus, if he ... early.",
+        "question_keywords": [
+          "fill in the blanks",
+          "suitably"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "could catch, starts"
+          },
+          {
+            "key": "B",
+            "text": "will catch, starts"
+          },
+          {
+            "key": "C",
+            "text": "would catch, starts"
+          },
+          {
+            "key": "D",
+            "text": "will catch, started."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_172",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 173,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the meaning for the italicized word: Hemanth rejected his suggestion indignantly.",
+        "question_keywords": [
+          "meaning",
+          "italicized word",
+          "indignantly"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "I. irritatedly"
+          },
+          {
+            "key": "B",
+            "text": "II. annoyingly"
+          },
+          {
+            "key": "C",
+            "text": "III. infuriatedly"
+          },
+          {
+            "key": "D",
+            "text": "IV. persuadingly"
+          },
+          {
+            "key": "E",
+            "text": "V. furiously"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_173",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 174,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the meaning for the italicized word: She was fascinated by her obscure statements.",
+        "question_keywords": [
+          "meaning",
+          "italicized word",
+          "obscure"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "I. convinced"
+          },
+          {
+            "key": "B",
+            "text": "II. attracted"
+          },
+          {
+            "key": "C",
+            "text": "III. charmed"
+          },
+          {
+            "key": "D",
+            "text": "IV. enthralled"
+          },
+          {
+            "key": "E",
+            "text": "V. allured"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_174",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 175,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words given in Column A with their meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "match",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "canopy"
+          },
+          {
+            "key": "b",
+            "text": "concerned"
+          },
+          {
+            "key": "c",
+            "text": "queer"
+          },
+          {
+            "key": "d",
+            "text": "chide"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "scolding"
+          },
+          {
+            "no": 2,
+            "text": "strange"
+          },
+          {
+            "no": 3,
+            "text": "be anxious"
+          },
+          {
+            "no": 4,
+            "text": "shelter."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_175",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 176,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words given in Column A with their meanings in Column B and select the correct answer from the codes given below.",
+        "question_keywords": [
+          "match",
+          "words",
+          "meanings"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "sloth"
+          },
+          {
+            "key": "b",
+            "text": "Intricate"
+          },
+          {
+            "key": "c",
+            "text": "irritated"
+          },
+          {
+            "key": "d",
+            "text": "dread"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "annoyed"
+          },
+          {
+            "no": 2,
+            "text": "laziness"
+          },
+          {
+            "no": 3,
+            "text": "fear"
+          },
+          {
+            "no": 4,
+            "text": "complicated"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 5,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 1,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_176",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 177,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words given in Column A with their meanings in Column B and select the correct answer from the codes given below.",
+        "question_keywords": [
+          "match",
+          "words",
+          "meanings"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "instinct"
+          },
+          {
+            "key": "b",
+            "text": "profound"
+          },
+          {
+            "key": "c",
+            "text": "lanky"
+          },
+          {
+            "key": "d",
+            "text": "aptitude"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "deep"
+          },
+          {
+            "no": 2,
+            "text": "ability"
+          },
+          {
+            "no": 3,
+            "text": "intuition"
+          },
+          {
+            "no": 4,
+            "text": "tall and thin"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 5,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_177",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 178,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the odd one:",
+        "question_keywords": [
+          "odd one"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "None of these"
+          },
+          {
+            "key": "B",
+            "text": "I"
+          },
+          {
+            "key": "C",
+            "text": "III"
+          },
+          {
+            "key": "D",
+            "text": "IV"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_178",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 179,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match Column A with Column B to form a new word and select the correct answer from the codes given below.",
+        "question_keywords": [
+          "match",
+          "new word"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Slave"
+          },
+          {
+            "key": "b",
+            "text": "Terrify"
+          },
+          {
+            "key": "c",
+            "text": "Youth"
+          },
+          {
+            "key": "d",
+            "text": "Power"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "ry"
+          },
+          {
+            "no": 2,
+            "text": "ism"
+          },
+          {
+            "no": 3,
+            "text": "ic"
+          },
+          {
+            "no": 4,
+            "text": "less"
+          },
+          {
+            "no": 5,
+            "text": "ful"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 5,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 5,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 5
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_179",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 180,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the odd one:",
+        "question_keywords": [
+          "odd one"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "III"
+          },
+          {
+            "key": "B",
+            "text": "II"
+          },
+          {
+            "key": "C",
+            "text": "I"
+          },
+          {
+            "key": "D",
+            "text": "IV"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_180",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 181,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the odd one:",
+        "question_keywords": [
+          "odd one"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "II"
+          },
+          {
+            "key": "B",
+            "text": "III"
+          },
+          {
+            "key": "C",
+            "text": "IV"
+          },
+          {
+            "key": "D",
+            "text": "I"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_181",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 182,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following sentences is correct?",
+        "question_keywords": [
+          "correct sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "You can study well, can you?"
+          },
+          {
+            "key": "B",
+            "text": "Students like movies, do they?"
+          },
+          {
+            "key": "C",
+            "text": "We can't live without air, can't we?"
+          },
+          {
+            "key": "D",
+            "text": "He didn't go, did he?"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_182",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 183,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words given in Column A with their antonyms in Column B and select the correct answer from the codes given below.",
+        "question_keywords": [
+          "match",
+          "words",
+          "antonyms"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Panicked"
+          },
+          {
+            "key": "b",
+            "text": "Drought"
+          },
+          {
+            "key": "c",
+            "text": "Commence"
+          },
+          {
+            "key": "d",
+            "text": "Pride"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Humility"
+          },
+          {
+            "no": 2,
+            "text": "Calmed"
+          },
+          {
+            "no": 3,
+            "text": "Floods"
+          },
+          {
+            "no": 4,
+            "text": "Conclude"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_183",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 184,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following sentences given in Column A with their patterns in Column B and select the correct answer from the codes given below.",
+        "question_keywords": [
+          "match",
+          "sentences",
+          "patterns"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Now, it is raining"
+          },
+          {
+            "key": "b",
+            "text": "This morning I met him"
+          },
+          {
+            "key": "c",
+            "text": "Radha sings a song"
+          },
+          {
+            "key": "d",
+            "text": "Sita is a teacher"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "ASVO"
+          },
+          {
+            "no": 2,
+            "text": "SVC"
+          },
+          {
+            "no": 3,
+            "text": "ASV"
+          },
+          {
+            "no": 4,
+            "text": "SVO"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_184",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 185,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following sentences given in Column A with their patterns in Column B and select the correct answer from the codes given below.",
+        "question_keywords": [
+          "match",
+          "sentences",
+          "patterns"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "They were happy"
+          },
+          {
+            "key": "b",
+            "text": "She sang sweetly"
+          },
+          {
+            "key": "c",
+            "text": "I gave him a book"
+          },
+          {
+            "key": "d",
+            "text": "He painted the car green"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "SVA"
+          },
+          {
+            "no": 2,
+            "text": "SVIODO"
+          },
+          {
+            "no": 3,
+            "text": "SVOC"
+          },
+          {
+            "no": 4,
+            "text": "SVC"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_185",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 186,
+      "question_type": "assertion_reason",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "assertion": "To err is human.",
+        "reason": "Human beings make mistakes.",
+        "question_keywords": [
+          "assertion",
+          "reason",
+          "human",
+          "mistakes"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Both assertion and reason are true and reason is the correct explanation for the assertion."
+          },
+          {
+            "key": "B",
+            "text": "Both assertion and reason are true but reason is not the correct explanation for the assertion."
+          },
+          {
+            "key": "C",
+            "text": "Assertion is true but reason is false."
+          },
+          {
+            "key": "D",
+            "text": "Assertion is false but reason is true."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_186",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 187,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following homophones given in Column A with their related meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "homophones",
+          "meanings",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Statutory"
+          },
+          {
+            "key": "b",
+            "text": "Stationary"
+          },
+          {
+            "key": "c",
+            "text": "Stationery"
+          },
+          {
+            "key": "d",
+            "text": "Statuary"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Statues collectively"
+          },
+          {
+            "no": 2,
+            "text": "Authorized by law"
+          },
+          {
+            "no": 3,
+            "text": "Not moving"
+          },
+          {
+            "no": 4,
+            "text": "Writing materials."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_187",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 188,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following homophones given in Column A with their related meanings in Column B and select the correct answer from the codes given below:",
+        "question_keywords": [
+          "homophones",
+          "meanings",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "career"
+          },
+          {
+            "key": "b",
+            "text": "courier"
+          },
+          {
+            "key": "c",
+            "text": "carrier"
+          },
+          {
+            "key": "d",
+            "text": "courtier"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "an attendant at court"
+          },
+          {
+            "no": 2,
+            "text": "person or animal transmitting disease"
+          },
+          {
+            "no": 3,
+            "text": "job"
+          },
+          {
+            "no": 4,
+            "text": "a person who delivers messages."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 4,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_188",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 189,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with the correct 'Homophone': The ... thread was thrown away.",
+        "question_keywords": [
+          "homophone",
+          "thread"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "naughty"
+          },
+          {
+            "key": "B",
+            "text": "notty"
+          },
+          {
+            "key": "C",
+            "text": "knotty"
+          },
+          {
+            "key": "D",
+            "text": "notey"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_189",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 190,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with the correct 'Homophone': The teacher gave ... to the students.",
+        "question_keywords": [
+          "homophone",
+          "teacher",
+          "students"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Council"
+          },
+          {
+            "key": "B",
+            "text": "Councillor"
+          },
+          {
+            "key": "C",
+            "text": "Counsel"
+          },
+          {
+            "key": "D",
+            "text": "Counsel"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_190",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 191,
+      "question_type": "statement_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the meaning for the italicized words: His brother's worthy suggestions changed Sachin to a steadfast cricketer.",
+        "question_keywords": [
+          "meaning",
+          "worthy",
+          "suggestions"
+        ],
+        "item_numbering_style": "roman",
+        "statements": [
+          {
+            "no": "i",
+            "text": "determined"
+          },
+          {
+            "no": "ii",
+            "text": "firm"
+          },
+          {
+            "no": "iii",
+            "text": "famous"
+          },
+          {
+            "no": "iv",
+            "text": "committed"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "i, ii, iii"
+          },
+          {
+            "key": "B",
+            "text": "i, ii, iv"
+          },
+          {
+            "key": "C",
+            "text": "i, iii, iv"
+          },
+          {
+            "key": "D",
+            "text": "none of these"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_191",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 192,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following statements take the following question tag?",
+        "question_keywords": [
+          "question tag",
+          "statement"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Reeta goes to school everyday."
+          },
+          {
+            "key": "B",
+            "text": "Reeta should go to school everyday."
+          },
+          {
+            "key": "C",
+            "text": "Reeta can go to school everyday."
+          },
+          {
+            "key": "D",
+            "text": "Reeta does not go to school everyday."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_192",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 193,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with suitable preposition given below as options: There is a beautiful bridge ... the Kaveri river.",
+        "question_keywords": [
+          "preposition",
+          "bridge",
+          "Kaveri river"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "across"
+          },
+          {
+            "key": "B",
+            "text": "in"
+          },
+          {
+            "key": "C",
+            "text": "through"
+          },
+          {
+            "key": "D",
+            "text": "between"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_193",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 194,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the degree: Delhi Dare Devils and Kolkata Knight Riders are equally challenging teams.",
+        "question_keywords": [
+          "degree",
+          "challenging teams"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Comparative"
+          },
+          {
+            "key": "B",
+            "text": "Superlative"
+          },
+          {
+            "key": "C",
+            "text": "Positive"
+          },
+          {
+            "key": "D",
+            "text": "None of these"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_194",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 195,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Change into Superlative degree: Aerospace engineering is more fascinating subject to the students than other subjects.",
+        "question_keywords": [
+          "Superlative degree",
+          "Aerospace engineering"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Aerospace engineering is the most fascinating subject to the students"
+          },
+          {
+            "key": "B",
+            "text": "Aerospace engineering is one of the fascinating subjects to the students"
+          },
+          {
+            "key": "C",
+            "text": "Aerospace engineering is the only fascinating subject to the students"
+          },
+          {
+            "key": "D",
+            "text": "Aerospace engineering is not the only fascinating subject to the students"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_195",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 196,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the appropriate Passive Voice for the following sentence: They were carrying the injured player off the field.",
+        "question_keywords": [
+          "Passive Voice",
+          "carrying",
+          "injured player"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "They carried the injured player off the field"
+          },
+          {
+            "key": "B",
+            "text": "The injured player was being carried off the field by them."
+          },
+          {
+            "key": "C",
+            "text": "The injured player carried them off the field."
+          },
+          {
+            "key": "D",
+            "text": "The field was being carried by them for the players."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_196",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 197,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the Superlative degree:",
+        "question_keywords": [
+          "Superlative degree"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Who is braver, Napoleon or Hitler?"
+          },
+          {
+            "key": "B",
+            "text": "She is the wealthiest lady in the society."
+          },
+          {
+            "key": "C",
+            "text": "Her dress is old."
+          },
+          {
+            "key": "D",
+            "text": "The nearer I came, the farther he went."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_197",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 198,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the degree, and choose the correct answer: Some poets are at least as great as Tennyson.",
+        "question_keywords": [
+          "degree",
+          "poets",
+          "Tennyson"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Comparative degree"
+          },
+          {
+            "key": "B",
+            "text": "Positive degree"
+          },
+          {
+            "key": "C",
+            "text": "Superlative degree"
+          },
+          {
+            "key": "D",
+            "text": "None of these"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_198",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 199,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Change the following into Comparative degree: My pony is not as trained as yours.",
+        "question_keywords": [
+          "Comparative degree",
+          "ponies"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Your pony is more trained than mine."
+          },
+          {
+            "key": "B",
+            "text": "Your pony is not more trained than mine."
+          },
+          {
+            "key": "C",
+            "text": "Your pony is relatively more trained."
+          },
+          {
+            "key": "D",
+            "text": "Your pony is more trained."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_199",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 200,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "When I saw a black and white print of Jesus Christ in his hut I asked Gandhiji. \"How is this? You are not a Christian\". \"I am a Christian and a Hindu and a Muslim and a Jew,\" he replied. The answer of Gandhiji reflects ...",
+        "question_keywords": [
+          "Gandhiji",
+          "Christian",
+          "Hindu",
+          "Muslim",
+          "Jew"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "his arrogance"
+          },
+          {
+            "key": "B",
+            "text": "his faith on secularism"
+          },
+          {
+            "key": "C",
+            "text": "his disrespect for religion"
+          },
+          {
+            "key": "D",
+            "text": "his disrespect for others"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2012_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2012_en_200",
+      "group": "G4",
+      "year": 2012,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    }
+  ]
+}

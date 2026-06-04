@@ -1,0 +1,5938 @@
+{
+  "group": "G4",
+  "subgroup": null,
+  "year": 2019,
+  "paper_type": "en",
+  "language_mode": "en_only",
+  "paper_code": "",
+  "total_questions": 100,
+  "extraction_model": "mistral-ocr-2512 + gpt-4o-mini",
+  "questions": [
+    {
+      "question_no": 1,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "I am sleepy. I ———— (work) all night.",
+        "question_keywords": [
+          "tense",
+          "verb"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "have worked"
+          },
+          {
+            "key": "B",
+            "text": "work"
+          },
+          {
+            "key": "C",
+            "text": "have been working"
+          },
+          {
+            "key": "D",
+            "text": "worked"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_001",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 2,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The Earth ———— around the sun.",
+        "question_keywords": [
+          "Earth",
+          "sun"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "moves"
+          },
+          {
+            "key": "B",
+            "text": "will move"
+          },
+          {
+            "key": "C",
+            "text": "is moved"
+          },
+          {
+            "key": "D",
+            "text": "would move"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_002",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 3,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct question tag for the following statement: Jordi attends the class regularly. ————?",
+        "question_keywords": [
+          "question tag",
+          "Jordi",
+          "class"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "did he"
+          },
+          {
+            "key": "B",
+            "text": "didn’t he"
+          },
+          {
+            "key": "C",
+            "text": "does he"
+          },
+          {
+            "key": "D",
+            "text": "doesn’t he"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_003",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 4,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the correct question tag: My father loves his native village ————?",
+        "question_keywords": [
+          "father",
+          "native village",
+          "question tag"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "don’t he"
+          },
+          {
+            "key": "B",
+            "text": "doesn’t he"
+          },
+          {
+            "key": "C",
+            "text": "didn’t he"
+          },
+          {
+            "key": "D",
+            "text": "does he"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_004",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 5,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the suitable phrasal verb: The little people ———— their daily tasks.",
+        "question_keywords": [
+          "phrasal verb",
+          "tasks"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "went about"
+          },
+          {
+            "key": "B",
+            "text": "went out"
+          },
+          {
+            "key": "C",
+            "text": "went on"
+          },
+          {
+            "key": "D",
+            "text": "wait on"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_005",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 6,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct synonym for the underlined word: Students should study their lessons with diligence and care.",
+        "question_keywords": [
+          "synonym",
+          "diligence",
+          "care"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "steady effort"
+          },
+          {
+            "key": "B",
+            "text": "enjoyment"
+          },
+          {
+            "key": "C",
+            "text": "dedication"
+          },
+          {
+            "key": "D",
+            "text": "caution"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_006",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 7,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct “synonym” for the underlined word from the options given: It is an *invidious* thing to distinguish between knowledge and character.",
+        "question_keywords": [
+          "synonym",
+          "invidious"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "unjust"
+          },
+          {
+            "key": "B",
+            "text": "seriousness"
+          },
+          {
+            "key": "C",
+            "text": "just"
+          },
+          {
+            "key": "D",
+            "text": "unpleasant"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_007",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 8,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the correct meaning of the word “conviction”",
+        "question_keywords": [
+          "meaning",
+          "conviction"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "false belief"
+          },
+          {
+            "key": "B",
+            "text": "depressed"
+          },
+          {
+            "key": "C",
+            "text": "anxious"
+          },
+          {
+            "key": "D",
+            "text": "strong belief"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_008",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 9,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "He plays _______ guitar. Find out the right article:",
+        "question_keywords": [
+          "guitar",
+          "article"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "a"
+          },
+          {
+            "key": "B",
+            "text": "an"
+          },
+          {
+            "key": "C",
+            "text": "the"
+          },
+          {
+            "key": "D",
+            "text": "none"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_009",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 10,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks with suitable articles: Ramu had applied for _______ (a) _______ post of _______ (b) _______ cashier in _______ (c) _______ bank. In _______ (d) _______ interview he answered some questions well.",
+        "question_keywords": [
+          "fill in the blanks",
+          "articles"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "(a)"
+          },
+          {
+            "key": "b",
+            "text": "(b)"
+          },
+          {
+            "key": "c",
+            "text": "(c)"
+          },
+          {
+            "key": "d",
+            "text": "(d)"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "a"
+          },
+          {
+            "no": 2,
+            "text": "the"
+          },
+          {
+            "no": 3,
+            "text": "the"
+          },
+          {
+            "no": 4,
+            "text": "an"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_010",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 11,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the plural form of the following word: ‘alumnus’",
+        "question_keywords": [
+          "plural",
+          "alumnus"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "alumni"
+          },
+          {
+            "key": "B",
+            "text": "alumnae"
+          },
+          {
+            "key": "C",
+            "text": "alumna"
+          },
+          {
+            "key": "D",
+            "text": "alumus"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_011",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 12,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the plural form of the following compound word. “man servant”",
+        "question_keywords": [
+          "plural",
+          "compound word",
+          "man servant"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "man-servants"
+          },
+          {
+            "key": "B",
+            "text": "men-servant"
+          },
+          {
+            "key": "C",
+            "text": "men-servants"
+          },
+          {
+            "key": "D",
+            "text": "mens-servants"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_012",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 13,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the two sentences are in the same degree of comparison?",
+        "question_keywords": [
+          "same degree of comparison",
+          "sentences"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "I and II"
+          },
+          {
+            "key": "B",
+            "text": "I and III"
+          },
+          {
+            "key": "C",
+            "text": "I and IV"
+          },
+          {
+            "key": "D",
+            "text": "II and IV"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_013",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 14,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following is not a blended word?",
+        "question_keywords": [
+          "blended word"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Motel"
+          },
+          {
+            "key": "B",
+            "text": "Brunch"
+          },
+          {
+            "key": "C",
+            "text": "Kilogram"
+          },
+          {
+            "key": "D",
+            "text": "Interpol"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_014",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 15,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the right combination for the blended word 'travelogue'",
+        "question_keywords": [
+          "blended word",
+          "travelogue"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "travel + monologue"
+          },
+          {
+            "key": "B",
+            "text": "travel + dialogue"
+          },
+          {
+            "key": "C",
+            "text": "travel + catalogue"
+          },
+          {
+            "key": "D",
+            "text": "train + catalogue"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_015",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 16,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pick out the compound word with the combination Adjective + Noun",
+        "question_keywords": [
+          "compound word",
+          "Adjective + Noun"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Watchman"
+          },
+          {
+            "key": "B",
+            "text": "Hard working"
+          },
+          {
+            "key": "C",
+            "text": "Hot water"
+          },
+          {
+            "key": "D",
+            "text": "Whitewash"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_016",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 17,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following and choose the correct code:",
+        "question_keywords": [
+          "match the following"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "(a) Adjective + Noun"
+          },
+          {
+            "key": "b",
+            "text": "(b) Adjective + Verb"
+          },
+          {
+            "key": "c",
+            "text": "(c) Adverb + Verb"
+          },
+          {
+            "key": "d",
+            "text": "(d) Adjective + Adjective"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "pale blue"
+          },
+          {
+            "no": 2,
+            "text": "software"
+          },
+          {
+            "no": 3,
+            "text": "free drive"
+          },
+          {
+            "no": 4,
+            "text": "downcast"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 3,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_017",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 18,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Read the passage given below and answer the question that follows. 'Friends and Comrades, the light has gone out of our lives and there is darkness everywhere. I do not know what to tell you and how to say it. Our beloved leader, Bapu as we called him, the father of the nation, is no more. Who is referred as \"Bapu\"?",
+        "question_keywords": [
+          "Bapu"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Nethaji"
+          },
+          {
+            "key": "B",
+            "text": "Nehru"
+          },
+          {
+            "key": "C",
+            "text": "Gandhiji"
+          },
+          {
+            "key": "D",
+            "text": "Mr. Balbir Singh"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_018",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 19,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Correspondence once limited to letters is now often online, as e-mail. Newsletters, brochures, circulars, resumes, etc. Once paperbound, are now online. What do you understand of the word 'Correspondence'?",
+        "question_keywords": [
+          "Correspondence",
+          "definition"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Principal"
+          },
+          {
+            "key": "B",
+            "text": "Owner of School/College"
+          },
+          {
+            "key": "C",
+            "text": "Related"
+          },
+          {
+            "key": "D",
+            "text": "Written communication"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_019",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 20,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct sentence from the options",
+        "question_keywords": [
+          "correct sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "I. Supposing if we start early, we can reach on time"
+          },
+          {
+            "key": "B",
+            "text": "II. He remains brave and confidence in a difficult situation"
+          },
+          {
+            "key": "C",
+            "text": "III. He joined a European University last year"
+          },
+          {
+            "key": "D",
+            "text": "IV. If I had started in time, I would caught the train"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_020",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 21,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pick out the correct sentence from the options given below",
+        "question_keywords": [
+          "correct sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "I met the concerned officer and explained my position"
+          },
+          {
+            "key": "B",
+            "text": "I met the officer concerned and explained my position"
+          },
+          {
+            "key": "C",
+            "text": "The moon was really a world covered by mountains and valleys"
+          },
+          {
+            "key": "D",
+            "text": "Either of these are suitable"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_021",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 22,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the odd word:",
+        "question_keywords": [
+          "odd word"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Ground"
+          },
+          {
+            "key": "B",
+            "text": "School"
+          },
+          {
+            "key": "C",
+            "text": "Hard"
+          },
+          {
+            "key": "D",
+            "text": "Lab"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_022",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 23,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "To which period the underlined poet belongs to? 1. Jack Prelutsky 2. William Blake 3. Elizabeth Barrett Browning 4. D.H. Lawrence",
+        "question_keywords": [
+          "period",
+          "poet"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "1803–1882"
+          },
+          {
+            "key": "B",
+            "text": "1770–1850"
+          },
+          {
+            "key": "C",
+            "text": "1885–1930"
+          },
+          {
+            "key": "D",
+            "text": "1806–1861"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_023",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 24,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the poets with their poems",
+        "question_keywords": [
+          "match poets",
+          "poems"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "(a) Earth"
+          },
+          {
+            "key": "b",
+            "text": "(b) Going for Water"
+          },
+          {
+            "key": "c",
+            "text": "(c) Migrant Bird"
+          },
+          {
+            "key": "d",
+            "text": "(d) Laugh and Be Merry"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Robert Frost"
+          },
+          {
+            "no": 2,
+            "text": "John Masefield"
+          },
+          {
+            "no": 3,
+            "text": "Khalil Gibran"
+          },
+          {
+            "no": 4,
+            "text": "Famida Y Basheer"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 1,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_024",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 25,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the poems with the poets :",
+        "question_keywords": [
+          "match poems",
+          "poets"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "(a) Live to some purpose"
+          },
+          {
+            "key": "b",
+            "text": "(b) English words"
+          },
+          {
+            "key": "c",
+            "text": "(c) The flying wonder"
+          },
+          {
+            "key": "d",
+            "text": "(d) Beautiful Inside"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Stephen Vincent Benet"
+          },
+          {
+            "no": 2,
+            "text": "Paul Holmes"
+          },
+          {
+            "no": 3,
+            "text": "V.K. Gokak"
+          },
+          {
+            "no": 4,
+            "text": "Adelaide Anne Proctor"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_025",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 26,
+      "question_type": "match_the_following",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following :",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Phatik"
+          },
+          {
+            "key": "b",
+            "text": "Rowther"
+          },
+          {
+            "key": "c",
+            "text": "Monsieur Sauvage"
+          },
+          {
+            "key": "d",
+            "text": "Fromton Nuttel"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "The Open Window"
+          },
+          {
+            "no": 2,
+            "text": "Holiday"
+          },
+          {
+            "no": 3,
+            "text": "Reflowering"
+          },
+          {
+            "no": 4,
+            "text": "Two friends"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_026",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 27,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"What'er the theme, the Maiden Sang As if her song could have no ending\". These are the words of",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Walt Whitman"
+          },
+          {
+            "key": "B",
+            "text": "William Shakespeare"
+          },
+          {
+            "key": "C",
+            "text": "Robert Frost"
+          },
+          {
+            "key": "D",
+            "text": "None of the above"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_027",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 28,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct preposition and fill in the blanks : The cat hid —— the door.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "above"
+          },
+          {
+            "key": "B",
+            "text": "behind"
+          },
+          {
+            "key": "C",
+            "text": "under"
+          },
+          {
+            "key": "D",
+            "text": "from"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_028",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 29,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The wife of William Shakespeare was",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Annie Louisa Walker"
+          },
+          {
+            "key": "B",
+            "text": "Anne Hathaway"
+          },
+          {
+            "key": "C",
+            "text": "Portia"
+          },
+          {
+            "key": "D",
+            "text": "Viola"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_029",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 30,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Portia's father kept three caskets filled with gold, silver and ———— to choose his daughter the right suitor.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Pearls"
+          },
+          {
+            "key": "B",
+            "text": "Diamonds"
+          },
+          {
+            "key": "C",
+            "text": "Lead"
+          },
+          {
+            "key": "D",
+            "text": "Platinum"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_030",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 31,
+      "question_type": "match_the_following",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the Characters (A) with Who they are (B)",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Antonio"
+          },
+          {
+            "key": "b",
+            "text": "Bassanio"
+          },
+          {
+            "key": "c",
+            "text": "Shylock"
+          },
+          {
+            "key": "d",
+            "text": "Portia"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Moneylender"
+          },
+          {
+            "no": 2,
+            "text": "A wealthy lady"
+          },
+          {
+            "no": 3,
+            "text": "A close friend of Antonio"
+          },
+          {
+            "no": 4,
+            "text": "A Merchant of Venice"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 3,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_031",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 32,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In the poem \"O captain! My captain\"! the captain symbolises",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Abraham Lincoln"
+          },
+          {
+            "key": "B",
+            "text": "Hitler"
+          },
+          {
+            "key": "C",
+            "text": "Musolini"
+          },
+          {
+            "key": "D",
+            "text": "Dumolin"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_032",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 33,
+      "question_type": "match_the_following",
+      "unit_id": 2,
+      "unit": "Geography of India",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following folk arts with the states:",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Manipuri"
+          },
+          {
+            "key": "b",
+            "text": "Garba"
+          },
+          {
+            "key": "c",
+            "text": "Bangra"
+          },
+          {
+            "key": "d",
+            "text": "Kuchipudi"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Andhrapradesh"
+          },
+          {
+            "no": 2,
+            "text": "Punjab"
+          },
+          {
+            "no": 3,
+            "text": "Manipur"
+          },
+          {
+            "no": 4,
+            "text": "Gujarat"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_033",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 34,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Rudyard Kipling, one of the most popular English Poets, was born in",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Canada"
+          },
+          {
+            "key": "B",
+            "text": "India"
+          },
+          {
+            "key": "C",
+            "text": "America"
+          },
+          {
+            "key": "D",
+            "text": "Britain"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_034",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 35,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Laura Merton's father was a retired",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Admiral"
+          },
+          {
+            "key": "B",
+            "text": "Colonel"
+          },
+          {
+            "key": "C",
+            "text": "Flying officer"
+          },
+          {
+            "key": "D",
+            "text": "General Manager"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_035",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 36,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who uttered the following words in the Model Millionaire of Oscar Wilde? \"Millionaire models are rare enough, but by Jove Model Millionaires are rarer still\":",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Alan Trevor"
+          },
+          {
+            "key": "B",
+            "text": "Hausberg"
+          },
+          {
+            "key": "C",
+            "text": "Hughie"
+          },
+          {
+            "key": "D",
+            "text": "The Colonel"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_036",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 37,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"It was only a linnet singing outside the window\". What is a 'linnet'?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "a small brown dog"
+          },
+          {
+            "key": "B",
+            "text": "a small rabbit"
+          },
+          {
+            "key": "C",
+            "text": "a small girl"
+          },
+          {
+            "key": "D",
+            "text": "a small brown and grey bird"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_037",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 38,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "'To the Land of Snow' is the trekking experience of the author to",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Himalayas"
+          },
+          {
+            "key": "B",
+            "text": "Mt. Everest"
+          },
+          {
+            "key": "C",
+            "text": "Milam Glacier"
+          },
+          {
+            "key": "D",
+            "text": "Kashmir"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_038",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 39,
+      "question_type": "simple_mcq",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What is the height of the Shivalinga in Tanjore temple?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "7.8 m"
+          },
+          {
+            "key": "B",
+            "text": "8.7 m"
+          },
+          {
+            "key": "C",
+            "text": "8.9 m"
+          },
+          {
+            "key": "D",
+            "text": "9.8 m"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_039",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 40,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which among the following is wrongly matched?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Film : Movie"
+          },
+          {
+            "key": "B",
+            "text": "Tap : Faucet"
+          },
+          {
+            "key": "C",
+            "text": "Nappy : Antenna"
+          },
+          {
+            "key": "D",
+            "text": "Flat : Apartment"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_040",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 41,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What is the American Word for \"aerial\"?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "accelerator"
+          },
+          {
+            "key": "B",
+            "text": "anorak"
+          },
+          {
+            "key": "C",
+            "text": "antenna"
+          },
+          {
+            "key": "D",
+            "text": "trunk"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_041",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 42,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What is implied in the poem \"O Captain and My Captain\"?",
+        "question_keywords": [
+          "implied",
+          "poem",
+          "O Captain and My Captain"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "'O Captain! hints at the affection and death of the Captain'"
+          },
+          {
+            "key": "B",
+            "text": "'O Captain! hints at not affection of the Captain'"
+          },
+          {
+            "key": "C",
+            "text": "'O Captain! hints at not death of the Captain'"
+          },
+          {
+            "key": "D",
+            "text": "'O Captain' hints at just calling for Captain'"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_042",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 43,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who pays a glowing tribute to Wright brothers in these lines?",
+        "question_keywords": [
+          "tribute",
+          "Wright brothers",
+          "lines"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "H.W. Longfellow"
+          },
+          {
+            "key": "B",
+            "text": "Stephen Vincent Benet"
+          },
+          {
+            "key": "C",
+            "text": "John Masefield"
+          },
+          {
+            "key": "D",
+            "text": "Khalil Gibran"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_043",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 44,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who wrote the above poem?",
+        "question_keywords": [
+          "poem",
+          "wrote"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Jack Prelutsky"
+          },
+          {
+            "key": "B",
+            "text": "William Wordsworth"
+          },
+          {
+            "key": "C",
+            "text": "Norman Nicholson"
+          },
+          {
+            "key": "D",
+            "text": "Thomas Hardy"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_044",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 45,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who wrote the motivational poem \"Be the Best\"?",
+        "question_keywords": [
+          "motivational poem",
+          "Be the Best",
+          "wrote"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "William Wordsworth"
+          },
+          {
+            "key": "B",
+            "text": "Douglas Malloch"
+          },
+          {
+            "key": "C",
+            "text": "D.H. Lawrence"
+          },
+          {
+            "key": "D",
+            "text": "Thomas Hardy"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_045",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 46,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": true,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Living Amicably\" is an extract from",
+        "question_keywords": [
+          "extract",
+          "Living Amicably"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "'Wings of Fire'"
+          },
+          {
+            "key": "B",
+            "text": "My Experiments with Truth"
+          },
+          {
+            "key": "C",
+            "text": "To the land of Snow"
+          },
+          {
+            "key": "D",
+            "text": "Sunny days"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_046",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 47,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": true,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who Speaks the following line in \"Julius Caesar\"? \"I come to bury Caesar, not to praise him\".",
+        "question_keywords": [
+          "Julius Caesar",
+          "burial"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Antony"
+          },
+          {
+            "key": "B",
+            "text": "Brutus"
+          },
+          {
+            "key": "C",
+            "text": "First Citizen"
+          },
+          {
+            "key": "D",
+            "text": "Second Citizen"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_047",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 48,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": true,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Good friends, sweet friends, let me not stir you up To such a sudden flood of mutiny\". Whose words are these?",
+        "question_keywords": [
+          "friends",
+          "flood",
+          "mutiny"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Brutus"
+          },
+          {
+            "key": "B",
+            "text": "Mark Antony"
+          },
+          {
+            "key": "C",
+            "text": "Julius Caesar"
+          },
+          {
+            "key": "D",
+            "text": "Cassius"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_048",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 49,
+      "question_type": "simple_mcq",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks with the suitable word: Would you mind _______ the suitcase sir?",
+        "question_keywords": [
+          "fill in the blanks",
+          "suitable word",
+          "suitcase"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "open"
+          },
+          {
+            "key": "B",
+            "text": "opening"
+          },
+          {
+            "key": "C",
+            "text": "to open"
+          },
+          {
+            "key": "D",
+            "text": "opened"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_049",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 50,
+      "question_type": "simple_mcq",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks with the correct verb form to complete the sentence. A kind teacher always makes us _______ better.",
+        "question_keywords": [
+          "fill in the blanks",
+          "correct verb form",
+          "kind teacher"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "to learn"
+          },
+          {
+            "key": "B",
+            "text": "learn"
+          },
+          {
+            "key": "C",
+            "text": "learning"
+          },
+          {
+            "key": "D",
+            "text": "none of these"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_050",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 51,
+      "question_type": "simple_mcq",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Complete the following sentence using a suitable form of the passive voice. The certificates _______ (issue) to the students last week.",
+        "question_keywords": [
+          "passive voice",
+          "certificates",
+          "issue"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "were issued"
+          },
+          {
+            "key": "B",
+            "text": "are being issued"
+          },
+          {
+            "key": "C",
+            "text": "had been issued"
+          },
+          {
+            "key": "D",
+            "text": "were being issued"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_051",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 52,
+      "question_type": "simple_mcq",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pick out the correct option: The convenor _______ the meeting last week.",
+        "question_keywords": [
+          "correct option",
+          "convenor",
+          "meeting"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "was convened"
+          },
+          {
+            "key": "B",
+            "text": "convenes"
+          },
+          {
+            "key": "C",
+            "text": "has convened"
+          },
+          {
+            "key": "D",
+            "text": "convened"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_052",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 53,
+      "question_type": "simple_mcq",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pick out the correct answer: The teacher with some students _______ the seminar.",
+        "question_keywords": [
+          "correct answer",
+          "teacher",
+          "students",
+          "seminar"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "attends"
+          },
+          {
+            "key": "B",
+            "text": "attend"
+          },
+          {
+            "key": "C",
+            "text": "attending"
+          },
+          {
+            "key": "D",
+            "text": "have attended"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_053",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 54,
+      "question_type": "simple_mcq",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks with a suitable question tag: The conductor will not give you change for Rs. 10, _______?",
+        "question_keywords": [
+          "question tag",
+          "suitable",
+          "conductor"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Does he"
+          },
+          {
+            "key": "B",
+            "text": "Will he"
+          },
+          {
+            "key": "C",
+            "text": "Will not he"
+          },
+          {
+            "key": "D",
+            "text": "Did he"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_054",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 55,
+      "question_type": "simple_mcq",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill up the blank with preposition: The work will be over _______ this evening.",
+        "question_keywords": [
+          "preposition",
+          "fill up the blank",
+          "work"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "at"
+          },
+          {
+            "key": "B",
+            "text": "by"
+          },
+          {
+            "key": "C",
+            "text": "on"
+          },
+          {
+            "key": "D",
+            "text": "near"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_055",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 56,
+      "question_type": "simple_mcq",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct answer from the options given: Park your car _______ the tree.",
+        "question_keywords": [
+          "correct answer",
+          "park your car",
+          "tree"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "for"
+          },
+          {
+            "key": "B",
+            "text": "on"
+          },
+          {
+            "key": "C",
+            "text": "at"
+          },
+          {
+            "key": "D",
+            "text": "beside"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_056",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 57,
+      "question_type": "simple_mcq",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct meaning of the idiom ‘A Cukoo in the nest’",
+        "question_keywords": [
+          "meaning",
+          "idiom",
+          "Cukoo in the nest"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "to be coward"
+          },
+          {
+            "key": "B",
+            "text": "some who raises early"
+          },
+          {
+            "key": "C",
+            "text": "an unwelcome intruder"
+          },
+          {
+            "key": "D",
+            "text": "to wake up early"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_057",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 58,
+      "question_type": "match_the_following",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the words with their meanings and choose the correct code from below:",
+        "question_keywords": [
+          "match the words",
+          "meanings",
+          "correct code"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "teetotaller"
+          },
+          {
+            "key": "b",
+            "text": "ambidextrous"
+          },
+          {
+            "key": "c",
+            "text": "sine die"
+          },
+          {
+            "key": "d",
+            "text": "bonafide"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "using both hands skillfully"
+          },
+          {
+            "no": 2,
+            "text": "without a date"
+          },
+          {
+            "no": 3,
+            "text": "genuine"
+          },
+          {
+            "no": 4,
+            "text": "refuses alcohol"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_058",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 59,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct “Antonym” for the underlined word from the options given: Hughie’s pictures were *eagerly* sought after.",
+        "question_keywords": [
+          "antonym",
+          "eagerly",
+          "sought after"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "expectantly"
+          },
+          {
+            "key": "B",
+            "text": "enthusiastically"
+          },
+          {
+            "key": "C",
+            "text": "differently"
+          },
+          {
+            "key": "R",
+            "text": "indifferently"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_059",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 60,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the words from Column A with correct opposite word from Column B:",
+        "question_keywords": [
+          "match",
+          "opposite words"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "appropriate"
+          },
+          {
+            "key": "b",
+            "text": "adequate"
+          },
+          {
+            "key": "c",
+            "text": "rectified"
+          },
+          {
+            "key": "d",
+            "text": "preferred"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "insufficient"
+          },
+          {
+            "no": 2,
+            "text": "put wrong"
+          },
+          {
+            "no": 3,
+            "text": "unsuitable"
+          },
+          {
+            "no": 4,
+            "text": "rejected"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_060",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 61,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which word given below cannot have the suffix ‘—ism’?",
+        "question_keywords": [
+          "suffix",
+          "-ism"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "IV"
+          },
+          {
+            "key": "B",
+            "text": "II"
+          },
+          {
+            "key": "C",
+            "text": "I"
+          },
+          {
+            "key": "D",
+            "text": "III"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_061",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 62,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match Column A with Column B:",
+        "question_keywords": [
+          "match",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "–archy"
+          },
+          {
+            "key": "b",
+            "text": "–cracy"
+          },
+          {
+            "key": "c",
+            "text": "–ist"
+          },
+          {
+            "key": "d",
+            "text": "–ology"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Bureau"
+          },
+          {
+            "no": 2,
+            "text": "Social"
+          },
+          {
+            "no": 3,
+            "text": "Path"
+          },
+          {
+            "no": 4,
+            "text": "Hier"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_062",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 63,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The correct plural form of the compound noun 'daughter-in-law' is",
+        "question_keywords": [
+          "plural",
+          "daughter-in-law"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "daughter-in-law"
+          },
+          {
+            "key": "B",
+            "text": "daughters-in-laws"
+          },
+          {
+            "key": "C",
+            "text": "daughters-in-law"
+          },
+          {
+            "key": "D",
+            "text": "daughter-in-laws"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_063",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 64,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the simple sentence from the given options given below",
+        "question_keywords": [
+          "simple sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Ramu is too poor to buy a bicycle"
+          },
+          {
+            "key": "B",
+            "text": "Ramu is so poor that he cannot buy a bicycle"
+          },
+          {
+            "key": "C",
+            "text": "Ramu is very poor and he cannot buy a bicycle"
+          },
+          {
+            "key": "D",
+            "text": "Ramu is very poor and so he cannot buy a bicycle"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_064",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 65,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pick out the complex sentence from the given options",
+        "question_keywords": [
+          "complex sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "With all his money, he is not happy"
+          },
+          {
+            "key": "B",
+            "text": "If we don't win, we shall die"
+          },
+          {
+            "key": "C",
+            "text": "Inspite of his illness, he attended the class"
+          },
+          {
+            "key": "D",
+            "text": "He worked hard, yet he failed in the exam"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_065",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 66,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence which is incorrect superlative degree",
+        "question_keywords": [
+          "incorrect",
+          "superlative degree"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Latha is one of the most brilliant students in the class"
+          },
+          {
+            "key": "B",
+            "text": "Latha is the most brilliant student than any other in the class"
+          },
+          {
+            "key": "C",
+            "text": "Latha is one of the more brilliant students in the class"
+          },
+          {
+            "key": "D",
+            "text": "Latha is one of the most brilliant students in the class"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_066",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 67,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence pattern. The Company Chairperson promised them better salary.",
+        "question_keywords": [
+          "sentence pattern"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "S V D O I O"
+          },
+          {
+            "key": "B",
+            "text": "S V O A"
+          },
+          {
+            "key": "C",
+            "text": "S V A O"
+          },
+          {
+            "key": "D",
+            "text": "S V I O D O"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_067",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 68,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks with correct homophones Due to this ______ handwriting, he is not ______ for the post.",
+        "question_keywords": [
+          "homophones"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "adapted/adopted"
+          },
+          {
+            "key": "B",
+            "text": "illegible/eligible"
+          },
+          {
+            "key": "C",
+            "text": "weak/week"
+          },
+          {
+            "key": "D",
+            "text": "credible/credulous"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_068",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 69,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following sentences has an error in it?",
+        "question_keywords": [
+          "error",
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "I. My Father is a honest man"
+          },
+          {
+            "key": "B",
+            "text": "II. My Father is an honest man"
+          },
+          {
+            "key": "C",
+            "text": "III. My Father is one of the honest men"
+          },
+          {
+            "key": "D",
+            "text": "IV. My Father is honest"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_069",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 70,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following statement has error?",
+        "question_keywords": [
+          "error",
+          "statement"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "One should keep his promises"
+          },
+          {
+            "key": "B",
+            "text": "A dead man tells no tales"
+          },
+          {
+            "key": "C",
+            "text": "You cannot set foot in this house"
+          },
+          {
+            "key": "D",
+            "text": "Listen to what I say"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_070",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 71,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the odd word :",
+        "question_keywords": [
+          "odd word"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Clever"
+          },
+          {
+            "key": "B",
+            "text": "Strong"
+          },
+          {
+            "key": "C",
+            "text": "Good"
+          },
+          {
+            "key": "D",
+            "text": "Beyond"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_071",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 72,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pick out the right option and complete the line of the poem \"The cry of the children\", For, all day, the wheels are __________, __________",
+        "question_keywords": [
+          "poem",
+          "completion"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "droning, turning"
+          },
+          {
+            "key": "B",
+            "text": "ceiling, reeling"
+          },
+          {
+            "key": "C",
+            "text": "moaning, drooping"
+          },
+          {
+            "key": "D",
+            "text": "stooping, burning"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_072",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 73,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "He must be killed, For in Sicily the black, black snakes are __________, the gold are __________. Choose the right option and complete the above sentence.",
+        "question_keywords": [
+          "completion",
+          "snakes"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "venomous, innocent"
+          },
+          {
+            "key": "B",
+            "text": "harmless, innocent"
+          },
+          {
+            "key": "C",
+            "text": "innocent, venomous"
+          },
+          {
+            "key": "D",
+            "text": "venomous, harmless"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_073",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 74,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who said this? Choose the right option \"When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us\"",
+        "question_keywords": [
+          "quote",
+          "who said"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Stephen King"
+          },
+          {
+            "key": "B",
+            "text": "Helen Keller"
+          },
+          {
+            "key": "C",
+            "text": "John F. Kennedy"
+          },
+          {
+            "key": "D",
+            "text": "Mother Theresa"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_074",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 75,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"I won't look down. No I will not. With speed of wings I hasten past. Name the poem from which the above lines have been taken",
+        "question_keywords": [
+          "poem",
+          "name",
+          "lines"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Don't Quit"
+          },
+          {
+            "key": "B",
+            "text": "Going for Water"
+          },
+          {
+            "key": "C",
+            "text": "Migrant Bird"
+          },
+          {
+            "key": "D",
+            "text": "The Flying Wonder"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_075",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 76,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The tree in the farthest corner of the garden was covered with ___________ blossoms.",
+        "question_keywords": [
+          "tree",
+          "garden",
+          "blossoms"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Yellow"
+          },
+          {
+            "key": "B",
+            "text": "White"
+          },
+          {
+            "key": "C",
+            "text": "Blue"
+          },
+          {
+            "key": "D",
+            "text": "Red"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_076",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 77,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who among the following is not a character in the story \"Reflowering\"?",
+        "question_keywords": [
+          "character",
+          "story",
+          "Reflowering"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Gomathi"
+          },
+          {
+            "key": "B",
+            "text": "Kolappan"
+          },
+          {
+            "key": "C",
+            "text": "Loisel"
+          },
+          {
+            "key": "D",
+            "text": "Murugan"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_077",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 78,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who speaks the following line in \"The Open Window\"? \"My aunt will be down presently Mr. Nuttel\"",
+        "question_keywords": [
+          "speaks",
+          "line",
+          "Open Window"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Veera"
+          },
+          {
+            "key": "B",
+            "text": "Mrs. Sappleton"
+          },
+          {
+            "key": "C",
+            "text": "Mr. Sappleton"
+          },
+          {
+            "key": "D",
+            "text": "Framton Nuttel"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_078",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 79,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Yours is the earth and everything that's in it\". These words appear in the poem",
+        "question_keywords": [
+          "words",
+          "appear",
+          "poem"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Be the best"
+          },
+          {
+            "key": "B",
+            "text": "A Psalm of life"
+          },
+          {
+            "key": "C",
+            "text": "The Solitary Reaper"
+          },
+          {
+            "key": "D",
+            "text": "Manliness"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_079",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 80,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Mr. Loisel is a ———— in \"The Necklace\".",
+        "question_keywords": [
+          "Mr. Loisel",
+          "Necklace"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Doctor"
+          },
+          {
+            "key": "B",
+            "text": "Teacher"
+          },
+          {
+            "key": "C",
+            "text": "Minister"
+          },
+          {
+            "key": "D",
+            "text": "Petty clerk"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_080",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 81,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Rowther is compared to ———— in \"Reflowering\".",
+        "question_keywords": [
+          "Rowther",
+          "compared",
+          "Reflowering"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Abhimanyu"
+          },
+          {
+            "key": "B",
+            "text": "Arjunan"
+          },
+          {
+            "key": "C",
+            "text": "Nakulan"
+          },
+          {
+            "key": "D",
+            "text": "Sahadevan"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_081",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 82,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"The Mystery of Language\" is a short biography of",
+        "question_keywords": [
+          "Mystery of Language",
+          "short biography"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Gandhiji"
+          },
+          {
+            "key": "B",
+            "text": "Helen Keller"
+          },
+          {
+            "key": "C",
+            "text": "Dr. A.P.J. Abdul Kalam"
+          },
+          {
+            "key": "D",
+            "text": "Kamala Dass Surya"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_082",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 83,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the author of the following quotes; \"The unified dedicated efforts of the people from every walk of life won freedom for the country\".",
+        "question_keywords": [
+          "author",
+          "quotes",
+          "freedom"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Mahatma Gandhi"
+          },
+          {
+            "key": "B",
+            "text": "J. Nehru"
+          },
+          {
+            "key": "C",
+            "text": "R. Tagore"
+          },
+          {
+            "key": "D",
+            "text": "A.P.J Abdul Kalam"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_083",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 84,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following :",
+        "question_keywords": [
+          "match",
+          "following"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Mrs. Sappleton"
+          },
+          {
+            "key": "b",
+            "text": "Morissot"
+          },
+          {
+            "key": "c",
+            "text": "Djinn"
+          },
+          {
+            "key": "d",
+            "text": "Old Behrman"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Guy De Manpassant"
+          },
+          {
+            "no": 2,
+            "text": "'O' Henry"
+          },
+          {
+            "no": 3,
+            "text": "Saki"
+          },
+          {
+            "no": 4,
+            "text": "Rudyard Kipling"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_084",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 85,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the Poems in Column A with their Poets in Column B:",
+        "question_keywords": [
+          "match",
+          "poems",
+          "column"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Manliness"
+          },
+          {
+            "key": "b",
+            "text": "The Cry of the children"
+          },
+          {
+            "key": "c",
+            "text": "The Apology"
+          },
+          {
+            "key": "d",
+            "text": "Nine Gold Medals"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "David Roth"
+          },
+          {
+            "no": 2,
+            "text": "Rudyard Kipling"
+          },
+          {
+            "no": 3,
+            "text": "Elizabeth Barrett Browning"
+          },
+          {
+            "no": 4,
+            "text": "Ralph Waldo Emerson"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 1,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_085",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 86,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "To which nationality does the author of the story “The Selfish Giant” belong to?",
+        "question_keywords": [
+          "nationality",
+          "author",
+          "The Selfish Giant"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Burma"
+          },
+          {
+            "key": "B",
+            "text": "Ireland"
+          },
+          {
+            "key": "C",
+            "text": "America"
+          },
+          {
+            "key": "D",
+            "text": "Russia"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_086",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 87,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who is the author of the short story “The Wooden Bowl”?",
+        "question_keywords": [
+          "author",
+          "short story",
+          "The Wooden Bowl"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Oscar Wilde"
+          },
+          {
+            "key": "B",
+            "text": "O’ Henry"
+          },
+          {
+            "key": "C",
+            "text": "Leo Tolstoy"
+          },
+          {
+            "key": "D",
+            "text": "Rex Coker"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_087",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 88,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "“The Mystery of Language” picturises the life of",
+        "question_keywords": [
+          "Mystery of Language",
+          "picturises",
+          "life"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Kalpana Chawla"
+          },
+          {
+            "key": "B",
+            "text": "Kamala Das"
+          },
+          {
+            "key": "C",
+            "text": "Dr. Salim Ali"
+          },
+          {
+            "key": "D",
+            "text": "Helen Keller"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_088",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 89,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who among the following musician makes the following observation about art? \"Art is one of the ways in which we say I am alive and my life has meaning\".",
+        "question_keywords": [
+          "musician",
+          "observation",
+          "art"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Dr. Karl Paulnack"
+          },
+          {
+            "key": "B",
+            "text": "Johannes Brahms"
+          },
+          {
+            "key": "C",
+            "text": "Guy Caravan"
+          },
+          {
+            "key": "D",
+            "text": "Charles Tindley"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_089",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 90,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The Greeks said that ———— were two sides of the same coin",
+        "question_keywords": [
+          "Greeks",
+          "two sides",
+          "same coin"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Astronomy and Astrology"
+          },
+          {
+            "key": "B",
+            "text": "Music and Astronomy"
+          },
+          {
+            "key": "C",
+            "text": "Chemistry and Astrology"
+          },
+          {
+            "key": "D",
+            "text": "Music and Astrology"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_090",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 91,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Ahtushi Deshpande's \"To the Land of Snow\" is a fine description of her.",
+        "question_keywords": [
+          "Ahtushi Deshpande",
+          "To the Land of Snow",
+          "description"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Comedy"
+          },
+          {
+            "key": "B",
+            "text": "Travelogue"
+          },
+          {
+            "key": "C",
+            "text": "Novel"
+          },
+          {
+            "key": "D",
+            "text": "Docudrama"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_091",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 92,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The road to success is not a bed of ————. It is full of thorns, pitfalls and gins. Find out the correct word from the options given below.",
+        "question_keywords": [
+          "road to success",
+          "bed",
+          "thorns"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Cloths"
+          },
+          {
+            "key": "B",
+            "text": "Roses"
+          },
+          {
+            "key": "C",
+            "text": "Soil"
+          },
+          {
+            "key": "D",
+            "text": "Stones"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_092",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 93,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"How beautiful you are, Earth, and how sublime!\" What is the figure of speech employed here?",
+        "question_keywords": [
+          "figure of speech",
+          "Earth",
+          "sublime"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Allusion"
+          },
+          {
+            "key": "B",
+            "text": "Personification"
+          },
+          {
+            "key": "C",
+            "text": "Oxymoron"
+          },
+          {
+            "key": "D",
+            "text": "Ellipsis"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_093",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 94,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the figure of speech used in the passage.\n\n\"As humble plants by country hedgerows growing, that treasure up the rain\".",
+        "question_keywords": [
+          "figure of speech",
+          "humble plants",
+          "country hedgerows"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Refrain"
+          },
+          {
+            "key": "B",
+            "text": "Metanomy"
+          },
+          {
+            "key": "C",
+            "text": "Hyperbole"
+          },
+          {
+            "key": "D",
+            "text": "Simile"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_094",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 95,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What is the figure of speech employed in the following line?\n\n\"I weep like a child for the past\".",
+        "question_keywords": [
+          "figure of speech",
+          "weep",
+          "child",
+          "past"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Metaphor"
+          },
+          {
+            "key": "B",
+            "text": "Personification"
+          },
+          {
+            "key": "C",
+            "text": "Simile"
+          },
+          {
+            "key": "D",
+            "text": "Alliteration"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_095",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 96,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Imagine if your precious nose\nWere sandwiched in between your toes\".\nBring out the meaning of the word \"Sandwiched\"",
+        "question_keywords": [
+          "word meaning",
+          "sandwiched"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Bread"
+          },
+          {
+            "key": "B",
+            "text": "Burger"
+          },
+          {
+            "key": "C",
+            "text": "Pressed between two things"
+          },
+          {
+            "key": "D",
+            "text": "Piza"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_096",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 97,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the Column A with Column B. Select the correct code given below.",
+        "question_keywords": [
+          "match the following",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "A Psalm of Life"
+          },
+          {
+            "key": "b",
+            "text": "Sonnet No.116"
+          },
+          {
+            "key": "c",
+            "text": "The Solitary Reaper"
+          },
+          {
+            "key": "d",
+            "text": "The Man he Killed"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "William Shakespeare"
+          },
+          {
+            "no": 2,
+            "text": "William Wordsworth"
+          },
+          {
+            "no": 3,
+            "text": "Thomas Hardy"
+          },
+          {
+            "no": 4,
+            "text": "H.W. Longfellow"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_097",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 98,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Be not like dumb, driven cattle!\nBe a hero in the Strife!\"\nIn which poem do these lines occur?",
+        "question_keywords": [
+          "poem",
+          "dumb cattle",
+          "hero"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The Solitary Reaper"
+          },
+          {
+            "key": "B",
+            "text": "A Psalm of Life"
+          },
+          {
+            "key": "C",
+            "text": "Be the Best"
+          },
+          {
+            "key": "D",
+            "text": "Sonnet No. 116"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_098",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 99,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What was the name given to Lakshmibai by her parents?",
+        "question_keywords": [
+          "Lakshmibai",
+          "name",
+          "parents"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Rani of Jhansi"
+          },
+          {
+            "key": "B",
+            "text": "Manikarnika"
+          },
+          {
+            "key": "C",
+            "text": "Manu"
+          },
+          {
+            "key": "D",
+            "text": "Chhablli"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_099",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 100,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Early the next morning, Colonel Scolt heard a rap at the door. He opened it and there stood the President\". Who is the President \"here\"?",
+        "question_keywords": [
+          "President",
+          "Colonel Scolt",
+          "rap"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Winston Churchill"
+          },
+          {
+            "key": "B",
+            "text": "Abraham Lincoln"
+          },
+          {
+            "key": "C",
+            "text": "John F. Kennedy"
+          },
+          {
+            "key": "D",
+            "text": "Franklin Roosevelt"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2019_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2019_en_100",
+      "group": "G4",
+      "year": 2019,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    }
+  ]
+}

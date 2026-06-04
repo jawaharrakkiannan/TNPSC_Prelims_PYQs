@@ -1,0 +1,5970 @@
+{
+  "group": "G2",
+  "subgroup": null,
+  "year": 2015,
+  "paper_type": "en",
+  "language_mode": "en_only",
+  "paper_code": "",
+  "total_questions": 100,
+  "extraction_model": "mistral-ocr-2512 + gpt-4o-mini",
+  "questions": [
+    {
+      "question_no": 1,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the words in column A with the suffixes in Column B",
+        "question_keywords": [
+          "match",
+          "words",
+          "column A",
+          "column B",
+          "suffixes"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "astonish"
+          },
+          {
+            "key": "b",
+            "text": "potential"
+          },
+          {
+            "key": "c",
+            "text": "ferocious"
+          },
+          {
+            "key": "d",
+            "text": "success"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "-ful"
+          },
+          {
+            "no": 2,
+            "text": "-ment"
+          },
+          {
+            "no": 3,
+            "text": "-ness"
+          },
+          {
+            "no": 4,
+            "text": "-ity"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_001",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 2,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pick out the sentence with the wrong usage of articles:",
+        "question_keywords": [
+          "wrong",
+          "usage",
+          "articles"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The cow is a useful animal"
+          },
+          {
+            "key": "B",
+            "text": "The rose is the sweetest of all flowers"
+          },
+          {
+            "key": "C",
+            "text": "Let's go to the park"
+          },
+          {
+            "key": "D",
+            "text": "The banyan is a kind of a fig tree"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_002",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 3,
+      "question_type": "other",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "raw_content": "Fill in the blanks with suitable prepositions :\nThe most popular therapy ———— getting rid ———— hiccups is to have someone to scare you when you least expect it."
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_003",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 4,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with a suitable question tag:",
+        "question_keywords": [
+          "question tag"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "should we?"
+          },
+          {
+            "key": "B",
+            "text": "shall we?"
+          },
+          {
+            "key": "C",
+            "text": "can we?"
+          },
+          {
+            "key": "D",
+            "text": "could we?"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_004",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 5,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct form of the verb to fill in the blank:",
+        "question_keywords": [
+          "correct form",
+          "verb"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "have been building"
+          },
+          {
+            "key": "B",
+            "text": "are building"
+          },
+          {
+            "key": "C",
+            "text": "will be building"
+          },
+          {
+            "key": "D",
+            "text": "had been building"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_005",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 6,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pick out the correct words from the options given below:",
+        "question_keywords": [
+          "correct words"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "a ten five rupee"
+          },
+          {
+            "key": "B",
+            "text": "ten five rupees"
+          },
+          {
+            "key": "C",
+            "text": "a ten five rupee's"
+          },
+          {
+            "key": "D",
+            "text": "ten five rupee"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_006",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 7,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following word is incorrect?",
+        "question_keywords": [
+          "incorrect word"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "means"
+          },
+          {
+            "key": "B",
+            "text": "scissors"
+          },
+          {
+            "key": "C",
+            "text": "luggages"
+          },
+          {
+            "key": "D",
+            "text": "premises"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_007",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 8,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Introverts make better leaders because they are __________.",
+        "question_keywords": [
+          "better leaders",
+          "introverts"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "interested"
+          },
+          {
+            "key": "B",
+            "text": "attentive"
+          },
+          {
+            "key": "C",
+            "text": "attention-seeking"
+          },
+          {
+            "key": "D",
+            "text": "alluring"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_008",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 9,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following sentence is incorrect?",
+        "question_keywords": [
+          "incorrect sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The flowers smell sweet."
+          },
+          {
+            "key": "B",
+            "text": "Of Mumbai and Chennai, the former is the wealthiest."
+          },
+          {
+            "key": "C",
+            "text": "Six miles is a long distance."
+          },
+          {
+            "key": "D",
+            "text": "As a novelist, Jane Austen is superior to Mrs. Henry Wood."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_009",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 10,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence which is in the positive degree:",
+        "question_keywords": [
+          "positive degree"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "His age is a matter of minor importance."
+          },
+          {
+            "key": "B",
+            "text": "This is the most perfect specimen I have seen."
+          },
+          {
+            "key": "C",
+            "text": "The last time I saw him, he was in high spirits."
+          },
+          {
+            "key": "D",
+            "text": "The longest lane has a turning."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_010",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 11,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence which is in the positive degree:",
+        "question_keywords": [
+          "positive degree"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "This is a major issue."
+          },
+          {
+            "key": "B",
+            "text": "The latter chapters are lacking in interest."
+          },
+          {
+            "key": "C",
+            "text": "Rama's intelligence is superior to Hari's."
+          },
+          {
+            "key": "D",
+            "text": "He is junior to all his colleagues."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_011",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 12,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following words is an example of a compound word consisting of an adverb + participle?",
+        "question_keywords": [
+          "compound word",
+          "adverb",
+          "participle"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "pale blue"
+          },
+          {
+            "key": "B",
+            "text": "well defined"
+          },
+          {
+            "key": "C",
+            "text": "seafood"
+          },
+          {
+            "key": "D",
+            "text": "outsourcing"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_012",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 13,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which figure of speech does the expression, \"the hissing noise of the snake\" contain?",
+        "question_keywords": [
+          "figure of speech",
+          "hissing noise",
+          "snake"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "logopoeia"
+          },
+          {
+            "key": "B",
+            "text": "anaphora"
+          },
+          {
+            "key": "C",
+            "text": "diaspora"
+          },
+          {
+            "key": "D",
+            "text": "onomatoepia"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_013",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 14,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"The ship is anchor'd safe and sound, its voyage closed and done\" - The figure of speech used by Walt Whitman in these lines is ___________.",
+        "question_keywords": [
+          "figure of speech",
+          "Walt Whitman"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Oxymoron"
+          },
+          {
+            "key": "B",
+            "text": "Personification"
+          },
+          {
+            "key": "C",
+            "text": "Simile"
+          },
+          {
+            "key": "D",
+            "text": "Metaphor"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_014",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 15,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Imagine if your precious nose were sandwiched in between your toes\" What does the word \"Sandwiched\" mean here?",
+        "question_keywords": [
+          "sandwiched",
+          "nose",
+          "toes"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Become like a food item"
+          },
+          {
+            "key": "B",
+            "text": "Trapped"
+          },
+          {
+            "key": "C",
+            "text": "Replaced"
+          },
+          {
+            "key": "D",
+            "text": "Pressed between two things"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_015",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 16,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "H.W. Longfellow's poem \"The Psalm of Life\" is a piece of",
+        "question_keywords": [
+          "H.W. Longfellow",
+          "Psalm of Life"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Prayer"
+          },
+          {
+            "key": "B",
+            "text": "Encomium"
+          },
+          {
+            "key": "C",
+            "text": "Appeal"
+          },
+          {
+            "key": "D",
+            "text": "Advice"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_016",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 17,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who do you think is these lines addressed to: You cannot rob us of the rights we cherish, Nor turn our thoughts away From the bright picture of a ‘women’s mission’ Our hearts portray",
+        "question_keywords": [
+          "rights",
+          "women's mission"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "An individual reader"
+          },
+          {
+            "key": "B",
+            "text": "The poet’s companion"
+          },
+          {
+            "key": "C",
+            "text": "Society at large"
+          },
+          {
+            "key": "D",
+            "text": "A particular misogynist group"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_017",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 18,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following lines belong to H.W. Longfellow’s “A Psalm of Life”?",
+        "question_keywords": [
+          "longfellow",
+          "psalm of life"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "And you O my soul where you stand"
+          },
+          {
+            "key": "B",
+            "text": "All human roads are dark and dry"
+          },
+          {
+            "key": "C",
+            "text": "Your minstrel has no wreath to weave for you"
+          },
+          {
+            "key": "D",
+            "text": "Art is long and time is fleeting"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_018",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 19,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who told the following statement? \"Tolerance is the highest result of education\".",
+        "question_keywords": [
+          "tolerance",
+          "education"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Dr. Abdul Kalam"
+          },
+          {
+            "key": "B",
+            "text": "Mahatma Gandhi"
+          },
+          {
+            "key": "C",
+            "text": "Helen Keller"
+          },
+          {
+            "key": "D",
+            "text": "Subash Chandra Bose"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_019",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 20,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"To call woman the weaker sex is a libel; It is man's injustice to woman\". Who said these words about Women?",
+        "question_keywords": [
+          "weaker sex",
+          "injustice to woman"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Jawaharlal Nehru"
+          },
+          {
+            "key": "B",
+            "text": "Swami Vivekananda"
+          },
+          {
+            "key": "C",
+            "text": "Rabindranath Tagore"
+          },
+          {
+            "key": "D",
+            "text": "Mahatma Gandhi"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_020",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 21,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Rani of Jhansi was associated with _______.",
+        "question_keywords": [
+          "Rani of Jhansi"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Battle of Plassey"
+          },
+          {
+            "key": "B",
+            "text": "Sepoy Mutiny"
+          },
+          {
+            "key": "C",
+            "text": "British Government"
+          },
+          {
+            "key": "D",
+            "text": "Indian National Congress"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_021",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 22,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"The story of My Experiments with Truth\" is an autobiographical work written by",
+        "question_keywords": [
+          "My Experiments with Truth",
+          "autobiographical work"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Jawaharlal Nehru"
+          },
+          {
+            "key": "B",
+            "text": "Mahatma Gandhi"
+          },
+          {
+            "key": "C",
+            "text": "Abraham Lincoln"
+          },
+          {
+            "key": "D",
+            "text": "Subash Chandra Bose"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_022",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 23,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In Oscar Wilde's 'The Selfish Giant' the spring season did not come to the giant's garden because",
+        "question_keywords": [
+          "Oscar Wilde",
+          "The Selfish Giant",
+          "spring season"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "he built a huge wall around his garden."
+          },
+          {
+            "key": "B",
+            "text": "he was very unkind to the spring season."
+          },
+          {
+            "key": "C",
+            "text": "he did not allow the children inside the garden."
+          },
+          {
+            "key": "D",
+            "text": "he liked winter season."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_023",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 24,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In Oscar Wilde's \"The Model Millionaire\" Hughie is humane and handsome but",
+        "question_keywords": [
+          "Oscar Wilde",
+          "The Model Millionaire",
+          "Hughie"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "ineffable"
+          },
+          {
+            "key": "B",
+            "text": "a man of no means"
+          },
+          {
+            "key": "C",
+            "text": "heartless"
+          },
+          {
+            "key": "D",
+            "text": "a paranoid"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_024",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 25,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In Oscar Wilde's 'The Selfish Giant', the giant's heart melted when he saw",
+        "question_keywords": [
+          "Oscar Wilde",
+          "The Selfish Giant",
+          "giant",
+          "heart melted"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "the spring season"
+          },
+          {
+            "key": "B",
+            "text": "the children playing in the garden"
+          },
+          {
+            "key": "C",
+            "text": "the children singing and dancing"
+          },
+          {
+            "key": "D",
+            "text": "a little child unable to climb a tree"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_025",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 26,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In Oscar Wilde's 'The Model Millionaire' what did Hughie do in Alan Trevor's absence?",
+        "question_keywords": [
+          "Oscar Wilde",
+          "The Model Millionaire",
+          "Hughie",
+          "Alan Trevor"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Hughie spoke to the beggar"
+          },
+          {
+            "key": "B",
+            "text": "Hughie gave the beggar some money"
+          },
+          {
+            "key": "C",
+            "text": "Hughie enjoyed a smoke"
+          },
+          {
+            "key": "D",
+            "text": "Hughie was dreaming"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_026",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 27,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In Oscar Wilde's 'The Selfish Giant' only one little boy did not run away on seeing the giant because",
+        "question_keywords": [
+          "Oscar Wilde",
+          "The Selfish Giant",
+          "boy",
+          "giant"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "he was blind"
+          },
+          {
+            "key": "B",
+            "text": "he was lame"
+          },
+          {
+            "key": "C",
+            "text": "he was afraid"
+          },
+          {
+            "key": "D",
+            "text": "he did not see the giant coming"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_027",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 28,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"The habit of co-operation once required will continue with you all your life\" Which among the options best conveys the meaning of the above passage?",
+        "question_keywords": [
+          "habit of cooperation"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The author insists on hard work"
+          },
+          {
+            "key": "B",
+            "text": "The author states the importance of team work"
+          },
+          {
+            "key": "C",
+            "text": "The author insists on friendship"
+          },
+          {
+            "key": "D",
+            "text": "The author reiterates the importance of good behaviour"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_028",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 29,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"No matter what happened, I always insisted on their being themselves\". What does the writer mean by this statement? Choose the right option from the following.",
+        "question_keywords": [
+          "writer",
+          "being themselves"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "the writer wants human beings to be day dreamers"
+          },
+          {
+            "key": "B",
+            "text": "the writer wants human beings to be in their own world"
+          },
+          {
+            "key": "C",
+            "text": "the writer wants human beings to be calm."
+          },
+          {
+            "key": "D",
+            "text": "the writer wants human beings to be individuals and not to imitate others"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_029",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 30,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What is a refrain?",
+        "question_keywords": [
+          "refrain"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The first line of a poem that is repeated in all stanzas"
+          },
+          {
+            "key": "B",
+            "text": "The repetition of a line or lines within a poem, at given intervals"
+          },
+          {
+            "key": "C",
+            "text": "The first line and the last line are one and the same in the last stanza"
+          },
+          {
+            "key": "D",
+            "text": "The last two lines of the first stanza and the last two lines of the last stanza are one and the same"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_030",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 31,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What is the height of Shiva linga in the sanctum sanctorum of the Brihadeeswarar Temple?",
+        "question_keywords": [
+          "height",
+          "Shiva linga",
+          "Brihadeeswarar Temple"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "8.7 metres"
+          },
+          {
+            "key": "B",
+            "text": "8.5 metres"
+          },
+          {
+            "key": "C",
+            "text": "8.8 metres"
+          },
+          {
+            "key": "D",
+            "text": "8.9 metres"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_031",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 32,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The author who wrote the lesson 'Yaanai Malai' suffered from the disease?",
+        "question_keywords": [
+          "author",
+          "Yaanai Malai",
+          "disease"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Chronic Glaucoma"
+          },
+          {
+            "key": "B",
+            "text": "Retinitis Pigmentosa"
+          },
+          {
+            "key": "C",
+            "text": "Astigmatism"
+          },
+          {
+            "key": "D",
+            "text": "Myopic Vision"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_032",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 33,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Where is Yaanai Malai located?",
+        "question_keywords": [
+          "Yaanai Malai",
+          "location"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "In the South Eastern outskirts of Madurai"
+          },
+          {
+            "key": "B",
+            "text": "In the North Eastern outskirts of Madurai"
+          },
+          {
+            "key": "C",
+            "text": "In the North Western outskirts of Madurai"
+          },
+          {
+            "key": "D",
+            "text": "In the South Western outskirts of Madurai"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_033",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 34,
+      "question_type": "statement_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the pair of British English and American English expressions with incorrect spelling:",
+        "question_keywords": [
+          "British English",
+          "American English",
+          "incorrect spelling"
+        ],
+        "item_numbering_style": "arabic",
+        "statements": [
+          {
+            "no": "i",
+            "text": "plough"
+          },
+          {
+            "no": "ii",
+            "text": "cheque"
+          },
+          {
+            "no": "iii",
+            "text": "theatre"
+          },
+          {
+            "no": "iv",
+            "text": "skilful"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "plough | plow"
+          },
+          {
+            "key": "B",
+            "text": "cheque | check"
+          },
+          {
+            "key": "C",
+            "text": "theatre | theater"
+          },
+          {
+            "key": "D",
+            "text": "skilful | skilfull"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_034",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 35,
+      "question_type": "match_the_following",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the British English words with their American equivalents:",
+        "question_keywords": [
+          "British English",
+          "American English"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Jam"
+          },
+          {
+            "key": "b",
+            "text": "nappy"
+          },
+          {
+            "key": "c",
+            "text": "Aerial"
+          },
+          {
+            "key": "d",
+            "text": "Autumn"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Fall"
+          },
+          {
+            "no": 2,
+            "text": "Antenna"
+          },
+          {
+            "no": 3,
+            "text": "Jelly"
+          },
+          {
+            "no": 4,
+            "text": "Diaper"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 4,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_035",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 36,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "_______ warns Caesar about the “Ides of March”.",
+        "question_keywords": [
+          "warns",
+          "Caesar",
+          "Ides of March"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "A Soothsayer"
+          },
+          {
+            "key": "B",
+            "text": "Calpurnia"
+          },
+          {
+            "key": "C",
+            "text": "Pompey"
+          },
+          {
+            "key": "D",
+            "text": "Mark Antony"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_036",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 37,
+      "question_type": "match_the_following",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match Column A with Column B. Select the correct code given below.",
+        "question_keywords": [
+          "match",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "The Ant and the Grasshopper"
+          },
+          {
+            "key": "b",
+            "text": "The Cop and the Anthem"
+          },
+          {
+            "key": "c",
+            "text": "The Happy Prince"
+          },
+          {
+            "key": "d",
+            "text": "The Face of Judas Iscariot"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Oscar Wilde"
+          },
+          {
+            "no": 2,
+            "text": "Somerset Maugham"
+          },
+          {
+            "no": 3,
+            "text": "Bonnie Chamberlain"
+          },
+          {
+            "no": 4,
+            "text": "O'Henry"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 2,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_037",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 38,
+      "question_type": "match_the_following",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match Column A with Column B. Select the correct code given below:",
+        "question_keywords": [
+          "match",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "My country my life"
+          },
+          {
+            "key": "b",
+            "text": "My story"
+          },
+          {
+            "key": "c",
+            "text": "Play It My Way"
+          },
+          {
+            "key": "d",
+            "text": "Toward Freedom"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Sachin"
+          },
+          {
+            "no": 2,
+            "text": "Nehru"
+          },
+          {
+            "no": 3,
+            "text": "Kamala Das"
+          },
+          {
+            "no": 4,
+            "text": "L.K. Advani"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 1,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_038",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 39,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following statement is correct?",
+        "question_keywords": [
+          "statement",
+          "correct"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "V.K. Gokak is a Telugu poet and novelist"
+          },
+          {
+            "key": "B",
+            "text": "V.K. Gokak is a Kannada poet and novelist"
+          },
+          {
+            "key": "C",
+            "text": "V.K. Gokak is a Marathi poet and novelist"
+          },
+          {
+            "key": "D",
+            "text": "V.K. Gokak is a Gujarathi poet and novelist"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_039",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 40,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Saruli figures in",
+        "question_keywords": [
+          "Saruli",
+          "figures in"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Farmer"
+          },
+          {
+            "key": "B",
+            "text": "After the Storm"
+          },
+          {
+            "key": "C",
+            "text": "The Sun Beam"
+          },
+          {
+            "key": "D",
+            "text": "Kari, the Elephant"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_040",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 41,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In Julius Caesar, Antony says, 'The noble Brutus hath told you Caesar was ambitious; If it were so, it was a grievous fault'. What is referred to a 'grievous fault' here?",
+        "question_keywords": [
+          "Julius Caesar",
+          "Antony",
+          "grievous fault"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Brutus' nobility"
+          },
+          {
+            "key": "B",
+            "text": "Cunningham"
+          },
+          {
+            "key": "C",
+            "text": "Being ambitious"
+          },
+          {
+            "key": "D",
+            "text": "Caesar's balour"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_041",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 42,
+      "question_type": "match_the_following",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following:",
+        "question_keywords": [
+          "match",
+          "following"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Takazhi Sivasankaran Pillai"
+          },
+          {
+            "key": "b",
+            "text": "William Shakespeare"
+          },
+          {
+            "key": "c",
+            "text": "Douglas Malloch"
+          },
+          {
+            "key": "d",
+            "text": "Lewis Carroll"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Sonnet 116"
+          },
+          {
+            "no": 2,
+            "text": "Kuttichovan"
+          },
+          {
+            "no": 3,
+            "text": "Is Life but a dream?"
+          },
+          {
+            "no": 4,
+            "text": "Be the Best"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_042",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 43,
+      "question_type": "match_the_following",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following:",
+        "question_keywords": [
+          "match",
+          "following"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Norman Nicholson"
+          },
+          {
+            "key": "b",
+            "text": "Dale Carnegie"
+          },
+          {
+            "key": "c",
+            "text": "Walt Whitman"
+          },
+          {
+            "key": "d",
+            "text": "William Wordsworth"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "The road to success"
+          },
+          {
+            "no": 2,
+            "text": "O Captain! My Captain!"
+          },
+          {
+            "no": 3,
+            "text": "The Solitary Reaper"
+          },
+          {
+            "no": 4,
+            "text": "Off to outer space tomorrow morning"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 2,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_043",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 44,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In Julius Caesar, Antony says, 'He hath brought many captives home to Rome, Whose ransoms did the general coffers fill'. 'Ransoms' in this line means",
+        "question_keywords": [
+          "Julius Caesar",
+          "Antony",
+          "ransoms"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "payment for the release of refugees"
+          },
+          {
+            "key": "B",
+            "text": "payment for the release of criminals"
+          },
+          {
+            "key": "C",
+            "text": "payment for the release of prisoners"
+          },
+          {
+            "key": "D",
+            "text": "payment for the release of leaders"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_044",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 45,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Envy is ignorance and imitation is suicide. These are the words of",
+        "question_keywords": [
+          "Envy",
+          "ignorance",
+          "imitation",
+          "suicide",
+          "words"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Robert Frost"
+          },
+          {
+            "key": "B",
+            "text": "Khalil Gibran"
+          },
+          {
+            "key": "C",
+            "text": "F. Joanna"
+          },
+          {
+            "key": "D",
+            "text": "Ralph Waldo Emerson"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_045",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 46,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Annie Louisa Walker is a well-known — poet",
+        "question_keywords": [
+          "Annie Louisa Walker",
+          "poet"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Canadian-born"
+          },
+          {
+            "key": "B",
+            "text": "American-born"
+          },
+          {
+            "key": "C",
+            "text": "British-born"
+          },
+          {
+            "key": "D",
+            "text": "Australian-born"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_046",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 47,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "— is not a Nobel Prize winner",
+        "question_keywords": [
+          "Nobel Prize",
+          "winner"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Rudyard Kipling"
+          },
+          {
+            "key": "B",
+            "text": "William Golding"
+          },
+          {
+            "key": "C",
+            "text": "Oscar Wilde"
+          },
+          {
+            "key": "D",
+            "text": "Pearl S. Buck"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_047",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 48,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the poems under Column 'A' with the poets under Column 'B' and select the correct code:",
+        "question_keywords": [
+          "match",
+          "poems",
+          "poets",
+          "column"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "The Apology"
+          },
+          {
+            "key": "b",
+            "text": "Be Glad your nose is on your face"
+          },
+          {
+            "key": "c",
+            "text": "Where the mind is without fear"
+          },
+          {
+            "key": "d",
+            "text": "Nine Gold Medals"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Jack Prelutsky"
+          },
+          {
+            "no": 2,
+            "text": "Emerson"
+          },
+          {
+            "no": 3,
+            "text": "David Roth"
+          },
+          {
+            "no": 4,
+            "text": "Tagore"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_048",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 49,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The ozone gas that acts like a canopy, protecting you from the harmful ultra violet rays of the Sun is depleting. Identify the option closest in meaning to the underlined word:",
+        "question_keywords": [
+          "ozone gas",
+          "canopy",
+          "protecting"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "a preventive medicine"
+          },
+          {
+            "key": "B",
+            "text": "a damage-control system"
+          },
+          {
+            "key": "C",
+            "text": "an overhanging shelter"
+          },
+          {
+            "key": "D",
+            "text": "a storehouse of gases"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_049",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 50,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following idiomatic expressions under column A with their core meaning under Column B. Choose the right code:",
+        "question_keywords": [
+          "idiomatic expressions",
+          "meaning"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "I can ride a motor cycle"
+          },
+          {
+            "key": "b",
+            "text": "No one can be right all the time"
+          },
+          {
+            "key": "c",
+            "text": "Can I use your mobile phone, please?"
+          },
+          {
+            "key": "d",
+            "text": "Anyone can make mistakes"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Asking for permission"
+          },
+          {
+            "no": 2,
+            "text": "Theoretical possibility"
+          },
+          {
+            "no": 3,
+            "text": "Ability"
+          },
+          {
+            "no": 4,
+            "text": "Possibility"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_050",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 51,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "If you can force your heart and nerve and sinew. Find out the synonym for the underlined word from the options given.",
+        "question_keywords": [
+          "force",
+          "heart",
+          "nerve",
+          "sinew"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "muscle"
+          },
+          {
+            "key": "B",
+            "text": "blood"
+          },
+          {
+            "key": "C",
+            "text": "strength"
+          },
+          {
+            "key": "D",
+            "text": "weakness"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_051",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 52,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct synonym for the underlined word from the options given: He made himself indispensable to his institution.",
+        "question_keywords": [
+          "indispensable",
+          "institution"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "major"
+          },
+          {
+            "key": "B",
+            "text": "short"
+          },
+          {
+            "key": "C",
+            "text": "essential"
+          },
+          {
+            "key": "D",
+            "text": "negligible"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_052",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 53,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Some people argue that computerisation will aggravate the unemployment problem. Find out the antonym for the underlined word.",
+        "question_keywords": [
+          "computerisation",
+          "aggravate",
+          "unemployment"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "wipe out"
+          },
+          {
+            "key": "B",
+            "text": "consolidate"
+          },
+          {
+            "key": "C",
+            "text": "alleviate"
+          },
+          {
+            "key": "D",
+            "text": "remove"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_053",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 54,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the appropriate stem-word with which the prefix 'mal' can combine.",
+        "question_keywords": [
+          "prefix",
+          "mal"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "directional"
+          },
+          {
+            "key": "B",
+            "text": "theism"
+          },
+          {
+            "key": "C",
+            "text": "colon"
+          },
+          {
+            "key": "D",
+            "text": "nourished"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_054",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 55,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Complete the following sentence with suitable articles: On ________ day of ________ tea party, Apsara took her mother to Mrs. Rose's room.",
+        "question_keywords": [
+          "day",
+          "tea party"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "the, the"
+          },
+          {
+            "key": "B",
+            "text": "an, the"
+          },
+          {
+            "key": "C",
+            "text": "a, an"
+          },
+          {
+            "key": "D",
+            "text": "the, a"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_055",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 56,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Complete the following sentence using a suitable form of the passive voice: In primitive times, stone implements ________ to kill animals.",
+        "question_keywords": [
+          "primitive times",
+          "stone implements",
+          "kill animals"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "was employed"
+          },
+          {
+            "key": "B",
+            "text": "were employed"
+          },
+          {
+            "key": "C",
+            "text": "will be employed"
+          },
+          {
+            "key": "D",
+            "text": "had been employed"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_056",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 57,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill out the blank with the most appropriate option given below: Alexander's hope ________ the whole of India was not materialised due to his ill health.",
+        "question_keywords": [
+          "Alexander's hope",
+          "the whole of India",
+          "materialised"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "to conquer"
+          },
+          {
+            "key": "B",
+            "text": "of conquer"
+          },
+          {
+            "key": "C",
+            "text": "of conquering"
+          },
+          {
+            "key": "D",
+            "text": "conquered"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_057",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 58,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks with the correct word from the options: We will have to find ________ sources of energy in the future.",
+        "question_keywords": [
+          "sources of energy",
+          "the future"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "alternate"
+          },
+          {
+            "key": "B",
+            "text": "altered"
+          },
+          {
+            "key": "C",
+            "text": "alternative"
+          },
+          {
+            "key": "D",
+            "text": "adulterated"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_058",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 59,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the odd word among the options",
+        "question_keywords": [
+          "odd word"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "delicious"
+          },
+          {
+            "key": "B",
+            "text": "expensive"
+          },
+          {
+            "key": "C",
+            "text": "industrious"
+          },
+          {
+            "key": "D",
+            "text": "jubilantly"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_059",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 60,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the odd word among the following",
+        "question_keywords": [
+          "odd word"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "sojourn"
+          },
+          {
+            "key": "B",
+            "text": "countenance"
+          },
+          {
+            "key": "C",
+            "text": "species"
+          },
+          {
+            "key": "D",
+            "text": "recreate"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_060",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 61,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "They failed to add an appendix to the book. Which of the following is the right plural form for the underlined word?",
+        "question_keywords": [
+          "appendix",
+          "plural form"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "appendices"
+          },
+          {
+            "key": "B",
+            "text": "indices"
+          },
+          {
+            "key": "C",
+            "text": "appendixes"
+          },
+          {
+            "key": "D",
+            "text": "annexures"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_061",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 62,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the simple sentence out of the sentences given below:",
+        "question_keywords": [
+          "simple sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "He finished his exercise and put away the books."
+          },
+          {
+            "key": "B",
+            "text": "The man endured all the horrors of the campaign without any one of them making complaint."
+          },
+          {
+            "key": "C",
+            "text": "We must eat, or we cannot live."
+          },
+          {
+            "key": "D",
+            "text": "Not only did his father give him money, but his mother too."
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_062",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 63,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which among the following is an example for onamatopoeic words?",
+        "question_keywords": [
+          "onomatopoeic",
+          "words"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "clip - clopped"
+          },
+          {
+            "key": "B",
+            "text": "tongue - twister"
+          },
+          {
+            "key": "C",
+            "text": "ambitious"
+          },
+          {
+            "key": "D",
+            "text": "entertainment"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_063",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 64,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "An implied simile is a ——",
+        "question_keywords": [
+          "implied",
+          "simile"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "metathesis"
+          },
+          {
+            "key": "B",
+            "text": "metaphor"
+          },
+          {
+            "key": "C",
+            "text": "metanymy"
+          },
+          {
+            "key": "D",
+            "text": "metamorphosis"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_064",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 65,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In the poem \"Going for Water\", why did the children have to go to the brook?",
+        "question_keywords": [
+          "poem",
+          "Going for Water",
+          "children",
+          "brook"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "To relish the sylvan atmosphere in the dense woods"
+          },
+          {
+            "key": "B",
+            "text": "Because the well was dry beside the door"
+          },
+          {
+            "key": "C",
+            "text": "To enjoy the natural beauty of the brook"
+          },
+          {
+            "key": "D",
+            "text": "To find whether there is water in the brook"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_065",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 66,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "\"Laugh till the game is played\" — What is the game referred to here?",
+        "question_keywords": [
+          "Laugh",
+          "game"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Hockey"
+          },
+          {
+            "key": "B",
+            "text": "Exam"
+          },
+          {
+            "key": "C",
+            "text": "Dice"
+          },
+          {
+            "key": "D",
+            "text": "Life"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_066",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 67,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Only bloodshot eyes betrayed Deep pride, then reverence, Lo! God in man's image. Who is referred to as \"God in man's image\" in the above lines?",
+        "question_keywords": [
+          "God",
+          "in",
+          "man's",
+          "image"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Goldsmith"
+          },
+          {
+            "key": "B",
+            "text": "Divine Artist"
+          },
+          {
+            "key": "C",
+            "text": "Sculptor"
+          },
+          {
+            "key": "D",
+            "text": "Blacksmith"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_067",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 68,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Behold her, single in the field, Yon solitary Highland Lass! The underlined word in the above lines of \"The Solitary Reaper\" refers to",
+        "question_keywords": [
+          "solitary",
+          "Highland",
+          "Lass"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "England"
+          },
+          {
+            "key": "B",
+            "text": "America"
+          },
+          {
+            "key": "C",
+            "text": "Scotland"
+          },
+          {
+            "key": "D",
+            "text": "Ireland"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_068",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 69,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the meaning of the underlined word in the following lines from Sonnet No. 116: \"Let me not to the marriage of true minds Admit Impediments ...",
+        "question_keywords": [
+          "meaning",
+          "underlined",
+          "impediments"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Obstacles"
+          },
+          {
+            "key": "B",
+            "text": "Victory"
+          },
+          {
+            "key": "C",
+            "text": "Success"
+          },
+          {
+            "key": "D",
+            "text": "Happiness"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_069",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 70,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the option containing the author of the following lines \"No Nightingale did ever chant More welcome notes to weary bands\".",
+        "question_keywords": [
+          "author",
+          "No Nightingale",
+          "chant"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Hopkins in 'Laugh and be Merry'"
+          },
+          {
+            "key": "B",
+            "text": "Khalil Gibran in 'Earth'"
+          },
+          {
+            "key": "C",
+            "text": "Wordsworth in \"The Solitary Reaper\""
+          },
+          {
+            "key": "D",
+            "text": "Kamala Das in \"Punishment in the Kindergarten\""
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_070",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 71,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"The music in my heart I bore Long after it was heard no more\" These lines appear in ————",
+        "question_keywords": [
+          "The music in my heart",
+          "lines",
+          "appear"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Be the best"
+          },
+          {
+            "key": "B",
+            "text": "Tables turned"
+          },
+          {
+            "key": "C",
+            "text": "A Psalm of Life"
+          },
+          {
+            "key": "D",
+            "text": "The Solitary Reaper"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_071",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 72,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"She left India as a student, but she would see the nation of her birth, all of it, from hundreds of miles above' — George W. Bush spoke these lines about whom?",
+        "question_keywords": [
+          "George W. Bush",
+          "lines",
+          "who said"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Kalpana Chawla"
+          },
+          {
+            "key": "B",
+            "text": "Sunita Williams"
+          },
+          {
+            "key": "C",
+            "text": "Meena Alexander"
+          },
+          {
+            "key": "D",
+            "text": "Chitra Diwakaruni"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_072",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 73,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who among the following is not a character in Shakespeare's \"Merchant of Venice\"?",
+        "question_keywords": [
+          "not",
+          "character",
+          "Shakespeare",
+          "Merchant of Venice"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Calpurnia"
+          },
+          {
+            "key": "B",
+            "text": "Bassanio"
+          },
+          {
+            "key": "C",
+            "text": "Portia"
+          },
+          {
+            "key": "D",
+            "text": "Nerissa"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_073",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 74,
+      "question_type": "statement_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Who speaks the following lines in Shakespeare's \"The Merchant of Venice\". \"The quality of mercy is not strained It droppeth as the gentle rain from heaven Upon the place beneath\".",
+        "question_keywords": [
+          "who speaks",
+          "Shakespeare",
+          "The Merchant of Venice"
+        ],
+        "item_numbering_style": "arabic",
+        "statements": [
+          {
+            "no": 1,
+            "text": "The quality of mercy is not strained"
+          },
+          {
+            "no": 2,
+            "text": "It droppeth as the gentle rain from heaven"
+          },
+          {
+            "no": 3,
+            "text": "Upon the place beneath"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Antonio"
+          },
+          {
+            "key": "B",
+            "text": "Shylock"
+          },
+          {
+            "key": "C",
+            "text": "Portia"
+          },
+          {
+            "key": "D",
+            "text": "Duke"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_074",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 75,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The following line is from the play Julius Caesar. \"O judgment! Thou art fled to brutish beasts\" The figure of speech employed in the above line is",
+        "question_keywords": [
+          "play",
+          "Julius Caesar",
+          "figure of speech"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Antithesis"
+          },
+          {
+            "key": "B",
+            "text": "Personification"
+          },
+          {
+            "key": "C",
+            "text": "Metaphor"
+          },
+          {
+            "key": "D",
+            "text": "Oxymoron"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_075",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 76,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In Julius Caesar, Antony says, \"For Brutus is an honourable man\" — Here the tone of Antony is one of",
+        "question_keywords": [
+          "Julius Caesar",
+          "Antony",
+          "Brutus",
+          "tone"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Admiration"
+          },
+          {
+            "key": "B",
+            "text": "Irony"
+          },
+          {
+            "key": "C",
+            "text": "Friendship"
+          },
+          {
+            "key": "D",
+            "text": "Hero — worship"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_076",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 77,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who was the first senator to stab Caesar?",
+        "question_keywords": [
+          "first",
+          "senator",
+          "stab",
+          "Caesar"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Carsius"
+          },
+          {
+            "key": "B",
+            "text": "Lepidus"
+          },
+          {
+            "key": "C",
+            "text": "Casca"
+          },
+          {
+            "key": "D",
+            "text": "Brutus"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_077",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 78,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Paulnack was the director of the music division at _______________",
+        "question_keywords": [
+          "Paulnack",
+          "director",
+          "music division"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The Boston Conservatory"
+          },
+          {
+            "key": "B",
+            "text": "The Philharmonic Royal"
+          },
+          {
+            "key": "C",
+            "text": "The France School of Arts"
+          },
+          {
+            "key": "D",
+            "text": "The Manhattan Academy"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_078",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 79,
+      "question_type": "statement_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Which one of the following statements is not related to the lesson “Music – The Hope Raiser”?",
+        "question_keywords": [
+          "statement",
+          "not related",
+          "Music – The Hope Raiser"
+        ],
+        "item_numbering_style": "arabic",
+        "statements": [
+          {
+            "no": 1,
+            "text": "Music is a basic need of human survival"
+          },
+          {
+            "no": 2,
+            "text": "Music is one of the ways we make sense of our lives."
+          },
+          {
+            "no": 3,
+            "text": "Music is a luxury and lavish thing"
+          },
+          {
+            "no": 4,
+            "text": "Music is not an extravaganza or a hobby"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Music is a basic need of human survival"
+          },
+          {
+            "key": "B",
+            "text": "Music is one of the ways we make sense of our lives."
+          },
+          {
+            "key": "C",
+            "text": "Music is a luxury and lavish thing"
+          },
+          {
+            "key": "D",
+            "text": "Music is not an extravaganza or a hobby"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_079",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 80,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "_______________ composed the German Requiem.",
+        "question_keywords": [
+          "composed",
+          "German Requiem"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Messiaen"
+          },
+          {
+            "key": "B",
+            "text": "Johannes Brahms"
+          },
+          {
+            "key": "C",
+            "text": "Charles Tindley"
+          },
+          {
+            "key": "D",
+            "text": "Karl Paulnack"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_080",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 81,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who wrote the following motivational poem, “You can’t be that, No, You can’t be that”? ",
+        "question_keywords": [
+          "poem",
+          "You can’t be that"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Hope Spencer"
+          },
+          {
+            "key": "B",
+            "text": "Dale Carnegi"
+          },
+          {
+            "key": "C",
+            "text": "Brian Patten"
+          },
+          {
+            "key": "D",
+            "text": "Rupert Brooke"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_081",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 82,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Good luck is round the corner\": What does this line suggest in the poem \"Keep your spirits High\"?",
+        "question_keywords": [
+          "Good luck",
+          "poem",
+          "Keep your spirits High"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Do anticipate luck"
+          },
+          {
+            "key": "B",
+            "text": "Do think that luck would favour you"
+          },
+          {
+            "key": "C",
+            "text": "Be positive and optimistic in all your attitudes"
+          },
+          {
+            "key": "D",
+            "text": "Do have the frame of mind that you are fortune's minion"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_082",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 83,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What is the name of the porter who accompanied Ahtushi Deshpande?",
+        "question_keywords": [
+          "porter",
+          "Ahtushi Deshpande"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Laxmi"
+          },
+          {
+            "key": "B",
+            "text": "Kundu"
+          },
+          {
+            "key": "C",
+            "text": "Bamon"
+          },
+          {
+            "key": "D",
+            "text": "Raman Singh"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_083",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 84,
+      "question_type": "simple_mcq",
+      "unit_id": 2,
+      "unit": "Geography of India",
+      "theme": "Physical Geography",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"A dominant landmark of the north-eastern outskirts of Madurai is Yaanai Malai\" Choose the inappropriate statement from the following",
+        "question_keywords": [
+          "Yaanai Malai",
+          "Madurai"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Yaanai malai is a solid rocky hill"
+          },
+          {
+            "key": "B",
+            "text": "Yaanai malai is in the north-east direction of Madurai"
+          },
+          {
+            "key": "C",
+            "text": "Madurai is the landmark of Yaanai malai"
+          },
+          {
+            "key": "D",
+            "text": "Yaanai malai is otherwise called elephant hill"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_084",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 85,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following British/American expressions in Column A with Column B and select the correct answer from the options given below",
+        "question_keywords": [
+          "British expressions",
+          "American expressions"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "trash"
+          },
+          {
+            "key": "b",
+            "text": "cookie"
+          },
+          {
+            "key": "c",
+            "text": "sweets"
+          },
+          {
+            "key": "d",
+            "text": "tap"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "faucet"
+          },
+          {
+            "no": 2,
+            "text": "candy"
+          },
+          {
+            "no": 3,
+            "text": "rubbish"
+          },
+          {
+            "no": 4,
+            "text": "biscuit"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 2,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_085",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 86,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "‘Car park’ in British English is ———— in American English.",
+        "question_keywords": [
+          "Car park",
+          "British English",
+          "American English"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Parking space"
+          },
+          {
+            "key": "B",
+            "text": "Parking fees"
+          },
+          {
+            "key": "C",
+            "text": "Parking plot"
+          },
+          {
+            "key": "D",
+            "text": "Parking lot"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_086",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 87,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the British English equivalent of “fall”",
+        "question_keywords": [
+          "fall",
+          "British English"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Winter"
+          },
+          {
+            "key": "B",
+            "text": "Summer"
+          },
+          {
+            "key": "C",
+            "text": "Spring"
+          },
+          {
+            "key": "D",
+            "text": "Autumn"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_087",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 88,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"The present seems all dreary. The future very grim. The underlined words mean and respectively.",
+        "question_keywords": [
+          "present",
+          "future"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "confusing and dark"
+          },
+          {
+            "key": "B",
+            "text": "dear and lovely"
+          },
+          {
+            "key": "C",
+            "text": "boring and sad"
+          },
+          {
+            "key": "D",
+            "text": "damp and weak"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_088",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 89,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the poems under Column 'A' with the authors under Column 'B' and select the correct code.",
+        "question_keywords": [
+          "poems",
+          "authors"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "A Psalm of Life"
+          },
+          {
+            "key": "b",
+            "text": "Is Life But a Dream"
+          },
+          {
+            "key": "c",
+            "text": "Going for water"
+          },
+          {
+            "key": "d",
+            "text": "Punishment in Kindergarten"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Lewis Carroll"
+          },
+          {
+            "no": 2,
+            "text": "H.W. Longfellow"
+          },
+          {
+            "no": 3,
+            "text": "Kamala Das"
+          },
+          {
+            "no": 4,
+            "text": "Robert Frost"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_089",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 90,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following is not a poem?",
+        "question_keywords": [
+          "not a poem"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Shilpi"
+          },
+          {
+            "key": "B",
+            "text": "Be the Best"
+          },
+          {
+            "key": "C",
+            "text": "Off to Outerspace Tomorrow Morning"
+          },
+          {
+            "key": "D",
+            "text": "Flying with the moon on their wings"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_090",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 91,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following is a short story?",
+        "question_keywords": [
+          "short story"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Be the Best"
+          },
+          {
+            "key": "B",
+            "text": "The Tears of the Desert"
+          },
+          {
+            "key": "C",
+            "text": "The Flying Wonder"
+          },
+          {
+            "key": "D",
+            "text": "The Man He Killed"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_091",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 92,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pangolin figures in",
+        "question_keywords": [
+          "Pangolin"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The Anteater and the Dassie"
+          },
+          {
+            "key": "B",
+            "text": "The Neem Tree"
+          },
+          {
+            "key": "C",
+            "text": "Reflowering"
+          },
+          {
+            "key": "D",
+            "text": "The Necklace Holiday"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_092",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 93,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who uttered the line \"I craved the law\" in \"The Merchant of Venice\"?",
+        "question_keywords": [
+          "I craved the law",
+          "The Merchant of Venice"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Portia"
+          },
+          {
+            "key": "B",
+            "text": "Shylock"
+          },
+          {
+            "key": "C",
+            "text": "Antonio"
+          },
+          {
+            "key": "D",
+            "text": "Bassanio"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_093",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 94,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following:",
+        "question_keywords": [
+          "match the following"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Randall Jarell"
+          },
+          {
+            "key": "b",
+            "text": "Indira Anandakrishnan"
+          },
+          {
+            "key": "c",
+            "text": "Tagore"
+          },
+          {
+            "key": "d",
+            "text": "Rudyard Kipling"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "The Neem Tree"
+          },
+          {
+            "no": 2,
+            "text": "Nobel Prize"
+          },
+          {
+            "no": 3,
+            "text": "Bombay"
+          },
+          {
+            "no": 4,
+            "text": "Bat"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_094",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 95,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Mohiniyattam is a classical dance form from",
+        "question_keywords": [
+          "Mohiniyattam",
+          "classical dance form"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Kerala"
+          },
+          {
+            "key": "B",
+            "text": "Bihar"
+          },
+          {
+            "key": "C",
+            "text": "Kashmir"
+          },
+          {
+            "key": "D",
+            "text": "Tamilnadu"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_095",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 96,
+      "question_type": "simple_mcq",
+      "unit_id": 8,
+      "unit": "Reasoning",
+      "theme": "Visual and Pattern Reasoning",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following works is not a poem?",
+        "question_keywords": [
+          "works",
+          "poem"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Be the Best"
+          },
+          {
+            "key": "B",
+            "text": "Manliness"
+          },
+          {
+            "key": "C",
+            "text": "Swept Away"
+          },
+          {
+            "key": "D",
+            "text": "The Man He Killed"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_096",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 97,
+      "question_type": "simple_mcq",
+      "unit_id": 8,
+      "unit": "Reasoning",
+      "theme": "Visual and Pattern Reasoning",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct answer from the options given below:\n\n\"There was never mystery\nBut 'tis figured in the flowers;\nWas never secret history\nBut birds tell it in the bowers\".\nThese lines are taken from the poem",
+        "question_keywords": [
+          "mystery",
+          "flowers",
+          "secret history",
+          "birds"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "My Native Land"
+          },
+          {
+            "key": "B",
+            "text": "To India"
+          },
+          {
+            "key": "C",
+            "text": "The Apology"
+          },
+          {
+            "key": "D",
+            "text": "Laugh and be Merry"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_097",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 98,
+      "question_type": "simple_mcq",
+      "unit_id": 8,
+      "unit": "Reasoning",
+      "theme": "Visual and Pattern Reasoning",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Mr. Pneumonia figures in _________.",
+        "question_keywords": [
+          "Mr. Pneumonia",
+          "figures"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The Last Leaf"
+          },
+          {
+            "key": "B",
+            "text": "The Selfish Giant"
+          },
+          {
+            "key": "C",
+            "text": "The Lottery Ticket"
+          },
+          {
+            "key": "D",
+            "text": "The Open Window"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_098",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 99,
+      "question_type": "simple_mcq",
+      "unit_id": 8,
+      "unit": "Reasoning",
+      "theme": "Visual and Pattern Reasoning",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What is the title of H.W. Longfellow's volume of poems which included \"A Psalm of Life\"?",
+        "question_keywords": [
+          "title",
+          "H.W. Longfellow",
+          "volume of poems"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Hiawatha"
+          },
+          {
+            "key": "B",
+            "text": "Tales of a Wayside-Inn"
+          },
+          {
+            "key": "C",
+            "text": "Evangeline"
+          },
+          {
+            "key": "D",
+            "text": "Voices of the Night"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_099",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 100,
+      "question_type": "match_the_following",
+      "unit_id": 8,
+      "unit": "Reasoning",
+      "theme": "Visual and Pattern Reasoning",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following:\n\nQuote/Line\nAuthor/Character\n\na) \"I was born a farmer\"\n\nb) \"Nations are built by the imagination and untiring enthusiastic efforts of generations\"\n\nc) ... You cannot believe darling, can you that I lived in such a house\n\nd) \"Into that heaven of freedom, My Father let my country awake\"",
+        "question_keywords": [
+          "match the following",
+          "Quote/Line",
+          "Author/Character"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "\"I was born a farmer\""
+          },
+          {
+            "key": "b",
+            "text": "\"Nations are built by the imagination and untiring enthusiastic efforts of generations\""
+          },
+          {
+            "key": "c",
+            "text": "... You cannot believe darling, can you that I lived in such a house"
+          },
+          {
+            "key": "d",
+            "text": "\"Into that heaven of freedom, My Father let my country awake\""
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Kamala Surayya"
+          },
+          {
+            "no": 2,
+            "text": "Kesavan Nair"
+          },
+          {
+            "no": 3,
+            "text": "A.P.J. Abdul Kalam"
+          },
+          {
+            "no": 4,
+            "text": "Rabindranath Tagore"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 5,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 5,
+              "b": 3,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 5,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 5,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group2_2015_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g2_2015_en_100",
+      "group": "G2",
+      "year": 2015,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    }
+  ]
+}

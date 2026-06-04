@@ -2,3 +2,4 @@ anthropic>=0.40.0
 pdf2image>=1.17.0
 Pillow>=10.0.0
 pytest>=8.0.0
+json-repair>=0.30.0

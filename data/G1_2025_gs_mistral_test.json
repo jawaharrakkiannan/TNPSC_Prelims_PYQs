@@ -1,0 +1,1180 @@
+{
+  "group": "G1",
+  "subgroup": null,
+  "year": 2025,
+  "paper_type": "gs",
+  "language_mode": "bilingual",
+  "paper_code": "",
+  "total_questions": 10,
+  "extraction_model": "mistral-ocr-2512 + mistral-large-latest",
+  "questions": [
+    {
+      "question_no": 3,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Biology and Life Science",
+      "topic": "Plant Physiology",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": true,
+      "math_format": "latex",
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the right matches:",
+        "question_keywords": [
+          "Carotenoid",
+          "Chlorophyll",
+          "Xanthophyll",
+          "chemical formula"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "1",
+            "text": "Carotenoid — $\\mathrm{C}_{55}\\mathrm{H}_{70}\\mathrm{O}_{5}\\mathrm{N}_{4}\\mathrm{Mg}$"
+          },
+          {
+            "key": "2",
+            "text": "Chlorophyll ‘a’ — $\\mathrm{C}_{55}\\mathrm{H}_{72}\\mathrm{O}_{5}\\mathrm{N}_{4}\\mathrm{Mg}$"
+          },
+          {
+            "key": "3",
+            "text": "Chlorophyll ‘b’ — $\\mathrm{C}_{55}\\mathrm{H}_{70}\\mathrm{O}_{6}\\mathrm{N}_{4}\\mathrm{Mg}$"
+          },
+          {
+            "key": "4",
+            "text": "Xanthophyll — $\\mathrm{C}_{50}\\mathrm{H}_{70}\\mathrm{O}_{5}\\mathrm{Mg}$"
+          }
+        ],
+        "right_column": null,
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "1": true,
+              "2": true,
+              "3": false,
+              "4": false
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "1": false,
+              "2": false,
+              "3": true,
+              "4": true
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "1": false,
+              "2": true,
+              "3": true,
+              "4": false
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "1": true,
+              "2": false,
+              "3": false,
+              "4": true
+            }
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": {
+        "stem": "சியாகப் பொருத்தப்பட்டைத் தேர்ந்தெடுக்கவும்:",
+        "question_keywords": [
+          "கேராடினாய்டு",
+          "பச்சயம்",
+          "சாந்தோட்டில்",
+          "வேதியியல் வாய்ப்பாடு"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "1",
+            "text": "கேராடினாய்டு — $\\mathrm{C}_{55}\\mathrm{H}_{70}\\mathrm{O}_{5}\\mathrm{N}_{4}\\mathrm{Mg}$"
+          },
+          {
+            "key": "2",
+            "text": "பச்சயம் ‘a’ — $\\mathrm{C}_{55}\\mathrm{H}_{72}\\mathrm{O}_{5}\\mathrm{N}_{4}\\mathrm{Mg}$"
+          },
+          {
+            "key": "3",
+            "text": "பச்சயம் ‘b’ — $\\mathrm{C}_{55}\\mathrm{H}_{70}\\mathrm{O}_{6}\\mathrm{N}_{4}\\mathrm{Mg}$"
+          },
+          {
+            "key": "4",
+            "text": "சாந்தோட்டில் — $\\mathrm{C}_{50}\\mathrm{H}_{70}\\mathrm{O}_{5}\\mathrm{Mg}$"
+          }
+        ],
+        "right_column": null,
+        "options": [
+          {
+            "key": "A",
+            "text": "(1) மற்றும் (2) சியானவை"
+          },
+          {
+            "key": "B",
+            "text": "(3) மற்றும் (4) சியானவை"
+          },
+          {
+            "key": "C",
+            "text": "(2) மற்றும் (3) சியானவை"
+          },
+          {
+            "key": "D",
+            "text": "(1) மற்றும் (4) சியானவை"
+          },
+          {
+            "key": "E",
+            "text": "விடை தெரியவில்லை"
+          }
+        ]
+      },
+      "answer_key": "C",
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "images/G1/2025/gs/TNPSC_G1_2025_gs_p005.png",
+        "notes": ""
+      },
+      "id": "tnpsc_g1_2025_gs_003",
+      "group": "G1",
+      "year": 2025,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 4,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Biology and Life Science",
+      "topic": "Genetics",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The Nobel Prize in Medicine was awarded to Victor Ambros and Gary Ruvkun for their discovery of",
+        "question_keywords": [
+          "Nobel Prize",
+          "Medicine",
+          "Victor Ambros",
+          "Gary Ruvkun",
+          "discovery"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Expression Sequence Tags"
+          },
+          {
+            "key": "B",
+            "text": "Micro RNA"
+          },
+          {
+            "key": "C",
+            "text": "DNA micro array"
+          },
+          {
+            "key": "D",
+            "text": "SNP’s"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": {
+        "stem": "விக்டர் அம்போர் மற்றும் கிரேர் ரவ்கன் ஆகியோரின் எந்த கண்டுபிடிப்புக்காக மருத்துவத்தில் தேர்வல் விருது வழங்கப்பட்டது?",
+        "question_keywords": [
+          "நோபல் பரிசு",
+          "மருத்துவம்",
+          "விக்டர் அம்போர்",
+          "கிரேர் ரவ்கன்",
+          "கண்டுபிடிப்பு"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "வெளிப்பாடு வரிசை மரபு குறிக்கோள்கள்"
+          },
+          {
+            "key": "B",
+            "text": "நுண் ஆர்.என்.ஏ. (micro RNA)"
+          },
+          {
+            "key": "C",
+            "text": "டி.என்.ஏ. நுண் அணி"
+          },
+          {
+            "key": "D",
+            "text": "எஸ்.என்.பி. (SNP’s)"
+          },
+          {
+            "key": "E",
+            "text": "விடை தெரியவில்லை"
+          }
+        ]
+      },
+      "answer_key": "B",
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "images/G1/2025/gs/TNPSC_G1_2025_gs_p005.png",
+        "notes": ""
+      },
+      "id": "tnpsc_g1_2025_gs_004",
+      "group": "G1",
+      "year": 2025,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 5,
+      "question_type": "statement_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Physics",
+      "topic": "Universe and Space",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following statements are true about crew selection and training for “Gaganyaan Mission”?",
+        "question_keywords": [
+          "Gaganyaan Mission",
+          "crew selection",
+          "training",
+          "ISRO",
+          "astronauts",
+          "spaceflight"
+        ],
+        "item_numbering_style": "roman",
+        "statements": [
+          {
+            "no": "i",
+            "text": "Crews are selected after clinical, psychological and aeromedical examination."
+          },
+          {
+            "no": "ii",
+            "text": "Mission-specific training will be conducted at ISRO, Trivandrum."
+          },
+          {
+            "no": "iii",
+            "text": "Selected astronauts will undergo their generic spaceflight training in Yuri Gagarin Cosmonaut training centre, Russia."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "(i) and (ii) only"
+          },
+          {
+            "key": "B",
+            "text": "(ii) and (iii) only"
+          },
+          {
+            "key": "C",
+            "text": "(iii) only"
+          },
+          {
+            "key": "D",
+            "text": "(i) and (iii) only"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": {
+        "stem": "பின்வரும் சுற்றுகளில், எல்லை “கசன்யான் விண்வெளித்திட்ட” வீரர்களைத் தேர்ந்தெடுக்கம் மற்றும் பயிற்சி குறித்து சரியான சுற்றுகள்?",
+        "question_keywords": [
+          "ககன்யான் திட்டம்",
+          "வீரர் தேர்வு",
+          "பயிற்சி",
+          "இஸ்ரோ",
+          "விண்வெளி வீரர்கள்",
+          "வான்வெளிப் பயணம்"
+        ],
+        "item_numbering_style": "roman",
+        "statements": [
+          {
+            "no": "i",
+            "text": "விண்வெளி பயண வீரர்கள், மருத்துவ, உளவியல் மற்றும் விமான மருத்துவப் பரிசோதனைகளுக்குப் பிறகே தேர்ந்தெடுக்கப்படுகின்றனர்."
+          },
+          {
+            "no": "ii",
+            "text": "விண்வெளிதிட்ட பயிற்சி, இஸ்டேரா (ISRO), திருவனந்தபுரத்தில் நடைபெறுகிறது."
+          },
+          {
+            "no": "iii",
+            "text": "தேர்வு செய்யப்பட்ட விண்வெளி பயண வீரர்கள், பொது ரீதியான வான்வெளிப் பயண பயிற்சியினை ரஷ்யாவில் உள்ள யூரி ககாரின் அண்டவளிப் பயணி பயிற்சி மையத்தில் பெறுவார்கள்."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "(i) மற்றும் (ii) மட்டும்"
+          },
+          {
+            "key": "B",
+            "text": "(ii) மற்றும் (iii) மட்டும்"
+          },
+          {
+            "key": "C",
+            "text": "(iii) மட்டும்"
+          },
+          {
+            "key": "D",
+            "text": "(i) மற்றும் (iii) மட்டும்"
+          },
+          {
+            "key": "E",
+            "text": "விடை தேரியவில்லை"
+          }
+        ]
+      },
+      "answer_key": "D",
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "images/G1/2025/gs/TNPSC_G1_2025_gs_p006.png",
+        "notes": ""
+      },
+      "id": "tnpsc_g1_2025_gs_005",
+      "group": "G1",
+      "year": 2025,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 6,
+      "question_type": "statement_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Chemistry",
+      "topic": "Pollution",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following statements are correct about PFAS?",
+        "question_keywords": [
+          "PFAS",
+          "per and poly fluoro alkyl substances",
+          "paint industries",
+          "endocrine disrupters"
+        ],
+        "item_numbering_style": "roman",
+        "statements": [
+          {
+            "no": "i",
+            "text": "PFAS is per and poly fluoro alkyl substances."
+          },
+          {
+            "no": "ii",
+            "text": "It is used in paint industries."
+          },
+          {
+            "no": "iii",
+            "text": "PFAS are endocrine disrupters."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "(i) and (ii) are correct"
+          },
+          {
+            "key": "B",
+            "text": "(ii) and (iii) are correct"
+          },
+          {
+            "key": "C",
+            "text": "(i) and (iii) are correct"
+          },
+          {
+            "key": "D",
+            "text": "(i) only correct"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": {
+        "stem": "கீழ்க்காணும் கற்றுக்களில் PFAS பற்றிய சரியான கற்றுக்களை தேர்ந்தெடுக்கவும்.",
+        "question_keywords": [
+          "பி.எப்.ஏ.எஸ்",
+          "பொரிப்புருவோ மற்றும் பாலிப்புருவோ ஆல்கல பொருட்கள்",
+          "வண்ணப்பழக்க தொழிற்சாலைகள்",
+          "நாளமில்லா கரப்பிகள்"
+        ],
+        "item_numbering_style": "roman",
+        "statements": [
+          {
+            "no": "i",
+            "text": "பி.எப்.ஏ.எஸ். என்பது பொரிப்புருவோ மற்றும் பாலிப்புருவோ ஆல்கல பொருட்கள் ஆகும்."
+          },
+          {
+            "no": "ii",
+            "text": "இது வண்ணப்பழக்க (பெயின்ட்) தொழிற்சாலைகளில் பயன்படுத்தப்படுகிறது."
+          },
+          {
+            "no": "iii",
+            "text": "இது நாளமில்லா கரப்பிகளைச் சீர்குலைக்கும் திறன் உண்டு."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "(i) மற்றும் (ii) சரியானவை"
+          },
+          {
+            "key": "B",
+            "text": "(ii) மற்றும் (iii) சரியானவை"
+          },
+          {
+            "key": "C",
+            "text": "(i) மற்றும் (iii) சரியானவை"
+          },
+          {
+            "key": "D",
+            "text": "(i) மட்டும் சரியானது"
+          },
+          {
+            "key": "E",
+            "text": "விடை தெரியவில்லை"
+          }
+        ]
+      },
+      "answer_key": "C",
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "images/G1/2025/gs/TNPSC_G1_2025_gs_p007.png",
+        "notes": ""
+      },
+      "id": "tnpsc_g1_2025_gs_006",
+      "group": "G1",
+      "year": 2025,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 7,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Biology and Life Science",
+      "topic": "Environment and Ecology",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The biological oxygen demand is the amount of dissolved oxygen required by _________ in water.",
+        "question_keywords": [
+          "biological oxygen demand",
+          "dissolved oxygen",
+          "microbes",
+          "water"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Microbes"
+          },
+          {
+            "key": "B",
+            "text": "Plants"
+          },
+          {
+            "key": "C",
+            "text": "Animals"
+          },
+          {
+            "key": "D",
+            "text": "Seaweeds"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": {
+        "stem": "உயிர்வேதியலில் ஆக்சிஜன் தேவை என்பது, நீரில் _________ பயன்பாட்டுள் போது நுகரப்படும் ஆக்சிஜன் அளவு ஆகும்.",
+        "question_keywords": [
+          "உயிர்வேதியலில் ஆக்சிஜன் தேவை",
+          "கரைந்த ஆக்சிஜன்",
+          "நுண்ணுயிர்",
+          "நீர்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "நுண்ணுயிர்"
+          },
+          {
+            "key": "B",
+            "text": "கசடுகள்"
+          },
+          {
+            "key": "C",
+            "text": "விலங்குகள்"
+          },
+          {
+            "key": "D",
+            "text": "கடற்பாசிகள்"
+          },
+          {
+            "key": "E",
+            "text": "விடை தெரியவில்லை"
+          }
+        ]
+      },
+      "answer_key": "A",
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "images/G1/2025/gs/TNPSC_G1_2025_gs_p007.png",
+        "notes": ""
+      },
+      "id": "tnpsc_g1_2025_gs_007",
+      "group": "G1",
+      "year": 2025,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 8,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Physics",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following is the first Indian Geo-Stationary Satellite?",
+        "question_keywords": [
+          "Indian",
+          "Geo-Stationary",
+          "Satellite"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "INSAT 3D"
+          },
+          {
+            "key": "B",
+            "text": "LANDSAT 8"
+          },
+          {
+            "key": "C",
+            "text": "IKONOS 1"
+          },
+          {
+            "key": "D",
+            "text": "QUICK BIRD"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": {
+        "stem": "பின்வருவனவற்றில் எது முதல் இந்திய புவிசார் செயற்கைக்கோள்?",
+        "question_keywords": [
+          "இந்திய",
+          "புவிசார்",
+          "செயற்கைக்கோள்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "INSAT 3D"
+          },
+          {
+            "key": "B",
+            "text": "LANDSAT 8"
+          },
+          {
+            "key": "C",
+            "text": "IKONOS 1"
+          },
+          {
+            "key": "D",
+            "text": "QUICK BIRD"
+          },
+          {
+            "key": "E",
+            "text": "விடை தெரியவில்லை"
+          }
+        ]
+      },
+      "answer_key": "X",
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "images/G1/2025/gs/TNPSC_G1_2025_gs_p008.png",
+        "notes": ""
+      },
+      "id": "tnpsc_g1_2025_gs_008",
+      "group": "G1",
+      "year": 2025,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 9,
+      "question_type": "simple_mcq",
+      "unit_id": 2,
+      "unit": "Geography of India",
+      "theme": "Social Geography",
+      "topic": "Major Tribes",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who among the following tribes act as cattle keepers?",
+        "question_keywords": [
+          "tribes",
+          "cattle keepers"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Dhimor"
+          },
+          {
+            "key": "B",
+            "text": "Kewats"
+          },
+          {
+            "key": "C",
+            "text": "Rawats"
+          },
+          {
+            "key": "D",
+            "text": "Bhils"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": {
+        "stem": "பின்வரும் பழங்குடியினரில் யார் கால்நடை பராமரிப்பாளர்களாக செயல்படுகிறார்கள்?",
+        "question_keywords": [
+          "பழங்குடியினர்",
+          "கால்நடை பராமரிப்பாளர்கள்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "திமார்"
+          },
+          {
+            "key": "B",
+            "text": "கேவாட்ஸ்"
+          },
+          {
+            "key": "C",
+            "text": "ரவாட்ஸ்"
+          },
+          {
+            "key": "D",
+            "text": "பில்ஸ்"
+          },
+          {
+            "key": "E",
+            "text": "விடை தெரியவில்லை"
+          }
+        ]
+      },
+      "answer_key": "C",
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "images/G1/2025/gs/TNPSC_G1_2025_gs_p008.png",
+        "notes": ""
+      },
+      "id": "tnpsc_g1_2025_gs_009",
+      "group": "G1",
+      "year": 2025,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 10,
+      "question_type": "assertion_reason",
+      "unit_id": 2,
+      "unit": "Geography of India",
+      "theme": "Economic and Agricultural Geography",
+      "topic": "Transport and Communication",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "assertion": "Development of a nation depends on infrastructure facilities.",
+        "reason": "Transport and communication are the backbone of economic development.",
+        "question_keywords": [
+          "development",
+          "nation",
+          "infrastructure",
+          "transport",
+          "communication",
+          "economic development"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "[A] and [R] is true and [R] is correct explanation for [A]"
+          },
+          {
+            "key": "B",
+            "text": "[A] is true but [R] is false"
+          },
+          {
+            "key": "C",
+            "text": "[A], [R] is true but [R] is not the correct explanation of [A]"
+          },
+          {
+            "key": "D",
+            "text": "Both [A] and [R] are not correct"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": {
+        "assertion": "நாட்டின் வளர்ச்சி உட்கட்டமைப்பு வசதியைச் சார்ந்தது.",
+        "reason": "போக்குவரத்து மற்றும் தொலைதொடர்பு, பொருளாதார வளர்ச்சியின் முதுகெலும்பாகும்.",
+        "question_keywords": [
+          "வளர்ச்சி",
+          "நாடு",
+          "உட்கட்டமைப்பு",
+          "போக்குவரத்து",
+          "தொலைதொடர்பு",
+          "பொருளாதார வளர்ச்சி"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "[A] மற்றும் [R] சரியோ, [R] க்கான மிகச் சரியான விளக்கம் [A] ஆகும்."
+          },
+          {
+            "key": "B",
+            "text": "[A] சரியோ ஆனால் [R] தவறு"
+          },
+          {
+            "key": "C",
+            "text": "[A], [R] சரியோ, ஆனால் [R] [A] க்கான சரியான விளக்கமல்ல"
+          },
+          {
+            "key": "D",
+            "text": "[A] மற்றும் [R] இரண்டும் தவறு"
+          },
+          {
+            "key": "E",
+            "text": "விடை தெரியவில்லை"
+          }
+        ]
+      },
+      "answer_key": "A",
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "images/G1/2025/gs/TNPSC_G1_2025_gs_p008.png",
+        "notes": ""
+      },
+      "id": "tnpsc_g1_2025_gs_010",
+      "group": "G1",
+      "year": 2025,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 11,
+      "question_type": "match_the_following",
+      "unit_id": 2,
+      "unit": "Geography of India",
+      "theme": "Physical Geography",
+      "topic": "Water Resources and Rivers",
+      "disputed": true,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match correctly the river and its places of rises.",
+        "question_keywords": [
+          "river",
+          "origin",
+          "place of rise",
+          "Krishna",
+          "Alaknanda",
+          "Gandak",
+          "Brahmaputra"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "The Krishna"
+          },
+          {
+            "key": "b",
+            "text": "The Alaknanda"
+          },
+          {
+            "key": "c",
+            "text": "The Gandak"
+          },
+          {
+            "key": "d",
+            "text": "The Brahmaputra"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Garwal Tibet border"
+          },
+          {
+            "no": 2,
+            "text": "Central Himalayas"
+          },
+          {
+            "no": 3,
+            "text": "Tibet"
+          },
+          {
+            "no": 4,
+            "text": "Sahyadris"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": {
+        "stem": "ஆறு மற்றும் அது உருவாகும்/எழும் இடத்திலை சரியாக பொருத்து :",
+        "question_keywords": [
+          "ஆறு",
+          "தோற்றம்",
+          "உருவாகும் இடம்",
+          "கிருஷ்ணா",
+          "அலக்நந்தா",
+          "கானடக்",
+          "பிரம்மபுத்திரா"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "கிருஷ்ணா"
+          },
+          {
+            "key": "b",
+            "text": "அலக்நந்தா"
+          },
+          {
+            "key": "c",
+            "text": "கானடக்"
+          },
+          {
+            "key": "d",
+            "text": "பிரம்மபுத்திரா"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "கார்வால் திவபத் எல்லை"
+          },
+          {
+            "no": 2,
+            "text": "மத்திய இமயமலை"
+          },
+          {
+            "no": 3,
+            "text": "திவபத்"
+          },
+          {
+            "no": 4,
+            "text": "சயாதிரிஸ்"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "E",
+            "text": "விலை தெரியவில்லை"
+          }
+        ]
+      },
+      "answer_key": "X",
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "images/G1/2025/gs/TNPSC_G1_2025_gs_p009.png",
+        "notes": "Answer disputed and referred to expert committee."
+      },
+      "id": "tnpsc_g1_2025_gs_011",
+      "group": "G1",
+      "year": 2025,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 12,
+      "question_type": "chronological_order",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Mahatma Gandhi – 1915 to 1920",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Arrange the following events in chronological order.",
+        "question_keywords": [
+          "chronological order",
+          "events",
+          "Ahemadabad Mill Strike",
+          "Champaran Satyagraha",
+          "Kheda Satyagraha",
+          "Rowlatt Satyagraha"
+        ],
+        "item_numbering_style": "roman",
+        "items": [
+          {
+            "no": "i",
+            "text": "Ahemadabad Mill Strike"
+          },
+          {
+            "no": "ii",
+            "text": "Champaran Satyagraha"
+          },
+          {
+            "no": "iii",
+            "text": "Kheda Satyagraha"
+          },
+          {
+            "no": "iv",
+            "text": "Rowlatt Satyagraha"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "(ii), (i), (iii), (iv)"
+          },
+          {
+            "key": "B",
+            "text": "(iv), (iii), (ii), (i)"
+          },
+          {
+            "key": "C",
+            "text": "(i), (ii), (iii), (iv)"
+          },
+          {
+            "key": "D",
+            "text": "(iii), (ii), (i), (iv)"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": {
+        "stem": "கால வரிசைப்படி அடுக்கு.",
+        "question_keywords": [
+          "கால வரிசை",
+          "நிகழ்வுகள்",
+          "அஹமதாபாத் மில் வலலல நிறுத்தம்",
+          "சம்பாரன் சத்தியாகிரகம்",
+          "கதா சத்தியாகிரகம்",
+          "வரலட் சத்தியாகிரகம்"
+        ],
+        "item_numbering_style": "roman",
+        "items": [
+          {
+            "no": "i",
+            "text": "அஹமதாபாத் மில் வலலல நிறுத்தம்"
+          },
+          {
+            "no": "ii",
+            "text": "சம்பாரன் சத்தியாகிரகம்"
+          },
+          {
+            "no": "iii",
+            "text": "கதா சத்தியாகிரகம்"
+          },
+          {
+            "no": "iv",
+            "text": "வரலட் சத்தியாகிரகம்"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "(ii), (i), (iii), (iv)"
+          },
+          {
+            "key": "B",
+            "text": "(iv), (iii), (ii), (i)"
+          },
+          {
+            "key": "C",
+            "text": "(i), (ii), (iii), (iv)"
+          },
+          {
+            "key": "D",
+            "text": "(iii), (ii), (i), (iv)"
+          },
+          {
+            "key": "E",
+            "text": "விடை வதியவில்லை"
+          }
+        ]
+      },
+      "answer_key": "A",
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "images/G1/2025/gs/TNPSC_G1_2025_gs_p010.png",
+        "notes": ""
+      },
+      "id": "tnpsc_g1_2025_gs_012",
+      "group": "G1",
+      "year": 2025,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    }
+  ]
+}

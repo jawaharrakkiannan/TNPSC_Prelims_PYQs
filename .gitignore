@@ -1,0 +1,7 @@
+.vercel
+.env
+__pycache__/
+lib/__pycache__/
+data/ocr_cache/
+images/
+local_*.html

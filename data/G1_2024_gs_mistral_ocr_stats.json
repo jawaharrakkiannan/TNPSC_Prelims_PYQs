@@ -1,0 +1,612 @@
+{
+  "total_pages": 121,
+  "total_chars": 110348,
+  "elapsed_seconds": 7.7,
+  "pages": [
+    {
+      "page": 1,
+      "chars": 817,
+      "approx_questions": 1
+    },
+    {
+      "page": 2,
+      "chars": 1110,
+      "approx_questions": 3
+    },
+    {
+      "page": 3,
+      "chars": 1426,
+      "approx_questions": 2
+    },
+    {
+      "page": 4,
+      "chars": 509,
+      "approx_questions": 1
+    },
+    {
+      "page": 5,
+      "chars": 1124,
+      "approx_questions": 2
+    },
+    {
+      "page": 6,
+      "chars": 792,
+      "approx_questions": 2
+    },
+    {
+      "page": 7,
+      "chars": 870,
+      "approx_questions": 2
+    },
+    {
+      "page": 8,
+      "chars": 588,
+      "approx_questions": 2
+    },
+    {
+      "page": 9,
+      "chars": 835,
+      "approx_questions": 1
+    },
+    {
+      "page": 10,
+      "chars": 609,
+      "approx_questions": 2
+    },
+    {
+      "page": 11,
+      "chars": 614,
+      "approx_questions": 2
+    },
+    {
+      "page": 12,
+      "chars": 450,
+      "approx_questions": 1
+    },
+    {
+      "page": 13,
+      "chars": 311,
+      "approx_questions": 1
+    },
+    {
+      "page": 14,
+      "chars": 1000,
+      "approx_questions": 2
+    },
+    {
+      "page": 15,
+      "chars": 517,
+      "approx_questions": 1
+    },
+    {
+      "page": 16,
+      "chars": 863,
+      "approx_questions": 2
+    },
+    {
+      "page": 17,
+      "chars": 1045,
+      "approx_questions": 2
+    },
+    {
+      "page": 18,
+      "chars": 827,
+      "approx_questions": 2
+    },
+    {
+      "page": 19,
+      "chars": 566,
+      "approx_questions": 1
+    },
+    {
+      "page": 20,
+      "chars": 373,
+      "approx_questions": 1
+    },
+    {
+      "page": 21,
+      "chars": 798,
+      "approx_questions": 1
+    },
+    {
+      "page": 22,
+      "chars": 567,
+      "approx_questions": 1
+    },
+    {
+      "page": 23,
+      "chars": 1067,
+      "approx_questions": 2
+    },
+    {
+      "page": 24,
+      "chars": 1417,
+      "approx_questions": 2
+    },
+    {
+      "page": 25,
+      "chars": 1239,
+      "approx_questions": 2
+    },
+    {
+      "page": 26,
+      "chars": 980,
+      "approx_questions": 2
+    },
+    {
+      "page": 27,
+      "chars": 822,
+      "approx_questions": 3
+    },
+    {
+      "page": 28,
+      "chars": 896,
+      "approx_questions": 2
+    },
+    {
+      "page": 29,
+      "chars": 1093,
+      "approx_questions": 2
+    },
+    {
+      "page": 30,
+      "chars": 723,
+      "approx_questions": 2
+    },
+    {
+      "page": 31,
+      "chars": 669,
+      "approx_questions": 2
+    },
+    {
+      "page": 32,
+      "chars": 660,
+      "approx_questions": 2
+    },
+    {
+      "page": 33,
+      "chars": 897,
+      "approx_questions": 2
+    },
+    {
+      "page": 34,
+      "chars": 659,
+      "approx_questions": 1
+    },
+    {
+      "page": 35,
+      "chars": 1128,
+      "approx_questions": 2
+    },
+    {
+      "page": 36,
+      "chars": 1734,
+      "approx_questions": 2
+    },
+    {
+      "page": 37,
+      "chars": 1124,
+      "approx_questions": 1
+    },
+    {
+      "page": 38,
+      "chars": 1239,
+      "approx_questions": 2
+    },
+    {
+      "page": 39,
+      "chars": 1026,
+      "approx_questions": 2
+    },
+    {
+      "page": 40,
+      "chars": 1203,
+      "approx_questions": 3
+    },
+    {
+      "page": 41,
+      "chars": 768,
+      "approx_questions": 1
+    },
+    {
+      "page": 42,
+      "chars": 1196,
+      "approx_questions": 2
+    },
+    {
+      "page": 43,
+      "chars": 725,
+      "approx_questions": 2
+    },
+    {
+      "page": 44,
+      "chars": 1388,
+      "approx_questions": 2
+    },
+    {
+      "page": 45,
+      "chars": 1719,
+      "approx_questions": 2
+    },
+    {
+      "page": 46,
+      "chars": 840,
+      "approx_questions": 1
+    },
+    {
+      "page": 47,
+      "chars": 1008,
+      "approx_questions": 1
+    },
+    {
+      "page": 48,
+      "chars": 1201,
+      "approx_questions": 3
+    },
+    {
+      "page": 49,
+      "chars": 1154,
+      "approx_questions": 2
+    },
+    {
+      "page": 50,
+      "chars": 917,
+      "approx_questions": 2
+    },
+    {
+      "page": 51,
+      "chars": 736,
+      "approx_questions": 1
+    },
+    {
+      "page": 52,
+      "chars": 1436,
+      "approx_questions": 2
+    },
+    {
+      "page": 53,
+      "chars": 735,
+      "approx_questions": 2
+    },
+    {
+      "page": 54,
+      "chars": 560,
+      "approx_questions": 1
+    },
+    {
+      "page": 55,
+      "chars": 1287,
+      "approx_questions": 2
+    },
+    {
+      "page": 56,
+      "chars": 867,
+      "approx_questions": 9
+    },
+    {
+      "page": 57,
+      "chars": 567,
+      "approx_questions": 1
+    },
+    {
+      "page": 58,
+      "chars": 431,
+      "approx_questions": 1
+    },
+    {
+      "page": 59,
+      "chars": 286,
+      "approx_questions": 1
+    },
+    {
+      "page": 60,
+      "chars": 979,
+      "approx_questions": 2
+    },
+    {
+      "page": 61,
+      "chars": 1192,
+      "approx_questions": 2
+    },
+    {
+      "page": 62,
+      "chars": 1059,
+      "approx_questions": 2
+    },
+    {
+      "page": 63,
+      "chars": 661,
+      "approx_questions": 8
+    },
+    {
+      "page": 64,
+      "chars": 1241,
+      "approx_questions": 2
+    },
+    {
+      "page": 65,
+      "chars": 551,
+      "approx_questions": 9
+    },
+    {
+      "page": 66,
+      "chars": 577,
+      "approx_questions": 1
+    },
+    {
+      "page": 67,
+      "chars": 1102,
+      "approx_questions": 2
+    },
+    {
+      "page": 68,
+      "chars": 1020,
+      "approx_questions": 2
+    },
+    {
+      "page": 69,
+      "chars": 606,
+      "approx_questions": 1
+    },
+    {
+      "page": 70,
+      "chars": 684,
+      "approx_questions": 2
+    },
+    {
+      "page": 71,
+      "chars": 861,
+      "approx_questions": 2
+    },
+    {
+      "page": 72,
+      "chars": 1058,
+      "approx_questions": 1
+    },
+    {
+      "page": 73,
+      "chars": 788,
+      "approx_questions": 2
+    },
+    {
+      "page": 74,
+      "chars": 956,
+      "approx_questions": 1
+    },
+    {
+      "page": 75,
+      "chars": 674,
+      "approx_questions": 10
+    },
+    {
+      "page": 76,
+      "chars": 839,
+      "approx_questions": 1
+    },
+    {
+      "page": 77,
+      "chars": 351,
+      "approx_questions": 1
+    },
+    {
+      "page": 78,
+      "chars": 709,
+      "approx_questions": 1
+    },
+    {
+      "page": 79,
+      "chars": 500,
+      "approx_questions": 1
+    },
+    {
+      "page": 80,
+      "chars": 471,
+      "approx_questions": 1
+    },
+    {
+      "page": 81,
+      "chars": 1305,
+      "approx_questions": 2
+    },
+    {
+      "page": 82,
+      "chars": 1075,
+      "approx_questions": 3
+    },
+    {
+      "page": 83,
+      "chars": 1365,
+      "approx_questions": 1
+    },
+    {
+      "page": 84,
+      "chars": 884,
+      "approx_questions": 2
+    },
+    {
+      "page": 85,
+      "chars": 972,
+      "approx_questions": 2
+    },
+    {
+      "page": 86,
+      "chars": 778,
+      "approx_questions": 2
+    },
+    {
+      "page": 87,
+      "chars": 975,
+      "approx_questions": 2
+    },
+    {
+      "page": 88,
+      "chars": 1337,
+      "approx_questions": 2
+    },
+    {
+      "page": 89,
+      "chars": 676,
+      "approx_questions": 2
+    },
+    {
+      "page": 90,
+      "chars": 714,
+      "approx_questions": 2
+    },
+    {
+      "page": 91,
+      "chars": 1002,
+      "approx_questions": 2
+    },
+    {
+      "page": 92,
+      "chars": 1309,
+      "approx_questions": 2
+    },
+    {
+      "page": 93,
+      "chars": 691,
+      "approx_questions": 2
+    },
+    {
+      "page": 94,
+      "chars": 542,
+      "approx_questions": 1
+    },
+    {
+      "page": 95,
+      "chars": 567,
+      "approx_questions": 9
+    },
+    {
+      "page": 96,
+      "chars": 998,
+      "approx_questions": 10
+    },
+    {
+      "page": 97,
+      "chars": 897,
+      "approx_questions": 1
+    },
+    {
+      "page": 98,
+      "chars": 937,
+      "approx_questions": 2
+    },
+    {
+      "page": 99,
+      "chars": 1061,
+      "approx_questions": 2
+    },
+    {
+      "page": 100,
+      "chars": 931,
+      "approx_questions": 4
+    },
+    {
+      "page": 101,
+      "chars": 687,
+      "approx_questions": 2
+    },
+    {
+      "page": 102,
+      "chars": 1396,
+      "approx_questions": 2
+    },
+    {
+      "page": 103,
+      "chars": 603,
+      "approx_questions": 1
+    },
+    {
+      "page": 104,
+      "chars": 504,
+      "approx_questions": 1
+    },
+    {
+      "page": 105,
+      "chars": 1099,
+      "approx_questions": 2
+    },
+    {
+      "page": 106,
+      "chars": 664,
+      "approx_questions": 0
+    },
+    {
+      "page": 107,
+      "chars": 1210,
+      "approx_questions": 2
+    },
+    {
+      "page": 108,
+      "chars": 1310,
+      "approx_questions": 2
+    },
+    {
+      "page": 109,
+      "chars": 1380,
+      "approx_questions": 2
+    },
+    {
+      "page": 110,
+      "chars": 879,
+      "approx_questions": 1
+    },
+    {
+      "page": 111,
+      "chars": 1525,
+      "approx_questions": 2
+    },
+    {
+      "page": 112,
+      "chars": 1102,
+      "approx_questions": 9
+    },
+    {
+      "page": 113,
+      "chars": 1089,
+      "approx_questions": 2
+    },
+    {
+      "page": 114,
+      "chars": 983,
+      "approx_questions": 2
+    },
+    {
+      "page": 115,
+      "chars": 1169,
+      "approx_questions": 2
+    },
+    {
+      "page": 116,
+      "chars": 1507,
+      "approx_questions": 2
+    },
+    {
+      "page": 117,
+      "chars": 937,
+      "approx_questions": 1
+    },
+    {
+      "page": 118,
+      "chars": 912,
+      "approx_questions": 1
+    },
+    {
+      "page": 119,
+      "chars": 605,
+      "approx_questions": 1
+    },
+    {
+      "page": 120,
+      "chars": 1351,
+      "approx_questions": 2
+    },
+    {
+      "page": 121,
+      "chars": 533,
+      "approx_questions": 7
+    }
+  ]
+}

@@ -1,0 +1,5678 @@
+{
+  "group": "G4",
+  "subgroup": null,
+  "year": 2018,
+  "paper_type": "ta",
+  "language_mode": "ta_only",
+  "paper_code": "",
+  "total_questions": 100,
+  "extraction_model": "mistral-ocr-2512 + gpt-4o-mini",
+  "questions": [
+    {
+      "question_no": 1,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Nadu in Freedom Struggle",
+      "topic": "Role of Tamil Nadu in Freedom Struggle",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "ஆதிச்ச நல்லூரில் கண்கிட்காப்பிட்ட முதுமக்கள் தாழிகள் எந்த காலகட்டத்தக்க சார்ந்ததைய?",
+        "question_keywords": [
+          "ஆதிச்ச நல்லூர்",
+          "முதுமக்கள்",
+          "தாழிகள்",
+          "காலகம்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "கி.மு. 200 முதல் கி.பி. 200 வரை"
+          },
+          {
+            "key": "B",
+            "text": "கி.மு. 300 முதல் கி.பி. 300 வரை"
+          },
+          {
+            "key": "C",
+            "text": "கி.மு. 400 முதல் கி.பி. 400 வரை"
+          },
+          {
+            "key": "D",
+            "text": "கி.மு. 200 முதல் கி.பி. 300 வரை"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_001",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 2,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "கீழே கொடுக்கப்பட்டுள்ளனவற்றுள் பொருத்தமான இணையத் தேர்வு செய்க.",
+        "question_keywords": [
+          "இணையத் தேர்வு",
+          "பொருத்தமான"
+        ],
+        "match_style": "inline",
+        "items": [
+          {
+            "no": 1,
+            "text": "தினங்கள் கொண்டாடுவதை விடுங்கள்"
+          },
+          {
+            "no": 2,
+            "text": "மண்டபமுவல் மானிடேன்"
+          },
+          {
+            "no": 3,
+            "text": "கன்று துரல் கேட்ட பக"
+          },
+          {
+            "no": 4,
+            "text": "தண்ணீர் போல் பனத்தை செலவு செய்தல்"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "1": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "2": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "3": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "4": 4
+            }
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_002",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 3,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil History and Archaeology",
+      "topic": "History of Tamil Society",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பதிய பட வீழ்த்திகள் உறுவாக இவற்றைப் பார்த்துகோ அடிப்படையாக அமைந்தன",
+        "question_keywords": [
+          "பதிய பட வீழ்த்திகள்",
+          "அடிப்படையாக"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "எட்வர்க் கம்பிரிட்ச்"
+          },
+          {
+            "key": "B",
+            "text": "ஈஸ்ட்மன்"
+          },
+          {
+            "key": "C",
+            "text": "தாமஸ் ஆல்வா எட்சன்"
+          },
+          {
+            "key": "D",
+            "text": "பிரான்சிஸ் சென்கின்ச"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_003",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 4,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "நான் சய்து பழுத்தபழம் என்று பாரதிதாசன் ேபாற்றுவது",
+        "question_keywords": [
+          "பாரதிதாசன்",
+          "பழம்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "பாரதியார்"
+          },
+          {
+            "key": "B",
+            "text": "தந்தை பாரியார்"
+          },
+          {
+            "key": "C",
+            "text": "காந்தியார்"
+          },
+          {
+            "key": "D",
+            "text": "அண்ணாதுலரயார்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_004",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 5,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பாரதியார் யாருிடய சாயலில் வசனகவிலத் எழுதிட ெதாடங்கினார்?",
+        "question_keywords": [
+          "பாரதியார்",
+          "சாயல்",
+          "வசனம்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "ஜார்ஜ் எல். ஹார்ட்"
+          },
+          {
+            "key": "B",
+            "text": "வால்ட்விட்மன்"
+          },
+          {
+            "key": "C",
+            "text": "விண்ட் ஹொம்"
+          },
+          {
+            "key": "D",
+            "text": "ஹால் சிப்ேமன்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_005",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 6,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "நாமக்கல் கவிஞரின் பைடப்புகலின் எண்ணிக்கையைப் பாருத்துக",
+        "question_keywords": [
+          "நாமக்கல் கவிஞர்",
+          "பைடப்புகல்",
+          "எண்ணிக்கை"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "இலச நாவல்கள்"
+          },
+          {
+            "key": "b",
+            "text": "பதினங்கள்"
+          },
+          {
+            "key": "c",
+            "text": "கவிலத்த நாகுப்புகள்"
+          },
+          {
+            "key": "d",
+            "text": "மோழி பயர்ப்புகள்"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "நான்கு"
+          },
+          {
+            "no": 2,
+            "text": "பத்து"
+          },
+          {
+            "no": 3,
+            "text": "மூன்று"
+          },
+          {
+            "no": 4,
+            "text": "ஐந்து"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 5,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_006",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 7,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "எந்த நாட்டின் அணுகலைக்காத சரங்கப் பாதுகாப்பு பொட்டகத்தில் திருக்குறள் உள்ளது",
+        "question_keywords": [
+          "காண்க",
+          "அணுகலைக்காத",
+          "சரங்கப்",
+          "பாதுகாப்பு",
+          "பொட்டகத்தில்",
+          "திருக்குறள்",
+          "எந்த",
+          "நாட்டின்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "இங்கிலாந்து"
+          },
+          {
+            "key": "B",
+            "text": "சிங்கப்பூர்"
+          },
+          {
+            "key": "C",
+            "text": "உருசியா"
+          },
+          {
+            "key": "D",
+            "text": "இந்தியா"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_007",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 8,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "மைறமையடிகள் எழுதிய நாட்கதைதப் பற்றிய ஆராய்ச்சி நூல்",
+        "question_keywords": [
+          "மைறமையடிகள்",
+          "எழுதிய",
+          "நாட்கதைதப்",
+          "பற்றிய",
+          "ஆராய்ச்சி",
+          "நூல்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "மதங்க குளாமணி"
+          },
+          {
+            "key": "B",
+            "text": "மத்தவிலாசம்"
+          },
+          {
+            "key": "C",
+            "text": "சாகுந்தலம்"
+          },
+          {
+            "key": "D",
+            "text": "மேனான்மணீயம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_008",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 9,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“உழவர் ஏரடக்கும் சிறு கோகல அரசரது கோங்கோலை நடத்தும் கோல்” எனக் கூறியவர்",
+        "question_keywords": [
+          "உழவர்",
+          "ஏரடக்கும்",
+          "சிறு",
+          "கவல",
+          "அரசரது",
+          "கொங்கிலோலாழ்",
+          "நடத்தும்",
+          "கோல்",
+          "எனக் கூறியவர்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "பாரதியார்"
+          },
+          {
+            "key": "B",
+            "text": "பாரதிதாசன்"
+          },
+          {
+            "key": "C",
+            "text": "வில்லிப்பத்துரார்"
+          },
+          {
+            "key": "D",
+            "text": "கம்பர்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_009",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 10,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“குவியல் வின்கோன்” பாராட்டிய தமிழறிஞர்",
+        "question_keywords": [
+          "குவியல்",
+          "வின்கோன்",
+          "பாராட்டிய",
+          "தமிழறிஞர்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "திரு.வி.க."
+          },
+          {
+            "key": "B",
+            "text": "மைறமையடிகள்"
+          },
+          {
+            "key": "C",
+            "text": "உ.கே.சா."
+          },
+          {
+            "key": "D",
+            "text": "கவிமணி"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_010",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 11,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Social and Political Movements",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“தாமே பாடிப்பட்டு உலமுத்து முன்னேற வேண்டும் என்னும் உயர்ந்த எண்ணம், நம் இளைஞர்களிடையே வளர வேண்டும்.” - என இளைஞர்களுக்கு உலர்த்தவார் யார்?",
+        "question_keywords": [
+          "தாமே",
+          "பாடிப்பட்டு",
+          "உலமுத்து",
+          "முன்னேற",
+          "வேண்டும்",
+          "என்னும்",
+          "உயர்ந்த",
+          "எண்ணம்",
+          "நம்",
+          "இளைஞர்களிடையே",
+          "வளர",
+          "வேண்டும்",
+          "என",
+          "இளைஞர்களுக்கு",
+          "உலர்த்தவார்",
+          "யார்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "தமிழ்த் தென்றல் திரு.வி.க"
+          },
+          {
+            "key": "B",
+            "text": "பெரியார்"
+          },
+          {
+            "key": "C",
+            "text": "பாடிவந்தார் பாரதிதாசன்"
+          },
+          {
+            "key": "D",
+            "text": "தாரா பாரதி"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_011",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 12,
+      "question_type": "statement_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "குமரஞ்சபரின் ‘நீதி வந்தி விளக்கம்’ என்னும் நூலில் எத்தனை பாடல்களுக்கு பரிதிமாற்கலைஞர் உலர்வெழுதி உலரயாசிரியராகவும் விளங்கினார்?",
+        "question_keywords": [
+          "குமரஞ்சபரின்",
+          "நீதி",
+          "வந்தி",
+          "விளக்கம்",
+          "என்னும்",
+          "நூலில்",
+          "எத்தனை",
+          "பாட்டல்களுக்கு",
+          "பரிதிமாற்கலைஞர்",
+          "உலர்வெழுதி",
+          "உலரயாசிரியராகவும்",
+          "விளங்கினார்"
+        ],
+        "item_numbering_style": "arabic",
+        "statements": [
+          {
+            "no": "i",
+            "text": "முப்பத்து முன்று"
+          },
+          {
+            "no": "ii",
+            "text": "ஐம்பது"
+          },
+          {
+            "no": "iii",
+            "text": "ஐம்பத்தொன்று"
+          },
+          {
+            "no": "iv",
+            "text": "ஐம்பத்து முன்று"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "முப்பத்து முன்று"
+          },
+          {
+            "key": "B",
+            "text": "ஐம்பது"
+          },
+          {
+            "key": "C",
+            "text": "ஐம்பத்தொன்று"
+          },
+          {
+            "key": "D",
+            "text": "ஐம்பத்து முன்று"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_012",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 13,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Architecture",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "தமிழகத்தில் இன்று காணப்பெறும் குலடவலர்க் கோவில்களுள் பழமையானது எங்குள்ளது?",
+        "question_keywords": [
+          "தமிழகத்தில்",
+          "இன்று",
+          "காணப்பெறும்",
+          "குலடவலர்",
+          "கோவில்களுள்",
+          "பழமையானது",
+          "எங்குள்ளது"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "பிள்ளையார்பட்டி"
+          },
+          {
+            "key": "B",
+            "text": "கழுது மலை"
+          },
+          {
+            "key": "C",
+            "text": "திருப்பரங்குன்றம்"
+          },
+          {
+            "key": "D",
+            "text": "ஆலமமலை"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_013",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 14,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Poetry",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "தன் இளத்தையம் வமழிமயயம் பாடாத கவிதை வேரில்லாத மரம்; கடில்வாத பறவை - என்று பாடியவர் யார்?",
+        "question_keywords": [
+          "தன்",
+          "இளத்தையம்",
+          "வமழிமயயம்",
+          "பாடாத",
+          "கவிதை",
+          "வேரில்லாத",
+          "மரம்",
+          "கடில்வாத",
+          "பறவை",
+          "என்று",
+          "பாடியவர்",
+          "யார்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "பாடிவந்தார் பாரதிதாசன்"
+          },
+          {
+            "key": "B",
+            "text": "உமர் கய்யாம்"
+          },
+          {
+            "key": "C",
+            "text": "இரஞ்சல் கம்ச தோல்"
+          },
+          {
+            "key": "D",
+            "text": "க. வலரமுத்து"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_014",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 15,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘தேரய்க்கு மருந்து இலக்கியம்’ என்று கூறியவலர் தேர்வு செய்க",
+        "question_keywords": [
+          "தேரய்க்கு",
+          "மருந்து",
+          "இலக்கியம்",
+          "என்று",
+          "கூறியவன்",
+          "தேர்வு செய்க"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "உ. வே. சாமிநாதர்"
+          },
+          {
+            "key": "B",
+            "text": "மகாவித்துவான் மீனாட்சி சந்தரனார்"
+          },
+          {
+            "key": "C",
+            "text": "பரிதிமாற்கலைஞர்"
+          },
+          {
+            "key": "D",
+            "text": "மைறமைல அடிகளார்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_015",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 16,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“அன்னில்சனம் செல்வோழியா வழிக்கலரில் அருஞ்சலப்பார் உள்ளமைவ தன்னனித்தாய் உறேவலில் பாிவகற்றி” - இப்பாடல் வாிகன் இடம்பெற்றுள்ள நால் யாது?",
+        "question_keywords": [
+          "அன்னில்சனம்",
+          "செல்வோழியா",
+          "வழிக்கலரில்",
+          "அருஞ்சலப்பார்",
+          "உள்ளமைவ",
+          "தன்னனித்தாய்",
+          "உரேவலில்",
+          "பாிவகற்றி",
+          "இப்பாடல்",
+          "வாிகன்",
+          "இடம் பெற்றுள்ள",
+          "நால்",
+          "யாது"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "பொியபுராணம்"
+          },
+          {
+            "key": "B",
+            "text": "திருவிலையாடற்புராணம்"
+          },
+          {
+            "key": "C",
+            "text": "சிலப்பதிகாரம்"
+          },
+          {
+            "key": "D",
+            "text": "சீறாப்புராணம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_016",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 17,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Language",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘அரிசி’ என்னும் தமிழ்ச் சொல் ‘ஒன்றனா’ என எம்பொழிக்குச் சென்றது?",
+        "question_keywords": [
+          "அரிசி",
+          "என்னும்",
+          "தமிழ்ச்",
+          "சொல்",
+          "ஒன்றனா",
+          "என",
+          "எம்பொழிக்குச்",
+          "சென்றது"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "கிரேக்கம்"
+          },
+          {
+            "key": "B",
+            "text": "இலத்தீன்"
+          },
+          {
+            "key": "C",
+            "text": "போா்ச்சகீயம்"
+          },
+          {
+            "key": "D",
+            "text": "வடமொழி"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_017",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 18,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பேரறிஞர் அன்னளவிற்கு விருப்பமான இலக்கியம்",
+        "question_keywords": [
+          "பேரறிஞர்",
+          "அன்னளவிற்கு",
+          "விருப்பமான",
+          "இலக்கியம்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "கலிங்கத்துப்பரணி"
+          },
+          {
+            "key": "B",
+            "text": "திருக்குறள்"
+          },
+          {
+            "key": "C",
+            "text": "கம்பராமாயணம்"
+          },
+          {
+            "key": "D",
+            "text": "பாிபாடல்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_018",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 19,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Language",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“தமிழ் மொழி அழகான சித்திரேவலலப்பாடலமந்த பெவள்ளித் தட்டு” என்று கூறியவர்",
+        "question_keywords": [
+          "தமிழ்",
+          "மொழி",
+          "அழகான",
+          "சித்திரேவலலப்பாடலமந்த",
+          "பெவள்ளித்",
+          "தட்டு",
+          "என்று",
+          "கூறியவர்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "கலிமணி பேதசிக விநாயகம் பிள்ளை"
+          },
+          {
+            "key": "B",
+            "text": "ஜி.யு. போப்"
+          },
+          {
+            "key": "C",
+            "text": "டாக்டர். கிரேனல்"
+          },
+          {
+            "key": "D",
+            "text": "கால்டுவல்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_019",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 20,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Language",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "மன்னிப்பு - எம்பொழிச் சொல்",
+        "question_keywords": [
+          "மன்னிப்பு",
+          "எம்பொழிச்",
+          "சொல்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "தமிழ்"
+          },
+          {
+            "key": "B",
+            "text": "பெதலுக்கு"
+          },
+          {
+            "key": "C",
+            "text": "மலல்யானம்"
+          },
+          {
+            "key": "D",
+            "text": "உருது"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_020",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 21,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Heritage",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "திருப்பனந்தாளிலும், காசிமிலும் தம் பெயரால் மடம் நிறுவி உள்ளவா்",
+        "question_keywords": [
+          "திருப்பனந்தாளிலும்",
+          "காசிமிலும்",
+          "தம்",
+          "பெயரால்",
+          "மடம்",
+          "நிறுவி",
+          "உள்ளவர்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "இராமலிங்க அடிகளா்"
+          },
+          {
+            "key": "B",
+            "text": "தாய்மானவா்"
+          },
+          {
+            "key": "C",
+            "text": "குமரஞ்சூரா்"
+          },
+          {
+            "key": "D",
+            "text": "வில்லிபத்துரா்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_021",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 22,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "மயிலிலும் பெருமாளிடம் கல்வி கற்றவா்",
+        "question_keywords": [
+          "மயிலிலும்",
+          "பெருமாளிடம்",
+          "கல்வி",
+          "கற்றவர்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "கவாமிநாத பேதிகா்"
+          },
+          {
+            "key": "B",
+            "text": "வீரமாமுனிவா்"
+          },
+          {
+            "key": "C",
+            "text": "சி. இலக்குவனா்"
+          },
+          {
+            "key": "D",
+            "text": "மீனாட்சி கந்தரனா்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_022",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 23,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Heritage",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "\"உடம்பா் அழியின் உயிரா் அழிவா் திடம்பட பெரய்ஞ்சரானம் பேரவம் மாட்டா்\" இத் திருமந்திரப்பாடல் இடம் பெற்ற தந்திரம் எது?",
+        "question_keywords": [
+          "உடம்பா்",
+          "அழியின்",
+          "உயிரா்",
+          "அழிவா்",
+          "திடம்பட",
+          "பெரய்ஞ்சரானம்",
+          "பேரவம்",
+          "மாட்டா்",
+          "இத்",
+          "திருமந்திரப்பாடல்",
+          "இடம் பெற்ற",
+          "தந்திரம்",
+          "எது"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "ஆறாம் தந்திரம்"
+          },
+          {
+            "key": "B",
+            "text": "இரண்டாம் தந்திரம்"
+          },
+          {
+            "key": "C",
+            "text": "மூன்றாம் தந்திரம்"
+          },
+          {
+            "key": "D",
+            "text": "எட்டாம் தந்திரம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_023",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 24,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "'அங்கலியல்' திருக்குறளில் எந்தப் பகுப்பில் இடம்பெற்றுள்ளது?",
+        "question_keywords": [
+          "அங்கலியல்",
+          "திருக்குறளில்",
+          "எந்தப்",
+          "பகுப்பில்",
+          "இடம்",
+          "பெற்றுள்ளது"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "அறத்துப் பால்"
+          },
+          {
+            "key": "B",
+            "text": "பொருட் பால்"
+          },
+          {
+            "key": "C",
+            "text": "காமத்துப் பால்"
+          },
+          {
+            "key": "D",
+            "text": "எதுவுமில்லை"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_024",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 25,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "ஒருவர்க்கண் தான்கற்ற கல்வி ஒருவர்க்க எழுமமயம் ஏமாப்பு உடைத்து இக்குறளில் ஏமாப்பு என்பதன் பொருள் யாது?",
+        "question_keywords": [
+          "ஒருவர்க்கண்",
+          "தான்கற்ற",
+          "கல்வி",
+          "ஒருவர்க்க",
+          "எழுமமயம்",
+          "ஏமாப்பு",
+          "உடைத்து",
+          "இக்குறளில்",
+          "ஏமாப்பு",
+          "என்பதன்",
+          "பொருள்",
+          "யாது"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "பெருமை"
+          },
+          {
+            "key": "B",
+            "text": "ஏமாற்றம்"
+          },
+          {
+            "key": "C",
+            "text": "பாதுகாப்பு"
+          },
+          {
+            "key": "D",
+            "text": "பொருளம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_025",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 26,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“அறவுனர்க் கோலவ” என அலழக்கப் பெறும் நூல்",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "முதுமொழிக்காஞ்சி"
+          },
+          {
+            "key": "B",
+            "text": "ஆசாரக் கோலவ"
+          },
+          {
+            "key": "C",
+            "text": "ஏலாதி"
+          },
+          {
+            "key": "D",
+            "text": "சிறுபஞ்சமூலம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_026",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 27,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "இங்கிலாந்து மகாராணி விக்டோரியா காலலவில் கண் விழித்ததும் முதலில் படுத்த நூல்",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "திருவருட்பா"
+          },
+          {
+            "key": "B",
+            "text": "திருக்குறள்"
+          },
+          {
+            "key": "C",
+            "text": "மகாபாரதம்"
+          },
+          {
+            "key": "D",
+            "text": "இராமாயணம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_027",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 28,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "துடிமக்கள் வரலாற்று ஆதி காப்பியமாகத் தமிழ்நாட்டுல் அலமந்து விளங்குகிறது. அப்படி அலமவது எந்த நூல்?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "சீவகசிந்தாமணி"
+          },
+          {
+            "key": "B",
+            "text": "சிலப்பதிகாரம்"
+          },
+          {
+            "key": "C",
+            "text": "மணிகேமகலல"
+          },
+          {
+            "key": "D",
+            "text": "கம்பராமாயணம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_028",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 29,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "எட்டுத்தொலக நூல்களில் ‘நாடகப் பாங்கில்’ அலமந்துள்ள நூலிலனத் தேர்ந்தெடுத்து எழுதுக.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "குறுந்தொலக"
+          },
+          {
+            "key": "B",
+            "text": "அகநானூறு"
+          },
+          {
+            "key": "C",
+            "text": "கலித்தொலக"
+          },
+          {
+            "key": "D",
+            "text": "ஐங்குறுநூறு"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_029",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 30,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பதினெண் கீழ்க்கணக்கு நூல்களுள் ஒரே ஒரு நூலாசிரியர் மட்டும் இருந்தல் பலட்துள்ளார். அவர் யார்?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "கவிலா"
+          },
+          {
+            "key": "B",
+            "text": "முவாதியார்"
+          },
+          {
+            "key": "C",
+            "text": "நல்லாதனார்"
+          },
+          {
+            "key": "D",
+            "text": "கணிகேமதாவியார்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_030",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 31,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“என்காற் சிலம்பு மணியுலட அரிகே” இவ்வழகளில் ‘மணி’ என்பது எதலனக் குறிக்கும் என்பலத்த தேர்வு செய்க.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "பவளம்"
+          },
+          {
+            "key": "B",
+            "text": "முத்து"
+          },
+          {
+            "key": "C",
+            "text": "மாணிக்கம்"
+          },
+          {
+            "key": "D",
+            "text": "மரகதம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_031",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 32,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“கடலில் ஆப்பந்த ஒண்ணீர் தமிழின்” என்ற வாரிகள் இடம் பெற்றுள்ளன நால் எது?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "திருவாசகம்"
+          },
+          {
+            "key": "B",
+            "text": "மதுரைக் காஞ்சி"
+          },
+          {
+            "key": "C",
+            "text": "பட்டினப்பாலை"
+          },
+          {
+            "key": "D",
+            "text": "தமிழ்விடுதாது"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_032",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 33,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "தமிழ், வடமொழி அல்லது மற்றொரு மொழியிலும் சமர்த்தபார் பலைம் மிக்கவராக திகழ்ந்தார். அம்மொழி எதுவெனத் தேர்வு செய்க.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "பாலி"
+          },
+          {
+            "key": "B",
+            "text": "இந்துத்தானி"
+          },
+          {
+            "key": "C",
+            "text": "கன்னடம்"
+          },
+          {
+            "key": "D",
+            "text": "உருது"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_033",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 34,
+      "question_type": "statement_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘பான்னும் திகிரும் முத்தும் மன்னிய’ – இதிதாடில் உள்ள “திகிர்” என்பதன் பாறுலன தேர்ந்தெடுக்க.",
+        "question_keywords": [],
+        "item_numbering_style": "arabic",
+        "statements": [
+          {
+            "no": "i",
+            "text": "மாணிக்கம்"
+          },
+          {
+            "no": "ii",
+            "text": "மரகதம்"
+          },
+          {
+            "no": "iii",
+            "text": "இரத்தினம்"
+          },
+          {
+            "no": "iv",
+            "text": "பவனம்"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "மாணிக்கம்"
+          },
+          {
+            "key": "B",
+            "text": "மரகதம்"
+          },
+          {
+            "key": "C",
+            "text": "இரத்தினம்"
+          },
+          {
+            "key": "D",
+            "text": "பவனம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_034",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 35,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“தமிழி எந்திரம் பந்தல் வந்தது” இந்த வாரிகள் இடம் பெற்றுள்ளன நால் எது?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "பெருங்கதை"
+          },
+          {
+            "key": "B",
+            "text": "சீவகித்தாமணி"
+          },
+          {
+            "key": "C",
+            "text": "பதிற்றுப்பத்தி"
+          },
+          {
+            "key": "D",
+            "text": "பரிபாடல்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_035",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 36,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "உத்தம தேசாழப் பல்லவர் என்னும் பட்டம் பெற்றவர்",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "கம்பர்"
+          },
+          {
+            "key": "B",
+            "text": "தேசக்கிழார்"
+          },
+          {
+            "key": "C",
+            "text": "பகதேந்தி"
+          },
+          {
+            "key": "D",
+            "text": "ஒட்டக்கத்தார்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_036",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 37,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘பன்னுறு பன்கண் தீர்த்தேன்’ இவ்வடி களில் இடம்பெறும் பறைவயிலை தேர்ந்தெடுக்க.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "காகம்"
+          },
+          {
+            "key": "B",
+            "text": "கிளி"
+          },
+          {
+            "key": "C",
+            "text": "பறா"
+          },
+          {
+            "key": "D",
+            "text": "ஆற்றத்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_037",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 38,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பிறவிப் பெருங்கடல் நீந்துவார் நீந்தார் இலறவன் அடிசோரா தார் – இக்குறளில் பயின்று வரும் அணிலய எழுதுக?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "உவமமயணி"
+          },
+          {
+            "key": "B",
+            "text": "நிரல்நிலம் அணி"
+          },
+          {
+            "key": "C",
+            "text": "வெற்றுப் பொருள் லவப்பு அணி"
+          },
+          {
+            "key": "D",
+            "text": "ஏகேதச உருவக அணி"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_038",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 39,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘மட்டையிட்டது சேவலா, பெட்டையா’?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "திலைவழு"
+          },
+          {
+            "key": "B",
+            "text": "விலடவழு"
+          },
+          {
+            "key": "C",
+            "text": "மரபவழு"
+          },
+          {
+            "key": "D",
+            "text": "விளாவழு"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_039",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 40,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பொருந்தாதச் செயலைக் கண்டறிதல் : மாணிக்கம், முத்து, பவளம், கிளிஞ்சல்.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "மாணிக்கம்"
+          },
+          {
+            "key": "B",
+            "text": "முத்து"
+          },
+          {
+            "key": "C",
+            "text": "பவளம்"
+          },
+          {
+            "key": "D",
+            "text": "கிளிஞ்சல்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_040",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 41,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Sangam Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "செயலைப் பொருளோடு பொருத்துக :",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "வனப்பு"
+          },
+          {
+            "key": "b",
+            "text": "அடலி"
+          },
+          {
+            "key": "c",
+            "text": "மருங்கு"
+          },
+          {
+            "key": "d",
+            "text": "மதுரம்"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "காடு"
+          },
+          {
+            "no": 2,
+            "text": "பக்கம்"
+          },
+          {
+            "no": 3,
+            "text": "இனிலம"
+          },
+          {
+            "no": 4,
+            "text": "அழகு"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_041",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 42,
+      "question_type": "simple_mcq",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Constitution of India",
+      "topic": "Preamble",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "நிலமயற்ற வாக்கியம் எது?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "ஒர் மாவட்டத்தில் ஒர் அமைச்சர் அவரைடய மக்களாடி சற்றுலா கேற்கொள்ளடார்"
+          },
+          {
+            "key": "B",
+            "text": "ஒரு மாவட்டத்தில் ஒரு அமைச்சர் அவரது மக்களாடி சற்றுலா கேற்கொள்ளடார"
+          },
+          {
+            "key": "C",
+            "text": "ஒர் மாவட்டத்தில் ஒரு அமைச்சர் அவரைடய மக்களாடி சற்றுலா கேற்கொள்ளடார்"
+          },
+          {
+            "key": "D",
+            "text": "ஒர் மாவட்டத்தில் ஒரு அமைச்சர் அவரது மக்களாடி சற்றுலா கேற்கொள்ளடார்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_042",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 43,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘எழுவாய் செய்யும் விலையைக் கொண்டு முடியும் கொடர்’ எவ்வகைத் கொடர் என்று கேட்டல்",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "கசய்பாட்டு விலைத் கொடர்"
+          },
+          {
+            "key": "B",
+            "text": "கட்டலைத் கொடர்"
+          },
+          {
+            "key": "C",
+            "text": "அயற்கற்றுத் கொடர்"
+          },
+          {
+            "key": "D",
+            "text": "கசய்விலைத் கொடர்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_043",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 44,
+      "question_type": "match_the_following",
+      "unit_id": 4,
+      "unit": "Indian Polity",
+      "theme": "Constitution of India",
+      "topic": "Fundamental Rights",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பொருத்துக:",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "என்றல்"
+          },
+          {
+            "key": "b",
+            "text": "நந்தை"
+          },
+          {
+            "key": "c",
+            "text": "யாலவயம்"
+          },
+          {
+            "key": "d",
+            "text": "நன்று"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "முற்றுமைம்"
+          },
+          {
+            "no": 2,
+            "text": "குறிப்பு விலைமற்று"
+          },
+          {
+            "no": 3,
+            "text": "மறுட"
+          },
+          {
+            "no": 4,
+            "text": "கொடுறிப்பயர்"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_044",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 45,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Thirukkural",
+      "topic": "Thirukkural – Universal Values and Philosophy",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "உம்மம்தொகைமில் 'உம்' என்றும் இன்ட்சொல் எவ்வாறு மைற்றது வரும் என்பைத் தொந்தேது.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "முதலில் வரும்"
+          },
+          {
+            "key": "B",
+            "text": "இன்டமில் வரும்"
+          },
+          {
+            "key": "C",
+            "text": "இன்டமிலும் இறந்தியிலும் வரும்"
+          },
+          {
+            "key": "D",
+            "text": "இறந்தியில் வரும்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_045",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 46,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Thirukkural",
+      "topic": "Thirukkural – Socio-Politico-Economic Relevance",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "ஒரு விபாச்சொல்லின் பொருள் செய்யப்படு பொருளாக வெறுப்பித்துவது எவ்வைக வெற்றுமை எனத் தொந்தேது",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "முன்றாம் வெற்றுமை"
+          },
+          {
+            "key": "B",
+            "text": "ஐந்தாம் வெற்றுமை"
+          },
+          {
+            "key": "C",
+            "text": "ஆறாம் வெற்றுமை"
+          },
+          {
+            "key": "D",
+            "text": "இரண்டாம் வெற்றுமை"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_046",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 47,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Thirukkural",
+      "topic": "Thirukkural – Secular Nature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பின்வருவனவற்றுள் எது உருவகமன்று?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "மொழியமுது"
+          },
+          {
+            "key": "B",
+            "text": "அடிமலா"
+          },
+          {
+            "key": "C",
+            "text": "தமிழ்த்தேன்"
+          },
+          {
+            "key": "D",
+            "text": "கயற்கண்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_047",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 48,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Thirukkural",
+      "topic": "Thirukkural – Socio-Politico-Economic Relevance",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "'தானம் தவிரண்டும் தங்கா வியாழ்வகம்' இக்குறள்பாவில் இடம்பெற்றுள்ள சீர்தொகை விபாசிலாத் தொந்தேது.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "கீழ்க்கதுவாய் தொகை"
+          },
+          {
+            "key": "B",
+            "text": "கல்லு தொகை"
+          },
+          {
+            "key": "C",
+            "text": "ஒருட் தொகை"
+          },
+          {
+            "key": "D",
+            "text": "தொந்துவாய் தொகை"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_048",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 49,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Thirukkural",
+      "topic": "Thirukkural – Universal Values and Philosophy",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“உயிர்வின் உக்குறள் மெய்விட்டு ஓடும்” –என்னும் புணர்ச்சி விதிப்படி புணர்ந்துள்ள பெசால் எது?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "கற்றா"
+          },
+          {
+            "key": "B",
+            "text": "கன்றா"
+          },
+          {
+            "key": "C",
+            "text": "கறா"
+          },
+          {
+            "key": "D",
+            "text": "கன்று"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_049",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 50,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Thirukkural",
+      "topic": "Thirukkural – Socio-Politico-Economic Relevance",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“விண்ணூன்று பொய்யப்பின் விரிதீர் வியனுலகத்து\nஉள்நின்று உடற்றும் பசி”\nஇக்குறட்பாவில் காணலாகும் பொமைன எது?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "பொற்கதுவாய் பொமைன"
+          },
+          {
+            "key": "B",
+            "text": "கீழ்க்கதுவாய் பொமைன"
+          },
+          {
+            "key": "C",
+            "text": "கைழ பொமைன"
+          },
+          {
+            "key": "D",
+            "text": "ஒருஉ பொமைன"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_050",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 51,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Thirukkural",
+      "topic": "Thirukkural – Secular Nature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "கீழ்க்கண்ட கற்றுகளில் எது சரியானது?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "சால, தவ முதலிய உரிச்சொற்களின் பின் வல்லினம் மிகாது"
+          },
+          {
+            "key": "B",
+            "text": "விலைத்பொதாலகமில் வல்லினம் மிகாது"
+          },
+          {
+            "key": "C",
+            "text": "வன்பொறாட்ர்க் குற்றியனுகாத்தின் பின் வல்லினம் மிகாது"
+          },
+          {
+            "key": "D",
+            "text": "உவைமத் பொதாலகமில் வல்லினம் மிகாது"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_051",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 52,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Thirukkural",
+      "topic": "Thirukkural – Socio-Politico-Economic Relevance",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பொதாலக நிலவத் பொதாட்ர்களுக்குப் பற்றும் அல்லாத சில பொமாழிகள் பொதாக்கி நின்று பொருள் தருவது எது என பொருந்தும்",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "பண்பத்பொதாலக"
+          },
+          {
+            "key": "B",
+            "text": "அன்பொமாழித்பொதாலக"
+          },
+          {
+            "key": "C",
+            "text": "விலைத்பொதாலக"
+          },
+          {
+            "key": "D",
+            "text": "உவைமத்பொதாலக"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_052",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 53,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Tamil History and Archaeology",
+      "topic": "History of Tamil Society",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பரிதிமாற்கலைஞர்க்கு “திராவிட சாஸ்திரி” என்றும் பட்டத்தை வழக்கியவா்",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "மு.சி. பு.ரணவிங்கம்"
+          },
+          {
+            "key": "B",
+            "text": "சி.வை. தாமோதரனார்"
+          },
+          {
+            "key": "C",
+            "text": "மைறமைவடிகள்"
+          },
+          {
+            "key": "D",
+            "text": "திரு.வி. கலியாண கந்தரனார்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_053",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 54,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Tamil Literature",
+      "topic": "Research on Tamil Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘எவ்வைகச் செய்தியும் உவமங்காட்டி’ என ஒலியச் சிறப்பைப் பழந்தமிழா் அறிந்திருந்தைதக் காட்டும் இவ்வடி இடம் பெற்ற நூல்",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "குற்றாலக் குறவஞ்சி"
+          },
+          {
+            "key": "B",
+            "text": "முல்லைப் பாட்டு"
+          },
+          {
+            "key": "C",
+            "text": "மதுரரக் காஞ்சி"
+          },
+          {
+            "key": "D",
+            "text": "திருமுருகாற்றுப்பலட"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_054",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 55,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Tamil History and Archaeology",
+      "topic": "History of Tamil Society",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘இதன்விந்தியாவின் ஏதென்ஸ்’ – என அலழக்கப்படும் நகரம்",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "திருநெல்வேலி"
+          },
+          {
+            "key": "B",
+            "text": "தஞ்சை"
+          },
+          {
+            "key": "C",
+            "text": "திருச்சி"
+          },
+          {
+            "key": "D",
+            "text": "மதுரர்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_055",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 56,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Tamil Literature",
+      "topic": "Famous Quotations",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“உலகினில் நாகரிகம் முற்றும் அழிந்து விட்டாலும் திருக்குறளும் கம்பன் காவியமும் இருந்தால் போதும்; மீண்டும் அதைனப் பத்பித்துவிடலாம்” என்று கூறியவா் யார்?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "ஜி.யு. போப்"
+          },
+          {
+            "key": "B",
+            "text": "கால்டுவல்"
+          },
+          {
+            "key": "C",
+            "text": "பாரதிதாசன்"
+          },
+          {
+            "key": "D",
+            "text": "பாரதியார்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_056",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 57,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Tamil Dramas and Theatre",
+      "topic": "Contributions to Tamil Theatre",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "நாடகம் பலட்த்தல், நடித்தல், நாடக இலக்கணம் இயற்றல் ஆகிய முக்கோணங்களிலும் நாடகத் தொண்டாற்றியவா் யார்?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "தவத்திரு சங்கரதாஸ்"
+          },
+          {
+            "key": "B",
+            "text": "பரிதிமாற் கைலஞர்"
+          },
+          {
+            "key": "C",
+            "text": "பம்மல் சம்பத்தனார்"
+          },
+          {
+            "key": "D",
+            "text": "திண்டிவனம் ராமசாமிராஜா"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_057",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 58,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Tamil Geography",
+      "topic": "Geography of Tamil Nadu",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "கீழ்க்கண்டவற்றுள் பறைவகள் சரணாலயம் இல்லாத இடத்தைத் தேர்ந்தெடு",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "கைரெவட்டி"
+          },
+          {
+            "key": "B",
+            "text": "கோவன்பத்தார்"
+          },
+          {
+            "key": "C",
+            "text": "வலன்கோடு"
+          },
+          {
+            "key": "D",
+            "text": "சித்திரங்குடி"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_058",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 59,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Nadu in Freedom Struggle",
+      "topic": "Role of Tamil Nadu in Freedom Struggle",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "ஜவஹர்லால் கேந்த சிலர் லவக்கப்பட்டுருந்த அலேமாரா சிலற்சாலல எந்த மாநிலத்திலுள்ளது என்பலத் தெரிவு செய்க",
+        "question_keywords": [
+          "ஜவஹர்லால்",
+          "கேந்த",
+          "சிலர்",
+          "அலேமாரா",
+          "சிலற்சாலை",
+          "மாநிலம்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "கேம்று வங்காளம்"
+          },
+          {
+            "key": "B",
+            "text": "குஜராத்"
+          },
+          {
+            "key": "C",
+            "text": "உத்தராஞ்சல்"
+          },
+          {
+            "key": "D",
+            "text": "உத்தர பிரேதசம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_059",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 60,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "கண்ணதாசன் பலட்த் நாடகம்",
+        "question_keywords": [
+          "கண்ணதாசன்",
+          "பலட்த் நாடகம்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "மாங்கனி"
+          },
+          {
+            "key": "B",
+            "text": "ஆட்டனத்தி ஆதிமந்தி"
+          },
+          {
+            "key": "C",
+            "text": "கல்லக்குடி மகா கானியம்"
+          },
+          {
+            "key": "D",
+            "text": "இராசதண்டலன"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_060",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 61,
+      "question_type": "statement_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "கீழ்க்கண்டவற்றுள் பொருந்தாதலத் தெரிந்தெடு.",
+        "question_keywords": [
+          "பொருந்தாதல்",
+          "தெரிந்தெடு"
+        ],
+        "item_numbering_style": "arabic",
+        "statements": [
+          {
+            "no": "i",
+            "text": "அயற்கற்றில் வருவன"
+          },
+          {
+            "no": "ii",
+            "text": "கேம்ரேகாள்குறிகள் வராது"
+          },
+          {
+            "no": "iii",
+            "text": "தன்லம, முன்னிலலப் பெயர்கள் படர்க்லகப் பெயர்களாக மாறாது"
+          },
+          {
+            "no": "iv",
+            "text": "அது, அலவ – அங்கே என மாறும்"
+          },
+          {
+            "no": "v",
+            "text": "காலப் பெயர்கள் அந்நாள், மறுநாள் என மாறும்"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "கேம்ரேகாள்குறிகள் வராது"
+          },
+          {
+            "key": "B",
+            "text": "தன்லம, முன்னிலலப் பெயர்கள் படர்க்லகப் பெயர்களாக மாறாது"
+          },
+          {
+            "key": "C",
+            "text": "அது, அலவ – அங்கே என மாறும்"
+          },
+          {
+            "key": "D",
+            "text": "காலப் பெயர்கள் அந்நாள், மறுநாள் என மாறும்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_061",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 62,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“பத்தகம் வாசிப்பதலன கடலமயாக ஆக்குதல் கூடாது; கட்டாயப்படுத்தவும் கூடாது. அப்படி செய்தால், பத்தகம் வாசிப்பு மகிழ்ச்சிலயத் தராது” என்று கூறியவலர தெரிந்தெடு.",
+        "question_keywords": [
+          "பத்தகம்",
+          "வாசிப்பது",
+          "கட்டாயப்படுத்தவும்",
+          "செய்தால்",
+          "குறிப்பிட்டவர்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "டாக்டர். மு. வரதராசனார்"
+          },
+          {
+            "key": "B",
+            "text": "கேபரறிஞர். அண்ணா"
+          },
+          {
+            "key": "C",
+            "text": "கேந்த"
+          },
+          {
+            "key": "D",
+            "text": "காந்தி"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_062",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 63,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "கீழ்க்கண்டவற்றின் தேவதேயப் பாவாணனின் சிறப்புகளில் பொருந்தாததை தேர்ந்தெடு",
+        "question_keywords": [
+          "தேவதேய",
+          "பாவாணன்",
+          "சிறப்புகள்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "பெரந்தமிழ் ஞாயிறு"
+          },
+          {
+            "key": "B",
+            "text": "பெரந்தமிழ்ச் பெசல்வா்"
+          },
+          {
+            "key": "C",
+            "text": "இலக்கியச் பெசம்மல்"
+          },
+          {
+            "key": "D",
+            "text": "தமிழ்ப்பெபருக்காவலா்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_063",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 64,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘உன்னுள் இருக்கும் ஆண்டவனின் அரசு’ என்ற நூலை எழுதியவா் யார்?",
+        "question_keywords": [
+          "அறசு",
+          "நூல்",
+          "எழுதியவர்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "இயான்"
+          },
+          {
+            "key": "B",
+            "text": "எச். ஏ. கிருட்டிணப்பிள்ளை"
+          },
+          {
+            "key": "C",
+            "text": "தால் கதாப்"
+          },
+          {
+            "key": "D",
+            "text": "முணைவா் எமினா"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_064",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 65,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பொருந்துக :",
+        "question_keywords": [
+          "பொருந்துக"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "பெருஞ்சித்திரனா்"
+          },
+          {
+            "key": "b",
+            "text": "கரதா"
+          },
+          {
+            "key": "c",
+            "text": "முடியரசன்"
+          },
+          {
+            "key": "d",
+            "text": "பாரதிதாசன்"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "காவியப்பாலவ"
+          },
+          {
+            "no": 2,
+            "text": "ஞறிஞ்சித்திட்டு"
+          },
+          {
+            "no": 3,
+            "text": "கனிச்சாறு"
+          },
+          {
+            "no": 4,
+            "text": "தேன்மலழ"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_065",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 66,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பாவலேரு பெருஞ்சித்திரனாின் பலடப்புகளுள் இல்லாத ஒன்று எது?",
+        "question_keywords": [
+          "பாவலேரு",
+          "சித்திரனா",
+          "பலடப்புகள்",
+          "இல்லாதது"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "பெகாய்பாக்கனி"
+          },
+          {
+            "key": "B",
+            "text": "கனிச்சாறு"
+          },
+          {
+            "key": "C",
+            "text": "கல்லக்குடி மாகாவியம்"
+          },
+          {
+            "key": "D",
+            "text": "நாறாசியம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_066",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 67,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil History and Archaeology",
+      "topic": "History of Tamil Society",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பெரியாரின் வாழ்க்கைக் நிகழ்வுகளில் சரியானவற்றைப் பொருத்துக :",
+        "question_keywords": [
+          "பெரியாரின்",
+          "வாழ்க்கை",
+          "நிகழ்வுகள்"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "யென்ஸ்கோ விருது"
+          },
+          {
+            "key": "b",
+            "text": "அஞ்சல் தலம்"
+          },
+          {
+            "key": "c",
+            "text": "பங்கேற்ற கட்டங்கள்"
+          },
+          {
+            "key": "d",
+            "text": "உரையாற்றிய மணி நேரம்"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "21,400"
+          },
+          {
+            "no": 2,
+            "text": "10,700"
+          },
+          {
+            "no": 3,
+            "text": "1970"
+          },
+          {
+            "no": 4,
+            "text": "1978"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_067",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 68,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "திருவிளையாடற் புராணத்தில் உள்ள காண்டங்களில் பொருந்தாத காண்டத்தின் பெயரிலைத் தேர்ந்தெடு.",
+        "question_keywords": [
+          "திருவிளையாடற்",
+          "புராணம்",
+          "காண்ட்",
+          "பொருந்தாத",
+          "பெயர்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "மதுரைக் காண்டம்"
+          },
+          {
+            "key": "B",
+            "text": "கடற் காண்டம்"
+          },
+          {
+            "key": "C",
+            "text": "வஞ்சிக் காண்டம்"
+          },
+          {
+            "key": "D",
+            "text": "திருவாலவாய்க் காண்டம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_068",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 69,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil History and Archaeology",
+      "topic": "History of Tamil Society",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“நலர் முடித்துச் சொல்லால் மூலம் செய்தான்” இத்தொடரில் குறிப்பிடப்படுகின்ற அரசன் யார் என்று தேர்ந்தெடு.",
+        "question_keywords": [
+          "நலர்",
+          "சொல்லால்",
+          "மூலம்",
+          "செய்தான்",
+          "அரசன்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "முதலாம் குலோத்தங்கள்"
+          },
+          {
+            "key": "B",
+            "text": "இராசராசன்"
+          },
+          {
+            "key": "C",
+            "text": "கரிகாலன்"
+          },
+          {
+            "key": "D",
+            "text": "பராந்தகன்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_069",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 70,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘மணிமேகலை’ - அழுதகர்பிலைப் பெற்றிட உதவியவர்",
+        "question_keywords": [
+          "மணிமேகலை",
+          "அழுதகர்பிலை",
+          "பெற்றிட",
+          "உதவியவர்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "மணிமேகலா தெய்வம்"
+          },
+          {
+            "key": "B",
+            "text": "கதமதி"
+          },
+          {
+            "key": "C",
+            "text": "தீவதிலைக"
+          },
+          {
+            "key": "D",
+            "text": "அறவண அடிகள்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_070",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 71,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“சான்றோர் செல்லம் என்பது சேர்ந்தோர் புன்கண் அஞ்சும் பண்பின் மேன் கண் செல்லம் செல்லமென் பதுவே” – இப்பாடல் வரிகளைப் பாடியவர் யார்?",
+        "question_keywords": [
+          "சான்றோர்",
+          "செல்லம்",
+          "சேர்ந்தோர்",
+          "புன்கண்",
+          "அஞ்சும்",
+          "பண்பின்",
+          "செய்தவர்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "முன்றைம அறரயனார்"
+          },
+          {
+            "key": "B",
+            "text": "காரியாசான்"
+          },
+          {
+            "key": "C",
+            "text": "மிலளகிழான் நல்வேட்டனார்"
+          },
+          {
+            "key": "D",
+            "text": "கணிமதாவியார்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_071",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 72,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "தருமிக்கு பொற்கிழி அளித்த படலம் எந்த காண்டத்தில் அமம்ந்துள்ளது",
+        "question_keywords": [
+          "தருமி",
+          "பொற்கிழி",
+          "அளித்த",
+          "காண்ட்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "மதுரைக் காண்டம்"
+          },
+          {
+            "key": "B",
+            "text": "கந்தர் காண்டம்"
+          },
+          {
+            "key": "C",
+            "text": "திருவாலவாய்க் காண்டம்"
+          },
+          {
+            "key": "D",
+            "text": "கடற் காண்டம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_072",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 73,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘அஷ்டப்பிரபந்தம்’ கீழ்க்கண்டவற்றுள் எதலைக் குறிக்கும்?",
+        "question_keywords": [
+          "அஷ்டப்பிரபந்தம்",
+          "குறிக்கும்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "எட்டு சிற்றிலக்கியங்கள்"
+          },
+          {
+            "key": "B",
+            "text": "எட்டு பெருங்காப்பியங்கள்"
+          },
+          {
+            "key": "C",
+            "text": "ஆறு நூல்கள்"
+          },
+          {
+            "key": "D",
+            "text": "ஒன்பது உரைகள்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_073",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 74,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "காந்திபுராணத்தில் உள்ள பாடல்களின் எண்ணிக்கை",
+        "question_keywords": [
+          "காந்திபுராணம்",
+          "பாடல்கள்",
+          "எண்ணிக்கை"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "ஓராயிரத்து முப்பத்து நான்கு"
+          },
+          {
+            "key": "B",
+            "text": "ஈராயிரத்து முப்பத்து நான்கு"
+          },
+          {
+            "key": "C",
+            "text": "முவாயிரத்து முப்பற்றி நான்கு"
+          },
+          {
+            "key": "D",
+            "text": "நான்காயிரத்து முப்பத்து நான்கு"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_074",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 75,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“நல்லது பெய்த வாற்று ராயினும் அல்லது பெய்த வலாம்பு மினது தான்” —என்ற வாரிகள் இடம் பெற்ற நூல் எது?",
+        "question_keywords": [
+          "நல்லது",
+          "வாரிகள்",
+          "இடம்",
+          "பெற்ற",
+          "நூல்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "அகநானூறு"
+          },
+          {
+            "key": "B",
+            "text": "திருக்குறள்"
+          },
+          {
+            "key": "C",
+            "text": "புறநானூறு"
+          },
+          {
+            "key": "D",
+            "text": "புறநானூறு"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_075",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 76,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "மைறமைலயடகளாரின் மகள்",
+        "question_keywords": [
+          "மைறமைலயடகளாரின்",
+          "மகள்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "கமலாம்பிலக அம்மமயார்"
+          },
+          {
+            "key": "B",
+            "text": "பெசவல்லி அம்மமயார்"
+          },
+          {
+            "key": "C",
+            "text": "நீலாம்பிலக அம்மமயார்"
+          },
+          {
+            "key": "D",
+            "text": "ஞானாம்பிலக அம்மமயார்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_076",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 77,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "'உன்பது நாழி உடுப்பைவ இரண்டு' – என்ற பாடல் இடம்பெற்றுள்ள நால்",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "ஆத்திச்சூழ"
+          },
+          {
+            "key": "B",
+            "text": "நால்வயார்"
+          },
+          {
+            "key": "C",
+            "text": "புறநானூறு"
+          },
+          {
+            "key": "D",
+            "text": "பழமொழி நானூறு"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_077",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 78,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "'பொனர ஒழிமின்' – என்ற கோவூர் கிழாரின் அறிவுரையக் கேட்டு பொனர நிறுத்திய மன்னன் யார்?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "பெருமகிள்ளி"
+          },
+          {
+            "key": "B",
+            "text": "நலங்கிள்ளி"
+          },
+          {
+            "key": "C",
+            "text": "அதியமான்"
+          },
+          {
+            "key": "D",
+            "text": "கோரமான் பெருமான் அஞ்சி"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_078",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 79,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பெருமெய்ப்புக் கொள்கையின்படி இப்பொன்டம் விரிவலடந்து நிற்பலதக் கூறும் பாடல் இடம்பெறும் நால்",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "கோவாரம்"
+          },
+          {
+            "key": "B",
+            "text": "புறநானூறு"
+          },
+          {
+            "key": "C",
+            "text": "திருவாசகம்"
+          },
+          {
+            "key": "D",
+            "text": "பதிற்றுப்பத்து"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_079",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 80,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "'கேம்பாவணி' என்பது",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "கிறித்தவக் காப்பியம்"
+          },
+          {
+            "key": "B",
+            "text": "இசுலாமியக் காப்பியம்"
+          },
+          {
+            "key": "C",
+            "text": "லவனவக் காப்பியம்"
+          },
+          {
+            "key": "D",
+            "text": "லசவக் காப்பியம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_080",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 81,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "\"தண்டமிழ் ஆசான்\" என்று பாராட்டப் பெற்றவர்.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "இளங்கோவடிகள்"
+          },
+          {
+            "key": "B",
+            "text": "கம்பார்"
+          },
+          {
+            "key": "C",
+            "text": "திருவள்ளுவர்"
+          },
+          {
+            "key": "D",
+            "text": "சீத்தலலச்சாத்தனார்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_081",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 82,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "திருவள்ளுவமாலையில் திருக்குறளைப் புகழ்ந்து பாடுபள்ள பலவாகன் எத்தனை பிடா?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "ஜம்பத்து புலா"
+          },
+          {
+            "key": "B",
+            "text": "எழுபத்தகுவா"
+          },
+          {
+            "key": "C",
+            "text": "அறுபதினமா"
+          },
+          {
+            "key": "D",
+            "text": "நாற்றுவா"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_082",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 83,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘_________’ எனத் தொடங்கும் திருப்பதிகம் பாடுபட பாம்பின் விடத்தை அப்பா பொக்கியருளினார்.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "உலகலாம்"
+          },
+          {
+            "key": "B",
+            "text": "ஒரண்டுக்கொலாம்"
+          },
+          {
+            "key": "C",
+            "text": "உலகம் யாலவயும்"
+          },
+          {
+            "key": "D",
+            "text": "திருமலையா"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_083",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 84,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பொருத்துக :",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "நால்"
+          },
+          {
+            "key": "b",
+            "text": "நாலாசிரியா"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "களவழி நாற்பது"
+          },
+          {
+            "no": 2,
+            "text": "லகத்திலல"
+          },
+          {
+            "no": 3,
+            "text": "கார் நாற்பது"
+          },
+          {
+            "no": 4,
+            "text": "பழமொழி"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 1
+            }
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_084",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 85,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "‘அறுமோ, நாி நக்கிற்று என்று கடல்’? - இது பயின்று வந்த நால் எது?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "பழமொழி"
+          },
+          {
+            "key": "B",
+            "text": "நால்வயார்"
+          },
+          {
+            "key": "C",
+            "text": "திருக்குறள்"
+          },
+          {
+            "key": "D",
+            "text": "ஆசாரக் கொலவ"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_085",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 86,
+      "question_type": "other",
+      "unit_id": 7,
+      "unit": "Aptitude",
+      "theme": "Number and Arithmetic",
+      "topic": "Arithmetic Operations",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": true,
+      "math_format": "plain_text",
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "raw_content": "தபிவழண்கலனக் கட்டுக :\n\n(ந அ + க அ = ?\n\n(A) ககஉ\n(B) ககஉ\n(C) கநக\n(D) கஉக"
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_086",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 87,
+      "question_type": "simple_mcq",
+      "unit_id": 7,
+      "unit": "Aptitude",
+      "theme": "Number and Arithmetic",
+      "topic": "Breaking Down Numbers",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "ஆற்றா - பத்து உறுப்பிலக்கணத்தின் ப., எவ்வாறு பிரியும்?",
+        "question_keywords": [
+          "ஆற்றா",
+          "பத்து",
+          "உறுப்பிலக்கணத்தின்",
+          "பிரியும்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "ஆற்று + ஈர்"
+          },
+          {
+            "key": "B",
+            "text": "ஆறு + ஈர்"
+          },
+          {
+            "key": "C",
+            "text": "ஆ + இற்று + ஈர்"
+          },
+          {
+            "key": "D",
+            "text": "ஆற்று + ஆ + ஈர்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_087",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 88,
+      "question_type": "simple_mcq",
+      "unit_id": 7,
+      "unit": "Aptitude",
+      "theme": "Word Formation",
+      "topic": "Formation of Words",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "தபிழ் ———— ஒலச வெமாழி.",
+        "question_keywords": [
+          "தபிழ்",
+          "ஒலச",
+          "வெமாழி"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "வெசப்பல்"
+          },
+          {
+            "key": "B",
+            "text": "தாங்கல்"
+          },
+          {
+            "key": "C",
+            "text": "வெமல்"
+          },
+          {
+            "key": "D",
+            "text": "துள்ளல்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_088",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 89,
+      "question_type": "simple_mcq",
+      "unit_id": 7,
+      "unit": "Aptitude",
+      "theme": "Word Analysis",
+      "topic": "Breaking Down Words",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“சான்றாணலம்” – அலச பிரித்துக் காட்டுதலில் சரியான விலடலயத் தேர்ந்தெடு.",
+        "question_keywords": [
+          "சான்றாணலம்",
+          "அலச",
+          "பிரித்துக்",
+          "காட்டுதலில்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "சா + ன்றா + ண்லம்"
+          },
+          {
+            "key": "B",
+            "text": "சான் + றாண் + லம்"
+          },
+          {
+            "key": "C",
+            "text": "சான் + றா + ண்லம்"
+          },
+          {
+            "key": "D",
+            "text": "சான் + றாண்லம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_089",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 90,
+      "question_type": "simple_mcq",
+      "unit_id": 7,
+      "unit": "Aptitude",
+      "theme": "Number Recognition",
+      "topic": "Total Number Recognition",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பறத்திலணகள் ———— வலகப்படும்.",
+        "question_keywords": [
+          "பறத்திலணகள்",
+          "வலகப்படும்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "பன்னிரெண்டு"
+          },
+          {
+            "key": "B",
+            "text": "ஏழு"
+          },
+          {
+            "key": "C",
+            "text": "ஐந்து"
+          },
+          {
+            "key": "D",
+            "text": "ஒன்பது"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_090",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 91,
+      "question_type": "simple_mcq",
+      "unit_id": 7,
+      "unit": "Aptitude",
+      "theme": "Language Structure",
+      "topic": "Structural Language Analysis",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "நான்காம் வெற்றியை வசால்லுப்புகள் எல்லை?",
+        "question_keywords": [
+          "நான்காம்",
+          "வெற்றி",
+          "வசால்லுப்புகள்",
+          "எல்லை"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "வீகான்ட், உடன்"
+          },
+          {
+            "key": "B",
+            "text": "வபார்ட், நிமித்தம்"
+          },
+          {
+            "key": "C",
+            "text": "இருந்து, நின்று"
+          },
+          {
+            "key": "D",
+            "text": "உல்லா"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_091",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 92,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Literature Understanding",
+      "topic": "Understanding Literature",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "பாஞ்சாலி சபதம் இலக்கியத்தில் 'தனிக்காவல்' இதில் இடம்பெற்றுள்ள 'கா' என்பதன் வபார்லைத் தேர்ந்தெடுக்க:",
+        "question_keywords": [
+          "பாஞ்சாலி",
+          "சபதம்",
+          "இலக்கியத்தில்",
+          "தனிக்காவல்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "வசால்ல"
+          },
+          {
+            "key": "B",
+            "text": "பால்லவனம்"
+          },
+          {
+            "key": "C",
+            "text": "வயல்"
+          },
+          {
+            "key": "D",
+            "text": "கார்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_092",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 93,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "Tamil Literature",
+      "theme": "Tamil Poetry",
+      "topic": "Analysis of Poetry",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“நேர நிகர அன்ன இன்ன என்பவம் பிறவும் உவமத் துருவே” என்ற வாிகள் இடம்பெற்றுள்ள நால் எது?",
+        "question_keywords": [
+          "நேர",
+          "நிகர",
+          "அன்ன",
+          "பிறவும்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "வதால்காப்பியம்"
+          },
+          {
+            "key": "B",
+            "text": "நன்னால்"
+          },
+          {
+            "key": "C",
+            "text": "யாப்பருங்கலக் காாிலக"
+          },
+          {
+            "key": "D",
+            "text": "அகத்தியம்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_093",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 94,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "நாட்கட்கக் காக்க ஐවா் போா்க்கனம் பெசன்றனா் என்னும் பெதாடில் 'ஐவா்' என்பதன் இலக்கணம் யாது?",
+        "question_keywords": [
+          "நாட்கட்கக்",
+          "ஐவா்",
+          "பெதாடில்",
+          "இலக்கணம்",
+          "என்னும்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "ஒன்பிறாழி பெபாதுச் பெசால்"
+          },
+          {
+            "key": "B",
+            "text": "இனங்குறித்தல்"
+          },
+          {
+            "key": "C",
+            "text": "பெதாடா்பெமாழி"
+          },
+          {
+            "key": "D",
+            "text": "பெபாதுபெமாழி"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_094",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 95,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“தீயினாற் சட்டபுன் உள்ளாறும் ஆறாபெத நாவினாற் சட்ட வரு” - இக்குறட்பாவில் பயின்று வரும் அணி யாது?",
+        "question_keywords": [
+          "தீயினாற்",
+          "சட்டபுன்",
+          "உள்ளாறு",
+          "ஆறா",
+          "பயின்று",
+          "அணி"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "பெவற்றைமயணி"
+          },
+          {
+            "key": "B",
+            "text": "இல்பெபாருள் உவலமயணி"
+          },
+          {
+            "key": "C",
+            "text": "ஏகபெதச உருவக அணி"
+          },
+          {
+            "key": "D",
+            "text": "எடுத்துக்காட்டு உவலமயணி"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_095",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 96,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“இழுக்கல் உடையழி ஊற்றுக்பெகால் அற்பெற ஒழுக்க முடையா்வாய்ச் பெசால்” இக்குறட்பாவில் உள்ள உவலமயின் பெபாருளை பெதா்ந்பெதடு.",
+        "question_keywords": [
+          "இழுக்கல்",
+          "உடையழி",
+          "ஊற்றுக்பெகால்",
+          "அற்பெற",
+          "ஒழுக்க",
+          "முடையா்வாய்ச்",
+          "பெசால்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "நிலம் - வாழ்க்கை"
+          },
+          {
+            "key": "B",
+            "text": "ஊன்றுபெகால் - பெபாிபெயாா் பெசால்"
+          },
+          {
+            "key": "C",
+            "text": "ஊன்றுபெகால் - நிலம்"
+          },
+          {
+            "key": "D",
+            "text": "ஒழுக்கம் - வாய்ச்பெசால்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_096",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 97,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“பட்டியள காலை படிபால் கறக்குபெம் நல்ல பச பெவைன தவிரா தழும்” இப்பாடல் அடிகளில் இடம்பெற்றுள்ள பெபாருள்பெகாள் வலகயிலை பெதா்ந்பெதடு.",
+        "question_keywords": [
+          "பட்டியள",
+          "காலை",
+          "படிபால்",
+          "கறக்குபெம்",
+          "நல்ல",
+          "பச",
+          "பெவைன",
+          "தவிரா",
+          "தழும்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "அடிமறிமாற்றுப் பெபாருள்பெகாள்"
+          },
+          {
+            "key": "B",
+            "text": "பெகாண்டு சுட்டுப் பெபாருள்பெகாள்"
+          },
+          {
+            "key": "C",
+            "text": "பெமாழிமாற்றுப் பெபாருள்பெகாள்"
+          },
+          {
+            "key": "D",
+            "text": "விற்புட்டுப் பெபாருள்பெகாள்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_097",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 98,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“அன்னம் நுனிதா வருட” எவ்வெழுத்துகள் தோன்றும்?",
+        "question_keywords": [
+          "அன்னம்",
+          "நுனிதா",
+          "வருட",
+          "எவ்வெழுத்துகள்",
+          "தோன்றும்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "ரழ வரும்"
+          },
+          {
+            "key": "B",
+            "text": "தந வரும்"
+          },
+          {
+            "key": "C",
+            "text": "றன வரும்"
+          },
+          {
+            "key": "D",
+            "text": "யத் தோன்றும்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_098",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 99,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "எல் முன்னும் னா முன்னும் தநக்கன் புனரும் விதிப்படி பின்வருவனவற்றுள் எது சரி?",
+        "question_keywords": [
+          "எல்",
+          "முன்னும்",
+          "ணா",
+          "முன்னும்",
+          "தநக்கன்",
+          "புனரும்",
+          "விதிப்படி",
+          "பின்வருவனவற்றுள்",
+          "எது",
+          "சரி"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "எல் முன் டனவும் னா முன் றனவும்"
+          },
+          {
+            "key": "B",
+            "text": "எல் முன் நடவும் னா முன் னனவும்"
+          },
+          {
+            "key": "C",
+            "text": "எல் முன் றனவும் னாமுன் டனவும்"
+          },
+          {
+            "key": "D",
+            "text": "எல் முன் றனவும் னாமுன் டனவும்"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_099",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    },
+    {
+      "question_no": 100,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": null,
+      "ta": {
+        "stem": "“வித்தொரு சென்ற வட்டி” என்னும் நற்றிணை வரியில் குறிப்பிடப்படும் வட்டி என்பதன் பொருள் என்ன?",
+        "question_keywords": [
+          "வித்தொரு",
+          "சென்ற",
+          "வட்டி",
+          "என்னும்",
+          "நற்றிணை",
+          "வரியில்",
+          "குறிப்பிடப்படும்"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "பனைதோலைப் பெட்டி"
+          },
+          {
+            "key": "B",
+            "text": "வயல்"
+          },
+          {
+            "key": "C",
+            "text": "வட்ட வடிவு"
+          },
+          {
+            "key": "D",
+            "text": "எல்லை"
+          }
+        ]
+      },
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_Tamil.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_ta_100",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "ta",
+      "language_mode": "ta_only"
+    }
+  ]
+}

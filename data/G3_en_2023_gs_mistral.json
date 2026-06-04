@@ -1,0 +1,5863 @@
+{
+  "group": "G3",
+  "subgroup": "en",
+  "year": 2023,
+  "paper_type": "gs",
+  "language_mode": "en_only",
+  "paper_code": "",
+  "total_questions": 100,
+  "extraction_model": "mistral-ocr-2512 + gpt-4o-mini",
+  "questions": [
+    {
+      "question_no": 1,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Collective Noun A ———— of cows were grazing the grass.",
+        "question_keywords": [
+          "Collective Noun",
+          "cows",
+          "grazing"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "group of"
+          },
+          {
+            "key": "B",
+            "text": "☑ herd of"
+          },
+          {
+            "key": "C",
+            "text": "fleet of"
+          },
+          {
+            "key": "D",
+            "text": "bunch of"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_001",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 2,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct plural form of “Curriculum”",
+        "question_keywords": [
+          "plural",
+          "Curriculum"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "☑ Curricula"
+          },
+          {
+            "key": "B",
+            "text": "Curriculams"
+          },
+          {
+            "key": "C",
+            "text": "Curriculas"
+          },
+          {
+            "key": "D",
+            "text": "Curriculasis"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_002",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 3,
+      "question_type": "statement_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence : I. Unless you consult a doctor you cannot recover. II. In the event of not consulting a doctor, you cannot recover.",
+        "question_keywords": [
+          "sentence",
+          "consult",
+          "doctor"
+        ],
+        "item_numbering_style": "roman",
+        "statements": [
+          {
+            "no": "i",
+            "text": "Unless you consult a doctor you cannot recover."
+          },
+          {
+            "no": "ii",
+            "text": "In the event of not consulting a doctor, you cannot recover."
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "(I) Complex Sentence (II) Complex Sentence"
+          },
+          {
+            "key": "B",
+            "text": "(I) Compound Sentence (II) Simple Sentence"
+          },
+          {
+            "key": "C",
+            "text": "(I) Simple Sentence (II) Compound Sentence"
+          },
+          {
+            "key": "D",
+            "text": "☑ (I) Complex Sentence (II) Simple Sentence"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_003",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 4,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct answer: \"Glimpses of World History\" – It is a collection of ______ letters on World History.",
+        "question_keywords": [
+          "Glimpses of World History",
+          "letters"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "☑ 196"
+          },
+          {
+            "key": "B",
+            "text": "197"
+          },
+          {
+            "key": "C",
+            "text": "198"
+          },
+          {
+            "key": "D",
+            "text": "199"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_004",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 5,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the compound word that is NOUN + VERB",
+        "question_keywords": [
+          "compound word",
+          "NOUN",
+          "VERB"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Washing Mouth"
+          },
+          {
+            "key": "B",
+            "text": "Black Board"
+          },
+          {
+            "key": "C",
+            "text": "Post box"
+          },
+          {
+            "key": "D",
+            "text": "☑ Mouth Wash"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_005",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 6,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct American English word to the British English Word \"CHIPS\"",
+        "question_keywords": [
+          "American English",
+          "British English",
+          "CHIPS"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Finger Chips"
+          },
+          {
+            "key": "B",
+            "text": "Crunchies"
+          },
+          {
+            "key": "C",
+            "text": "☑ French Fries"
+          },
+          {
+            "key": "D",
+            "text": "Cheese Fry"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_006",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 7,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct synonym for the underlined word: The *surprised* boy turned and looked up at the master.",
+        "question_keywords": [
+          "synonym",
+          "surprised"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "tottered"
+          },
+          {
+            "key": "B",
+            "text": "skinned"
+          },
+          {
+            "key": "C",
+            "text": "☑ startled"
+          },
+          {
+            "key": "D",
+            "text": "blurred"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_007",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 8,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the antonyms :",
+        "question_keywords": [
+          "match",
+          "antonyms"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "wide"
+          },
+          {
+            "key": "b",
+            "text": "honour"
+          },
+          {
+            "key": "c",
+            "text": "brave"
+          },
+          {
+            "key": "d",
+            "text": "noble"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "coward"
+          },
+          {
+            "no": 2,
+            "text": "ignoble"
+          },
+          {
+            "no": 3,
+            "text": "narrow"
+          },
+          {
+            "no": 4,
+            "text": "dishonour"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "E",
+            "mapping": {
+              "a": 0,
+              "b": 0,
+              "c": 0,
+              "d": 0
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_008",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 9,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Pick a suitable suffix for the given word from the given options : Construct",
+        "question_keywords": [
+          "suffix",
+          "word",
+          "construct"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "ship"
+          },
+          {
+            "key": "B",
+            "text": "ion"
+          },
+          {
+            "key": "C",
+            "text": "ness"
+          },
+          {
+            "key": "D",
+            "text": "less"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_009",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 10,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct prefix for the underlined word from the options given : He hated his Fortune",
+        "question_keywords": [
+          "prefix",
+          "word",
+          "fortune"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Mis"
+          },
+          {
+            "key": "B",
+            "text": "Un"
+          },
+          {
+            "key": "C",
+            "text": "In"
+          },
+          {
+            "key": "D",
+            "text": "Auto"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_010",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 11,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct Articles : My father was posted in Patna. On the first Sunday there, my brother and I decided to do ________ little exploring on our bikes.",
+        "question_keywords": [
+          "articles",
+          "exploring",
+          "bikes"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "☑ a"
+          },
+          {
+            "key": "B",
+            "text": "an"
+          },
+          {
+            "key": "C",
+            "text": "the"
+          },
+          {
+            "key": "D",
+            "text": "some"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_011",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 12,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Replace the underlined incorrect word with the correct word from the given options : The Baby climbed above the table.",
+        "question_keywords": [
+          "incorrect",
+          "replace",
+          "word"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "into"
+          },
+          {
+            "key": "B",
+            "text": "☑ onto"
+          },
+          {
+            "key": "C",
+            "text": "under"
+          },
+          {
+            "key": "D",
+            "text": "below"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_012",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 13,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with suitable preposition. Jenny lives ________ her workplace.",
+        "question_keywords": [
+          "preposition",
+          "lives",
+          "workplace"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "in"
+          },
+          {
+            "key": "B",
+            "text": "into"
+          },
+          {
+            "key": "C",
+            "text": "☑ near"
+          },
+          {
+            "key": "D",
+            "text": "under"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_013",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 14,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with the correct tense form of the verb from the options given below: Good students ———— to lectures carefully.",
+        "question_keywords": [
+          "tense",
+          "form",
+          "lectures"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Listens"
+          },
+          {
+            "key": "B",
+            "text": "Listening"
+          },
+          {
+            "key": "C",
+            "text": "Will listen"
+          },
+          {
+            "key": "D",
+            "text": "☑ Listen"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_014",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 15,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the correct passive form of the sentence given: His attitude shocked me.",
+        "question_keywords": [
+          "passive form",
+          "attitude",
+          "shocked"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "☑ I was shocked by his attitude"
+          },
+          {
+            "key": "B",
+            "text": "I had been shocked by his attitude"
+          },
+          {
+            "key": "C",
+            "text": "I was shocked"
+          },
+          {
+            "key": "D",
+            "text": "He shocked me"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_015",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 16,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the Passive Voice form from the given sentence:",
+        "question_keywords": [
+          "passive voice",
+          "form"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Please do not use mobile phones here"
+          },
+          {
+            "key": "B",
+            "text": "Somebody has taken away my book"
+          },
+          {
+            "key": "C",
+            "text": "No one has bought the tickets"
+          },
+          {
+            "key": "D",
+            "text": "☑ My book has been taken away"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_016",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 17,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks with Gerund word from the option given: ——— might satisfy your desire for new experience.",
+        "question_keywords": [
+          "gerund",
+          "satisfy",
+          "experience"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Travel"
+          },
+          {
+            "key": "B",
+            "text": "Travelling"
+          },
+          {
+            "key": "C",
+            "text": "To Travel"
+          },
+          {
+            "key": "D",
+            "text": "Travelled"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_017",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 18,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence pattern of the following sentence: During the war, many people lost their homes.",
+        "question_keywords": [
+          "sentence pattern",
+          "lost",
+          "homes"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "SVO"
+          },
+          {
+            "key": "B",
+            "text": "SV IO DO"
+          },
+          {
+            "key": "C",
+            "text": "AS VIO DO"
+          },
+          {
+            "key": "D",
+            "text": "ASVO"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_018",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 19,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the correct sentence from the options:",
+        "question_keywords": [
+          "correct sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Each boy and each girl was given a special prize"
+          },
+          {
+            "key": "B",
+            "text": "Each boy and each girl were given a special prize"
+          },
+          {
+            "key": "C",
+            "text": "Each boy and each girl was given a prize"
+          },
+          {
+            "key": "D",
+            "text": "Each of the boys and each of the girls was given a special prize"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_019",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 20,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks with suitable article: The child was playing with ______ yellow balloon.",
+        "question_keywords": [
+          "article",
+          "yellow",
+          "balloon"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "$\\phi$ (No article)"
+          },
+          {
+            "key": "B",
+            "text": "an"
+          },
+          {
+            "key": "C",
+            "text": "a"
+          },
+          {
+            "key": "D",
+            "text": "in"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_020",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 21,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks by choosing the most appropriate article from the given options: There are three rooms and ______ balcony in the flat.",
+        "question_keywords": [
+          "appropriate article",
+          "rooms",
+          "balcony"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "some"
+          },
+          {
+            "key": "B",
+            "text": "the"
+          },
+          {
+            "key": "C",
+            "text": "an"
+          },
+          {
+            "key": "D",
+            "text": "a"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_021",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 22,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Courage isn't a brilliant dash,\nA daring deed in a moment's flash;\nIt isn't an instantaneous thing\nBorn of despair with a sudden spring\".\nMention the Rhyme scheme employed in the given lines.",
+        "question_keywords": [
+          "rhyme scheme"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "ab ab"
+          },
+          {
+            "key": "B",
+            "text": "aa bb"
+          },
+          {
+            "key": "C",
+            "text": "ba ab"
+          },
+          {
+            "key": "D",
+            "text": "none"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_022",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 23,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Not mourning for the things that disappear.\nIdentify the figure of speech.",
+        "question_keywords": [
+          "figure of speech"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Anaphora"
+          },
+          {
+            "key": "B",
+            "text": "Imagery"
+          },
+          {
+            "key": "C",
+            "text": "Onomatopoeia"
+          },
+          {
+            "key": "D",
+            "text": "Simile"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_023",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 24,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "From what the future veils; but with a whole\nMention the figure of speech used in the above line.",
+        "question_keywords": [
+          "figure of speech"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Personification"
+          },
+          {
+            "key": "B",
+            "text": "Metaphor"
+          },
+          {
+            "key": "C",
+            "text": "Simile"
+          },
+          {
+            "key": "D",
+            "text": "Oxymoron"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_024",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 25,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the right option :\n\"Beside the house sits a tree\nIt never grows leaves\"...\nThese lines appear in the poem _________",
+        "question_keywords": [
+          "poem"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "No Men are Foreign"
+          },
+          {
+            "key": "B",
+            "text": "A Poison Tree"
+          },
+          {
+            "key": "C",
+            "text": "The House on Elm Street"
+          },
+          {
+            "key": "D",
+            "text": "On Killing a Tree"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_025",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 26,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"A thing of Beauty is a joy forever\"\nThe above line was written by the famous poet _________",
+        "question_keywords": [
+          "poet"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "John Keats"
+          },
+          {
+            "key": "B",
+            "text": "William Wordsworth"
+          },
+          {
+            "key": "C",
+            "text": "George Eliot"
+          },
+          {
+            "key": "D",
+            "text": "Rabindranath Tagore"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_026",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 27,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Summer comes\nin a blaze of Heat\nwith sunny smiles\nand dusty feet.\"\nThese lines are taken from the poem _________",
+        "question_keywords": [
+          "poem"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "A Tragic Story"
+          },
+          {
+            "key": "B",
+            "text": "The Crocodile"
+          },
+          {
+            "key": "C",
+            "text": "Indian Seasons"
+          },
+          {
+            "key": "D",
+            "text": "Trees"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_027",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 28,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"And Miles to go before I sleep\"\nIn this line, the word \"sleep\" symbolizes ___________",
+        "question_keywords": [
+          "symbolizes"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "the symbol of power"
+          },
+          {
+            "key": "B",
+            "text": "the symbol of faith"
+          },
+          {
+            "key": "C",
+            "text": "the symbol of life"
+          },
+          {
+            "key": "D",
+            "text": "the symbol of death"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_028",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 29,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the right answer from the options:\nEven the smallest of Gifts deserves “________”",
+        "question_keywords": [
+          "gifts"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Love You"
+          },
+          {
+            "key": "B",
+            "text": "Admire You"
+          },
+          {
+            "key": "C",
+            "text": "Thank You"
+          },
+          {
+            "key": "D",
+            "text": "Hate You"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_029",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 30,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Through the flowers and foliage glancing,\nLike a child at play,\nThese lines are taken from the poem ___________",
+        "question_keywords": [
+          "poem"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The River"
+          },
+          {
+            "key": "B",
+            "text": "The Poison Tree"
+          },
+          {
+            "key": "C",
+            "text": "The Comet"
+          },
+          {
+            "key": "D",
+            "text": "The Ant and the Cricket"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_030",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 31,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"A Silly Young Cricket, accustomed to sing\"\nThe above line appears in the poem ___________",
+        "question_keywords": [
+          "poem"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The Ant and the Cricket"
+          },
+          {
+            "key": "B",
+            "text": "Life"
+          },
+          {
+            "key": "C",
+            "text": "The Secret of the Machines"
+          },
+          {
+            "key": "D",
+            "text": "No Men are Foreign"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_031",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 32,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"My Heart will keep the courage of the Quest\"\nThe word \"Quest\" means _______________",
+        "question_keywords": [
+          "Quest"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Expressing great sadness"
+          },
+          {
+            "key": "B",
+            "text": "Long search for something difficult to find"
+          },
+          {
+            "key": "C",
+            "text": "To move very quickly"
+          },
+          {
+            "key": "D",
+            "text": "Willing to do something"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_032",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 33,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"It is the human Earth that we defile\"\nThe word 'Defile' means _______________.",
+        "question_keywords": [
+          "Defile"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Damaged Values"
+          },
+          {
+            "key": "B",
+            "text": "Damaged Humanity"
+          },
+          {
+            "key": "C",
+            "text": "Damaged File"
+          },
+          {
+            "key": "D",
+            "text": "Damaged Appearance"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_033",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 34,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Go then,\" Says the ant, \"and dance the winter away\"\nThus ending, he hastily lifted the wicket\nBring out the meaning of the word hastily.",
+        "question_keywords": [
+          "hastily"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Happily"
+          },
+          {
+            "key": "B",
+            "text": "Hurriedly"
+          },
+          {
+            "key": "C",
+            "text": "Sadly"
+          },
+          {
+            "key": "D",
+            "text": "Comfortably"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_034",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 35,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Tamil Literature – Medieval to Contemporary",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "With buzzing wings she hung aloft, then near and nearer drew\nThinking only of her brilliant eyes, and green and purple hue\nWho does 'she' refer to?",
+        "question_keywords": [
+          "she"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "spider"
+          },
+          {
+            "key": "B",
+            "text": "ant"
+          },
+          {
+            "key": "C",
+            "text": "cricket"
+          },
+          {
+            "key": "D",
+            "text": "fly"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_035",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 36,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Prominent Personalities and Current Affairs",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which award was given to Nelson Mandela by India?",
+        "question_keywords": [
+          "Nelson Mandela",
+          "India",
+          "award"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Arjuna Award"
+          },
+          {
+            "key": "B",
+            "text": "Padma Shri"
+          },
+          {
+            "key": "C",
+            "text": "Bharat Ratna"
+          },
+          {
+            "key": "D",
+            "text": "Padma Vibhushan"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_036",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 37,
+      "question_type": "assertion_reason",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "assertion": "In the Jokhun Bagh massacre, the Rani of Jhansi did not play an active role at the beginning but in due course decided to fight - preferring an honourable death in the battlefield from a hangman's rope.",
+        "reason": "Rani of Jhansi was convinced that the British Government held her responsible for the mutiny and massacre and that she would have to face a trial on this charge.",
+        "question_keywords": [
+          "Jhansi",
+          "Rani of Jhansi",
+          "assertion",
+          "reason"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "[A] is true [R] is false"
+          },
+          {
+            "key": "B",
+            "text": "[A] is false and [R] is true"
+          },
+          {
+            "key": "C",
+            "text": "[A] and [R] are independently true having no relationship"
+          },
+          {
+            "key": "D",
+            "text": "[A] and [R] true and [R] correctly reasons the [A]"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_037",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 38,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Prominent Personalities and Current Affairs",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Kalpana Chawla said, “The path from dreams to success does exist”. From the above line she became inspiration for",
+        "question_keywords": [
+          "Kalpana Chawla",
+          "inspiration"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The people of the world"
+          },
+          {
+            "key": "B",
+            "text": "Indian youth"
+          },
+          {
+            "key": "C",
+            "text": "Youth of global community"
+          },
+          {
+            "key": "D",
+            "text": "The youth of U.S."
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_038",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 39,
+      "question_type": "simple_mcq",
+      "unit_id": 2,
+      "unit": "Geography of India",
+      "theme": "Physical Geography",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which place is called the Queen of Hill stations?",
+        "question_keywords": [
+          "Queen of Hill stations",
+          "Ooty"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "☑ Ooty"
+          },
+          {
+            "key": "B",
+            "text": "Kodaikanal"
+          },
+          {
+            "key": "C",
+            "text": "Kothagiri"
+          },
+          {
+            "key": "D",
+            "text": "Kulumanali"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_039",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 40,
+      "question_type": "simple_mcq",
+      "unit_id": 2,
+      "unit": "Geography of India",
+      "theme": "Physical Geography",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Centuries ago Udhagamandalam was called _________.",
+        "question_keywords": [
+          "Udhagamandalam",
+          "name"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Otacamund"
+          },
+          {
+            "key": "B",
+            "text": "Mund"
+          },
+          {
+            "key": "C",
+            "text": "Ooty"
+          },
+          {
+            "key": "D",
+            "text": "☑ Oththai-Kal Mandu"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_040",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 41,
+      "question_type": "simple_mcq",
+      "unit_id": 2,
+      "unit": "Geography of India",
+      "theme": "Physical Geography",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which activity provides thrilling entertainment for the tourists?",
+        "question_keywords": [
+          "tourists",
+          "entertainment"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Snorkelling activity"
+          },
+          {
+            "key": "B",
+            "text": "Diving activity"
+          },
+          {
+            "key": "C",
+            "text": "☑ Boating activity"
+          },
+          {
+            "key": "D",
+            "text": "Swimming activity"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_041",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 42,
+      "question_type": "simple_mcq",
+      "unit_id": 2,
+      "unit": "Geography of India",
+      "theme": "Physical Geography",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": true,
+      "math_format": "latex",
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The maximum summer temperature of Udhagamandalam is _______.",
+        "question_keywords": [
+          "maximum summer temperature",
+          "Udhagamandalam"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "$10^{\\circ} \\mathrm{C}$"
+          },
+          {
+            "key": "B",
+            "text": "$21^{\\circ} \\mathrm{C}$"
+          },
+          {
+            "key": "C",
+            "text": "$25^{\\circ} \\mathrm{C}$"
+          },
+          {
+            "key": "D",
+            "text": "$20^{\\circ} \\mathrm{C}$"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_042",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 43,
+      "question_type": "simple_mcq",
+      "unit_id": 2,
+      "unit": "Geography of India",
+      "theme": "Physical Geography",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Udhagamandalam was inhabited by tribals called _______.",
+        "question_keywords": [
+          "tribals",
+          "Udhagamandalam"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Irula"
+          },
+          {
+            "key": "B",
+            "text": "Toda"
+          },
+          {
+            "key": "C",
+            "text": "Mund"
+          },
+          {
+            "key": "D",
+            "text": "Britons"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_043",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 44,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Indian Culture and Society",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "_______ is the servant woman is C. Rajagopalachari’s ‘The Nose Jewel’.",
+        "question_keywords": [
+          "servant woman",
+          "C. Rajagopalachari",
+          "The Nose Jewel"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Ramayi"
+          },
+          {
+            "key": "B",
+            "text": "Meenakshi"
+          },
+          {
+            "key": "C",
+            "text": "Kuppayi"
+          },
+          {
+            "key": "D",
+            "text": "Chandra"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_044",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 45,
+      "question_type": "simple_mcq",
+      "unit_id": 7,
+      "unit": "Aptitude",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Write the synonym for the word ‘Inferno’.",
+        "question_keywords": [
+          "synonym",
+          "Inferno"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Heaven"
+          },
+          {
+            "key": "B",
+            "text": "Hell"
+          },
+          {
+            "key": "C",
+            "text": "Oasis"
+          },
+          {
+            "key": "D",
+            "text": "Desert"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_045",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 46,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Indian Culture and Society",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Some rainy afternoons Tagore spent in a veritable frenzy, singing away to his own tunes.",
+        "question_keywords": [
+          "Tagore",
+          "songs"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Patriotic Songs"
+          },
+          {
+            "key": "B",
+            "text": "School Songs"
+          },
+          {
+            "key": "C",
+            "text": "Old Vaishnava Songs"
+          },
+          {
+            "key": "D",
+            "text": "National Anthem"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_046",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 47,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Nature of Science",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank. The following words are uttered by Isaac Newton. I seem to myself like a ————.",
+        "question_keywords": [
+          "Isaac Newton",
+          "fill in the blank"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Philosopher"
+          },
+          {
+            "key": "B",
+            "text": "Innocent"
+          },
+          {
+            "key": "C",
+            "text": "Small Baby"
+          },
+          {
+            "key": "D",
+            "text": "Child"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_047",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 48,
+      "question_type": "simple_mcq",
+      "unit_id": 2,
+      "unit": "Geography of India",
+      "theme": "Physical Geography",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Where is the Bear's Nursery situated?",
+        "question_keywords": [
+          "Bear's Nursery",
+          "location"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "India"
+          },
+          {
+            "key": "B",
+            "text": "America"
+          },
+          {
+            "key": "C",
+            "text": "New York"
+          },
+          {
+            "key": "D",
+            "text": "England"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_048",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 49,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Little cyclone was rescued by the ————.",
+        "question_keywords": [
+          "rescue",
+          "little cyclone"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Members of the bluecross"
+          },
+          {
+            "key": "B",
+            "text": "Friendly hands of the zoological society"
+          },
+          {
+            "key": "C",
+            "text": "Members of the national zoo"
+          },
+          {
+            "key": "D",
+            "text": "Volunteers from New York"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_049",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 50,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The story 'The little hero of Holland' is written by ___________.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Satyajit Ray"
+          },
+          {
+            "key": "B",
+            "text": "Jules Verne"
+          },
+          {
+            "key": "C",
+            "text": "Mary Mapes Dodge"
+          },
+          {
+            "key": "D",
+            "text": "Mark twain"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_050",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 51,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Name the districts that fell into the hands to the Prussians during the France – Prussian war in 'The Last Lesson'.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Abidjan and Lorain"
+          },
+          {
+            "key": "B",
+            "text": "Andaman and Prussia"
+          },
+          {
+            "key": "C",
+            "text": "Alsace and Lorraine"
+          },
+          {
+            "key": "D",
+            "text": "Franz and Prussia"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_051",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 52,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Miranda is the beautiful daughter of ___________ in William Shakespeare's 'The tempest'.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Sycorax"
+          },
+          {
+            "key": "B",
+            "text": "Prospero"
+          },
+          {
+            "key": "C",
+            "text": "Caliban"
+          },
+          {
+            "key": "D",
+            "text": "Antonio"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_052",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 53,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Sycorax was ___________ to Ariel in the lesson, 'The Tempest'.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "an old enemy"
+          },
+          {
+            "key": "B",
+            "text": "a friend"
+          },
+          {
+            "key": "C",
+            "text": "a brother"
+          },
+          {
+            "key": "D",
+            "text": "the master"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_053",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 54,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Whose first flight is mentioned in the lesson 'His First Flight'?",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "Crow"
+          },
+          {
+            "key": "B",
+            "text": "Eagle"
+          },
+          {
+            "key": "C",
+            "text": "Seagull"
+          },
+          {
+            "key": "D",
+            "text": "Sparrow"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_054",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 55,
+      "question_type": "statement_mcq",
+      "unit_id": 7,
+      "unit": "Aptitude",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the odd sentence from the list given below:",
+        "question_keywords": [],
+        "item_numbering_style": "arabic",
+        "statements": [
+          {
+            "no": "i",
+            "text": "I have already sung"
+          },
+          {
+            "no": "ii",
+            "text": "You have already sung"
+          },
+          {
+            "no": "iii",
+            "text": "☑ We have already sung"
+          },
+          {
+            "no": "iv",
+            "text": "She has already sung"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_055",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 56,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the underlined words in Column A with their parts of speech in Column B and select the correct answer under the code given.",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "He received your messages last night"
+          },
+          {
+            "key": "b",
+            "text": "Sumitha is always asking questions"
+          },
+          {
+            "key": "c",
+            "text": "Jade, the Elephant is lonely"
+          },
+          {
+            "key": "d",
+            "text": "Mani worked in the School"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Adjective"
+          },
+          {
+            "no": 2,
+            "text": "Noun"
+          },
+          {
+            "no": 3,
+            "text": "Adverb"
+          },
+          {
+            "no": 4,
+            "text": "Verb"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "E",
+            "mapping": {}
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_056",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 57,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the sentence where the answer is wrongly given:",
+        "question_keywords": [],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Work hard lest you will fail"
+          },
+          {
+            "key": "b",
+            "text": "I know to cook"
+          },
+          {
+            "key": "c",
+            "text": "Ten candidates have passed one failed"
+          },
+          {
+            "key": "d",
+            "text": "You will never see a man like he"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "— Work hard lest you should fail"
+          },
+          {
+            "no": 2,
+            "text": "— I know how to cook"
+          },
+          {
+            "no": 3,
+            "text": "— Ten candidates have passed and one failed"
+          },
+          {
+            "no": 4,
+            "text": "— You will never see a man like him"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {}
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_057",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 58,
+      "question_type": "simple_mcq",
+      "unit_id": 7,
+      "unit": "Aptitude",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct comparative degree sentence for the following Positive degree sentence: Very few Indian languages are as ancient as Tamil.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "No other Indian language is as ancient as Tamil"
+          },
+          {
+            "key": "B",
+            "text": "Tamil is as ancient as any other Indian language"
+          },
+          {
+            "key": "C",
+            "text": "Tamil is more ancient than many other Indian languages"
+          },
+          {
+            "key": "D",
+            "text": "Tamil is one of the most ancient Indian languages"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_058",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 59,
+      "question_type": "simple_mcq",
+      "unit_id": 7,
+      "unit": "Aptitude",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find out the blended form of SPANISH + ENGLISH",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "SPANESH"
+          },
+          {
+            "key": "B",
+            "text": "SPANGISH"
+          },
+          {
+            "key": "C",
+            "text": "SPANGLISH"
+          },
+          {
+            "key": "D",
+            "text": "SPAN ENGLISH"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_059",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 60,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"He ate something eagerly and in large amounts, so that nothing is left in the table\" – Substantiate to one word.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "☑ devour"
+          },
+          {
+            "key": "B",
+            "text": "nibble"
+          },
+          {
+            "key": "C",
+            "text": "gobble"
+          },
+          {
+            "key": "D",
+            "text": "epicure"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_060",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 61,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct Antonym for the underlined word from the options given: Unkempt, he would visit the office asking for a clerical job.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "inorderly"
+          },
+          {
+            "key": "B",
+            "text": "☑ neat"
+          },
+          {
+            "key": "C",
+            "text": "not cared for"
+          },
+          {
+            "key": "D",
+            "text": "merry"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_061",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 62,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct Antonym for the underlined word ‘Shelter’ from the options given.",
+        "question_keywords": [],
+        "options": [
+          {
+            "key": "A",
+            "text": "residence"
+          },
+          {
+            "key": "B",
+            "text": "home"
+          },
+          {
+            "key": "C",
+            "text": "☑ unprotected"
+          },
+          {
+            "key": "D",
+            "text": "security"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_062",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 63,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words and phrases given in Column A with their meanings in Column B",
+        "question_keywords": [
+          "Match the following",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "call on somebody"
+          },
+          {
+            "key": "b",
+            "text": "call back"
+          },
+          {
+            "key": "c",
+            "text": "get rid of"
+          },
+          {
+            "key": "d",
+            "text": "keep on"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "to continue doing something"
+          },
+          {
+            "no": 2,
+            "text": "to eliminate"
+          },
+          {
+            "no": 3,
+            "text": "to return"
+          },
+          {
+            "no": 4,
+            "text": "visit somebody"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 3,
+              "d": 2
+            }
+          },
+          {
+            "key": "E",
+            "mapping": {}
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_063",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 64,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words and phrases in Column A with Column B",
+        "question_keywords": [
+          "Match the following",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "act upon"
+          },
+          {
+            "key": "b",
+            "text": "bear with"
+          },
+          {
+            "key": "c",
+            "text": "work out"
+          },
+          {
+            "key": "d",
+            "text": "reel off"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "tolerate"
+          },
+          {
+            "no": 2,
+            "text": "solve"
+          },
+          {
+            "no": 3,
+            "text": "obey"
+          },
+          {
+            "no": 4,
+            "text": "to say quickly, non stop"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "E",
+            "mapping": {}
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_064",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 65,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The village people suspected that the diamond nose jewel must have been stolen by",
+        "question_keywords": [
+          "village people",
+          "diamond nose jewel",
+          "stolen by"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Kuppayi"
+          },
+          {
+            "key": "B",
+            "text": "Ramayya"
+          },
+          {
+            "key": "C",
+            "text": "Ramayya’s Wife"
+          },
+          {
+            "key": "D",
+            "text": "Meenakshi Ammal"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_065",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 66,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blank with the most appropriate word.\nVimal generally goes to his workplace —— bus.",
+        "question_keywords": [
+          "Vimal",
+          "workplace",
+          "bus"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "on"
+          },
+          {
+            "key": "B",
+            "text": "at"
+          },
+          {
+            "key": "C",
+            "text": "by"
+          },
+          {
+            "key": "D",
+            "text": "to"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_066",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 67,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the correct question tag:\nYou go to School, —-",
+        "question_keywords": [
+          "question tag",
+          "go to School"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "do you?"
+          },
+          {
+            "key": "B",
+            "text": "isn't you?"
+          },
+          {
+            "key": "C",
+            "text": "aren't you?"
+          },
+          {
+            "key": "D",
+            "text": "don't you?"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_067",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 68,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the suitable tag.\nDon't come late tomorrow, ———?",
+        "question_keywords": [
+          "suitable tag",
+          "come late"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "will you"
+          },
+          {
+            "key": "B",
+            "text": "won't you"
+          },
+          {
+            "key": "C",
+            "text": "don't you"
+          },
+          {
+            "key": "D",
+            "text": "do you"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_068",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 69,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct tense form:\nWhen the meeting ———, the staff members came out.",
+        "question_keywords": [
+          "tense form",
+          "meeting"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "will end"
+          },
+          {
+            "key": "B",
+            "text": "ended"
+          },
+          {
+            "key": "C",
+            "text": "had ended"
+          },
+          {
+            "key": "D",
+            "text": "have ended"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_069",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 70,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "A verb that does not indicate tense and does not change according to the _______ is called as non-finite verb.",
+        "question_keywords": [
+          "verb",
+          "non-finite"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "subject"
+          },
+          {
+            "key": "B",
+            "text": "verb"
+          },
+          {
+            "key": "C",
+            "text": "object"
+          },
+          {
+            "key": "D",
+            "text": "adjunct"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_070",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 71,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks choosing a suitable word:\nOxygen is the ________ element present in the Earth's crust.",
+        "question_keywords": [
+          "Oxygen",
+          "element",
+          "Earth's crust"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Principal"
+          },
+          {
+            "key": "B",
+            "text": "Vincible"
+          },
+          {
+            "key": "C",
+            "text": "Invincible"
+          },
+          {
+            "key": "D",
+            "text": "Principle"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_071",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 72,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The words “Throne” and “Thrown” are ________.",
+        "question_keywords": [
+          "Throne",
+          "Thrown",
+          "words"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Homonyms"
+          },
+          {
+            "key": "B",
+            "text": "Acronyms"
+          },
+          {
+            "key": "C",
+            "text": "Homophones"
+          },
+          {
+            "key": "D",
+            "text": "Homographs"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_072",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 73,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence pattern:\nHe is smart.",
+        "question_keywords": [
+          "sentence pattern",
+          "He is smart"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "SVO"
+          },
+          {
+            "key": "B",
+            "text": "SVC"
+          },
+          {
+            "key": "C",
+            "text": "SVOA"
+          },
+          {
+            "key": "D",
+            "text": "SVOC"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_073",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 74,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"But I have Promises to keep And miles to go before I sleep and miles to go before I sleep\" Identify the Figure of speech.",
+        "question_keywords": [
+          "figure of speech",
+          "Promises"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Simile"
+          },
+          {
+            "key": "B",
+            "text": "Metaphore"
+          },
+          {
+            "key": "C",
+            "text": "Repetition"
+          },
+          {
+            "key": "D",
+            "text": "Personification"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_074",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 75,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Faster than a Cheetah With a tail that's miles long, Bigger than a mountain So powerful and strong Pick out the rhyming words employed in the above lines.",
+        "question_keywords": [
+          "rhyming words",
+          "Cheetah",
+          "mountain"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Cheetah – strong"
+          },
+          {
+            "key": "B",
+            "text": "Long – mountain"
+          },
+          {
+            "key": "C",
+            "text": "Long – strong"
+          },
+          {
+            "key": "D",
+            "text": "Mountain – strong"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_075",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 76,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Some water, coal, and oil is all we ask And a thousandth of an inch to give us play And now, if you will set us to our task We will serve you four and twenty hours a day! Pick out the Rhyming words from the given lines.",
+        "question_keywords": [
+          "rhyming words",
+          "water",
+          "coal",
+          "oil"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Play – Task / Ask – Day"
+          },
+          {
+            "key": "B",
+            "text": "Ask – Task / Play – Day"
+          },
+          {
+            "key": "C",
+            "text": "Ask – Play / Task – Day"
+          },
+          {
+            "key": "D",
+            "text": "Day – Task / Play – Ask"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_076",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 77,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the figure of Speech in the given line.",
+        "question_keywords": [
+          "figure of speech"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Simile"
+          },
+          {
+            "key": "B",
+            "text": "Metaphor"
+          },
+          {
+            "key": "C",
+            "text": "Rhyme"
+          },
+          {
+            "key": "D",
+            "text": "Personification"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_077",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 78,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the figure of speech in the given line.",
+        "question_keywords": [
+          "figure of speech"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Simile"
+          },
+          {
+            "key": "B",
+            "text": "Personification"
+          },
+          {
+            "key": "C",
+            "text": "Metaphor"
+          },
+          {
+            "key": "D",
+            "text": "Repetition"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_078",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 79,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the figure of speech in the given line.",
+        "question_keywords": [
+          "figure of speech"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Metaphor"
+          },
+          {
+            "key": "B",
+            "text": "Simile"
+          },
+          {
+            "key": "C",
+            "text": "Personification"
+          },
+          {
+            "key": "D",
+            "text": "Anaphora"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_079",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 80,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the figure of speech.",
+        "question_keywords": [
+          "figure of speech"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Simile"
+          },
+          {
+            "key": "B",
+            "text": "Alliteration"
+          },
+          {
+            "key": "C",
+            "text": "Personification"
+          },
+          {
+            "key": "D",
+            "text": "Repetition"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_080",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 81,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "These lines are taken from the poem ________________",
+        "question_keywords": [
+          "poem title"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Lessons in Life"
+          },
+          {
+            "key": "B",
+            "text": "Sea Fever"
+          },
+          {
+            "key": "C",
+            "text": "Making Life Worth While"
+          },
+          {
+            "key": "D",
+            "text": "Courage"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_081",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 82,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "These lines are taken from the poem ________________",
+        "question_keywords": [
+          "poem title"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Life"
+          },
+          {
+            "key": "B",
+            "text": "I am Every Woman"
+          },
+          {
+            "key": "C",
+            "text": "The Spider and the Fly"
+          },
+          {
+            "key": "D",
+            "text": "Lessons in Life"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_082",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 83,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "These lines are taken from the poem ________________",
+        "question_keywords": [
+          "poem title"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Indian Seasons"
+          },
+          {
+            "key": "B",
+            "text": "A Tragic Story"
+          },
+          {
+            "key": "C",
+            "text": "Your Space"
+          },
+          {
+            "key": "D",
+            "text": "Lessons in Life"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_083",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 84,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who does 'He' refer to?",
+        "question_keywords": [
+          "reference to He"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The Poet"
+          },
+          {
+            "key": "B",
+            "text": "The Horse"
+          },
+          {
+            "key": "C",
+            "text": "The Horse Rider"
+          },
+          {
+            "key": "D",
+            "text": "The Owner of the Woods"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_084",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 85,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who does \"You\" refer to?",
+        "question_keywords": [
+          "reference to You"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The Poet"
+          },
+          {
+            "key": "B",
+            "text": "Spring"
+          },
+          {
+            "key": "C",
+            "text": "People"
+          },
+          {
+            "key": "D",
+            "text": "Autumn"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_085",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 86,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Whom does the word \"me\" refer to?",
+        "question_keywords": [
+          "reference to me"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Captain"
+          },
+          {
+            "key": "B",
+            "text": "Foreigner"
+          },
+          {
+            "key": "C",
+            "text": "The Poet"
+          },
+          {
+            "key": "D",
+            "text": "Sailor"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_086",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 87,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Whom does \"He\" refer to in these lines?",
+        "question_keywords": [
+          "reference to He"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The Poet"
+          },
+          {
+            "key": "B",
+            "text": "The Owner of the Farm"
+          },
+          {
+            "key": "C",
+            "text": "The Villager"
+          },
+          {
+            "key": "D",
+            "text": "The Horse"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_087",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 88,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Mortal Prime\" in the above lines refers to a _______.",
+        "question_keywords": [
+          "reference to Mortal Prime"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "reckless youth"
+          },
+          {
+            "key": "B",
+            "text": "matured man"
+          },
+          {
+            "key": "C",
+            "text": "child"
+          },
+          {
+            "key": "D",
+            "text": "curious woman"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_088",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 89,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The poet wants to travel desperately on which thing?",
+        "question_keywords": [
+          "poet's travel"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "A loving call"
+          },
+          {
+            "key": "B",
+            "text": "A gentle call"
+          },
+          {
+            "key": "C",
+            "text": "A wild call"
+          },
+          {
+            "key": "D",
+            "text": "A hasty call"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_089",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 90,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "How did Lincoln die?",
+        "question_keywords": [
+          "Lincoln's death"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "was shot"
+          },
+          {
+            "key": "B",
+            "text": "was ill"
+          },
+          {
+            "key": "C",
+            "text": "natural death"
+          },
+          {
+            "key": "D",
+            "text": "accident"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_090",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 91,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Social Problems and Development",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the slogan that was not uttered by Mandela",
+        "question_keywords": [
+          "Mandela's slogans"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "\"A winner is a dreamer who never gives up\""
+          },
+          {
+            "key": "B",
+            "text": "\"Education is the most powerful weapon which you can use to change the world\""
+          },
+          {
+            "key": "C",
+            "text": "I am the captain of my fate; I am the master of my soul\""
+          },
+          {
+            "key": "D",
+            "text": "\"The braveman is not the who does not feel afraid, but he who conquer that fear\""
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_091",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 92,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "When was Helen Keller born?",
+        "question_keywords": [
+          "Helen Keller",
+          "born",
+          "date"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "July 27, 1881"
+          },
+          {
+            "key": "B",
+            "text": "August 27, 1890"
+          },
+          {
+            "key": "C",
+            "text": "June 27, 1880"
+          },
+          {
+            "key": "D",
+            "text": "December 16, 1880"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_092",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 93,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What was the name of the short story written by Keller in 1891?",
+        "question_keywords": [
+          "short story",
+          "Keller",
+          "1891"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "\"The World I Live In\""
+          },
+          {
+            "key": "B",
+            "text": "\"Uncle Sam is Calling\""
+          },
+          {
+            "key": "C",
+            "text": "\"The Story of My Life\""
+          },
+          {
+            "key": "D",
+            "text": "\"The Frost King\""
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_093",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 94,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "______ was the only soldier-statesman India has produced during the freedom struggle.",
+        "question_keywords": [
+          "soldier-statesman",
+          "India",
+          "freedom struggle"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Baghat Singh"
+          },
+          {
+            "key": "B",
+            "text": "Subhas Chandra Bose"
+          },
+          {
+            "key": "C",
+            "text": "Rani of Jhansi"
+          },
+          {
+            "key": "D",
+            "text": "Bhagwan Das"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_094",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 95,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Nehru's family began to call him by the name given by the crowd, ______.",
+        "question_keywords": [
+          "Nehru",
+          "name",
+          "crowd"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "'Chacha Nehru'"
+          },
+          {
+            "key": "B",
+            "text": "'Pandit Jawaharlal Nehru'"
+          },
+          {
+            "key": "C",
+            "text": "'Pandit Nehru'"
+          },
+          {
+            "key": "D",
+            "text": "'Jewel of India'"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_095",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 96,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"The Story of My Experiments with Truth\" was written in ______ language.",
+        "question_keywords": [
+          "The Story of My Experiments with Truth",
+          "language"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Tamil"
+          },
+          {
+            "key": "B",
+            "text": "Gujarati"
+          },
+          {
+            "key": "C",
+            "text": "Hindi"
+          },
+          {
+            "key": "D",
+            "text": "Kannada"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_096",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 97,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Nature of Science",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct answer: __________ is celebrated as “National Science Day”.",
+        "question_keywords": [
+          "National Science Day",
+          "celebration"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "January 28"
+          },
+          {
+            "key": "B",
+            "text": "March 28"
+          },
+          {
+            "key": "C",
+            "text": "May 28"
+          },
+          {
+            "key": "D",
+            "text": "February 28"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_097",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 98,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who is Polly to Tom Sawyer?",
+        "question_keywords": [
+          "Polly",
+          "Tom Sawyer",
+          "relationship"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Granny"
+          },
+          {
+            "key": "B",
+            "text": "Nanny"
+          },
+          {
+            "key": "C",
+            "text": "Mother"
+          },
+          {
+            "key": "D",
+            "text": "Aunt"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_098",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 99,
+      "question_type": "statement_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Sachin Tendulkar’s autobiography was ________.",
+        "question_keywords": [
+          "Sachin Tendulkar",
+          "autobiography"
+        ],
+        "item_numbering_style": "arabic",
+        "statements": [
+          {
+            "no": 1,
+            "text": "My experiment with truth"
+          },
+          {
+            "no": 2,
+            "text": "I dare"
+          },
+          {
+            "no": 3,
+            "text": "☑ Playing it my way"
+          },
+          {
+            "no": 4,
+            "text": "Autobiography of unknown Indian"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "My experiment with truth"
+          },
+          {
+            "key": "B",
+            "text": "I dare"
+          },
+          {
+            "key": "C",
+            "text": "☑ Playing it my way"
+          },
+          {
+            "key": "D",
+            "text": "Autobiography of unknown Indian"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_099",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    },
+    {
+      "question_no": 100,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Freedom Struggle Leaders",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Holmes sickness was",
+        "question_keywords": [
+          "Holmes sickness"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "☑ a deceitful, intentional trick"
+          },
+          {
+            "key": "B",
+            "text": "an alias"
+          },
+          {
+            "key": "C",
+            "text": "a clever alibi"
+          },
+          {
+            "key": "D",
+            "text": "a prank"
+          },
+          {
+            "key": "E",
+            "text": "Answer not known"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G2/TNPSC_Group3_2023_GeneralStudies_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g3_en_2023_gs_100",
+      "group": "G3",
+      "year": 2023,
+      "paper_type": "gs",
+      "language_mode": "bilingual"
+    }
+  ]
+}

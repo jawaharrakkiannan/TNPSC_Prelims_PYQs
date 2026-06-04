@@ -14,8 +14,8 @@ def build_sort_key(q: dict) -> tuple:
 def load_data_files(data_dir: str) -> list[dict]:
     questions = []
     seen_ids: set[str] = set()
-    for path in sorted(Path(data_dir).glob("*.json")):
-        if "_partial" in path.name:
+    for path in sorted(Path(data_dir).glob("*_mistral.json")):
+        if "_partial" in path.name or "_ocr_stats" in path.name:
             continue
         with open(path, encoding="utf-8") as f:
             data = json.load(f)

@@ -1,0 +1,6124 @@
+{
+  "group": "G4",
+  "subgroup": null,
+  "year": 2018,
+  "paper_type": "en",
+  "language_mode": "en_only",
+  "paper_code": "",
+  "total_questions": 100,
+  "extraction_model": "mistral-ocr-2512 + gpt-4o-mini",
+  "questions": [
+    {
+      "question_no": 1,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the words and phrases given in Column A with their meanings in Column B:",
+        "question_keywords": [
+          "match",
+          "words",
+          "phrases",
+          "meanings"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Mark"
+          },
+          {
+            "key": "b",
+            "text": "Seer"
+          },
+          {
+            "key": "c",
+            "text": "Delusive"
+          },
+          {
+            "key": "d",
+            "text": "Squashed"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "misleading"
+          },
+          {
+            "no": 2,
+            "text": "listen to"
+          },
+          {
+            "no": 3,
+            "text": "silenced"
+          },
+          {
+            "no": 4,
+            "text": "visionary"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 1,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_001",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 2,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the accurate antonym for the word ‘Inquisitive’:",
+        "question_keywords": [
+          "antonym",
+          "Inquisitive"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Curious"
+          },
+          {
+            "key": "B",
+            "text": "Incurious"
+          },
+          {
+            "key": "C",
+            "text": "Notorious"
+          },
+          {
+            "key": "D",
+            "text": "Eager"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_002",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 3,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the correct prefix with the root words:",
+        "question_keywords": [
+          "match",
+          "prefix",
+          "root words"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Operate"
+          },
+          {
+            "key": "b",
+            "text": "Clear"
+          },
+          {
+            "key": "c",
+            "text": "National"
+          },
+          {
+            "key": "d",
+            "text": "Noble"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Ig"
+          },
+          {
+            "no": 2,
+            "text": "Co"
+          },
+          {
+            "no": 3,
+            "text": "un"
+          },
+          {
+            "no": 4,
+            "text": "multi"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 3,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_003",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 4,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following phrases:",
+        "question_keywords": [
+          "match",
+          "phrases",
+          "meaning"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "to take a new turn"
+          },
+          {
+            "key": "b",
+            "text": "bereft of"
+          },
+          {
+            "key": "c",
+            "text": "to be accustomed to"
+          },
+          {
+            "key": "d",
+            "text": "in the midst of"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "in the middle of"
+          },
+          {
+            "no": 2,
+            "text": "to get used to"
+          },
+          {
+            "no": 3,
+            "text": "to begin something"
+          },
+          {
+            "no": 4,
+            "text": "deprived of"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 4,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_004",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 5,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Complete the sentence: No other girl in the class is __________ Kamala.",
+        "question_keywords": [
+          "complete",
+          "sentence",
+          "girl",
+          "class"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "most clever as"
+          },
+          {
+            "key": "B",
+            "text": "more clever as"
+          },
+          {
+            "key": "C",
+            "text": "as clever as"
+          },
+          {
+            "key": "D",
+            "text": "most cleverest"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_005",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 6,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following blending words in Column 'A' with their meaning in Column 'B':",
+        "question_keywords": [
+          "match",
+          "blending",
+          "words",
+          "meaning"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Electro + execute"
+          },
+          {
+            "key": "b",
+            "text": "Breakfast + lunch"
+          },
+          {
+            "key": "c",
+            "text": "Motor + bike"
+          },
+          {
+            "key": "d",
+            "text": "Medical + care"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Medicare"
+          },
+          {
+            "no": 2,
+            "text": "Mobike"
+          },
+          {
+            "no": 3,
+            "text": "Brunch"
+          },
+          {
+            "no": 4,
+            "text": "Electrocute"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_006",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 7,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select correct 'Tense'.\n\nGayathri ———— (work) in this school since 2001.",
+        "question_keywords": [
+          "tense",
+          "Gayathri",
+          "work"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "is working"
+          },
+          {
+            "key": "B",
+            "text": "works"
+          },
+          {
+            "key": "C",
+            "text": "has been working"
+          },
+          {
+            "key": "D",
+            "text": "had been working"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_007",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 8,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct conjunction from the options given below:\nHe is old ———— he walks quickly.",
+        "question_keywords": [
+          "conjunction",
+          "he is old",
+          "walks quickly"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "because"
+          },
+          {
+            "key": "B",
+            "text": "or"
+          },
+          {
+            "key": "C",
+            "text": "but"
+          },
+          {
+            "key": "D",
+            "text": "so"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_008",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 9,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Fill in the blanks with suitable preposition:",
+        "question_keywords": [
+          "preposition"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "I agree"
+          },
+          {
+            "key": "b",
+            "text": "Rani is worried"
+          },
+          {
+            "key": "c",
+            "text": "My uncle will visit me"
+          },
+          {
+            "key": "d",
+            "text": "The cat hid"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "behind"
+          },
+          {
+            "no": 2,
+            "text": "in"
+          },
+          {
+            "no": 3,
+            "text": "about"
+          },
+          {
+            "no": 4,
+            "text": "to"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_009",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 10,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence pattern of the following sentence.\nVani is going to school now",
+        "question_keywords": [
+          "sentence pattern",
+          "Vani",
+          "is going"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "SVC"
+          },
+          {
+            "key": "B",
+            "text": "SVO"
+          },
+          {
+            "key": "C",
+            "text": "SVAA"
+          },
+          {
+            "key": "D",
+            "text": "SVIO DO"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_010",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 11,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Form a compound word using Noun + Adjective",
+        "question_keywords": [
+          "compound word",
+          "Noun",
+          "Adjective"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Sun rise"
+          },
+          {
+            "key": "B",
+            "text": "Post man"
+          },
+          {
+            "key": "C",
+            "text": "Sky blue"
+          },
+          {
+            "key": "D",
+            "text": "Down fall"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_011",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 12,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Give the meaning of the idiom ‘a bolt from the blue’",
+        "question_keywords": [
+          "idiom",
+          "bolt from the blue"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Extremely happy"
+          },
+          {
+            "key": "B",
+            "text": "Have no patience"
+          },
+          {
+            "key": "C",
+            "text": "Unexpected surprise"
+          },
+          {
+            "key": "D",
+            "text": "Put on airs"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_012",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 13,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The Selfish Giant is a famous short story written by",
+        "question_keywords": [
+          "Selfish Giant",
+          "famous short story",
+          "written by"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "R.K. Narayanan"
+          },
+          {
+            "key": "B",
+            "text": "Khushwant Singh"
+          },
+          {
+            "key": "C",
+            "text": "Ruskia Bound"
+          },
+          {
+            "key": "D",
+            "text": "Oscar Wilde"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_013",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 14,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "___________ built the palace.",
+        "question_keywords": [
+          "built",
+          "palace"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The Pandiya"
+          },
+          {
+            "key": "B",
+            "text": "The Chola"
+          },
+          {
+            "key": "C",
+            "text": "The Pallava"
+          },
+          {
+            "key": "D",
+            "text": "The Nayaks"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_014",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 15,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Gangadhar Rao married ____________.",
+        "question_keywords": [
+          "Gangadhar Rao",
+          "married"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Manikarnika"
+          },
+          {
+            "key": "B",
+            "text": "Mala"
+          },
+          {
+            "key": "C",
+            "text": "Mathi"
+          },
+          {
+            "key": "D",
+            "text": "Madhavi"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_015",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 16,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Kingdoms may forget their kings\nAnd dogs forget their bites\nBut not till man forgets his wings\nWill men forget the wrights\" Identify the poet",
+        "question_keywords": [
+          "poet",
+          "Kingdoms",
+          "man",
+          "forgets"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "F. Joanna"
+          },
+          {
+            "key": "B",
+            "text": "Jack Prelutsky"
+          },
+          {
+            "key": "C",
+            "text": "Stephen Vincent Benet"
+          },
+          {
+            "key": "D",
+            "text": "Paul Holmes"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_016",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 17,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"There is no power in the Tongue of Man\nTo alter me I stay here on my Bond\" __________ utters these words.",
+        "question_keywords": [
+          "power",
+          "Tongue of Man",
+          "alter",
+          "Bond"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Portia"
+          },
+          {
+            "key": "B",
+            "text": "Antony"
+          },
+          {
+            "key": "C",
+            "text": "Shylock"
+          },
+          {
+            "key": "D",
+            "text": "Bassanio"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_017",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 18,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Most heartily I do beseech the court to give judgement\" These are the words of ___________.",
+        "question_keywords": [
+          "sincerely",
+          "beseech",
+          "court",
+          "judgement"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Antonio"
+          },
+          {
+            "key": "B",
+            "text": "Shylock"
+          },
+          {
+            "key": "C",
+            "text": "Nerissa"
+          },
+          {
+            "key": "D",
+            "text": "Bassanio"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_018",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 19,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In the line, \"Harmonic cacophony to oblivious ears\" 'Harmonic cacophony' is an example of",
+        "question_keywords": [
+          "Harmonic cacophony",
+          "oblivious ears",
+          "example of"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Onomatopoeia"
+          },
+          {
+            "key": "B",
+            "text": "Anaphora"
+          },
+          {
+            "key": "C",
+            "text": "Apostrophe"
+          },
+          {
+            "key": "D",
+            "text": "Oxymoron"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_019",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 20,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"The globe's my world. The cloud's my kin?\" Identify the figure of speech employed in the above-line",
+        "question_keywords": [
+          "figure of speech",
+          "the globe's my world",
+          "the cloud's my kin"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Simile"
+          },
+          {
+            "key": "B",
+            "text": "Metaphor"
+          },
+          {
+            "key": "C",
+            "text": "Apostrophe"
+          },
+          {
+            "key": "D",
+            "text": "Ellipsis"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_020",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 21,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct answer and complete the following sentence: The twelve peach trees broke out into delicate blossoms of ___________.",
+        "question_keywords": [
+          "peach trees",
+          "blossoms"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "blue and pearl"
+          },
+          {
+            "key": "B",
+            "text": "pink and pearl"
+          },
+          {
+            "key": "C",
+            "text": "pink and white"
+          },
+          {
+            "key": "D",
+            "text": "black and blue"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_021",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 22,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": true,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "It is twice blessed. It blesseth him that gives and him that takes. These are the words of ___________.",
+        "question_keywords": [
+          "twice blessed",
+          "words of"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Portia"
+          },
+          {
+            "key": "B",
+            "text": "Shylock"
+          },
+          {
+            "key": "C",
+            "text": "Antony"
+          },
+          {
+            "key": "D",
+            "text": "Bassanic"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_022",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 23,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": true,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Mother Teresa won the Nobel Prize for peace in.",
+        "question_keywords": [
+          "Mother Teresa",
+          "Nobel Prize",
+          "peace"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "1799"
+          },
+          {
+            "key": "B",
+            "text": "1899"
+          },
+          {
+            "key": "C",
+            "text": "1979"
+          },
+          {
+            "key": "D",
+            "text": "1976"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_023",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 24,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": true,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Yes; quaint and curious war is! You shoot a fellow down! What is the meaning of the phrase 'quaint and curious war'?",
+        "question_keywords": [
+          "quaint and curious war"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "war is strange and old – fashioned"
+          },
+          {
+            "key": "B",
+            "text": "war is praise worthy"
+          },
+          {
+            "key": "C",
+            "text": "war is condemnable"
+          },
+          {
+            "key": "D",
+            "text": "war is essential"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_024",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 25,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": true,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In 'The Model Millionaire' the servant brought Hughie a card when he was at.",
+        "question_keywords": [
+          "The Model Millionaire",
+          "Hughie",
+          "servant"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "lunch"
+          },
+          {
+            "key": "B",
+            "text": "breakfast"
+          },
+          {
+            "key": "C",
+            "text": "dinner"
+          },
+          {
+            "key": "D",
+            "text": "tea"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_025",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 26,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "If you can force your heart and nerve and Sinew to serve your turn long after they are gone. Find out the meaning for an underlined word from the options given below:",
+        "question_keywords": [
+          "meaning",
+          "underlined word"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "limbs"
+          },
+          {
+            "key": "B",
+            "text": "bone"
+          },
+          {
+            "key": "C",
+            "text": "tendon"
+          },
+          {
+            "key": "D",
+            "text": "Organs"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_026",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 27,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "He did not hate the —— now, for he knew that it was merely the spring as sleep. In 'The Selfish Giant' which season is considered by the giant as \"spring asleep\":",
+        "question_keywords": [
+          "spring asleep"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Autumn"
+          },
+          {
+            "key": "B",
+            "text": "Spring"
+          },
+          {
+            "key": "C",
+            "text": "Monsoon"
+          },
+          {
+            "key": "D",
+            "text": "Winter"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_027",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 28,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Till the gossamer thread you Fling Catch somewhere, O my soul, What Figure of speech can you find in the underlined part of the above line:",
+        "question_keywords": [
+          "Figure of speech",
+          "underlined part"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Onomatopoeia"
+          },
+          {
+            "key": "B",
+            "text": "Anaphora"
+          },
+          {
+            "key": "C",
+            "text": "Oxymoron"
+          },
+          {
+            "key": "D",
+            "text": "Apostrophe"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_028",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 29,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In which poem do you find the following line? \"It isn't by size that you win or you Fail\":",
+        "question_keywords": [
+          "poem",
+          "line"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "O Captain! My Captain"
+          },
+          {
+            "key": "B",
+            "text": "The Solitary Reaper"
+          },
+          {
+            "key": "C",
+            "text": "Sonnet No - 116"
+          },
+          {
+            "key": "D",
+            "text": "Be the Best"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_029",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 30,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the statement which is not expressed by Dr. Karl Paulnack in his essay \"Music The Hope Raiser\":",
+        "question_keywords": [
+          "statement",
+          "Dr. Karl Paulnack"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Music is part of arts and entertainment"
+          },
+          {
+            "key": "B",
+            "text": "Music is a basic need of human survival"
+          },
+          {
+            "key": "C",
+            "text": "Music makes sense of our lives"
+          },
+          {
+            "key": "D",
+            "text": "Music is a way for us to understand things with our hearts"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_030",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 31,
+      "question_type": "simple_mcq",
+      "unit_id": 3,
+      "unit": "History, Culture of India, and Indian National Movement",
+      "theme": "Indian National Congress",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "According to Gokhale what requires whole-hearted devotion?",
+        "question_keywords": [
+          "Gokhale",
+          "whole-hearted devotion"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Acquiring knowledge"
+          },
+          {
+            "key": "B",
+            "text": "Spirit"
+          },
+          {
+            "key": "C",
+            "text": "Instances"
+          },
+          {
+            "key": "D",
+            "text": "Observation"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_031",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 32,
+      "question_type": "simple_mcq",
+      "unit_id": 5,
+      "unit": "Indian Economy and Development Administration in Tamil Nadu",
+      "theme": "Indian Economic Planning",
+      "topic": "Miscellaneous",
+      "disputed": true,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which of the following is not included as the main goals by Dr. A.P.J. Abdul Kalam in his vision to achieve developed nation status in terms of the common people?:",
+        "question_keywords": [
+          "main goals",
+          "Dr. A.P.J. Abdul Kalam"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Transformation of our national economy"
+          },
+          {
+            "key": "B",
+            "text": "Bringing all-round prosperity for the people of the country"
+          },
+          {
+            "key": "C",
+            "text": "Empowering the nation by enhancing our military power"
+          },
+          {
+            "key": "D",
+            "text": "Providing high standard education and health facilities to people"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_032",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 33,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The poem \"You can't be that No you can't be that\" by Brain Patten is about:",
+        "question_keywords": [
+          "Brain Patten",
+          "poem"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The importance of education to children"
+          },
+          {
+            "key": "B",
+            "text": "The role of teachers in shaping the lives of students"
+          },
+          {
+            "key": "C",
+            "text": "Trusting, respecting and valuing our children as individuals"
+          },
+          {
+            "key": "D",
+            "text": "The need to appreciate nature for a happy life"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_033",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 34,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"You cannot rob us of the rights we cherish\" The above line is from the poem, ____________.",
+        "question_keywords": [
+          "poem",
+          "line"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Cry of the Children"
+          },
+          {
+            "key": "B",
+            "text": "The Man he killed"
+          },
+          {
+            "key": "C",
+            "text": "Women's Rights"
+          },
+          {
+            "key": "D",
+            "text": "O Captain! My Captain!"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_034",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 35,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "When was Rabindranath Tagore born?",
+        "question_keywords": [
+          "Rabindranath Tagore"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "18 May 1861"
+          },
+          {
+            "key": "B",
+            "text": "17 May 1861"
+          },
+          {
+            "key": "C",
+            "text": "17 May 1816"
+          },
+          {
+            "key": "D",
+            "text": "17 June 1861"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_035",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 36,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "A coarse ____________ cloak was flung over the shoulders of the old beggar at Alan Trevor's studio.",
+        "question_keywords": [
+          "coarse cloak"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Grey"
+          },
+          {
+            "key": "B",
+            "text": "Black"
+          },
+          {
+            "key": "C",
+            "text": "Blue"
+          },
+          {
+            "key": "D",
+            "text": "Brown"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_036",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 37,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Crocodiles are more than ____________ years old.",
+        "question_keywords": [
+          "Crocodiles"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "300 million"
+          },
+          {
+            "key": "B",
+            "text": "400 million"
+          },
+          {
+            "key": "C",
+            "text": "200 million"
+          },
+          {
+            "key": "D",
+            "text": "100 million"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_037",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 38,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"On such an earth my footprints But I cannot reason why All human roads are dark and dry And all the other creatures die\" Identify the author.",
+        "question_keywords": [
+          "author"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "David Roth"
+          },
+          {
+            "key": "B",
+            "text": "Brian Patten"
+          },
+          {
+            "key": "C",
+            "text": "Anonymous"
+          },
+          {
+            "key": "D",
+            "text": "Leslie Norris"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_038",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 39,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In which poem, do you find the following line? 'Go over the recipe, step-by-step'.",
+        "question_keywords": [
+          "poem",
+          "line"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "A Tiger in the Zoo"
+          },
+          {
+            "key": "B",
+            "text": "The Apology"
+          },
+          {
+            "key": "C",
+            "text": "To cook and eat"
+          },
+          {
+            "key": "D",
+            "text": "No men are foreign"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_039",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 40,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In which poem, do you find the following line? The Splendid joy of the stars: the joy of the earth.",
+        "question_keywords": [
+          "poem",
+          "line"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "My Native Land"
+          },
+          {
+            "key": "B",
+            "text": "The Flying Wonder"
+          },
+          {
+            "key": "C",
+            "text": "Laugh and be Merry"
+          },
+          {
+            "key": "D",
+            "text": "To India"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_040",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 41,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the work which is written by William Wordsworth.",
+        "question_keywords": [
+          "William Wordsworth"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The Lyrical Ballads"
+          },
+          {
+            "key": "B",
+            "text": "Hamlet"
+          },
+          {
+            "key": "C",
+            "text": "The Good Earth"
+          },
+          {
+            "key": "D",
+            "text": "Gitanjali"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_041",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 42,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the characters in Column A with the story titles in Column B:",
+        "question_keywords": [
+          "match",
+          "characters",
+          "story titles"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Sue"
+          },
+          {
+            "key": "b",
+            "text": "Ivan Dmitritch"
+          },
+          {
+            "key": "c",
+            "text": "Monsieur Sauvage"
+          },
+          {
+            "key": "d",
+            "text": "Vera"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "The Open Window"
+          },
+          {
+            "no": 2,
+            "text": "The Last Leaf"
+          },
+          {
+            "no": 3,
+            "text": "Lottery Ticket"
+          },
+          {
+            "no": 4,
+            "text": "Two Friends"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_042",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 43,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the characters in Column A with the story titles in Column B:",
+        "question_keywords": [
+          "match",
+          "characters",
+          "story titles"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Gomathi"
+          },
+          {
+            "key": "b",
+            "text": "Mr. Dick"
+          },
+          {
+            "key": "c",
+            "text": "Mme. Loisel"
+          },
+          {
+            "key": "d",
+            "text": "Bagha Bagdi"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Every living thing"
+          },
+          {
+            "no": 2,
+            "text": "Holiday"
+          },
+          {
+            "no": 3,
+            "text": "Reflowering"
+          },
+          {
+            "no": 4,
+            "text": "The Necklace"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 3,
+              "b": 1,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 1,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_043",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 44,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the odd pair from those given below:",
+        "question_keywords": [
+          "odd pair"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Bishrambar"
+          },
+          {
+            "key": "b",
+            "text": "Della"
+          },
+          {
+            "key": "c",
+            "text": "Frisk"
+          },
+          {
+            "key": "d",
+            "text": "Rowther"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Holiday"
+          },
+          {
+            "no": 2,
+            "text": "The gift of Magi"
+          },
+          {
+            "no": 3,
+            "text": "Kaanchanai"
+          },
+          {
+            "no": 4,
+            "text": "Reflowering"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_044",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 45,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The Poet Jack Prelutsky was born in",
+        "question_keywords": [
+          "Poet Jack Prelutsky",
+          "born"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "New York"
+          },
+          {
+            "key": "B",
+            "text": "Brooklyn"
+          },
+          {
+            "key": "C",
+            "text": "Lebanon"
+          },
+          {
+            "key": "D",
+            "text": "United States"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_045",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 46,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the name of the author with the story:",
+        "question_keywords": [
+          "author",
+          "story"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "The selfish Giant"
+          },
+          {
+            "key": "b",
+            "text": "Out in the fields with God"
+          },
+          {
+            "key": "c",
+            "text": "The Refugee"
+          },
+          {
+            "key": "d",
+            "text": "The Lottery Ticket"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Pearl S Buck"
+          },
+          {
+            "no": 2,
+            "text": "Oscar Wilde"
+          },
+          {
+            "no": 3,
+            "text": "Anton Chekhov"
+          },
+          {
+            "no": 4,
+            "text": "Elizabeth Barrett Browning"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 2,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 1,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 1,
+              "d": 3
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_046",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 47,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the appropriate antonym of the underlined word from the options given below: \"Her face had an expression of absolute serenity\"",
+        "question_keywords": [
+          "antonym",
+          "serenity",
+          "expression"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Tranquility"
+          },
+          {
+            "key": "B",
+            "text": "Calmness"
+          },
+          {
+            "key": "C",
+            "text": "Peacefulness"
+          },
+          {
+            "key": "D",
+            "text": "Unquietness"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_047",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 48,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which nation does Stephen Vincent Benet belong to?",
+        "question_keywords": [
+          "nation",
+          "Stephen Vincent Benet"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "England"
+          },
+          {
+            "key": "B",
+            "text": "America"
+          },
+          {
+            "key": "C",
+            "text": "Russia"
+          },
+          {
+            "key": "D",
+            "text": "Africa"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_048",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 49,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Walt Whitman's, 'O Captain! My Captain!' is a _______ written for the death of Abraham Lincoln.",
+        "question_keywords": [
+          "Walt Whitman",
+          "O Captain! My Captain!",
+          "Abraham Lincoln"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Dirge"
+          },
+          {
+            "key": "B",
+            "text": "Sonnet"
+          },
+          {
+            "key": "C",
+            "text": "Ballad"
+          },
+          {
+            "key": "D",
+            "text": "Epic"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_049",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 50,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the poet who is not an Indian.",
+        "question_keywords": [
+          "poet not Indian"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Famida Y. Basheer"
+          },
+          {
+            "key": "B",
+            "text": "Kamala Surayya"
+          },
+          {
+            "key": "C",
+            "text": "V.K. Gokak"
+          },
+          {
+            "key": "D",
+            "text": "James Kirkup"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_050",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 51,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which Nationality does the poet Famida Y Basheer belong to?",
+        "question_keywords": [
+          "nationality",
+          "poet Famida Y Basheer"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Lebanese"
+          },
+          {
+            "key": "B",
+            "text": "American"
+          },
+          {
+            "key": "C",
+            "text": "British"
+          },
+          {
+            "key": "D",
+            "text": "Indian"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_051",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 52,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "'Love's not Time's fool, though rosy lips and cheeks' Choose the poem where you find the above lines:",
+        "question_keywords": [
+          "poem",
+          "lines"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "A Sonnet for my Incomparable Mother"
+          },
+          {
+            "key": "B",
+            "text": "My Grand-Mother's House"
+          },
+          {
+            "key": "C",
+            "text": "Sonnet No – 116"
+          },
+          {
+            "key": "D",
+            "text": "Nine Gold Medals"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_052",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 53,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": true,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the correct degree: Very few cities in India are ________ (populous) Mumbai.",
+        "question_keywords": [
+          "correct degree",
+          "cities",
+          "Mumbai"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "as populous as"
+          },
+          {
+            "key": "B",
+            "text": "more populous than"
+          },
+          {
+            "key": "C",
+            "text": "the most populous"
+          },
+          {
+            "key": "D",
+            "text": "populous as"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_053",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 54,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "In which year Einstein was given the Nobel Prize?",
+        "question_keywords": [
+          "year",
+          "Einstein",
+          "Nobel Prize"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "1920"
+          },
+          {
+            "key": "B",
+            "text": "1921"
+          },
+          {
+            "key": "C",
+            "text": "1934"
+          },
+          {
+            "key": "D",
+            "text": "1945"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_054",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 55,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match Column A with Column B to form gerunds in sentences:",
+        "question_keywords": [
+          "gerunds",
+          "sentences"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Eating too much"
+          },
+          {
+            "key": "b",
+            "text": "Swimming"
+          },
+          {
+            "key": "c",
+            "text": "Playing on the street"
+          },
+          {
+            "key": "d",
+            "text": "Walking on the roof"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "is forbidden"
+          },
+          {
+            "no": 2,
+            "text": "is dangerous"
+          },
+          {
+            "no": 3,
+            "text": "is bad for health"
+          },
+          {
+            "no": 4,
+            "text": "is a pleasant hobby"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 1,
+              "b": 4,
+              "c": 3,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_055",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 56,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Rewrite the sentence in the passive voice: The man completed his work. His master paid him.",
+        "question_keywords": [
+          "passive voice",
+          "sentence",
+          "man",
+          "completed work"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "His work is completed by the man and he is paid by his master"
+          },
+          {
+            "key": "B",
+            "text": "His work was completed by the man and he was paid by his master"
+          },
+          {
+            "key": "C",
+            "text": "His work had completed by the man and he was paid by his master"
+          },
+          {
+            "key": "D",
+            "text": "His work has completed by the man and he has been paid by his master"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_056",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 57,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the simple sentence from the following sentences:",
+        "question_keywords": [
+          "simple sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "I am sure that I will succeed"
+          },
+          {
+            "key": "B",
+            "text": "The boy saw the snake at once he ran"
+          },
+          {
+            "key": "C",
+            "text": "We reached station in time but the train had left"
+          },
+          {
+            "key": "D",
+            "text": "On waving the flag, the train started"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_057",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 58,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the sentence which has no error:",
+        "question_keywords": [
+          "no error"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "He is one of the talkative boys in the class"
+          },
+          {
+            "key": "B",
+            "text": "He is one of the talkative boy in the class"
+          },
+          {
+            "key": "C",
+            "text": "He is the talkative boys in the class"
+          },
+          {
+            "key": "D",
+            "text": "He is one of the most talkative boy in the class"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_058",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 59,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the sentence pattern.\n\nOne of the boys must go",
+        "question_keywords": [
+          "sentence pattern",
+          "boys",
+          "must go"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "AS"
+          },
+          {
+            "key": "B",
+            "text": "ASV"
+          },
+          {
+            "key": "C",
+            "text": "SV"
+          },
+          {
+            "key": "D",
+            "text": "SVA"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_059",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 60,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct synonym for the underlined word from the options given:\n\nShe is known for her humane attitude, *indomitable* will and fearless spirit.",
+        "question_keywords": [
+          "synonym",
+          "indomitable",
+          "humane attitude"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Weak"
+          },
+          {
+            "key": "B",
+            "text": "Coward"
+          },
+          {
+            "key": "C",
+            "text": "Strong"
+          },
+          {
+            "key": "D",
+            "text": "Bold"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_060",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 61,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The leader craved for the power to *redress* the grievances of the citizens under the care. Choose the correct meaning for the underlined word from the options given below:",
+        "question_keywords": [
+          "redress",
+          "grievances",
+          "leader"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "examine"
+          },
+          {
+            "key": "B",
+            "text": "access"
+          },
+          {
+            "key": "C",
+            "text": "introspect"
+          },
+          {
+            "key": "D",
+            "text": "remedy"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_061",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 62,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Select the correct question tag for the given sentence.\n\nDon't leave the fridge door open _________?",
+        "question_keywords": [
+          "question tag",
+          "fridge door",
+          "open"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Do you?"
+          },
+          {
+            "key": "B",
+            "text": "Don't you?"
+          },
+          {
+            "key": "C",
+            "text": "Will you?"
+          },
+          {
+            "key": "D",
+            "text": "Won't you?"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_062",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 63,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What is Euphemism?",
+        "question_keywords": [
+          "Euphemism"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "In offensive word"
+          },
+          {
+            "key": "B",
+            "text": "In the point of monotony"
+          },
+          {
+            "key": "C",
+            "text": "Individual's name"
+          },
+          {
+            "key": "D",
+            "text": "French word"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_063",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 64,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the correct Antonyms for the underlined word.\n\nEndowed as you are with a unique personality.",
+        "question_keywords": [
+          "Antonyms",
+          "endowed",
+          "personality"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "cursed"
+          },
+          {
+            "key": "B",
+            "text": "denied"
+          },
+          {
+            "key": "C",
+            "text": "blessed"
+          },
+          {
+            "key": "D",
+            "text": "abide"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_064",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 65,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Read the sentence to identity grammatical error. If there is any error. Mark the part A, B, C or D as the case may be.\n\n|  Since you | run fast | you will not | win the race  |\n| --- | --- | --- | --- |\n|  A | B | C | D  |",
+        "question_keywords": [
+          "grammatical error",
+          "identify",
+          "sentence"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "D"
+          },
+          {
+            "key": "B",
+            "text": "A"
+          },
+          {
+            "key": "C",
+            "text": "B"
+          },
+          {
+            "key": "D",
+            "text": "C"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_065",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 66,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Democracy is for the people by the people and of people\" Who said this?",
+        "question_keywords": [
+          "Democracy",
+          "for the people",
+          "who said this"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Abraham Lincoln"
+          },
+          {
+            "key": "B",
+            "text": "William Wordsworth"
+          },
+          {
+            "key": "C",
+            "text": "Gandhiji"
+          },
+          {
+            "key": "D",
+            "text": "Nehru"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_066",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 67,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"The manager will *cancel* the meeting\". Find the correct ‘phrasal verb’ to the above underlined word.",
+        "question_keywords": [
+          "cancel",
+          "meeting",
+          "phrasal verb"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "call on"
+          },
+          {
+            "key": "B",
+            "text": "call out"
+          },
+          {
+            "key": "C",
+            "text": "call in"
+          },
+          {
+            "key": "D",
+            "text": "call off"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_067",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 68,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Find the odd one out",
+        "question_keywords": [
+          "odd one out"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "gradually"
+          },
+          {
+            "key": "B",
+            "text": "slowly"
+          },
+          {
+            "key": "C",
+            "text": "well"
+          },
+          {
+            "key": "D",
+            "text": "beautiful"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_068",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 69,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"The reddest flower would look as pale as snow\" What is the figure of speech employed in this line?",
+        "question_keywords": [
+          "figure of speech",
+          "reddest flower",
+          "as pale as snow"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Metaphor"
+          },
+          {
+            "key": "B",
+            "text": "Personification"
+          },
+          {
+            "key": "C",
+            "text": "Simile"
+          },
+          {
+            "key": "D",
+            "text": "Oxymoron"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_069",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 70,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which will take place of fears when some one keeps trying in the poem “keep on keeping on”?",
+        "question_keywords": [
+          "place of fears",
+          "keep on keeping on"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "worries"
+          },
+          {
+            "key": "B",
+            "text": "joy"
+          },
+          {
+            "key": "C",
+            "text": "motivation"
+          },
+          {
+            "key": "D",
+            "text": "success"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_070",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 71,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "“... I’m not going to be an airport pilot, a dancer, a lawyer, or an MC”. MC means",
+        "question_keywords": [
+          "MC",
+          "airport pilot",
+          "lawyer"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Municipal Councilor"
+          },
+          {
+            "key": "B",
+            "text": "Marriage Contractor"
+          },
+          {
+            "key": "C",
+            "text": "Master of Ceremonies"
+          },
+          {
+            "key": "D",
+            "text": "Master of Chemistry"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_071",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 72,
+      "question_type": "match_the_following",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following words from Shakespeare's English in Column A with their modern English equivalents in Column B:",
+        "question_keywords": [
+          "Shakespeare's English",
+          "modern English equivalents"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "doth"
+          },
+          {
+            "key": "b",
+            "text": "thy"
+          },
+          {
+            "key": "c",
+            "text": "thou"
+          },
+          {
+            "key": "d",
+            "text": "dost"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "you"
+          },
+          {
+            "no": 2,
+            "text": "do"
+          },
+          {
+            "no": 3,
+            "text": "your"
+          },
+          {
+            "no": 4,
+            "text": "does"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 1,
+              "d": 2
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 3,
+              "d": 4
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_072",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 73,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Ambition\", according to ———— in Julius Caesar should be made of sterner stuff.",
+        "question_keywords": [
+          "Ambition",
+          "Julius Caesar",
+          "sterner stuff"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Caesar"
+          },
+          {
+            "key": "B",
+            "text": "Brutus"
+          },
+          {
+            "key": "C",
+            "text": "First citizen"
+          },
+          {
+            "key": "D",
+            "text": "Antony"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_073",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 74,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The book \"Ignited Minds\" talks about",
+        "question_keywords": [
+          "Ignited Minds",
+          "talks about"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Pranab Muharjee"
+          },
+          {
+            "key": "B",
+            "text": "Abdul Kalam"
+          },
+          {
+            "key": "C",
+            "text": "Chidambaram"
+          },
+          {
+            "key": "D",
+            "text": "Narendra Modi"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_074",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 75,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Dale Carnegie in his 'The Road to success' insists on saying 'no' generally because",
+        "question_keywords": [
+          "Dale Carnegie",
+          "The Road to success",
+          "saying 'no'"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "you can stay away from working hard"
+          },
+          {
+            "key": "B",
+            "text": "you can make others think high of yourself"
+          },
+          {
+            "key": "C",
+            "text": "it is incompatible with the necessary work you must do to reach you main goal"
+          },
+          {
+            "key": "D",
+            "text": "it is stressful to get involved in many activities"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_075",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 76,
+      "question_type": "simple_mcq",
+      "unit_id": 1,
+      "unit": "General Science",
+      "theme": "Miscellaneous",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The selfish giant loved the little boy the best because ————",
+        "question_keywords": [
+          "selfish giant",
+          "loved",
+          "little boy"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "he had understood him"
+          },
+          {
+            "key": "B",
+            "text": "he had been kind to him"
+          },
+          {
+            "key": "C",
+            "text": "he had given him food"
+          },
+          {
+            "key": "D",
+            "text": "he had kissed him"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_076",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 77,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the titles of the poem 'A' with lines of the poem 'B':",
+        "question_keywords": [
+          "titles",
+          "poem",
+          "Match",
+          "lines"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Art is long and time is fleeting"
+          },
+          {
+            "key": "b",
+            "text": "Love's not time's fool"
+          },
+          {
+            "key": "c",
+            "text": "Pinning for new agony"
+          },
+          {
+            "key": "d",
+            "text": "Right many a nipper kin"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "English words"
+          },
+          {
+            "no": 2,
+            "text": "A Psalm of life"
+          },
+          {
+            "no": 3,
+            "text": "The man he killed"
+          },
+          {
+            "no": 4,
+            "text": "Sonnet – 116"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 3,
+              "b": 2,
+              "c": 4,
+              "d": 1
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 4,
+              "c": 1,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 3,
+              "d": 2
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_077",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 78,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Success is not something to wait for; it is something to work for. Whose words are these?",
+        "question_keywords": [
+          "Success",
+          "work for",
+          "words",
+          "who"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Jessica Cox"
+          },
+          {
+            "key": "B",
+            "text": "Anne Sullivan"
+          },
+          {
+            "key": "C",
+            "text": "Hellen Keller"
+          },
+          {
+            "key": "D",
+            "text": "Ruskin Bond"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_078",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 79,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "“I’m sick of hearing them cheep-cheep”. What is the figure of speech employed here?",
+        "question_keywords": [
+          "figure of speech",
+          "cheep-cheep",
+          "employed"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Metaphor"
+          },
+          {
+            "key": "B",
+            "text": "Onamatopoeia"
+          },
+          {
+            "key": "C",
+            "text": "Personification"
+          },
+          {
+            "key": "D",
+            "text": "Oxymoron"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_079",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 80,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What does 'Hope Spencer' ask us to do when “Good luck is round the corner”?",
+        "question_keywords": [
+          "Hope Spencer",
+          "Good luck",
+          "round the corner",
+          "ask"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "To walk away from the place"
+          },
+          {
+            "key": "B",
+            "text": "To ignore it"
+          },
+          {
+            "key": "C",
+            "text": "To show a smiling face"
+          },
+          {
+            "key": "D",
+            "text": "To laugh at it"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_080",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 81,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "According to Karl Paulnack the first organised public expression of grief after the attack in 2011 of September 11th was",
+        "question_keywords": [
+          "Karl Paulnack",
+          "public expression",
+          "grief",
+          "attack"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Public Meeting"
+          },
+          {
+            "key": "B",
+            "text": "Prayer meeting"
+          },
+          {
+            "key": "C",
+            "text": "Concert"
+          },
+          {
+            "key": "D",
+            "text": "Peace rally"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_081",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 82,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following by understanding the meaning.",
+        "question_keywords": [
+          "match",
+          "meaning",
+          "understanding"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Xenophobia"
+          },
+          {
+            "key": "b",
+            "text": "Hydrophobia"
+          },
+          {
+            "key": "c",
+            "text": "Claustrophobia"
+          },
+          {
+            "key": "d",
+            "text": "Acrophobia"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Fear of water"
+          },
+          {
+            "no": 2,
+            "text": "Fear of enclosed space"
+          },
+          {
+            "no": 3,
+            "text": "Fear of heights"
+          },
+          {
+            "no": 4,
+            "text": "Fear of strangers"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 4,
+              "b": 1,
+              "c": 2,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 4,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_082",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 83,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Here comes our batting hero; Salutes the crowd, Takes guard. Who is the author of this poem?",
+        "question_keywords": [
+          "batting hero",
+          "author",
+          "poem"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Ruskin Bond"
+          },
+          {
+            "key": "B",
+            "text": "Douglas Malloch"
+          },
+          {
+            "key": "C",
+            "text": "Hope Spencer"
+          },
+          {
+            "key": "D",
+            "text": "Kamala Das"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_083",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 84,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who is the headman in the Lesson “After The Storm” by Deepa Agarwal?",
+        "question_keywords": [
+          "headman",
+          "After The Storm",
+          "Deepa Agarwal"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Saruli"
+          },
+          {
+            "key": "B",
+            "text": "Diwan Singh"
+          },
+          {
+            "key": "C",
+            "text": "Lal Singh"
+          },
+          {
+            "key": "D",
+            "text": "Radha"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_084",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 85,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "The Pillared *Cloisters* beside the main structure have a series of deities and shivalingas, worthy to be admired. What is the meaning of underlined word *Cloisters* in the passage?",
+        "question_keywords": [
+          "Cloisters",
+          "meaning",
+          "passage"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Art Gallery"
+          },
+          {
+            "key": "B",
+            "text": "Covered passages"
+          },
+          {
+            "key": "C",
+            "text": "Beautiful carvings"
+          },
+          {
+            "key": "D",
+            "text": "Monolithic statues"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_085",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 86,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which among the following is a story by O'Henry?",
+        "question_keywords": [
+          "story",
+          "O'Henry"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "The Tears of the Desert"
+          },
+          {
+            "key": "B",
+            "text": "The Wooden Bowl"
+          },
+          {
+            "key": "C",
+            "text": "The Face of Judas Iscariot"
+          },
+          {
+            "key": "D",
+            "text": "The Last Leaf"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_086",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 87,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "What does Walt Whitman refer by 'object won'?",
+        "question_keywords": [
+          "Walt Whitman",
+          "object won"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "the end of voyage"
+          },
+          {
+            "key": "B",
+            "text": "the end of the trip"
+          },
+          {
+            "key": "C",
+            "text": "the end of a battle"
+          },
+          {
+            "key": "D",
+            "text": "the end of the civil war"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_087",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 88,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Which Nationality does the Poet Khalil Gibran belong to?",
+        "question_keywords": [
+          "Nationality",
+          "Poet Khalil Gibran"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "American"
+          },
+          {
+            "key": "B",
+            "text": "Lebanese"
+          },
+          {
+            "key": "C",
+            "text": "Canadian"
+          },
+          {
+            "key": "D",
+            "text": "British"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_088",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 89,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who among the following is not a British poet?",
+        "question_keywords": [
+          "not",
+          "British poet"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "John Masfield"
+          },
+          {
+            "key": "B",
+            "text": "Robert Frost"
+          },
+          {
+            "key": "C",
+            "text": "D.H. Lawrence"
+          },
+          {
+            "key": "D",
+            "text": "Elizabeth Barret Browning"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_089",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 90,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Match the following:",
+        "question_keywords": [
+          "Match",
+          "following"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "Kaanchanai"
+          },
+          {
+            "key": "b",
+            "text": "Reflowering"
+          },
+          {
+            "key": "c",
+            "text": "The Necklace"
+          },
+          {
+            "key": "d",
+            "text": "Holiday"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "Sundara Ramasamy"
+          },
+          {
+            "no": 2,
+            "text": "Pudumaippittan"
+          },
+          {
+            "no": 3,
+            "text": "Rabindranath Tagore"
+          },
+          {
+            "no": 4,
+            "text": "Guyde Mauppassant"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 3,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 2,
+              "b": 1,
+              "c": 4,
+              "d": 3
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 2,
+              "d": 4
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 3,
+              "d": 1
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_090",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 91,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "'Mark'd how to explore the vacant vast surrounding'. What figure of speech can be identified in the above line from the poem, \"The Nation United\"?",
+        "question_keywords": [
+          "figure of speech",
+          "Mark'd",
+          "explore"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Oxymoron"
+          },
+          {
+            "key": "B",
+            "text": "Assonance"
+          },
+          {
+            "key": "C",
+            "text": "Synecdoche"
+          },
+          {
+            "key": "D",
+            "text": "Alliteration"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_091",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 92,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Some books are to be tasted, others to be swallowed, and some few to be chewed and digested;\" – Identify the author",
+        "question_keywords": [
+          "books",
+          "tasted",
+          "swallowed",
+          "chewed",
+          "author"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "E.M. Forster"
+          },
+          {
+            "key": "B",
+            "text": "Francis Bacon"
+          },
+          {
+            "key": "C",
+            "text": "Ben Johnson"
+          },
+          {
+            "key": "D",
+            "text": "Jane Austine"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_092",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 93,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Annie Louisa Walker was educated in _______.",
+        "question_keywords": [
+          "Annie Louisa Walker",
+          "educated",
+          "where"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Delhi"
+          },
+          {
+            "key": "B",
+            "text": "Moscow"
+          },
+          {
+            "key": "C",
+            "text": "London"
+          },
+          {
+            "key": "D",
+            "text": "Ontario"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_093",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 94,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Ah darling, it's Behrman's masterpiece — he painted it there the night that the last leaf fell\". Who said these words to whom?",
+        "question_keywords": [
+          "Behrman",
+          "masterpiece",
+          "last leaf",
+          "said",
+          "to whom"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Behrman to doctor"
+          },
+          {
+            "key": "B",
+            "text": "Sue to Johnny"
+          },
+          {
+            "key": "C",
+            "text": "Johnny to Sue"
+          },
+          {
+            "key": "D",
+            "text": "Behrman to Sue"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_094",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 95,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "\"Why don't you join the others? What A peculiar child you are?\" Who said these words to Kamala in 'Punishment in Kindergarten'?",
+        "question_keywords": [
+          "Kamala",
+          "Punishment in Kindergarten",
+          "said"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Grandmother"
+          },
+          {
+            "key": "B",
+            "text": "Mother"
+          },
+          {
+            "key": "C",
+            "text": "Teacher"
+          },
+          {
+            "key": "D",
+            "text": "Father"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_095",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 96,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "'Here 'tis, most reverened Doctor'. Who is the 'doctor' here?",
+        "question_keywords": [
+          "doctor",
+          "here"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Shylock"
+          },
+          {
+            "key": "B",
+            "text": "Portia"
+          },
+          {
+            "key": "C",
+            "text": "Bassanio"
+          },
+          {
+            "key": "D",
+            "text": "Duke"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_096",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 97,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Who says this? \"My heart is in the coffin there with Caesar, And I must pause till it come back to me.\"",
+        "question_keywords": [
+          "heart",
+          "coffin",
+          "Caesar",
+          "says"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Calphurnia"
+          },
+          {
+            "key": "B",
+            "text": "Marcus Brutus"
+          },
+          {
+            "key": "C",
+            "text": "Octavius Caesar"
+          },
+          {
+            "key": "D",
+            "text": "Mark Antony"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_097",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 98,
+      "question_type": "match_the_following",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "two_column",
+      "media": null,
+      "en": {
+        "stem": "Match the names of the poets under Column A with Column B and choose the correct code:",
+        "question_keywords": [
+          "match",
+          "poets",
+          "Column A",
+          "Column B"
+        ],
+        "match_style": "tabular",
+        "left_column": [
+          {
+            "key": "a",
+            "text": "H.W. Long fellow"
+          },
+          {
+            "key": "b",
+            "text": "Annie Louisa Walker"
+          },
+          {
+            "key": "c",
+            "text": "Walt Whitman"
+          },
+          {
+            "key": "d",
+            "text": "V.K. Gokak"
+          }
+        ],
+        "right_column": [
+          {
+            "no": 1,
+            "text": "English Words"
+          },
+          {
+            "no": 2,
+            "text": "A Noiseless Patient Spider"
+          },
+          {
+            "no": 3,
+            "text": "A Psalm of life"
+          },
+          {
+            "no": 4,
+            "text": "Women's rights"
+          }
+        ],
+        "options": [
+          {
+            "key": "A",
+            "mapping": {
+              "a": 4,
+              "b": 2,
+              "c": 3,
+              "d": 1
+            }
+          },
+          {
+            "key": "B",
+            "mapping": {
+              "a": 1,
+              "b": 3,
+              "c": 4,
+              "d": 2
+            }
+          },
+          {
+            "key": "C",
+            "mapping": {
+              "a": 3,
+              "b": 4,
+              "c": 2,
+              "d": 1
+            }
+          },
+          {
+            "key": "D",
+            "mapping": {
+              "a": 2,
+              "b": 3,
+              "c": 1,
+              "d": 4
+            }
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_098",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 99,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Identify the poem which is wrongly matched with its poet",
+        "question_keywords": [
+          "poem",
+          "wrongly matched",
+          "poet"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "Piano – D.H. Lawrence"
+          },
+          {
+            "key": "B",
+            "text": "Manliness – Rudyard Kipling"
+          },
+          {
+            "key": "C",
+            "text": "The Cry of the children – Robert Browning"
+          },
+          {
+            "key": "D",
+            "text": "The Man he killed – Thomas Hardy"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_099",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    },
+    {
+      "question_no": 100,
+      "question_type": "simple_mcq",
+      "unit_id": 6,
+      "unit": "History, Culture, Heritage, and Socio-Political Movements in Tamil Nadu",
+      "theme": "Tamil Literature",
+      "topic": "Miscellaneous",
+      "disputed": false,
+      "stem_has_blank": false,
+      "has_math": false,
+      "math_format": null,
+      "options_layout": "single_column",
+      "media": null,
+      "en": {
+        "stem": "Choose the impersonal passive voice statement.",
+        "question_keywords": [
+          "impersonal passive voice",
+          "statement"
+        ],
+        "options": [
+          {
+            "key": "A",
+            "text": "His request had been rejected by Raja"
+          },
+          {
+            "key": "B",
+            "text": "Lots of things can be done on the internet"
+          },
+          {
+            "key": "C",
+            "text": "The nets are carried in boats by fishermen"
+          },
+          {
+            "key": "D",
+            "text": "The captain was scolded by George Washington"
+          }
+        ]
+      },
+      "ta": null,
+      "answer_key": null,
+      "meta": {
+        "extraction_status": "extracted",
+        "ocr_confidence": null,
+        "image_ref": "pdf/G4/TNPSC_Group4_2018_General_English.pdf",
+        "notes": ""
+      },
+      "id": "tnpsc_g4_2018_en_100",
+      "group": "G4",
+      "year": 2018,
+      "paper_type": "en",
+      "language_mode": "en_only"
+    }
+  ]
+}
